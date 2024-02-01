@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Masuk</name>
+   <name>Anchor_KonfigurasiPengadaan</name>
    <tag></tag>
-   <elementGuidId>30d27eb8-af72-4792-9c3f-ac36d8a647cd</elementGuidId>
+   <elementGuidId>79d244d9-3126-4d84-8fec-eb45990e54f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[1]/div[3]/ul/li[4]/ul/div/li[4]/ul/div/li[3]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div/div[2]/div/div/div[2]/form/div[3]/button</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

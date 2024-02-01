@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Masuk</name>
+   <name>Button_TambahUndangan</name>
    <tag></tag>
-   <elementGuidId>30d27eb8-af72-4792-9c3f-ac36d8a647cd</elementGuidId>
+   <elementGuidId>4c1bd381-ac89-4a79-bc17-05b5dc021be4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div[2]/div/div/div[2]/form/div[3]/button</value>
+         <value>/html/body/div[43]/div/div[1]/div/div/div[2]/form/div[7]/table/thead/tr/th[7]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

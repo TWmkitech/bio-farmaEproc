@@ -26,13 +26,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'DRM-JP.23.000014'</initValue>
-      <name>Username</name>
+      <initValue>'SGVendor4'</initValue>
+      <name>Username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'password.1'</initValue>
-      <name>Password</name>
+      <initValue>'vendorroom4'</initValue>
+      <name>Password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

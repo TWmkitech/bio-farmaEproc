@@ -34,4 +34,3 @@ WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 WebUI.delay(10)
 
 WebUI.closeBrowser()
-

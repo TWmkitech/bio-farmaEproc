@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Masuk</name>
+   <name>Input_UnitKerja</name>
    <tag></tag>
-   <elementGuidId>30d27eb8-af72-4792-9c3f-ac36d8a647cd</elementGuidId>
+   <elementGuidId>0667ed16-9344-4701-afac-f9a5e87f1b55</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div[2]/div/div/div[2]/form/div[3]/button</value>
+         <value>/html/body/div[43]/div/div[1]/div/div/div[2]/form/div[5]/table/tbody/tr/td[5]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

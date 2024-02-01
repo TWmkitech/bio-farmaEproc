@@ -17,27 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.UrlVendor)
-
-WebUI.maximizeWindow()
-
-WebUI.waitForElementPresent(findTestObject('Login/vendor/Button_Masuk'), 0)
-
-WebUI.click(findTestObject('Login/vendor/Button_Masuk'))
-
-WebUI.waitForElementPresent(findTestObject('Login/vendor/Field_Username'), 0)
-
-WebUI.setText(findTestObject('Login/vendor/Field_Username'), GlobalVariable.Username1)
-
-WebUI.waitForElementPresent(findTestObject('Login/vendor/Field_Password'), 0)
-
-WebUI.setText(findTestObject('Login/vendor/Field_Password'), GlobalVariable.Password1)
-
-WebUI.waitForElementPresent(findTestObject('Login/vendor/Button_Login'), 0)
-
-WebUI.click(findTestObject('Login/vendor/Button_Login'))
-
-WebUI.delay(10)
-
-WebUI.closeBrowser()
-
