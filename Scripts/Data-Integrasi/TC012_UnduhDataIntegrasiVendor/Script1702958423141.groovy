@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'login.Bod4.login'(GlobalVariable.BOD_4, GlobalVariable.Pass)
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/NavLink_User'), 0)
 
@@ -43,13 +43,13 @@ WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Button_Ganti'))
 
 WebUI.delay(20)
 
-WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Entitas/Anchor_DataIntegrasi'), 0)
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Anchor_DataIntegrasi'), 0)
 
-WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Entitas/Anchor_DataIntegrasi'))
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Anchor_DataIntegrasi'))
 
-WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Entitas/Anchor_Vendor'), 0)
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Anchor_Vendor'), 0)
 
-WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Entitas/Anchor_Vendor'))
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Anchor_Vendor'))
 
 WebUI.waitForElementPresent(findTestObject('Data-Integrasi/UnduhDataIntegrasi_Vendor/Button_Download'), 0)
 

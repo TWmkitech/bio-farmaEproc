@@ -19,11 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'login.Bod4.login'(GlobalVariable.BOD_4, GlobalVariable.Pass)
 
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/NavLink_User'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/NavLink_User'))
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Button_ChangeRoles'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Button_ChangeRoles'))
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Field_Roles'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Field_Roles'))
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Field_Entitas'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Field_Entitas'))
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Button_Ganti'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Button_Ganti'))
+
 WebUI.delay(10)
 
-WebUI.waitForElementPresent(findTestObject('Data-Integrasi/UploadDataIntegrasiMaterial/Anchor_DataIntegrasi'), 0)
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Anchor_DataIntegrasi'), 0)
 
-WebUI.click(findTestObject('Data-Integrasi/UploadDataIntegrasiMaterial/Anchor_DataIntegrasi'))
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Anchor_DataIntegrasi'))
 
 WebUI.scrollToElement(findTestObject('Data-Integrasi/Global-TestObject/Anchor_Invoice'), 3)
 

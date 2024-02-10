@@ -20,11 +20,33 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 CustomKeywords.'login.Bod4.login'(GlobalVariable.BOD_4, GlobalVariable.Pass)
 
+WebUI.delay(5)
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/NavLink_User'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/NavLink_User'))
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Button_ChangeRoles'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Button_ChangeRoles'))
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Field_Roles'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Field_Roles'))
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Field_Entitas'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Field_Entitas'))
+
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Button_Ganti'), 0)
+
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Button_Ganti'))
+
 WebUI.delay(10)
 
-WebUI.waitForElementPresent(findTestObject('Data-Integrasi/UploadDataIntegrasiMaterial/Anchor_DataIntegrasi'), 0)
+WebUI.waitForElementPresent(findTestObject('Data-Integrasi/Global-TestObject/Anchor_DataIntegrasi'), 0)
 
-WebUI.click(findTestObject('Data-Integrasi/UploadDataIntegrasiMaterial/Anchor_DataIntegrasi'))
+WebUI.click(findTestObject('Data-Integrasi/Global-TestObject/Anchor_DataIntegrasi'))
 
 WebUI.scrollToElement(findTestObject('Data-Integrasi/Global-TestObject/Anchor_MataUang'), 3)
 
@@ -63,7 +85,7 @@ WebUI.waitForElementClickable(findTestObject('Data-Integrasi/Upload_MataUang/But
 
 WebUI.click(findTestObject('Data-Integrasi/Upload_MataUang/Button_OK'))
 
-WebUI.delay(12)
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

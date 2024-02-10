@@ -3,15 +3,14 @@
    <description></description>
    <name>Anchor_Material</name>
    <tag></tag>
-   <elementGuidId>1d0628d8-7a60-4d64-b103-3baf46bcae43</elementGuidId>
+   <elementGuidId>0b2d8336-3c4d-4d62-8621-24523ed20f04</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[1]/div[3]/ul/li[10]/ul/div/li[2]/a/span</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[1]/div[3]/ul/li[9]/ul/div/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
