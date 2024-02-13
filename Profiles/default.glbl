@@ -21,6 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'password.1'</initValue>
       <name>Pass</name>
    </GlobalVariableEntity>
@@ -33,6 +34,20 @@
       <description></description>
       <initValue>'password.1'</initValue>
       <name>Password</name>
+=======
+      <initValue>'bi0farma'</initValue>
+      <name>Pass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SGVendor4'</initValue>
+      <name>Username1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'vendorroom4'</initValue>
+      <name>Password1</name>
+>>>>>>> branch 'master' of https://github.com/TWmkitech/bio-farmaEproc.git
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
