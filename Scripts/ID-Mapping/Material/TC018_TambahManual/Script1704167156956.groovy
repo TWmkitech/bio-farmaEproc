@@ -119,7 +119,7 @@ WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Div_DataKategoriMat
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Input_NamaMaterial'), 0)
 
-WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_NamaMaterial'), 'Automated Test')
+WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_NamaMaterial'), 'Automated Test - Material 1')
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Input_UOM'), 0)
 
@@ -127,7 +127,7 @@ WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_UOM'), 'UOM
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Input_Spesifikasi'), 0)
 
-WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_Spesifikasi'), 'Automatisai')
+WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_Spesifikasi'), 'Automatisasi')
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Button_Kirim'), 0)
 

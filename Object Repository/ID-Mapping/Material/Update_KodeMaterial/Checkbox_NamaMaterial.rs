@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Catatan</name>
+   <name>Checkbox_NamaMaterial</name>
    <tag></tag>
-   <elementGuidId>52bee188-82c4-484d-872b-e5b1a420b0d7</elementGuidId>
+   <elementGuidId>1a9693e2-0145-40de-9aec-99cf9fe7a176</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/form/div[17]/div/div/textarea</value>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div[1]/div/div/table/tbody/tr[1]/td[1]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -55,7 +55,7 @@ WebUI.click(findTestObject('ID-Mapping/Material/Approval_KodeMaterial/Checkbox_P
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Approval_KodeMaterial/Input_Catatan'), 0)
 
-WebUI.setText(findTestObject('ID-Mapping/Material/Approval_KodeMaterial/Input_Catatan'), '')
+WebUI.setText(findTestObject('ID-Mapping/Material/Approval_KodeMaterial/Input_Catatan'), 'Data telah disetujui secara Automated Test')
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Approval_KodeMaterial/Button_Submit'), 0)
 

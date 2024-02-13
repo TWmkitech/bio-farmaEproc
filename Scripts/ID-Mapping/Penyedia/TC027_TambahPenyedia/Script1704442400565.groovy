@@ -79,13 +79,13 @@ WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/
 
 WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Anchor_Tambah'))
 
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas1'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas1'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas2'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas2'))
+//WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas1'), 0)
+//
+//WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas1'))
+//
+//WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas2'), 0)
+//
+//WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas2'))
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Button_TambahManual'), 0)
 

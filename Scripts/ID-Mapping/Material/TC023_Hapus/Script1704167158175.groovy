@@ -17,3 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'login.Bod4.login'(GlobalVariable.BOD_4, GlobalVariable.Pass)
+
+WebUI.delay(10)
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Anchor_IDmapping'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Anchor_IDmapping'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Anchor_KodeMaterial'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Anchor_KodeMaterial'))
+
+WebUI.delay(10)
+
+TestObject targetElement = findTestObject('Object Repository/ID-Mapping/Material/Hapus_KodeMaterial/Button_Hapus')
+
+WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Hapus_KodeMaterial/Button_Hapus'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/Hapus_KodeMaterial/Button_Hapus'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Hapus_KodeMaterial/Button_OK'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/Hapus_KodeMaterial/Button_OK'))
+
+WebUI.delay(10)
+
+WebUI.closeBrowser()
+
