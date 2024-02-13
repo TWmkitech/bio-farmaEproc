@@ -34,5 +34,4 @@ public class admin {
 		WebUI.delay(15)
 		WebDriver mydriver = DriverFactory.getWebDriver()
 	}
-
 }
