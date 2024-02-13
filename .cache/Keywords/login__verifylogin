@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "7D2B0CA4B00B4E1061820D49FD9EDD0E",
+  "keywordClasses": [
+    {
+      "name": "login.verifylogin",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
