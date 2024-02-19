@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Verify_PopupAktivasi_Berhasil</name>
+   <name>Menu_Pengajuan</name>
    <tag></tag>
-   <elementGuidId>7bb68f64-693e-496f-9603-39acf6b67993</elementGuidId>
+   <elementGuidId>f886291c-35d4-44fc-8578-9ca1f48cd749</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div/div[5]/div/div/div[3]/div[2]/div/div/h2</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[4]/div/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

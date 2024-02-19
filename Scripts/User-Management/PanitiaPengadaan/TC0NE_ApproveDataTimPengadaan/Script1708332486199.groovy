@@ -17,3 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'login.admin.login'(GlobalVariable.Admin, GlobalVariable.Pass)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_UserManagement'))
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('User-Management/Global-TestObject/Anchor_PanitiaPengadaan'), 5)
+
+WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/Anchor_PanitiaPengadaan'), 5)
+
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_PanitiaPengadaan'))
+
+WebUI.click(findTestObject('User-Management/PanitiaPengadaan/PengajuanDataTimPengadaan/Menu_Pengajuan'))
+
+TestObject targetElement = findTestObject('Object Repository/User-Management/PanitiaPengadaan/PengajuanDataTimPengadaan/Icon_ApproveData')
+
+WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('User-Management/PanitiaPengadaan/PengajuanDataTimPengadaan/Icon_ApproveData'))
+
+WebUI.click(findTestObject('User-Management/PanitiaPengadaan/PengajuanDataTimPengadaan/Button_PopupPersetujuan_OK'))
+
+WebUI.verifyElementPresent(findTestObject('User-Management/PanitiaPengadaan/PengajuanDataTimPengadaan/Verify_PopupPersetujuan_Berhasil'), 
+    5)
+
+WebUI.closeBrowser()
+

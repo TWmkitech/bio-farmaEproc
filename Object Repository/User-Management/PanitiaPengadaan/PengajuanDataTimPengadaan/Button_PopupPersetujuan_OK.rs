@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_PopupAktivasi_OK</name>
+   <name>Button_PopupPersetujuan_OK</name>
    <tag></tag>
-   <elementGuidId>1b958dd6-9cc2-402c-9ba3-677ffa9c5c16</elementGuidId>
+   <elementGuidId>abb7801c-1517-43ba-97e4-5a6ca1ba340c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

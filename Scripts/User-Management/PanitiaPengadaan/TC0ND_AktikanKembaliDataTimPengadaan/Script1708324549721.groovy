@@ -41,7 +41,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('User-Management/PanitiaPengadaan/AktifkanKembaliDataTimPengadaan/Icon_AktifkanData'))
 
-WebUI.click(findTestObject('User-Management/PanitiaPengadaan/AktifkanKembaliDataTimPengadaan/Button_PopupAktivasi_OK'))
+WebUI.click(findTestObject('User-Management/PanitiaPengadaan/AktifkanKembaliDataTimPengadaan/Button_PopupPersetujuan_OK'))
 
 WebUI.verifyElementPresent(findTestObject('User-Management/PanitiaPengadaan/AktifkanKembaliDataTimPengadaan/Verify_PopupAktivasi_Berhasil'), 
     5)

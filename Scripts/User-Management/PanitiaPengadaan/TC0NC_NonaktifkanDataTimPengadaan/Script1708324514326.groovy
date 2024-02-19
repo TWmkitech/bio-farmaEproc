@@ -43,3 +43,5 @@ WebUI.click(findTestObject('User-Management/PanitiaPengadaan/NonaktifkanDataTimP
 WebUI.verifyElementPresent(findTestObject('User-Management/PanitiaPengadaan/NonaktifkanDataTimPengadaan/Verify_PopupDeaktivasi_Berhasil'), 
     5)
 
+WebUI.closeBrowser()
+
