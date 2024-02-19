@@ -67,19 +67,19 @@ WebUI.click(findTestObject('Third Party/Dalam Negeri/Div_Data_Kota_Kabupaten'))
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Dalam Negeri/Field_NPWP'), 0)
 
-WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_NPWP'), '12.312.124.1-252.1425')
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_NPWP'), '12.312.124.1-252.1441')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Dalam Negeri/Field_NamaPerusahaan'), 0)
 
-WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_NamaPerusahaan'), 'PT Automated Test 0')
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_NamaPerusahaan'), 'PT Automated Test 1')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Dalam Negeri/Field_Email'), 0)
 
-WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_Email'), 'mio5@yopmail.com')
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_Email'), 'automatedtest1@yopmail.com')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Dalam Negeri/Field_Username'), 0)
 
-WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_Username'), 'mio5')
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_Username'), 'automatedtest1')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Dalam Negeri/Field_Password'), 0)
 
@@ -103,7 +103,7 @@ WebUI.delay(10)
 
 WebUI.navigateToUrl('https://yopmail.com/en/')
 
-WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_EmailYopmail'), 'mio5')
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_EmailYopmail'), 'automated1')
 
 WebUI.click(findTestObject('Third Party/Dalam Negeri/Button_EnterEmail'))
 

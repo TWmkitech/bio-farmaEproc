@@ -17,21 +17,85 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.back()
+WebUI.openBrowser(GlobalVariable.UrlVendor)
 
-WebUI.back()
+WebUI.maximizeWindow()
 
-WebUI.acceptAlert()
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Button_HalamanDaftar'), 0)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Third Party/Luar Negeri/Button_HalamanDaftar'))
 
-WebUI.acceptAlert()
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_AreaPenyedia'), 0)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Third Party/Luar Negeri/Field_AreaPenyedia'))
 
-WebUI.acceptAlert()
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Div_AreaPenyedia'), 0)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Third Party/Luar Negeri/Div_AreaPenyedia'))
 
-WebUI.acceptAlert()
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_JenisBarangJasa'), 0)
+
+WebUI.click(findTestObject('Third Party/Luar Negeri/Field_JenisBarangJasa'))
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Div_JenisBarangJasa'), 0)
+
+WebUI.click(findTestObject('Third Party/Luar Negeri/Div_JenisBarangJasa'))
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_Negara'), 0)
+
+WebUI.click(findTestObject('Third Party/Luar Negeri/Field_Negara'))
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Div_Negara'), 0)
+
+WebUI.click(findTestObject('Third Party/Luar Negeri/Div_Negara'))
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_NPWP'), 0)
+
+WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_NPWP'), '12.312.124.1-252.1432')
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_NamaPerusahaan'), 0)
+
+WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_NamaPerusahaan'), 'Testtt1')
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_Email'), 0)
+
+WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_Email'), 'testtt1@yopmail.com')
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_Username'), 0)
+
+WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_Username'), 'testtt1')
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_Password'), 0)
+
+WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_Password'), 'testtt')
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_KonfirmasiPassword'), 0)
+
+WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_KonfirmasiPassword'), 'testtt')
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Button_Registrasi'), 0)
+
+WebUI.click(findTestObject('Third Party/Luar Negeri/Button_Registrasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Button_OK'), 0)
+
+WebUI.click(findTestObject('Third Party/Luar Negeri/Button_OK'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.navigateToUrl('https://yopmail.com/en/')
+
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_EmailYopmail'), 'testtt1')
+
+WebUI.click(findTestObject('Third Party/Dalam Negeri/Button_EnterEmail'))
+
+WebUI.delay(100)
+
+WebUI.click(findTestObject('Third Party/Dalam Negeri/Button_Refresh'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Third Party/Dalam Negeri/a_Aktivasi Akun'))
+
+WebUI.delay(10)
+
+WebUI.closeBrowser()
 

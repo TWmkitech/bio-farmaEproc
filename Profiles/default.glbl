@@ -69,4 +69,14 @@
       <initValue>'12000058'</initValue>
       <name>EntitasAuditBOD1</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'automatedtest1'</initValue>
+      <name>UserVendor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bi0farma'</initValue>
+      <name>PassVendor</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
