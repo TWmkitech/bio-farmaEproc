@@ -6,12 +6,12 @@
    <elementGuidId>4ba95335-36c5-4d11-99f9-7e574ac7c295</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//iframe[@id='ifmail']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ifmail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//iframe[@id='ifmail']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

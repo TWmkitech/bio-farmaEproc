@@ -6,12 +6,12 @@
    <elementGuidId>0073bed1-6212-4edd-bc3f-2bb66b88af5c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div/center/h5</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h5.text-white.text-center.mt-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/center/h5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

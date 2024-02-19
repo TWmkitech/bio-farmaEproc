@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'login.admin.login'(GlobalVariable.Admin, GlobalVariable.Pass)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_UserManagement'))
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('User-Management/Global-TestObject/Anchor_Jabatan'), 5)
+
+WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/Anchor_Jabatan'), 5)
+
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_Jabatan'))
+
+WebUI.click(findTestObject('User-Management/Jabatan/UpdateJabatan/Icon_UpdateData'))
+
+WebUI.clearText(findTestObject('User-Management/Jabatan/UpdateJabatan/Textbox_NamaJabatan'))
+
+WebUI.setText(findTestObject('User-Management/Jabatan/UpdateJabatan/Textbox_NamaJabatan'), 'Update Nama Jabatan')
+
+WebUI.clearText(findTestObject('User-Management/Jabatan/UpdateJabatan/Textbox_KodeJabatan'))
+
+WebUI.setText(findTestObject('User-Management/Jabatan/UpdateJabatan/Textbox_KodeJabatan'), 'Update Kode Jabatan')
+
+WebUI.click(findTestObject('User-Management/Jabatan/UpdateJabatan/Checkbox_SayaYakinDanBertanggungJawab'))
+
+WebUI.click(findTestObject('User-Management/Jabatan/UpdateJabatan/Button_SimpanData'))
+
+WebUI.click(findTestObject('User-Management/Jabatan/UpdateJabatan/Button_PopupKonfirmasi_OK'))
+
+WebUI.verifyElementPresent(findTestObject('User-Management/Jabatan/UpdateJabatan/Verify_PopupKonfirmasi_Berhasil'), 5)
+
+WebUI.closeBrowser()
+

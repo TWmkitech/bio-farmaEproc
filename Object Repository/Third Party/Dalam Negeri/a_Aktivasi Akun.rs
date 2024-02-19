@@ -6,12 +6,12 @@
    <elementGuidId>fa0cc1a5-b14e-4ce5-99cc-5474452d46e7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mail']/div/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mail']/div/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -60,13 +60,13 @@ WebUI.click(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/Se
 WebUI.scrollToElement(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/Upload_UnggahKontrak'), 5)
 
 //WebUI.click(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/SelectBox_EntitasorHolding_PT Bio Farma (Persero)'))
-WebUI.uploadFile(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/Upload_UnggahKontrak'), 'C:\\Users\\SpaceBuzz\\git\\bio-farmaEproc\\Document\\DataTest.docx')
+WebUI.uploadFile(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/Upload_UnggahKontrak'), 'C:\\Users\\ASUS\\git\\bio-farmaEproc\\Document\\DataTest.docx')
 
 WebUI.setText(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/Input_Nama'), 'Test Nama')
 
 WebUI.setText(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/Input_Email'), 'testemail@test.com')
 
-WebUI.setText(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/Input_Username'), 'Username Aplikasi')
+WebUI.setText(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/Input_Username'), 'Test Username Aplikasi')
 
 WebUI.click(findTestObject('User-Management/AgenPengadaan/TambahAgenPengadaan/SelectBox_Role'))
 
