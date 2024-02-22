@@ -6,6 +6,10 @@
    <elementGuidId>036b4e60-fcc2-4433-92e2-938b54d34adb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'delete-104']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[5]/div/div/div[3]/div/div/div/div[2]/div/div/table/tbody/tr[1]/td[8]/span/button</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>63375fa7-dbc6-4ed0-89f7-96b70f0696f6</webElementGuid>
+      <webElementGuid>daf8b103-70e6-49c7-a10d-8d2fb76e42f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success btn-sm</value>
-      <webElementGuid>7c105eb3-aa0d-42eb-bd32-044241f75df1</webElementGuid>
+      <webElementGuid>08485f8a-0934-49e4-b3de-30c80bedd9db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>delete-104</value>
-      <webElementGuid>2a06a982-deb2-4f38-b720-c319d1f314ea</webElementGuid>
+      <webElementGuid>a7e6d1d1-180f-4836-9538-22cf3ab32751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;delete-104&quot;)</value>
-      <webElementGuid>bb10c0f9-2874-4f39-9d53-59286a875592</webElementGuid>
+      <webElementGuid>e89ef363-5406-45d2-844c-4fecfd5777aa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='delete-104']</value>
-      <webElementGuid>51c82c6d-63a1-462a-a3ab-10ea433ebe28</webElementGuid>
+      <webElementGuid>e0f27645-552f-4a59-8480-66b18e888981</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//table[@id='as-react-datatable']/tbody/tr/td[8]/span/button)[11]</value>
-      <webElementGuid>943b5425-a458-4410-89e5-a9cb812f8434</webElementGuid>
+      <webElementGuid>73ceb1a9-b58c-40e6-b487-273d76587aa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test NamaAgen'])[3]/following::button[1]</value>
-      <webElementGuid>c4b7bfbf-a22d-4ebd-a2ad-cea4c61f3d3d</webElementGuid>
+      <webElementGuid>8da87712-3c86-47ce-967a-45c95c6b485f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[3]/following::button[1]</value>
-      <webElementGuid>aced9e73-4256-48ab-b8b2-ae74193f4729</webElementGuid>
+      <webElementGuid>d2673666-1ba4-4b82-8469-8f1a957d823f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pt Who Are You Indonesia TEST'])[1]/preceding::button[1]</value>
-      <webElementGuid>ae994b81-5954-446c-88e1-3e2fabcd0c83</webElementGuid>
+      <webElementGuid>80819825-e055-412d-a907-a34a2eb2131c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontrak Telah Kadaluarsa'])[2]/preceding::button[1]</value>
-      <webElementGuid>dfa63da9-00f5-4d63-bc28-bfbd40d4191a</webElementGuid>
+      <webElementGuid>cdf256e3-f37f-421d-9771-79f4621ae4ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/div/table/tbody/tr/td[8]/span/button</value>
-      <webElementGuid>0b6f33b9-8346-4feb-93ae-a638e90810bb</webElementGuid>
+      <webElementGuid>88f139e9-739e-4fb5-a80e-c5b71d47a736</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'delete-104']</value>
-      <webElementGuid>13485ee0-31f1-4563-b252-4f387260c62b</webElementGuid>
+      <webElementGuid>944b5aac-3357-46c5-9b55-9e8a760bfbf7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
