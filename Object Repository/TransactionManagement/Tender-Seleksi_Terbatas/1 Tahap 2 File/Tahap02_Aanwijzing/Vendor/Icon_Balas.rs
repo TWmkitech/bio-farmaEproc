@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon_Balas</name>
+   <tag></tag>
+   <elementGuidId>9f812bb9-c712-486f-bacd-4988da4ca6a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.m-0.p-0 > b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chatZone']/div/div/div/div/a/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>247a76df-5325-4e97-b8a4-b8ce65be33f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Balas</value>
+      <webElementGuid>7c7ac41e-c0c0-4221-ac71-0a99335e1a7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chatZone&quot;)/div[@class=&quot;bg-light p-2 mb-3 card&quot;]/div[@class=&quot;px-3 pt-3&quot;]/div[1]/div[@class=&quot;float-end&quot;]/a[@class=&quot;btn m-0 p-0&quot;]/b[1]</value>
+      <webElementGuid>060bd246-1e8c-4c54-bb09-aea9e06dc7fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chatZone']/div/div/div/div/a/b</value>
+      <webElementGuid>d2b00fef-5acd-4a1d-8552-5c22335e528a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Belum Ada Tata Tertib'])[1]/following::b[1]</value>
+      <webElementGuid>57599668-409c-45cd-af2c-45ee96d50cab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peserta Hadir Pada'])[1]/following::b[1]</value>
+      <webElementGuid>dbac0b13-2eb5-4393-b2e9-0641b62fb08d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unit Pengadaan'])[1]/preceding::b[1]</value>
+      <webElementGuid>692ddbfb-c13c-4063-9e48-6c0e1fee723e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Balas']/parent::*</value>
+      <webElementGuid>e6f2c86a-4d26-45a7-aa4c-d8e042a97ab0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/b</value>
+      <webElementGuid>813e3e9a-6beb-4c58-98ea-0be46506d11d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = ' Balas' or . = ' Balas')]</value>
+      <webElementGuid>e1416aae-64fb-4c6f-908d-512eae79bb38</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
