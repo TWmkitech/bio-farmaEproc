@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Selamat Datang di Sistem Join Procureme_45158e</name>
+   <tag></tag>
+   <elementGuidId>3fa1f6e3-257f-48b4-9c7d-4150d2cb4513</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.auth-wrapper.auth-basic.px-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5f28d58d-4a3c-4a94-9cd7-e40728e71a72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>auth-wrapper auth-basic px-2</value>
+      <webElementGuid>1bdd121a-b176-4b1b-a970-0deb617718ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Selamat Datang di Sistem Join Procurement Biofarma GroupSilahkan masuk dengan menggunakan NPK atau Email dan Kata Sandi HCMSNPK atau EmailKata SandiLupa Kata Sandi? MasukatauLogin dengan OTP</value>
+      <webElementGuid>04bde005-3c10-40a6-8059-32f8023392df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;misc-wrapper&quot;]/div[@class=&quot;auth-wrapper auth-basic px-2&quot;]</value>
+      <webElementGuid>75bbd209-ce43-434a-9938-5a979e97b6c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]</value>
+      <webElementGuid>6f992e12-4722-4f03-9dd9-f454002a4534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]</value>
+      <webElementGuid>ac27b2e8-0660-4a0c-b649-d5781f5756b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Selamat Datang di Sistem Join Procurement Biofarma GroupSilahkan masuk dengan menggunakan NPK atau Email dan Kata Sandi HCMSNPK atau EmailKata SandiLupa Kata Sandi? MasukatauLogin dengan OTP' or . = 'Selamat Datang di Sistem Join Procurement Biofarma GroupSilahkan masuk dengan menggunakan NPK atau Email dan Kata Sandi HCMSNPK atau EmailKata SandiLupa Kata Sandi? MasukatauLogin dengan OTP')]</value>
+      <webElementGuid>5e0eaf0f-dd97-48a7-9511-7f60c336a1b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

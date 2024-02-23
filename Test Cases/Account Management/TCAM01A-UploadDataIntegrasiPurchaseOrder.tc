@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCAM01A-UploadDataIntegrasiPurchaseOrder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7abe0c1-0d06-45c1-9349-49ff2338b28f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Garit De Nene Nada Bisturi HOLDING BOD-_e656da</name>
+   <tag></tag>
+   <elementGuidId>c948d84f-8dfd-4d27-a7f5-8566b9a9ec09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.user-nav.d-sm-flex.d-none</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/div/ul/li[3]/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>019aebe8-e87e-496e-a897-32426e34bb9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>user-nav d-sm-flex d-none</value>
+      <webElementGuid>3986c6a1-4e62-405b-a93b-a2abf4b4c5c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Garit De Nene Nada Bisturi HOLDING [BOD-4]Officer ILayanan Pengadaan Bersama</value>
+      <webElementGuid>dca561ec-fe8e-40cc-88f8-6f6be4addfd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/nav[@class=&quot;header-navbar navbar align-items-center floating-nav navbar-shadow navbar navbar-expand-lg navbar-light&quot;]/div[@class=&quot;navbar-container d-flex content&quot;]/ul[@class=&quot;nav navbar-nav align-items-center ms-auto&quot;]/li[@class=&quot;dropdown-user nav-item dropdown&quot;]/a[@class=&quot;nav-link dropdown-user-link&quot;]/div[@class=&quot;user-nav d-sm-flex d-none&quot;]</value>
+      <webElementGuid>240eca80-0f9b-4011-b63c-6e3b3906c1b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/div/ul/li[3]/a/div</value>
+      <webElementGuid>9cb943c1-4bd6-4d34-8510-75d43669281b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bahasa'])[1]/following::div[1]</value>
+      <webElementGuid>dc8989d4-fba5-4a94-8160-39fa29a31d45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::div[1]</value>
+      <webElementGuid>7d59b287-fcf8-4529-a65b-abed058671de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div</value>
+      <webElementGuid>79714449-8cae-4471-8779-f5f4c2c0298c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Garit De Nene Nada Bisturi HOLDING [BOD-4]Officer ILayanan Pengadaan Bersama' or . = 'Garit De Nene Nada Bisturi HOLDING [BOD-4]Officer ILayanan Pengadaan Bersama')]</value>
+      <webElementGuid>cb5593f8-7b07-4871-be61-bac35672843b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
