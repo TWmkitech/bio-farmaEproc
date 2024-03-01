@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_KirimTanggapan_Topik</name>
+   <tag></tag>
+   <elementGuidId>e92e5812-aba2-44df-9317-7fab53334977</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form.needs-validation.p-1.mt-3.av-invalid > div.mb-4.row > div.col > button.p-2.px-3.btn.btn-primary.float-end</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7700a9e7-b05f-4674-a353-ded208f4830e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>0a5f6171-1c7a-4795-b748-e48186de72be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 px-3 btn btn-primary float-end</value>
+      <webElementGuid>27ce6c33-14cb-4e0c-81f4-0bf51c3a0a05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kirim Tanggapan</value>
+      <webElementGuid>7cb1a4a8-6742-4e7e-812a-eb1a49140c65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-3 p-0 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-md-8&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mt-4 p-2&quot;]/form[@class=&quot;needs-validation p-1 mt-3 av-invalid&quot;]/div[@class=&quot;mb-4 row&quot;]/div[@class=&quot;col&quot;]/button[@class=&quot;p-2 px-3 btn btn-primary float-end&quot;]</value>
+      <webElementGuid>b6e18ff9-c558-48a6-a067-9771b2f28d28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[2]</value>
+      <webElementGuid>8b0019dd-3d77-4d67-bf46-d563a3910977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div/div[4]/form/div[2]/div[2]/button</value>
+      <webElementGuid>ad507a51-6ca5-4c7b-92c2-dd21c189af14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Format file yang diizinkan .docx, .doc, .pdf, .jpeg, .jpg dan .png, dengan ukuran antara 0 s/d 5Mb'])[2]/following::button[1]</value>
+      <webElementGuid>50830b72-103b-4f68-9373-428d6a47c55e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose File'])[2]/following::button[1]</value>
+      <webElementGuid>45c6a8fe-b2b2-4804-ad76-9ba15f88050a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>816c10bc-60fe-4ba8-a3d7-25f50db05883</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>c54dd03d-3bb2-4138-98b0-4e026066faaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kirim Tanggapan']/parent::*</value>
+      <webElementGuid>a2404cd5-c7c6-4ef9-ab2d-0f5206fcebe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/form/div[2]/div[2]/button</value>
+      <webElementGuid>4882f8ef-14bf-4e24-8cec-7b4b745d5b8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Kirim Tanggapan' or . = 'Kirim Tanggapan')]</value>
+      <webElementGuid>530ffedf-9159-479b-b14f-06077d3ac5db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

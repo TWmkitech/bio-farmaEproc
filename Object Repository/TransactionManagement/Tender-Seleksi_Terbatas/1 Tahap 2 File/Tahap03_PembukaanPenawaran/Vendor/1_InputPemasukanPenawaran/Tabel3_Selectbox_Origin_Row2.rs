@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tabel3_Selectbox_Origin_Row2</name>
+   <tag></tag>
+   <elementGuidId>a8b4f2d5-104a-4c6b-8c97-00f86c44d7ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(14) > td:nth-of-type(8) > div.react-select.css-b62m3t-container > div.select__control.css-13cymwt-control > div.select__value-container.css-hlgwow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[2]/div[7]/table/tbody/tr[14]/td[8]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fdd90244-8135-4088-9cbf-7906cead06b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__value-container css-hlgwow</value>
+      <webElementGuid>0897c2bc-49f7-4a38-b967-870c92574629</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih Origin</value>
+      <webElementGuid>47221818-579c-4738-b11a-97ca5568708c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-3 p-0 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-md-8&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane submitForm active&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;mb-2 text-wrap table&quot;]/tbody[1]/tr[14]/td[8]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control css-13cymwt-control&quot;]/div[@class=&quot;select__value-container css-hlgwow&quot;]</value>
+      <webElementGuid>ff0643d5-7b33-4bb5-97c6-0fc241c9c3e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[2]/div[7]/table/tbody/tr[14]/td[8]/div/div/div</value>
+      <webElementGuid>ab70f0e5-7366-4dac-9e80-693a44ade86f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='µl'])[5]/following::div[4]</value>
+      <webElementGuid>6419bf86-5e53-4d7f-8c8b-94357207b04c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sdfsdfsd'])[1]/following::div[4]</value>
+      <webElementGuid>8ec8fbbc-fbd7-4cd4-8982-6dab77de397c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Bio Farma (Persero)- Kolonel Masturi'])[2]/preceding::div[8]</value>
+      <webElementGuid>b82007dc-6a52-4b48-b2df-9e3cb3a48ff9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[14]/td[8]/div/div/div</value>
+      <webElementGuid>2ab9fe8f-d970-4ccd-bbb2-cea637271878</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pilih Origin' or . = 'Pilih Origin')]</value>
+      <webElementGuid>747f0584-f489-4585-8a3f-98f6bddf3953</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

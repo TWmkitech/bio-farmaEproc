@@ -16,8 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as Config
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/1_Vendor/PT SURYA TUBAL INDONESIA'), 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/1_Vendor/Vendor1_PT SURYA TUBAL INDONESIA'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Vendor/Vendor/Modul_Transaction'))
@@ -38,16 +39,10 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/TextArea_Tanggapan_aanwijzing_message'), 
     'Automation Tanggapan Aanwijzing Vendor 1')
 
-// Ambil elemen field "Choose File"
-TestObject uploadField = findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Upload_FileBalasan')
+WebUI.uploadFile(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Upload_FileBalasan'), 
+    'C:\\Users\\ASUS\\git\\bio-farmaEproc\\Document\\DataTest.docx')
 
-// Mendapatkan direktori proyek
-def projectDir = Config.getProjectDir()
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/button_Balas Tanggapan'))
 
-// Membentuk path lengkap file yang ingin diunggah
-def filePath = projectDir + '/Document/DataTest.docx'
-
-WebUI.uploadFile(uploadField, filePath)
-
-WebUI.delay(10)
+WebUI.closeBrowser()
 

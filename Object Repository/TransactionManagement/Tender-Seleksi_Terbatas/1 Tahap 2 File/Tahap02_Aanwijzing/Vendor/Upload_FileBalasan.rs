@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[2]/div[2]/div[2]/div/div/div[4]/div/div/div[2]/form/div[2]/div[1]/div/div[1]/div/button</value>
+         <value>//div[@class='mb-3']/div[@role='presentation']/input[@type='file']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>68509e88-18fe-4961-8d38-525eb82e722c</webElementGuid>
+      <webElementGuid>690bfa79-41df-4f4b-b06e-8cade21320b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>15d13790-95ff-4a71-9ab2-2474d06730e6</webElementGuid>
+      <webElementGuid>ca9fd9e4-c138-49f1-b4e9-3d545d95c3af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e54794bf-7e49-4c26-ab54-8674a8ccd52a</webElementGuid>
+      <webElementGuid>a7b2ff59-5d9d-4102-8dc8-506475d058b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropzone</value>
-      <webElementGuid>e1e23c4f-10a9-497e-b8f2-e7ec6bfacdac</webElementGuid>
+      <webElementGuid>8c90cc20-3e4a-45d7-a696-20256d5025f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Drop Files here or click to upload Choose File</value>
-      <webElementGuid>f712a16a-ffc1-48e5-b6b0-88debf1949cc</webElementGuid>
+      <webElementGuid>f7abd55f-52db-49b6-91da-710a7f93c000</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;chatZone&quot;)/div[@class=&quot;bg-light p-2 mb-3 card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;mb-4 row&quot;]/div[@class=&quot;col-xl-5 col-7 col&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;dropzone&quot;]</value>
-      <webElementGuid>c15c4c36-4b6c-484d-87db-d11135443f41</webElementGuid>
+      <webElementGuid>b1bb7ba9-e6d1-498b-9b98-a82240f94993</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='chatZone']/div/div[2]/form/div[2]/div/div/div</value>
-      <webElementGuid>19a4132d-0e13-4e37-a95f-5442ca99c08b</webElementGuid>
+      <webElementGuid>b6bc2194-bc49-4bec-9caf-f072de26b24f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DataTest.docx'])[3]/following::div[9]</value>
-      <webElementGuid>b1fd31ab-0f5c-496c-9c67-34af446db50d</webElementGuid>
+      <webElementGuid>a1046905-e20b-4dea-a33f-f7cf8b9bf400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/div/div/div</value>
-      <webElementGuid>f628637a-ee7d-4f71-adb2-3c03783c01dc</webElementGuid>
+      <webElementGuid>d3ddb2c7-d22d-4551-bf4a-3103f770970d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Drop Files here or click to upload Choose File' or . = 'Drop Files here or click to upload Choose File')]</value>
-      <webElementGuid>b95d6b1e-fe1e-41c7-adb7-6d65c2443748</webElementGuid>
+      <webElementGuid>7b3ccca0-b38d-42cc-b711-222c71180d0a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

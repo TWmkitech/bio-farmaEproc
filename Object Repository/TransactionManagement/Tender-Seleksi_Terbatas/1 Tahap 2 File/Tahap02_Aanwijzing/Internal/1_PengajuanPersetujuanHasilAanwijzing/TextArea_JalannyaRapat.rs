@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextArea_JalannyaRapat</name>
+   <tag></tag>
+   <elementGuidId>22315a77-5836-43f9-84f0-d4763a2a5400</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#rdw-wrapper-7595 > div.rdw-editor-main</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div[2]/div[1]/div[2]/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c3f96cc7-0365-4c44-9fb8-8d876e0f4738</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rdw-editor-main</value>
+      <webElementGuid>1538f190-25b9-4f7a-9405-653a67fb990d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rdw-wrapper-7595&quot;)/div[@class=&quot;rdw-editor-main&quot;]</value>
+      <webElementGuid>75ab5f22-0718-4666-9e71-28a4d14e4a0a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rdw-wrapper-7595']/div[2]</value>
+      <webElementGuid>55330e8b-de5e-4d2a-bd73-457c5bc60fa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Font'])[2]/following::div[28]</value>
+      <webElementGuid>39f44137-8f64-4e3e-b32b-2372fec3ce6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[2]/following::div[34]</value>
+      <webElementGuid>2c0f81ff-1d8f-4973-8cbc-e4e8029f8c58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penutup'])[1]/preceding::div[9]</value>
+      <webElementGuid>3dd39e77-b628-4160-9c4a-9a1994e52448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[3]/preceding::div[17]</value>
+      <webElementGuid>30c44aab-e262-4702-bf5c-49611755062c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div/div[2]</value>
+      <webElementGuid>4ea4d9fd-10c4-46d8-9e28-5f6606e3636b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

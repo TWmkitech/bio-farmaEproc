@@ -29,3 +29,13 @@ WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 
 WebUI.verifyElementText(findTestObject('Login/internal/Verify_Username'), 'Yogi Hasan Sadikin')
 
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/Icon_Key'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/button_Change Roles'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/Selectbox_ChangeRoles'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/Selectbox_ChangeRoles_1'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/button_Ganti'))
+

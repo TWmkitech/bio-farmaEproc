@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Pertanya_DariEntitasSimpandanKirim</name>
+   <tag></tag>
+   <elementGuidId>ff07e29f-fbd2-4eea-80d8-eb939ce5e508</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and @class = 'btn btn-warning float-end btn-icon' and (text() = ' Simpan dan Kirim' or . = ' Simpan dan Kirim')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d547ed15-06f7-4b26-b525-82cfda49ebc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>1ac975ee-ca4a-4eca-91c1-c19aa1b15a40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-warning float-end btn-icon</value>
+      <webElementGuid>5894dd50-5f18-4c79-9099-d19da32ed73a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Simpan dan Kirim</value>
+      <webElementGuid>340c8c6f-d7f1-49e4-a21f-cd9ed374037b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;mb-2 border card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;tab-content mt-3&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col col&quot;]/div[@class=&quot;mb-2 border card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation mt-2 av-valid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/button[@class=&quot;btn btn-warning float-end btn-icon&quot;]</value>
+      <webElementGuid>d3ce95fc-cf12-45dc-90a4-50d33a7169ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[2]</value>
+      <webElementGuid>762d1c47-2fbc-4e45-b74c-8b70ab8c66a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[9]/div[2]/div/div/div/div[11]/div[2]/div/div/form/div[2]/div[2]/button</value>
+      <webElementGuid>c9629618-a376-4e44-a41e-d9ac55be6e7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Format file yang diizinkan .xlsx, .xls, .docx, .doc dan .pdf, dengan ukuran antara 0 s/d 10 Mb'])[2]/following::button[1]</value>
+      <webElementGuid>16e9d589-446c-42b4-b39c-ea05d764f174</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose File'])[2]/following::button[1]</value>
+      <webElementGuid>c001602e-c5e5-4073-b5c5-4b9579d5d22e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Penyedia Yang Akan Ditetapkan Menjadi Pemenang'])[1]/preceding::button[2]</value>
+      <webElementGuid>d491b1d2-988a-4822-a081-01bc88049a9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/form/div[2]/div[2]/button</value>
+      <webElementGuid>501ee748-e678-49a0-a827-967c77bd438f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = ' Simpan dan Kirim' or . = ' Simpan dan Kirim')]</value>
+      <webElementGuid>bd451451-2e9a-4215-9176-fc127637e4b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Kirim Negosiasi</name>
+   <tag></tag>
+   <elementGuidId>b71e01e4-87f5-4949-9622-0a8d826a1ef5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span > button.btn-icon.mt-2.btn.btn-warning</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[24]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>88806db8-9d15-42fd-b573-54d7bdc47682</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a568744a-0631-4b22-a63e-6a04eadc39ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-icon mt-2 btn btn-warning</value>
+      <webElementGuid>e326b18e-648b-48bf-87f2-718651cfe5b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Kirim Negosiasi</value>
+      <webElementGuid>c7fc93eb-dabe-4a1d-b280-3c6902f46cb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vendorUuid_cab99db6-bb7f-4160-9113-731acee2b111&quot;)/div[@class=&quot;mt-2&quot;]/div[@class=&quot;mb-2 row&quot;]/div[@class=&quot;col-md-4&quot;]/span[1]/button[@class=&quot;btn-icon mt-2 btn btn-warning&quot;]</value>
+      <webElementGuid>5bdf252e-50f9-4278-9eed-0413f242ce7c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[24]</value>
+      <webElementGuid>ede138a3-d251-4be8-a01d-8aecd0f305ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vendorUuid_cab99db6-bb7f-4160-9113-731acee2b111']/div[2]/div[5]/div/span/button</value>
+      <webElementGuid>f33d21bf-1a85-4963-9afd-437f95282470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EXW - Ex Works'])[1]/following::button[1]</value>
+      <webElementGuid>cd63683f-9d5b-4888-89ba-af93b3131f08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Incoterm'])[1]/following::button[1]</value>
+      <webElementGuid>9c4e8052-737c-4bfd-89ac-00a7c3670868</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reload Data'])[1]/preceding::button[1]</value>
+      <webElementGuid>e6672697-8d72-4c96-ab9d-ad36ea781d12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Sumber Informasi'])[1]/preceding::button[2]</value>
+      <webElementGuid>bbe7e58d-90e1-44d4-9dbb-731afafc255f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kirim Negosiasi']/parent::*</value>
+      <webElementGuid>ce5f01a7-659c-4767-9133-428875c6fd7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/button</value>
+      <webElementGuid>526244f9-8d9a-4df3-90d6-7759fc119818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Kirim Negosiasi' or . = ' Kirim Negosiasi')]</value>
+      <webElementGuid>7fba3f7a-55ca-4a00-8176-5f201e7e6b01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

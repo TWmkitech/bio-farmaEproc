@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Selectbox_ChangeRoles</name>
+   <tag></tag>
+   <elementGuidId>b3c85035-6abc-4e72-99df-31b5f5384672</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.select2-selection__value-container.select2-selection__value-container--has-value.css-hlgwow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/div/div/div[1]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>00cce066-1345-4b6c-a4f7-2402c6abb221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-selection__value-container select2-selection__value-container--has-value css-hlgwow</value>
+      <webElementGuid>f58f4435-5134-4cde-acfb-40ebb67703cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HOLDING [BOD-2]</value>
+      <webElementGuid>cb5d9e47-99e2-40dc-824a-5774d3364794</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;css-b62m3t-container&quot;]/div[@class=&quot;select2-selection__control css-13cymwt-control&quot;]/div[@class=&quot;select2-selection__value-container select2-selection__value-container--has-value css-hlgwow&quot;]</value>
+      <webElementGuid>5be45075-5562-4e0b-b2ff-22b14c6143d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ganti Akes Role'])[1]/following::div[4]</value>
+      <webElementGuid>f2c7b459-540d-4c0f-99f2-594667767e82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[11]</value>
+      <webElementGuid>f5a0eabb-98d8-48a7-8100-53dbc9bd1b34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/preceding::div[5]</value>
+      <webElementGuid>943b4874-b2a5-431f-bd8e-b1c15fea04bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>32a4fe17-6155-4e8a-9cb6-137002233a5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'HOLDING [BOD-2]' or . = 'HOLDING [BOD-2]')]</value>
+      <webElementGuid>4aa47630-01fd-40b9-9191-8389235ec2b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
