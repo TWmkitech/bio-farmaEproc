@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_TanggalBerlaku_Data</name>
+   <tag></tag>
+   <elementGuidId>f43af4ab-6483-414c-8b9b-3d4faaf0773d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div[2]/div/div[2]/div/span[42]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>a84d8ab0-f099-4bfe-b325-4ca8632ea9e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709261846127</value>
+      <webElementGuid>98c3aad6-9a2d-459e-8c76-e9cbafef6cbf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
