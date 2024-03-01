@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>060_Anchor_CabangBagianDivisi</name>
+   <name>Anchor_CabangBagianDivisi</name>
    <tag></tag>
    <elementGuidId>f0607142-4033-47b5-9b85-ae0280a1b191</elementGuidId>
    <selectorCollection>

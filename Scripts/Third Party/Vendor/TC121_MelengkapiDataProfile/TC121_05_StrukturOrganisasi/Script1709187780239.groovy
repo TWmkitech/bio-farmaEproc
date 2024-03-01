@@ -20,7 +20,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/050_Anchor_StrukturOrganisasi'))
+WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Anchor_StrukturOrganisasi'))
 
 TestObject uploadStruktur = findTestObject('Third Party/Data Profile/StrukturOrganisasi/Upload_Struktur')
 

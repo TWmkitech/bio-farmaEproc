@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>050_Anchor_StrukturOrganisasi</name>
+   <name>Anchor_StrukturOrganisasi</name>
    <tag></tag>
    <elementGuidId>44fddf81-f5db-4676-82ad-a058de91a220</elementGuidId>
    <selectorCollection>

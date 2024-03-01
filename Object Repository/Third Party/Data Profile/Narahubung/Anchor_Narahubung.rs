@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>040_Anchor_Narahubung</name>
+   <name>Anchor_Narahubung</name>
    <tag></tag>
    <elementGuidId>63430027-a6d7-4b7f-9bcc-bce31b8ec13d</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -20,7 +20,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/060_Anchor_CabangBagianDivisi'))
+WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Anchor_CabangBagianDivisi'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Button_Tambah'))
 
