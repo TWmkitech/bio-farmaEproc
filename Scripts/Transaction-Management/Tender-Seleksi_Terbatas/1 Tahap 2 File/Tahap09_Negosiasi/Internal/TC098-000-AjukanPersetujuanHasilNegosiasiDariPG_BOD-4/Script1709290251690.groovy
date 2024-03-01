@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-4'), 
     [:], FailureHandling.STOP_ON_FAILURE)
@@ -35,10 +36,28 @@ WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Menu_TahapanNegosiasi'))
 
-WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Text_ChatNegosiasi'), 
-    5)
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/5_AjukanPersetujuan/Button_AjukanPersetujuan'))
 
-WebUI.delay(20)
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/5_AjukanPersetujuan/Textbox_DokumenPendukung'), 
+    'TestNamaDokumenPendukung BOD-4')
 
-WebUI.closeBrowser()
+// Ambil elemen field "Choose File"
+TestObject uploadField = findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/5_AjukanPersetujuan/Upload_DokumenPendukung')
+
+// Mendapatkan direktori proyek
+def projectDir = Config.getProjectDir()
+
+// Membentuk path lengkap file yang ingin diunggah
+def filePath = projectDir + '/Document/DataTest.docx'
+
+WebUI.uploadFile(uploadField, filePath)
+
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/5_AjukanPersetujuan/Textbox_Catatan'), 
+    'Catatan Test Dari BOD-4')
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/5_AjukanPersetujuan/button_Popup_AjukanPersetujuan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/3_BalasTopikdariEntitas/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(10)
 

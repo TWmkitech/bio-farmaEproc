@@ -63,6 +63,10 @@ WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Ta
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Textbox_Note_TermOfPayment'), 
     'Test 1 Catatan Term Of Payment')
 
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Kirim Negosiasi'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Button_PopupKonfirmasi_OK'))
+
 WebUI.delay(10)
 
 WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Menu_TahapanNegosiasi'), 
@@ -98,5 +102,11 @@ WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Ta
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Textbox_Note_TermOfPayment'), 
     'Test 2 Catatan Term Of Payment')
 
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Kirim Negosiasi'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Button_PopupKonfirmasi_OK'))
+
 WebUI.delay(10)
+
+WebUI.closeBrowser()
 
