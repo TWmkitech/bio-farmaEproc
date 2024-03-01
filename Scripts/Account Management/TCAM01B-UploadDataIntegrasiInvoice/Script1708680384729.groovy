@@ -19,27 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'login.Bod4.login'(GlobalVariable.BOD_4, GlobalVariable.Pass)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
