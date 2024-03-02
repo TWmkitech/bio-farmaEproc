@@ -34,6 +34,8 @@ WebUI.setText(findTestObject('Third Party/Data Profile/IzinUsaha/Field_NoIzinUsa
 
 WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_TanggalTerbit_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_TanggalTerbit_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Checklist_Berlaku'))

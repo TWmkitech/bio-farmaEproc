@@ -34,9 +34,13 @@ WebUI.setText(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_
 
 WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalTerbit_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalTerbit_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalBerlaku'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalBerlaku_Bulan'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalBerlaku_Data'))
 

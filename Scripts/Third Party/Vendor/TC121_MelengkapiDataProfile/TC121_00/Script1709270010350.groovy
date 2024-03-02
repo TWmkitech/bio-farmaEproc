@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Third Party/TC120_Login Pra-Registrasi Calon Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC120_Login Pra-Registrasi Calon Vendor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Third Party/Data Profile/0_Anchor_ThirdParty'))
 

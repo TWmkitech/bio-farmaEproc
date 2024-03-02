@@ -36,6 +36,8 @@ WebUI.uploadFile(uploadFile, filePath)
 
 WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalNPWP'))
 
+WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalNPWP_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalNPWP_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Radio_PKPYa'))
@@ -51,6 +53,8 @@ WebUI.uploadFile(uploadFile2, filePath2)
 
 WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalPKP'))
 
+WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalPKP_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalPKP_Data'))
 
 WebUI.setText(findTestObject('Third Party/Data Profile/InformasiPajak/Field_NoSKT'), '002/II/2024')
@@ -58,11 +62,13 @@ WebUI.setText(findTestObject('Third Party/Data Profile/InformasiPajak/Field_NoSK
 TestObject uploadFile3 = findTestObject('Third Party/Data Profile/InformasiPajak/Upload_SKT')
 
 // Membentuk path lengkap file yang ingin diunggah
-def filePath3 = projectDir + '/Document/ThirdParty/InformasiPajak/skt.jpg'
+def filePath3 = projectDir + '/Document/ThirdParty/InformasiPajak/skt.png'
 
 WebUI.uploadFile(uploadFile3, filePath3)
 
 WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalSKT'))
+
+WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalSKT_Bulan'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalSKT_Data'))
 

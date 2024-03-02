@@ -39,9 +39,13 @@ WebUI.uploadFile(uploadFile, filePath)
 
 WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalDitetapkan'))
 
+WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalDitetapkan_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalDitetapkan_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalAkhir'))
+
+WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalAkhir_Bulan'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalAkhir_Data'))
 

@@ -48,7 +48,7 @@ WebUI.setText(findTestObject('Third Party/Data Profile/Personel/Field_NPWP'), '0
 TestObject uploadFile2 = findTestObject('Third Party/Data Profile/Personel/Upload_NPWP')
 
 // Membentuk path lengkap file yang ingin diunggah
-def filePath2 = projectDir + '/Document/ThirdParty/Pesonel/npwp.jpg'
+def filePath2 = projectDir + '/Document/ThirdParty/Personel/npwp.jpg'
 
 WebUI.uploadFile(uploadFile2, filePath2)
 
@@ -60,6 +60,10 @@ WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_JenisKelamin
 
 WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_TanggalLahir'))
 
+WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_TanggalLahir_Bulan'))
+
+WebUI.setText(findTestObject('Third Party/Data Profile/Personel/Field_TanggalLahir_Tahun'), '1988')
+
 WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_TanggalLahir_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_PendidikanTerakhir'))
@@ -69,7 +73,7 @@ WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_PendidikanTe
 TestObject uploadFile3 = findTestObject('Third Party/Data Profile/Personel/Upload_CV')
 
 // Membentuk path lengkap file yang ingin diunggah
-def filePath3 = projectDir + '/Document/ThirdParty/Pesonel/cv.png'
+def filePath3 = projectDir + '/Document/ThirdParty/Personel/cv.png'
 
 WebUI.uploadFile(uploadFile3, filePath3)
 

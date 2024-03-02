@@ -6,12 +6,12 @@
    <elementGuidId>25716b9f-5a3e-4f99-a121-052e9897879d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.flatpickr-day.prevMonthDay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[27]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>845f04ee-6de3-4c8c-bb45-f56f039b10b7</webElementGuid>
+      <webElementGuid>b083594e-734c-4e8a-b083-61f2dbfc40ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flatpickr-day prevMonthDay</value>
-      <webElementGuid>74ac97e5-213b-4111-b057-27461823536c</webElementGuid>
+      <webElementGuid>c0f79b3e-b709-40e4-86a8-a7997864eddf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>January 28, 2024</value>
-      <webElementGuid>2cf00a2d-f295-4e9e-aa7a-1cbe5a45a254</webElementGuid>
+      <webElementGuid>fb3834bd-926f-4302-b3ad-658a477c5b3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>0dbb909b-6a04-485e-b3cb-d940d4acd523</webElementGuid>
+      <webElementGuid>4c821f0f-325e-47fa-93a9-556396d83477</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>28</value>
-      <webElementGuid>8357ce71-5051-4166-a10d-e899a286c56f</webElementGuid>
+      <webElementGuid>eef0bf2d-4596-4fbe-b6b7-f79472b460ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,46 +62,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;vh-100 bg&quot;]/div[@class=&quot;flatpickr-calendar animate arrowTop arrowLeft open&quot;]/div[@class=&quot;flatpickr-innerContainer&quot;]/div[@class=&quot;flatpickr-rContainer&quot;]/div[@class=&quot;flatpickr-days&quot;]/div[@class=&quot;dayContainer&quot;]/span[@class=&quot;flatpickr-day prevMonthDay&quot;]</value>
-      <webElementGuid>87dc16ea-6bbc-4445-948c-168b03caf1f1</webElementGuid>
+      <webElementGuid>fc7907b7-0a16-47e5-8403-6ca494799d72</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[1]</value>
-      <webElementGuid>8fadf725-d562-4b79-971c-56c340ffe24b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[2]</value>
-      <webElementGuid>6423592f-bdea-450f-ac53-d4e83cfd0dc6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='28']/parent::*</value>
-      <webElementGuid>39618aee-35fd-403d-8fb8-a688fb01774c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div[2]/div/span</value>
-      <webElementGuid>8388f17d-1268-41ab-99c2-d277c75fe5c6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[(text() = '28' or . = '28')]</value>
-      <webElementGuid>e1353f56-293c-4273-93a3-bae32a7c85a4</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

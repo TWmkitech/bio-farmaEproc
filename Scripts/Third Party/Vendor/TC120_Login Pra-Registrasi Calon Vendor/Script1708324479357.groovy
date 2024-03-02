@@ -27,15 +27,11 @@ WebUI.click(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Button
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Username'), 0)
 
-WebUI.setText(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Username'), GlobalVariable.UserVendor)
+WebUI.setText(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Username'), GlobalVariable.UserCalonRekanan)
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Password'), 0)
 
-WebUI.setText(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Password'), GlobalVariable.PassVendor)
+WebUI.setText(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Password'), GlobalVariable.PassCalonRekanan)
 
 WebUI.click(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Button_Login'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(10)
-
-WebUI.closeBrowser()
 

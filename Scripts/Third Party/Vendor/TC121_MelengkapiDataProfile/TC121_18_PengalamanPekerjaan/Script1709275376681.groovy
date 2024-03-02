@@ -30,13 +30,25 @@ WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field
 
 WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak'))
 
+WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Bulan'))
+
+WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Tahun'), '2023')
+
 WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal'))
 
+WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Bulan'))
+
+WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Tahun'), '2023')
+
 WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir'))
+
+WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Bulan'))
+
+WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Tahun'), '2023')
 
 WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Data'))
 
@@ -72,6 +84,10 @@ WebUI.uploadFile(uploadFile, filePath)
 WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_NoBAST'), '001/BAST-II/2024')
 
 WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalBAST'))
+
+WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Bulan'))
+
+WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Tahun'), '2023')
 
 WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Data'))
 

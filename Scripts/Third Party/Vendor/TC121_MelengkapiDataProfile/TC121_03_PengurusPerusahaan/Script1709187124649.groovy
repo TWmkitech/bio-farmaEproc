@@ -47,7 +47,7 @@ WebUI.uploadFile(uploadIdentitas, filePath)
 WebUI.setText(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_NPWP'), '092542943407000')
 
 if (WebUI.verifyElementPresent(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Upload_Npwp'), 5, FailureHandling.OPTIONAL)) {
-    TestObject uploadNpwp = findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_UploadNPWP')
+    TestObject uploadNpwp = findTestObject('Third Party/Data Profile/PengurusPerusahaan/Upload_Npwp')
 
     // Membentuk path lengkap file yang ingin diunggah
     def filePathNpwp = projectDir + '/Document/ThirdParty/PengurusPerusahaan/npwp.jpg'

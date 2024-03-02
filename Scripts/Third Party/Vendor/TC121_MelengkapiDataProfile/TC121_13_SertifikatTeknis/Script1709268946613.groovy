@@ -36,18 +36,21 @@ WebUI.setText(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_N
 
 WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalTerbit_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalTerbit_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku_Bulan'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku_Data'))
 
 WebUI.setText(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_SubBidangSertifikasi'), 'Bidang Automation')
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/SertifikasiTeknis/Upload_Sertifikat')
-
-// Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
+
+TestObject uploadFile = findTestObject('Third Party/Data Profile/SertifikasiTeknis/Upload_Sertifikat')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/SertifikasiTeknis/sertifikat.jpg'
