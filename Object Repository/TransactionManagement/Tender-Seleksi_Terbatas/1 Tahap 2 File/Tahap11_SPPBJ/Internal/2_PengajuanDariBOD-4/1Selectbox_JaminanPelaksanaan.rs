@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1Selectbox_JaminanPelaksanaan</name>
+   <tag></tag>
+   <elementGuidId>93e2017d-9de5-4cbd-8148-15f559c03019</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[11]/div[2]/div[2]/div/div/div/div[2]/form/div/div/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col > div.react-select.css-b62m3t-container > div.select__control.css-13cymwt-control > div.select__value-container.select__value-container--has-value.css-hlgwow > div.select__input-container.css-19bb58m</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>254ab447-9a32-4e41-979d-e843726827a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__input-container css-19bb58m</value>
+      <webElementGuid>0edc8191-5969-4826-b745-c084489a1bdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;mb-1 border  card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;mb-1 border card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;mb-2 row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control css-13cymwt-control&quot;]/div[@class=&quot;select__value-container select__value-container--has-value css-hlgwow&quot;]/div[@class=&quot;select__input-container css-19bb58m&quot;]</value>
+      <webElementGuid>19b903da-8270-4f84-ba6f-4fa794d0d2d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[11]/div[2]/div[2]/div/div/div/div[2]/form/div/div/div/div/div/div[2]</value>
+      <webElementGuid>5433c24d-5431-4801-9068-3a19f305e963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TIDAK'])[1]/following::div[1]</value>
+      <webElementGuid>3e8b5f4d-77c8-49ac-96d9-42c122f378b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diperlukan Jaminan Pelaksanaan ?'])[1]/following::div[6]</value>
+      <webElementGuid>2d3e9233-f22e-4362-8f55-28628673c415</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entitas'])[1]/preceding::div[5]</value>
+      <webElementGuid>89420d79-62b0-4d88-a611-a2f88798620f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/div/div[2]</value>
+      <webElementGuid>b625d6a7-ee50-4881-8a9d-a4b75becfe9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_PersetujuanBeritaAcaraPenetapanPemenang</name>
+   <tag></tag>
+   <elementGuidId>bd55e2ea-6e8c-4ee4-91b7-280b4076f8f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'button' and @class = 'btn-icon btn btn-warning' and (text() = '  Persetujuan Berita Acara Penetapan Pemenang' or . = '  Persetujuan Berita Acara Penetapan Pemenang')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.needs-validation.av-valid > button.btn-icon.btn.btn-warning</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fbc5ad7e-3c8a-41c8-9057-b68f531bd3cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>713964e7-f24c-4d08-a779-dc6f448150b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-icon btn btn-warning</value>
+      <webElementGuid>61f3831c-8deb-40ee-b67d-e3ff86dfb8b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Persetujuan Berita Acara Penetapan Pemenang</value>
+      <webElementGuid>c399e0cc-dee6-4c1b-a303-d3db79ab49a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/button[@class=&quot;btn-icon btn btn-warning&quot;]</value>
+      <webElementGuid>79af1605-3bc4-46ed-8c14-3bb0eec9570d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[16]</value>
+      <webElementGuid>b641f0db-5f6d-4f85-88b4-fc0d0a51516a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[10]/form/button</value>
+      <webElementGuid>a1f58dcf-b4ff-4773-a083-84ddf4e020fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/following::button[1]</value>
+      <webElementGuid>de405a3f-8d1b-4102-883c-51234c56fdf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL'])[2]/following::button[2]</value>
+      <webElementGuid>51f15a00-ac5e-4937-ad1b-a8cae969e7aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Persetujuan'])[1]/preceding::button[1]</value>
+      <webElementGuid>1527ec0c-453d-4ed8-9b07-78fa5e454668</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Riwayat Persetujuan'])[1]/preceding::button[1]</value>
+      <webElementGuid>23ccc8db-3fd0-464c-8d4c-273ac77fdb18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Persetujuan Berita Acara Penetapan Pemenang']/parent::*</value>
+      <webElementGuid>87390c34-d78f-4641-a45a-0119a8778187</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>a6c983b9-a4c8-4d04-a7f0-e420020126da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '  Persetujuan Berita Acara Penetapan Pemenang' or . = '  Persetujuan Berita Acara Penetapan Pemenang')]</value>
+      <webElementGuid>c4f41201-b194-466a-929d-25aed5042f59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

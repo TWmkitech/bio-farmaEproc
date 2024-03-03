@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Anchor_Jaminan</name>
+   <tag></tag>
+   <elementGuidId>3becec07-facc-4650-adf3-355310e9fdd2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/ul/li[6]/ul/div/li[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ab95e1ec-7507-4d65-b3d1-1922640b031e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/lcm/guarantee</value>
+      <webElementGuid>10d758c9-b810-46af-a8af-7d3fd55cd355</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jaminan</value>
+      <webElementGuid>ac0d694c-ffef-4661-8e7c-1e3da1aad8a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-dark&quot;]/div[@class=&quot;scrollbar-container main-menu-content ps ps--active-y&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub open sidebar-group-active&quot;]/ul[@class=&quot;menu-content&quot;]/div[@class=&quot;collapse show&quot;]/li[@class=&quot;nav-item&quot;]/a[1]</value>
+      <webElementGuid>647bacd6-f11a-415a-a411-74d5e0a7e163</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/ul/li[6]/ul/div/li[5]/a</value>
+      <webElementGuid>bb7ce40c-a4f9-40ee-9797-e25784491653</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repository'])[1]/following::a[1]</value>
+      <webElementGuid>2297187c-da17-4161-bfcf-1818c73b7ec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring Kontrak'])[1]/following::a[2]</value>
+      <webElementGuid>99f97330-3964-4b3a-abab-dea04a99aa71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order &amp; Catalog Management'])[1]/preceding::a[1]</value>
+      <webElementGuid>eb3fc66f-6c5b-4eec-826d-33b1d09e93d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/lcm/guarantee')]</value>
+      <webElementGuid>1a0eed75-c742-4b96-b3a4-a8e4de1cd8aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/div/li[5]/a</value>
+      <webElementGuid>7b1ccc76-b770-44c9-9612-f1e6c42ebe4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/lcm/guarantee' and (text() = 'Jaminan' or . = 'Jaminan')]</value>
+      <webElementGuid>b7606ad6-6c6b-4877-b0e3-6ec170a53d37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

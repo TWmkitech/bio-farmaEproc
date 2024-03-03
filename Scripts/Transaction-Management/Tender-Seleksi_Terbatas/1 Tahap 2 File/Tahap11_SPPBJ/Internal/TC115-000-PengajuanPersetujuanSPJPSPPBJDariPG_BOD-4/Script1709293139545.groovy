@@ -17,3 +17,136 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-4'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/0_Anchor_TransactionManagement'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/2_Anchor_Tender-Seleksi_Terbatas'))
+
+WebUI.delay(5)
+
+TestObject targetElement = findTestObject('Object Repository/TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses')
+
+WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
+
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/Custom_Icon_Proses'), 
+    [('index') : 3], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/Menu_TahapanSPPBJ'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1Selectbox_JaminanPelaksanaan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1Selectbox_JaminanPelaksanaan_YA'))
+
+//WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Textbox_PersentaseJaminan'), 
+//    Keys.chord(Keys.ARROW_DOWN))
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Textbox_PersentaseJaminan'))
+
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Textbox_PersentaseJaminan'), 
+    '6')
+
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Textbox_Pajak'))
+
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Textbox_Pajak'), 
+    '12')
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Date_TanggalSPJP'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Date_TanggalSPJP_17'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Date_BerlakuSampai'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E1JP_Date_BerlakuSampai_23'))
+
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E2JP_Textbox_PersentaseJaminan'))
+
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E2JP_Textbox_PersentaseJaminan'), 
+    '6')
+
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E2JP_Textbox_Pajak'))
+
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E2JP_Textbox_Pajak'), 
+    '12')
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E2JP_Date_TanggalSPJP'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E2JP_Date_TanggalSPJP_15'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E2JP_Date_BerlakuSampai'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1E2JP_Date_BerlakuSampai_30'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1JP_button_Simpan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(10)
+
+WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/Text_PenunjukanPenyediaBarangJasa'), 
+    5)
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1SPPBJ_Date'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1SPPBJ_Date_19'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1SPPBJ_Selectbox_Tembusan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1SPPBJ_Selectbox_Tembusan_1DirHumCapBIOF'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/1SPPBJ_button_Simpan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2Selectbox_JaminanPelaksanaan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2Selectbox_JaminanPelaksanaan_YA'))
+
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2E1JP_Textbox_PersentaseJaminan'))
+
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2E1JP_Textbox_PersentaseJaminan'), 
+    '6')
+
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2E1JP_Textbox_Pajak'))
+
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2E1JP_Textbox_Pajak'), 
+    '12')
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2E1JP_Date_TanggalSPJP'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2E1JP_Date_TanggalSPJP_16'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2E1JP_Date_BerlakuSampai'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2E1JP_Date_BerlakuSampai_30'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2JP_button_Simpan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2SPPBJ_Date'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2SPPBJ_Date_20'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2SPPBJ_Selectbox_Tembusan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2SPPBJ_Selectbox_Tembusan_DirHumCapBIOF'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/2SPPBJ_button_Simpan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/button_Ajukan Persetujuan'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap11_SPPBJ/Internal/2_PengajuanDariBOD-4/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(10)
+
+WebUI.closeBrowser()
+

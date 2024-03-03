@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Anchor_Repository</name>
+   <tag></tag>
+   <elementGuidId>da686b3b-14dc-4915-bc9d-ff7f70294d17</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/ul/li[6]/ul/div/li[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7343f48f-a00b-4529-85a8-336a32062bf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/lcm/repository</value>
+      <webElementGuid>b8d97ee9-06ce-4e09-82c7-601393d99a4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Repository</value>
+      <webElementGuid>893a13d1-4ccb-4d80-9639-c6f5757f3a20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-dark&quot;]/div[@class=&quot;scrollbar-container main-menu-content ps ps--active-y&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub open sidebar-group-active&quot;]/ul[@class=&quot;menu-content&quot;]/div[@class=&quot;collapse show&quot;]/li[@class=&quot;nav-item&quot;]/a[1]</value>
+      <webElementGuid>b0d93549-820a-4cfe-af83-eb80032601a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/ul/li[6]/ul/div/li[4]/a</value>
+      <webElementGuid>5ef6ee5f-5ef6-4100-b805-3f3a840a87b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring Kontrak'])[1]/following::a[1]</value>
+      <webElementGuid>b129678d-eba5-48ec-b0aa-d83ce54fcfd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontrak &amp; Amandemen'])[1]/following::a[2]</value>
+      <webElementGuid>ec604df8-e461-4edd-b593-16b9030cdf8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jaminan'])[1]/preceding::a[1]</value>
+      <webElementGuid>3db0fdd3-43ea-440c-b3ba-d6fa207df7a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/lcm/repository')]</value>
+      <webElementGuid>e73393aa-6820-4ed7-8d05-91576d656fdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/div/li[4]/a</value>
+      <webElementGuid>264dfa97-6525-4734-a307-bf3b354fe4da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/lcm/repository' and (text() = 'Repository' or . = 'Repository')]</value>
+      <webElementGuid>8b859f5c-fac6-4bec-bb11-53ef589b89fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

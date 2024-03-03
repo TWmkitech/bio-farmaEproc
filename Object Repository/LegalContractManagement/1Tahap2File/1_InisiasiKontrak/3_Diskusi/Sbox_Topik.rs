@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sbox_Topik</name>
+   <tag></tag>
+   <elementGuidId>15c8eefe-2933-40a1-92bf-bdbf350d3895</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.select__value-container.css-hlgwow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div[2]/div/div[2]/div[2]/div/div/form/div/div[2]/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0cda255b-4813-47d9-88b2-e88b79c4bfd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__value-container css-hlgwow</value>
+      <webElementGuid>51d6b31f-0111-4f44-aaf7-61f449f3c396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih topik</value>
+      <webElementGuid>33b3eb75-48d8-439e-bc6e-ecadda7f9c8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 col-md-10&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;align-items-start row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;d-flex align-items-center row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control css-13cymwt-control&quot;]/div[@class=&quot;select__value-container css-hlgwow&quot;]</value>
+      <webElementGuid>ff55b84c-9fac-44cc-b1eb-f747887675c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div[2]/div/div[2]/div[2]/div/div/form/div/div[2]/div/div[2]/div/div/div</value>
+      <webElementGuid>37616876-fe15-4bb0-9d46-97448c3282c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topik'])[1]/following::div[4]</value>
+      <webElementGuid>c77794fd-9d94-4567-a76d-a5da00f87d1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat Topik'])[1]/following::div[7]</value>
+      <webElementGuid>1cda163c-aa9e-4a17-b9d5-c3219ef04907</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drop Files here or click to upload'])[1]/preceding::div[11]</value>
+      <webElementGuid>413ad9ea-337e-4d69-9dbd-0dbcd9213ac3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div/div[2]/div/div/div</value>
+      <webElementGuid>29b06517-4911-483c-89ba-add20c4a145e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pilih topik' or . = 'Pilih topik')]</value>
+      <webElementGuid>6aa54845-8885-4787-8154-9e28b3e22221</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
