@@ -61,3 +61,5 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.delay(10)
 
+WebUI.closeBrowser()
+

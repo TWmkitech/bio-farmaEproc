@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), '11001868')
 
-WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'bi0farma')
+WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'password.1')
 
 WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 
