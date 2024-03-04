@@ -25,4 +25,4 @@ println(('__________I am inside parameterize object index product : ' + intindex
 
 def xpath = ('//table[@id="as-react-datatable"]/tbody/tr[' + intindex) + ']/td[9]/span[2]/a'
 
-WebUI.click(findTestObject('Object Repository/LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Custom_Icon_Detail', [('list') : intindex]))
+WebUI.click(findTestObject('Object Repository/LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/Custom_Icon_Detail', [('list') : intindex]))

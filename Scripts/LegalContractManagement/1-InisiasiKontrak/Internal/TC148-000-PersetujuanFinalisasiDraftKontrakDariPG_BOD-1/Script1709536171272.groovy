@@ -17,13 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-int intindex = index
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-1'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
-intindex = (0 + index)
+WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_LegalContractManagement'))
 
-println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
+WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_InisiasiKontrak'))
 
-def xpath = ('(.//*[normalize-space(text()) and normalize-space(.)="Draft"])[' + intindex) + ']/following::*[name()="svg"][1]'
+WebUI.delay(5)
 
+TestObject targetElement = findTestObject('Object Repository/LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Icon_Rincian')
 
-WebUI.click(findTestObject('Object Repository/LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/Custom_Icon_UbahDraftKontrak', [('list') : intindex]))
+WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/6_FinalisasiDraftKontrak/Icon_UbahDraftKontrak'))
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/5_PersetujuanDraftDariPG/Rbutton_Setuju'))
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/5_PersetujuanDraftDariPG/button_Kirim'))
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(15)
+
+WebUI.closeBrowser()
+

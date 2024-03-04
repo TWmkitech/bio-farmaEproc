@@ -17,13 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-int intindex = index
+WebUI.openBrowser(GlobalVariable.UrlStaging)
 
-intindex = (0 + index)
+WebUI.maximizeWindow()
 
-println(('__________I am inside parameterize object index product : ' + intindex) + '__________')
+WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), '11000003')
 
-def xpath = ('(.//*[normalize-space(text()) and normalize-space(.)="Draft"])[' + intindex) + ']/following::*[name()="svg"][1]'
+WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'bi0farma')
 
+WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 
-WebUI.click(findTestObject('Object Repository/LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/Custom_Icon_UbahDraftKontrak', [('list') : intindex]))
+WebUI.verifyElementText(findTestObject('Login/internal/Verify_Username'), 'I.G.N. Suharta Wijaya')
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/Icon_Key'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/button_Change Roles'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/Selectbox_ChangeRoles'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/Selectbox_ChangeRoles_1'))
+
+WebUI.click(findTestObject('TransactionManagement/Global-TestObject/ChangeRoles/button_Ganti'))
+
