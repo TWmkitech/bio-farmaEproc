@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon_Proses_Entitas</name>
+   <tag></tag>
+   <elementGuidId>f32fd041-7a7c-4d0c-bb53-74db754f3669</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/tm/appointment?process&amp;uuid=6eac740c-82b6-451e-b91a-a3f17f73e4c7']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[3]/div/div/div/div[1]/div/div/div/div[2]/div/div/table/tbody/tr[6]/td[6]/span[1]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tm/appointment?process&amp;uuid=6eac740c-82b6-451e-b91a-a3f17f73e4c7</value>
+      <webElementGuid>4133242f-7805-4fd2-8997-d37ac9bc964f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>620e261e-03d2-4571-a28f-deb07e3d54ad</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
