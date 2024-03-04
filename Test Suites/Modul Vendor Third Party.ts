@@ -15,7 +15,7 @@
       <guid>c8f38052-45b4-4799-a6bb-4ba752472dc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/TC120_Login Pra-Registrasi Calon Vendor</testCaseId>
+      <testCaseId>Test Cases/Third Party/Vendor/TC120_Login Pra-Registrasi Calon Vendor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -26,10 +26,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c991c719-5b89-4e58-9cce-601a4637b27f</guid>
+      <guid>6e978d6c-a863-4b26-bd28-49b8ac4f9f10</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_11_BarangJasaMampuPasok</testCaseId>
+      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_02_PemegangSaham</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f169596-ded3-43a2-a7f7-401715ebec81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_03_PengurusPerusahaan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -40,10 +47,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e978d6c-a863-4b26-bd28-49b8ac4f9f10</guid>
+      <guid>56a0f88f-fd88-4418-97c5-1414244bd825</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_02_PemegangSaham</testCaseId>
+      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_05_StrukturOrganisasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -82,10 +89,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f169596-ded3-43a2-a7f7-401715ebec81</guid>
+      <guid>c991c719-5b89-4e58-9cce-601a4637b27f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_03_PengurusPerusahaan</testCaseId>
+      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_11_BarangJasaMampuPasok</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -103,10 +110,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>56a0f88f-fd88-4418-97c5-1414244bd825</guid>
+      <guid>11e4526b-e87a-4826-be6f-91a433b43cbc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_05_StrukturOrganisasi</testCaseId>
+      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_14_InformasiPajak</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -163,13 +170,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_22_PermintaanVerifikasi</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>11e4526b-e87a-4826-be6f-91a433b43cbc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_14_InformasiPajak</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -34,6 +34,8 @@ WebUI.setText(findTestObject('Third Party/Data Profile/TDPNIB/Field_NomorIzin'),
 
 WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_TanggalTerbit_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_TanggalTerbit_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Checklist_BerlakuSelama'))

@@ -40,9 +40,13 @@ WebUI.setText(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_NamaP
 
 WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalTerbit'))
 
+WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalTerbit_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalTerbit_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalBerlaku'))
+
+WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalBerlaku_Bulan'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalBerlaku_Data'))
 

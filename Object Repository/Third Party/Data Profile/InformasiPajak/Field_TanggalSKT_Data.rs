@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[4]/div[2]/div/div[2]/div/span[12]</value>
+         <value>/html/body/div[3]/div[2]/div/div[2]/div/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>344e07ca-6df2-43e8-830d-240873cfc380</webElementGuid>
+      <webElementGuid>1dbfb58a-2b98-4e9e-9be7-0495f36f8e39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1709262337612</value>
-      <webElementGuid>3841cbfc-c110-42e4-afd7-72bc4186ccf8</webElementGuid>
+      <webElementGuid>7e1eb92c-df8f-417a-995b-c960dd6b3562</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

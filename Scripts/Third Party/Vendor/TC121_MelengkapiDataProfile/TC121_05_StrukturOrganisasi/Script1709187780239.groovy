@@ -32,9 +32,11 @@ def filePath = projectDir + '/Document/ThirdParty/StrukturOrganisasi/struktur.pn
 
 WebUI.uploadFile(uploadStruktur, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Button_tanggal'))
+WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Field_TanggalTerbit'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/button_pilihtanggal'))
+WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Field_TanggalTerbit_Bulan'))
+
+WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Field_TanggalTerbit_Data'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Button_Simpan'))
 

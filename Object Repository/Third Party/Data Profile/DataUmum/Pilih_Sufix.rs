@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/form/div[2]/div[3]/div/div/div[2]/div</value>
+         <value>/html/body/div/div[1]/div/div[2]/div/div/div/div/div/form/div[2]/div[3]/div[1]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>dd8eebca-0bc4-4260-b416-39aa9bb55b59</webElementGuid>
+      <webElementGuid>23a2198e-8aa6-4064-a3a0-d0f7498ad9a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select__indicator select__dropdown-indicator css-15lsz6c-indicatorContainer</value>
-      <webElementGuid>2d1c0df5-43a0-460b-9d2b-c30a1f2f1ee0</webElementGuid>
+      <webElementGuid>f7f03ef8-3cc6-49db-9f7d-6745f531c07b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>489bbb58-ca63-4a8c-aef1-047782a8a971</webElementGuid>
+      <webElementGuid>df085f74-4125-4e95-8a50-8f6569944100</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,54 +46,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9 col-md-9 col-lg-9 col-xl-9&quot;]/div[@class=&quot;mb-4 mt-4 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;ps-3 pe-3 card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control select__control--is-focused select__control--menu-is-open css-t3ipsp-control&quot;]/div[@class=&quot;select__indicators css-1wy0on6&quot;]/div[@class=&quot;select__indicator select__dropdown-indicator css-15lsz6c-indicatorContainer&quot;]</value>
-      <webElementGuid>8a9aabec-6aa4-4d76-910a-80ec9a586acd</webElementGuid>
+      <webElementGuid>5638008b-156d-4ae0-a3eb-3bb50ddcae1b</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/form/div[2]/div[3]/div/div/div[2]/div</value>
-      <webElementGuid>09fedd41-3778-4e89-b667-a61707bbb562</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sufix'])[1]/following::div[3]</value>
-      <webElementGuid>2ea891b7-425e-415f-bb14-73c3847b26c6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prefix'])[1]/following::div[14]</value>
-      <webElementGuid>43b7a3e6-53c8-47fc-8516-d44cd4970487</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Persero'])[1]/preceding::div[1]</value>
-      <webElementGuid>48a45171-098f-4b76-8075-599b00cf5f90</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Persero Tbk'])[1]/preceding::div[2]</value>
-      <webElementGuid>4ae2a9f3-b851-45e9-81bd-8f677f5c5b4d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/div/div[2]/div</value>
-      <webElementGuid>979b418d-99b2-46d6-b120-a4c67a9c7dcf</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

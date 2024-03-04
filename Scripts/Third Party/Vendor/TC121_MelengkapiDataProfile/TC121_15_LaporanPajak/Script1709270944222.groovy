@@ -34,12 +34,14 @@ WebUI.setText(findTestObject('Third Party/Data Profile/LaporanPajak/Field_Bulan'
 
 WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Field_TanggalLaporan'))
 
+WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Field_TanggalLaporan_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Field_TanggalLaporan_Data'))
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/InformasiPajak/Upload_NPWP')
+TestObject uploadFile = findTestObject('Third Party/Data Profile/LaporanPajak/Upload_BuktiSetor')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/LaporanPajak/buktisetor.jpg'

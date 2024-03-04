@@ -40,6 +40,8 @@ WebUI.click(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_SufixN
 
 WebUI.click(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_TanggalAkta'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_TanggalAkta_Bulan'))
+
 WebUI.click(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_TanggalAkta_Data'))
 
 WebUI.setText(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_NomorAkta'), '0098509375')
@@ -61,6 +63,8 @@ WebUI.uploadFile(uploadAkta, filePathAkta)
 WebUI.setText(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_NoPengesahan'), '10092542943407544')
 
 WebUI.click(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_TanggalPengesahan'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_TanggalPengesahan_Bulan'))
 
 WebUI.click(findTestObject('Third Party/Data Profile/AktaPerusahaan/Field_TanggalPengesahan_Data'), FailureHandling.STOP_ON_FAILURE)
 

@@ -50,10 +50,9 @@ WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_
 
 WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_JabatanPenandatangan'), 'Kepala Cabang')
 
-TestObject uploadSurat = findTestObject('Third Party/Data Profile/CabangBagianDivisi/Upload_SuratPenandatangan')
-
-// Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
+
+TestObject uploadSurat = findTestObject('Third Party/Data Profile/CabangBagianDivisi/Upload_SuratPenandatangan')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/CabangBagianDivisi/surat.png'

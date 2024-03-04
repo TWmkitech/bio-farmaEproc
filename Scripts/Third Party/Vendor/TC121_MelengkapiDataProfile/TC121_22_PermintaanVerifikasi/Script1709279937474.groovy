@@ -35,5 +35,5 @@ WebUI.uploadFile(uploadFile, filePath)
 
 WebUI.click(findTestObject('Third Party/Data Profile/PermintaanVerifikasi/Button_KirimPermintaanVerifikasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Data Profile/PermintaanVerifikasi/Button_KonfirmasiOK'))
 
