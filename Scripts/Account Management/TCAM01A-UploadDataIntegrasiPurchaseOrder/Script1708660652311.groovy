@@ -38,6 +38,8 @@ WebUI.click(findTestObject('Account Management/Purchase Order/Button_PurchaseOrd
 
 WebUI.click(findTestObject('Account Management/Purchase Order/Button_Unggah'))
 
+WebUI.click(findTestObject('Account Management/Purchase Order/Button_DownloadTemplatePurchaseOrder'))
+
 WebUI.delay(3)
 
 WebUI.waitForElementPresent(findTestObject('Account Management/Purchase Order/Button_ChooseFile'), 0)
