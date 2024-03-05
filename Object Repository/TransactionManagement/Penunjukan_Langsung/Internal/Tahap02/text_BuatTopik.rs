@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_BuatTopik</name>
+   <tag></tag>
+   <elementGuidId>1be3b268-c90f-4b7a-92f7-a502ebb724dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[2]/div/div[4]/div[2]/form/div/div[1]/div/textarea</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'aanwijzing_chat_message']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>69c77e83-c0ff-4b5e-b644-81502a661b85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>aanwijzing_chat_message</value>
+      <webElementGuid>b34151bd-f31c-4e24-bfd9-e46b4bebde12</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

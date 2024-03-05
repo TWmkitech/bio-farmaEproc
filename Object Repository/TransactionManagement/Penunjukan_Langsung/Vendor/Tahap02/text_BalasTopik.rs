@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_BalasTopik</name>
+   <tag></tag>
+   <elementGuidId>b70df124-040c-4296-bc87-a323c19c8b08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[2]/div[2]/div[2]/div/div/div[4]/div/div[${list}]/div[2]/form/div[1]/div/textarea</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'aanwijzing_message']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>3f6864d4-2fea-49ba-b04b-47c583ea3476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>aanwijzing_message</value>
+      <webElementGuid>0a9ea282-0848-431a-82ba-069da354a819</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

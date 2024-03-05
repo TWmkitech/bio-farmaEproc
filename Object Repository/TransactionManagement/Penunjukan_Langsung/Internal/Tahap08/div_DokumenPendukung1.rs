@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DokumenPendukung1</name>
+   <tag></tag>
+   <elementGuidId>2aa30ae8-b30e-4ef1-af42-bc2a4c2d98d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Dokumen Pendukung Penetapan 1' or . = 'Dokumen Pendukung Penetapan 1') and @id = 'react-select-6-option-1']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div[4]/div[1]/div[1]/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f44c650f-b551-420c-a6e2-f0f44d477841</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dokumen Pendukung Penetapan 1</value>
+      <webElementGuid>e103b662-1c45-4fae-a118-c22170044a19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-6-option-1</value>
+      <webElementGuid>7b0eeb6d-b905-4771-bdaa-55ac8e9f4b59</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

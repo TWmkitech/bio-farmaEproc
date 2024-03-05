@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), '12000079')
 
-WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'ul4ul4ul1ul1')
+WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'password.1')
 
 WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 
@@ -41,3 +41,4 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/select_Holding_BOD-2'))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/button_Ganti'))
+

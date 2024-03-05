@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_Proses_Holding</name>
+   <tag></tag>
+   <elementGuidId>09313637-6873-4f4a-be6f-c0f897f47306</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>xpath1709091343837</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[3]/div/div/div/div[1]/div/div/div/div[2]/div/div/table/tbody/tr[7]/td[6]/span[1]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>5bf34c95-1d8c-41e5-b23d-20505324ee48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709091343837</value>
+      <webElementGuid>fdd15a2f-5242-4fe4-99e2-0764d8829df8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

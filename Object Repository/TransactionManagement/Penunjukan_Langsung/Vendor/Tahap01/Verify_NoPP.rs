@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_NoPP</name>
+   <tag></tag>
+   <elementGuidId>f919b8fb-382a-4b10-817f-3cdba66ddfba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mb-3.row > div.col</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[2]/div/div/div/div/div[2]/div/div[1]/div[1]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'PP/JPROC/2024/000075
+' or . = 'PP/JPROC/2024/000075
+')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a64aeabd-8e93-442d-86b2-c5fd3464f4bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col</value>
+      <webElementGuid>6adf9a7a-1bdf-48aa-99ba-4558fad7fdac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PP/JPROC/2024/000075
+</value>
+      <webElementGuid>3853f00a-b91b-4a1d-be14-e83d862b78c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-3 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;ps-3 pe-3 pt-3 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;p-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg col-md-12 mb-md-3 mb-lg-0 col&quot;]/div[@class=&quot;mb-3 row&quot;]/div[@class=&quot;col&quot;]</value>
+      <webElementGuid>64c10cbc-fc8a-40fb-a799-931e6cb1bcbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>6ebbf0c2-7e95-4264-9db3-7411efe91d69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>d0c6836b-075c-46ba-9b11-f8c0bacc5880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>35efcc29-7d66-4e29-96da-4ed05c4dcc24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>530ecd1c-3433-443b-92f5-ef380678d23c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>85748251-7d7e-4836-9dac-52ce41473909</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>91c4c5d1-79e0-419f-a197-8af8deab1239</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

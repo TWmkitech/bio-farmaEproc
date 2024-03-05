@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_HoldTahapan</name>
+   <tag></tag>
+   <elementGuidId>18a73614-d604-4aa7-86ff-93b51c6fb9e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[2]/div/div/div/div/div[2]/div/div[1]/div[7]/div/div/h6</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div[2]/div/div/div/div/div[2]/div/div[1]/div[7]/div/div/h6[count(. | //h6[(text() = 'Tahapan saat ini sedang di-Hold !' or . = 'Tahapan saat ini sedang di-Hold !') and @class = 'text-light']) = count(//h6[(text() = 'Tahapan saat ini sedang di-Hold !' or . = 'Tahapan saat ini sedang di-Hold !') and @class = 'text-light'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>681eae6c-36ed-4b9f-b496-67c6244edeb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tahapan saat ini sedang di-Hold !</value>
+      <webElementGuid>654b0849-b8c2-40d7-b032-61a853721b46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-light</value>
+      <webElementGuid>193d0c5c-37cd-428b-9756-6f674c226fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div[2]/div/div/div/div/div[2]/div/div[1]/div[7]/div/div/h6</value>
+      <webElementGuid>fe43b314-ea1f-4216-aaf8-89cbaa1273ac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

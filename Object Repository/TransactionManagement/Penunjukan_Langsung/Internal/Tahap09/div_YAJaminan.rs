@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_YAJaminan</name>
+   <tag></tag>
+   <elementGuidId>2dcf40fa-dd28-4105-8dd7-51565390b3dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[9]/div[2]/div[2]/div/div[1]/div/div[2]/form/div[1]/div/div[1]/div[2]/div/div/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'react-select-6-option-0' and (text() = 'YA' or . = 'YA')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26c40243-e41c-43ee-bbd2-448f39bb348b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-6-option-0</value>
+      <webElementGuid>9e20bd8d-26de-4a68-af61-3a79cc4de5ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>YA</value>
+      <webElementGuid>f8fde79f-c6b8-4fef-b764-15862b4f8f25</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

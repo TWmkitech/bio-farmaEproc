@@ -79,4 +79,14 @@
       <initValue>'bi0farma'</initValue>
       <name>PassVendor</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://vendor-dev.digital-healthcare.id/'</initValue>
+      <name>UrlVendorDev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://eproc-dev.digital-healthcare.id/'</initValue>
+      <name>UrlEprocDev</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
