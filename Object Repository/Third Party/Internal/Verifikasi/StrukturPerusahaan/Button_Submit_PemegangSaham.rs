@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Daftar</name>
+   <name>Button_Submit_PemegangSaham</name>
    <tag></tag>
-   <elementGuidId>79c22530-2af9-412a-a11f-0375dc5f2537</elementGuidId>
+   <elementGuidId>1f4560f7-68ef-487a-8ee6-913b32110697</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div/div[1]/div/div/form/div[14]/button</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/form/div[2]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

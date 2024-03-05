@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[4]</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[1]/div[2]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>12a2c3b6-2503-4b88-8f02-b2f346e5b432</webElementGuid>
+      <webElementGuid>feaebb1b-ef76-4d81-9738-44ee972594c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>data-index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>c6271d3a-ea0a-4e34-af4e-d4fad0625dde</webElementGuid>
+      <webElementGuid>28f69229-1d69-422d-923b-a13d8bafdfae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>d22f7ca8-aaa4-4e94-b8c8-789817dc9e33</webElementGuid>
+      <webElementGuid>e54c6542-301d-4a27-9fc9-431bc4ac167a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>af765cc6-9e4e-46d9-9199-aec0c4afd5de</webElementGuid>
+      <webElementGuid>ca9690ff-a4ac-4fbc-861a-faa0d267d689</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>07b7e0f6-28e6-42fb-b878-069f1377dc22</webElementGuid>
+      <webElementGuid>d3051c45-bc99-4e23-9009-d3a52927faf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rts___tab rts___btn</value>
-      <webElementGuid>2a5183b2-6421-4475-b475-f74bcd765c40</webElementGuid>
+      <webElementGuid>672403f2-f8be-4495-bf88-17c96bc9a1ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c283b679-423a-4c80-aa01-b3a71b16b757</webElementGuid>
+      <webElementGuid>46420ce5-2cf8-4f12-983e-6686d0bf8a93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Struktur Perusahaan</value>
-      <webElementGuid>8083767e-57fe-4d89-89aa-09b6a8503c7c</webElementGuid>
+      <webElementGuid>1546c4c8-1ce1-4fcc-9ac4-82d944cd8d0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,78 +86,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[1]/div[@class=&quot;rts___tabs___container&quot;]/div[@class=&quot;rts___tabs hide___rts___tabs___scroll&quot;]/button[@class=&quot;rts___tab rts___btn&quot;]</value>
-      <webElementGuid>a6dec029-5cfd-4688-aaf8-d5971185c9c8</webElementGuid>
+      <webElementGuid>d8158f92-2df9-4c28-a90a-03017b4218e4</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>b30f129d-1002-4490-950b-ed7d470b1110</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div/div[2]/button[2]</value>
-      <webElementGuid>8a0fa9b5-caca-4639-b0b3-0df043ada373</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Perusahaan'])[1]/following::button[1]</value>
-      <webElementGuid>817888a7-e50f-47d5-bd73-37dcf47b4d3f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi Data Calon Penyedia'])[1]/following::button[3]</value>
-      <webElementGuid>61869037-10ec-4290-be87-4a5e2744b353</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Legalitas'])[1]/preceding::button[1]</value>
-      <webElementGuid>57640741-e624-4228-98f2-8b7c59844fa4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Barang / Jasa'])[1]/preceding::button[2]</value>
-      <webElementGuid>8731dfb0-945a-49ec-a2fa-61e09cd3d52e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Struktur Perusahaan']/parent::*</value>
-      <webElementGuid>026aac5f-67a2-449e-805b-131197181e1c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/button[2]</value>
-      <webElementGuid>f9877c27-5dfe-4aa2-b500-ae16f2a66645</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Struktur Perusahaan' or . = 'Struktur Perusahaan')]</value>
-      <webElementGuid>3d8622cd-56f1-463f-abf2-635082b8cd2d</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

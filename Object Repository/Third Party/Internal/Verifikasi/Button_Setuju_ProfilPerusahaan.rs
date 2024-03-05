@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[19]</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[1]/div/div/div/div/div/div/div[3]/div/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5919d409-aa0d-41a3-be31-40cb4016358d</webElementGuid>
+      <webElementGuid>8d39f30d-3ffa-42db-bfa2-9066e6a430ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>286b4ab4-45e1-4312-bf43-cffe59a3c2f5</webElementGuid>
+      <webElementGuid>4ee56f8c-6968-4990-b074-f5e3fe5f45a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success</value>
-      <webElementGuid>ea9b6a0d-0491-42d0-80d3-61d9c38bd853</webElementGuid>
+      <webElementGuid>12d6f1fd-26e9-4e01-9eda-f3e99195f9a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Setuju</value>
-      <webElementGuid>119eb3ca-4865-4a9d-b10e-926fb301f10e</webElementGuid>
+      <webElementGuid>1a7855d6-1bde-4e5d-b163-5ed80271fef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,62 +54,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;mt-2 row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mt-4&quot;]/div[@class=&quot;sc-aXZVg emfxRd&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
-      <webElementGuid>cbf37fe4-6d13-4e68-88bc-88602a7f57c5</webElementGuid>
+      <webElementGuid>63564600-5c39-4936-836e-c75b7ad44a96</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[19]</value>
-      <webElementGuid>34b6cf53-e2fa-4c0b-9926-261e5e9e58cc</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div/div[3]/div/button[2]</value>
-      <webElementGuid>3e834a39-3b83-4980-b02f-c46507e06353</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='©2024 - Biofarma Group, Hak Cipta dilindungi undang-undang'])[1]/preceding::button[1]</value>
-      <webElementGuid>272e4217-7df8-4cc1-a6d5-6e7d12107230</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sistem E-Procurement Biofarma Group'])[1]/preceding::button[1]</value>
-      <webElementGuid>d7eb4be9-c361-4ca7-b450-3fcb43d49852</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Setuju']/parent::*</value>
-      <webElementGuid>c0621c8b-59b6-4317-8896-fba73c03a20f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/button[2]</value>
-      <webElementGuid>6a2805fb-3b1f-4aac-952b-9cf309f78119</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = ' Setuju' or . = ' Setuju')]</value>
-      <webElementGuid>421d9080-f954-4a8b-9501-c67e3dc14498</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

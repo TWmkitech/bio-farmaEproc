@@ -60,10 +60,10 @@ WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/DataUmum/Fi
 
 WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_EmailBackup'), 'automatedtestbackup@yopmail.com')
 
-TestObject uploadField = findTestObject('Third Party/Data Profile/DataUmum/Upload_Logo')
-
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
+
+TestObject uploadField = findTestObject('Third Party/Data Profile/DataUmum/Upload_Logo')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/DataUmum/logo.png'

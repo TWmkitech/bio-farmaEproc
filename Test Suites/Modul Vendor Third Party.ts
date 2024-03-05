@@ -166,7 +166,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c2637dca-a947-4647-a6f1-f5656729fa20</guid>
+      <guid>108993cf-0c1b-4d9c-af1a-4cc2af5f08a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_22_PermintaanVerifikasi</testCaseId>
