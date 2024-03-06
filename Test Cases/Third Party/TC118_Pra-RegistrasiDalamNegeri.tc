@@ -4,5 +4,9 @@
    <name>TC118_Pra-RegistrasiDalamNegeri</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
    <testCaseGuid>3ea37afa-442f-4405-ab50-1f4e959f333e</testCaseGuid>
+=======
+   <testCaseGuid>2ed926c9-2817-4d1a-b4c6-0506efc4daaa</testCaseGuid>
+>>>>>>> bfdaad8942c0ac248a5ff4c2289d703a0d91c953
 </TestCaseEntity>

@@ -17,27 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
-WebUI.acceptAlert()
+CustomKeywords.'login.admin.login'(GlobalVariable.Admin, GlobalVariable.Pass)
 
-WebUI.acceptAlert()
-=======
-WebUI.back()
+WebUI.maximizeWindow()
 
-WebUI.back()
->>>>>>> bfdaad8942c0ac248a5ff4c2289d703a0d91c953
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_UserManagement'))
 
-WebUI.acceptAlert()
+WebUI.delay(5)
 
-WebUI.acceptAlert()
+WebUI.scrollToElement(findTestObject('User-Management/Global-TestObject/Anchor_Organisasi'), 5)
 
-WebUI.acceptAlert()
+WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/Anchor_Organisasi'), 5)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_Organisasi'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('User-Management/Organisasi/AktifkanKembaliDataOrganisasi/Menu_NonAktif'))
 
-WebUI.acceptAlert()
+TestObject targetElement = findTestObject('Object Repository/User-Management/Organisasi/AktifkanKembaliDataOrganisasi/Icon_AktifkanData')
 
-WebUI.acceptAlert()
+WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('User-Management/Organisasi/AktifkanKembaliDataOrganisasi/Icon_AktifkanData'))
+
+WebUI.verifyElementPresent(findTestObject('User-Management/Organisasi/AktifkanKembaliDataOrganisasi/Verify_PopupAktivasi_Berhasil'), 
+    5)
+
+WebUI.closeBrowser()
 

@@ -17,27 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-=======
-WebUI.back()
-
-WebUI.back()
->>>>>>> bfdaad8942c0ac248a5ff4c2289d703a0d91c953
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-

@@ -17,27 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
-WebUI.acceptAlert()
+CustomKeywords.'login.admin.login'(GlobalVariable.Admin, GlobalVariable.Pass)
 
-WebUI.acceptAlert()
-=======
-WebUI.back()
+WebUI.maximizeWindow()
 
-WebUI.back()
->>>>>>> bfdaad8942c0ac248a5ff4c2289d703a0d91c953
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_UserManagement'))
 
-WebUI.acceptAlert()
+WebUI.delay(5)
 
-WebUI.acceptAlert()
+WebUI.scrollToElement(findTestObject('User-Management/Global-TestObject/Anchor_AgenPengadaan'), 5)
 
-WebUI.acceptAlert()
+WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/Anchor_AgenPengadaan'), 5)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_AgenPengadaan'))
 
-WebUI.acceptAlert()
+WebUI.delay(5)
 
-WebUI.acceptAlert()
+/*WebUI.scrollToElement(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/button_NonaktifkanData'), 
+    0) */
 
-WebUI.acceptAlert()
+WebUI.scrollToPosition(200, 200)
+
+WebUI.waitForElementPresent(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/button_NonaktifkanData'), 
+    0)
+
+WebUI.click(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/button_NonaktifkanData'))
+
+WebUI.click(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/Button_OK'))
+
+WebUI.verifyElementPresent(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/Notification_Berhasil'), 
+    10)
+
+WebUI.closeBrowser()
 

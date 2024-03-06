@@ -17,27 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
-WebUI.acceptAlert()
+CustomKeywords.'login.admin.login'(GlobalVariable.Admin, GlobalVariable.Pass)
 
-WebUI.acceptAlert()
-=======
-WebUI.back()
+WebUI.maximizeWindow()
 
-WebUI.back()
->>>>>>> bfdaad8942c0ac248a5ff4c2289d703a0d91c953
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_UserManagement'))
 
-WebUI.acceptAlert()
+WebUI.delay(5)
 
-WebUI.acceptAlert()
+WebUI.scrollToElement(findTestObject('User-Management/Global-TestObject/Anchor_LogAktivitas'), 5)
 
-WebUI.acceptAlert()
+WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/Anchor_LogAktivitas'), 5)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_LogAktivitas'))
 
-WebUI.acceptAlert()
+WebUI.clearText(findTestObject('User-Management/LogAktivitas/Textbox_CariData'))
 
-WebUI.acceptAlert()
+String search = 'asdfdfakhsdah'
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('User-Management/LogAktivitas/Textbox_CariData'), search)
+
+//search = WebUI.getText(findTestObject('User-Management/LogAktivitas/Textbox_CariData'))
+//WebUI.getText(findTestObject('User-Management/LogAktivitas/Textbox_CariData'))
+WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject('User-Management/LogAktivitas/Record_DataTidakDitemukan'), 'Data tidak ditemukan')
+
+/*WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/User-Management/LogAktivitas/Record1'), 0), ('(?i).*' + 
+    search) + '.*', true)*/
+WebUI.closeBrowser()
 
