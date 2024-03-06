@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextArea_Penutup</name>
+   <tag></tag>
+   <elementGuidId>289a008d-c130-49eb-ad57-19b53dc1a537</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#rdw-wrapper-1707 > div.rdw-editor-main</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div[3]/div[1]/div[2]/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5dcdc078-a53a-4a2a-9f5d-0276f60ac47b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rdw-editor-main</value>
+      <webElementGuid>bb38506a-23d5-4f7c-9c01-cf4b9bdb9152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rdw-wrapper-1707&quot;)/div[@class=&quot;rdw-editor-main&quot;]</value>
+      <webElementGuid>b678964c-7f1c-4e07-b965-45d40b97b80a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rdw-wrapper-1707']/div[2]</value>
+      <webElementGuid>9ef78450-64dd-4303-bab7-7ef71d773430</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Font'])[3]/following::div[28]</value>
+      <webElementGuid>a5493fd4-fda6-42ff-bf22-f02a5755f99c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[3]/following::div[34]</value>
+      <webElementGuid>1b28e4ef-fe7e-4a27-82af-b4be0afc0b4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Pendukung'])[1]/preceding::div[9]</value>
+      <webElementGuid>0f67dfca-9a2f-4593-aafe-2e602728e12c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drop Files here or click to upload'])[2]/preceding::div[10]</value>
+      <webElementGuid>05775bc7-1a06-48ff-a7ed-62845d7e89c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[3]/div/div[2]</value>
+      <webElementGuid>c9c53078-5de5-4fbf-83b2-a629c7bc7685</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_HargaPenawaran</name>
+   <tag></tag>
+   <elementGuidId>463fc567-fa90-4d9c-bbfe-190df3c8074b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div/div[2]/div/div[5]/div/table/thead/tr/th[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>th.pt-5.text-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>154f9445-7a4d-4cc4-8c57-687b82f3fdc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>fd7f72af-4c80-4f9f-9baf-09da894af37c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pt-5 text-center</value>
+      <webElementGuid>aa4cf27c-32b2-4925-9fad-db0d11e4d886</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Harga Penawaran</value>
+      <webElementGuid>4180dcf7-6d7a-41c5-8ddd-acd37c605e10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-3 p-0 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-md-8&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;p-2 mb-4 row&quot;]/div[@class=&quot;col-md-12&quot;]/div[5]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;mb-1 table&quot;]/thead[1]/tr[1]/th[@class=&quot;pt-5 text-center&quot;]</value>
+      <webElementGuid>7f6637c5-5858-4ab2-9dd8-cc2865a6d405</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div/div[2]/div/div[5]/div/table/thead/tr/th[2]</value>
+      <webElementGuid>2cb48ac8-0065-4945-a392-1c7979db5f05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IDR 4.697.879.843'])[1]/following::th[2]</value>
+      <webElementGuid>52007261-d729-4589-b2e0-bd5970e617f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nilai Hasil Negosiasi'])[1]/following::th[2]</value>
+      <webElementGuid>16e51137-9a58-4788-bc7c-f227ab2d2fcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Negosiasi'])[1]/preceding::th[1]</value>
+      <webElementGuid>e18d7033-783d-4204-acd2-db01efd46770</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[3]/preceding::th[3]</value>
+      <webElementGuid>8439c9aa-aa84-4b15-94cb-63d5a148e4d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/table/thead/tr/th[2]</value>
+      <webElementGuid>c3367a75-6668-47d2-884f-58240ce3eb70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Harga Penawaran' or . = 'Harga Penawaran')]</value>
+      <webElementGuid>d4a7bd5f-1b0d-4404-8375-b3d215006fe2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

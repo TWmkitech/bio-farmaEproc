@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Title</name>
+   <tag></tag>
+   <elementGuidId>eac30d5d-772d-44a8-b897-d4b55ae66d02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[2]/div/div/div/div/div[1]/b</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//b[@class = 'text-uppercase' and (text() = 'Informasi Umum Pengadaan' or . = 'Informasi Umum Pengadaan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>4d5a0924-a6ca-4c17-8584-186110be7a6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-uppercase</value>
+      <webElementGuid>772f0c82-0a71-4ec7-b485-e5258d6990b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Informasi Umum Pengadaan</value>
+      <webElementGuid>c2042d97-2d12-4e97-bad8-88ced2fc9c4a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Selectbox_Date_PengTenderSeleksiTerbatas_TS_AMPM</name>
+   <tag></tag>
+   <elementGuidId>fd6e32d5-1c03-4db2-a044-d9ed36a536cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flatpickr-calendar.hasTime.animate.arrowTop.arrowLeft.open > div.flatpickr-time > span.flatpickr-am-pm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[2]/following::span[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>37c08791-e1be-4489-980a-dbbd7fd35671</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flatpickr-am-pm</value>
+      <webElementGuid>b1651d54-c27f-42bd-90d6-41f28a804f29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Click to toggle</value>
+      <webElementGuid>8ecf93b9-86db-49e3-8529-d33fc8cd567c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>ba0e6933-3f9e-4261-b197-d6db48f5f306</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PM</value>
+      <webElementGuid>449c9a5f-82fd-444a-975b-0a44f0cba927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[@class=&quot;flatpickr-calendar hasTime animate arrowTop arrowLeft open&quot;]/div[@class=&quot;flatpickr-time&quot;]/span[@class=&quot;flatpickr-am-pm&quot;]</value>
+      <webElementGuid>c9cf98bd-06c6-4d8e-a298-06d89de379da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[2]/following::span[3]</value>
+      <webElementGuid>187e7f37-df36-46d8-9db4-a85376c13ea8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[3]/following::span[48]</value>
+      <webElementGuid>76058e53-517c-4891-b114-18bb7fa67591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[4]/preceding::span[5]</value>
+      <webElementGuid>53a01286-c2a7-44b6-902e-b5bc891c2e8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[4]/preceding::span[6]</value>
+      <webElementGuid>1bdac8c5-09f5-493d-89fc-3cd4365ca92a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PM']/parent::*</value>
+      <webElementGuid>e9e5a7a0-ce57-4943-abcc-040604af38ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[3]/span[2]</value>
+      <webElementGuid>f4b94c60-d436-4446-b357-6660bc181476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Click to toggle' and (text() = 'PM' or . = 'PM')]</value>
+      <webElementGuid>c95f10e9-4616-4dd1-a7cf-fef6637de890</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

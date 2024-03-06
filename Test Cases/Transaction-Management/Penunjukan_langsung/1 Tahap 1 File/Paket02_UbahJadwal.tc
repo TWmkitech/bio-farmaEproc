@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Paket02_UbahJadwal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d19925df-84b6-4969-b270-2baedf3c1ea7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b56c9547-a457-406b-bf91-79011242d6b3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>b56c9547-a457-406b-bf91-79011242d6b3</id>
+      <masked>false</masked>
+      <name>tahap</name>
+   </variable>
+</TestCaseEntity>

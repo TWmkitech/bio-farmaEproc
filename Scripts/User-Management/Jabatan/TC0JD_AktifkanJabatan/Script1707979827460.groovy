@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'login.admin.login'(GlobalVariable.Admin, GlobalVariable.Pass)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_UserManagement'))
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('User-Management/Global-TestObject/Anchor_Jabatan'), 5)
+
+WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/Anchor_Jabatan'), 5)
+
+WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_Jabatan'))
+
+WebUI.click(findTestObject('User-Management/Jabatan/AktifkanJabatan/Menu_NonAktif'))
+
+WebUI.click(findTestObject('User-Management/Jabatan/AktifkanJabatan/Icon_AktifkanData'))
+
+WebUI.click(findTestObject('User-Management/Jabatan/AktifkanJabatan/Button_PupupAktivasi_OK'))
+
+WebUI.verifyElementPresent(findTestObject('User-Management/Jabatan/AktifkanJabatan/Verify_PopupAktivasi_Berhasil'), 5)
+
+WebUI.closeBrowser()
+

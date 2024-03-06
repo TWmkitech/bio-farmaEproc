@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Bespin Global Indonesia</description>
+   <name>TC007-000-SubmitDaftarbyPenyedia_Vendor2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2390ceb-d0e1-48e1-9fbf-d94994ae3647</testCaseGuid>
+</TestCaseEntity>

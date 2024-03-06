@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DPOC_button_DokumenPendukungPOC</name>
+   <tag></tag>
+   <elementGuidId>145e6051-31b8-4080-b73b-d4db6bac1b3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = ' Upload Dokumen Pendukung POC (Proof Of Concept)' or . = ' Upload Dokumen Pendukung POC (Proof Of Concept)')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-icon.me-1.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>07ff56c9-2644-489a-bb37-549fc5113564</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>77e7efdd-1073-4441-b1f1-20eb292f1361</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-icon me-1 btn btn-primary</value>
+      <webElementGuid>934f8a9f-588b-46b3-84ce-7b1c88f70835</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Upload Dokumen Pendukung POC (Proof Of Concept)</value>
+      <webElementGuid>ad169426-0495-47a5-925e-058fee3be2c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;border mt-2 mb-2 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive mt-2 mb-2&quot;]/div[@class=&quot;clearfix&quot;]/div[@class=&quot;float-end&quot;]/button[@class=&quot;btn-icon me-1 btn btn-primary&quot;]</value>
+      <webElementGuid>fe46caa0-ab4b-4425-bdb5-7cffb57ab811</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>253583c8-a21d-4860-b9d7-3f38b1acdcc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div/div/div[7]/div/div[2]/button</value>
+      <webElementGuid>6189e2a4-beb9-473a-b3ef-f45f74c68784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Pendukung POC (Proof Of Concept)'])[1]/following::button[1]</value>
+      <webElementGuid>357d9031-acaf-419e-abbd-3acfd42bbf57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catatan'])[1]/following::button[1]</value>
+      <webElementGuid>7b474b63-0305-4417-b86d-0e5c42ca3fac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::button[1]</value>
+      <webElementGuid>06e321ff-3c0f-4ce5-98a0-55f5919e1369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Dokumen'])[1]/preceding::button[1]</value>
+      <webElementGuid>f36903c3-f997-483a-b269-b5bc40bfdbd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Upload Dokumen Pendukung POC (Proof Of Concept)']/parent::*</value>
+      <webElementGuid>048747ba-0212-4f75-b758-f20e54d51842</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div[2]/button</value>
+      <webElementGuid>4bc9d1ce-00fa-45d2-a43e-441a8c7915e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Upload Dokumen Pendukung POC (Proof Of Concept)' or . = ' Upload Dokumen Pendukung POC (Proof Of Concept)')]</value>
+      <webElementGuid>bc12f94c-0c6f-4900-a391-33d30a020532</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

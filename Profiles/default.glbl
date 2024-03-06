@@ -84,4 +84,24 @@
       <initValue>'12000058'</initValue>
       <name>EntitasAuditBOD1</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'automatedtest1'</initValue>
+      <name>UserVendor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bi0farma'</initValue>
+      <name>PassVendor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://vendor-dev.digital-healthcare.id/'</initValue>
+      <name>UrlVendorDev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://eproc-dev.digital-healthcare.id/'</initValue>
+      <name>UrlEprocDev</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

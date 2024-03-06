@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_Proses_KFTD</name>
+   <tag></tag>
+   <elementGuidId>107e2c3b-59c3-4252-be00-b2d220094db0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[3]/div/div/div/div[1]/div/div/div/div[2]/div/div/table/tbody/tr[6]/td[6]/span[1]/span/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>xpath1709091343837</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>1c4f712f-b59f-44aa-8c71-2a86f92d17c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709091343837</value>
+      <webElementGuid>9b1bfaf2-9536-4586-8cc6-39be57a82d39</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

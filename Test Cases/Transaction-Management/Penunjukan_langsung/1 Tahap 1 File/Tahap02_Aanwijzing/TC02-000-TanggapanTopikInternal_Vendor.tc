@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02-000-TanggapanTopikInternal_Vendor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50441f16-6f30-4e7e-9725-88c0960ae627</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b237820d-ce46-42a8-8d93-0d132103ad63</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>b237820d-ce46-42a8-8d93-0d132103ad63</id>
+      <masked>false</masked>
+      <name>topik</name>
+   </variable>
+</TestCaseEntity>

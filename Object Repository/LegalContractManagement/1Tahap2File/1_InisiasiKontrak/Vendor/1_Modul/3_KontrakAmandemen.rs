@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>3_KontrakAmandemen</name>
+   <tag></tag>
+   <elementGuidId>e2b803fc-b504-423a-abb5-53b870eb79d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(5) > ul.submenu > li:nth-of-type(2) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='mobile-menu']/ul/li[5]/ul/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>25709df9-41f6-4a63-a666-fc81e8c132e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/kontrak-amandemen.html</value>
+      <webElementGuid>93a472b2-4c04-4a65-b76d-7df9d2b1ae26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kontrak &amp; Amandemen</value>
+      <webElementGuid>79fcbc5f-7641-492d-a76e-2c9b4875fcff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobile-menu&quot;)/ul[1]/li[5]/ul[@class=&quot;submenu&quot;]/li[2]/a[1]</value>
+      <webElementGuid>4318408c-ff6e-433c-a62b-15cdf3684c11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mobile-menu']/ul/li[5]/ul/li[2]/a</value>
+      <webElementGuid>7eccea49-962f-4948-924f-9e6666d2773b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Kontrak &amp; Amandemen')]</value>
+      <webElementGuid>45b24fe0-cc68-40b0-9448-97350ebc7b73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inisiasi Kontrak'])[1]/following::a[1]</value>
+      <webElementGuid>beb4148b-05be-428d-96ca-a87cfce31b3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal &amp; Contract'])[1]/following::a[2]</value>
+      <webElementGuid>d5ab74ab-0278-41e7-929c-ad5b69a95e63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring Kontrak'])[1]/preceding::a[1]</value>
+      <webElementGuid>41abc4a2-da11-4716-a8fc-cb53fcbf5b34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jaminan'])[1]/preceding::a[2]</value>
+      <webElementGuid>2f171cf8-cb07-4842-9770-8234f299d63a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kontrak &amp; Amandemen']/parent::*</value>
+      <webElementGuid>9ff63f87-0296-4c7a-b7c3-5d6ade358a6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/kontrak-amandemen.html')]</value>
+      <webElementGuid>5e7b8131-538e-43a3-80dd-63f8f6faa62f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/ul/li[2]/a</value>
+      <webElementGuid>3a5783b1-a7cf-4aaa-820b-5ef983c03439</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/kontrak-amandemen.html' and (text() = 'Kontrak &amp; Amandemen' or . = 'Kontrak &amp; Amandemen')]</value>
+      <webElementGuid>e93b056d-5d6b-4bf5-8d25-4d9213aa00e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

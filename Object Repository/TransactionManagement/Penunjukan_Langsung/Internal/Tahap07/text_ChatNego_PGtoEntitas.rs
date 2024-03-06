@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_ChatNego_PGtoEntitas</name>
+   <tag></tag>
+   <elementGuidId>3c4550a6-0c40-4102-8c3d-1142fc74a566</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@name = 'negotiation_chat_message' and @class = 'form-control mt-1 is-untouched is-pristine av-valid form-control']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[7]/div[13]/div[2]/div/div/form/div[1]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>618fec80-43cc-4d31-903b-2b01697b9820</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>negotiation_chat_message</value>
+      <webElementGuid>2c0de549-c346-4dc1-805f-1bca95601701</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control mt-1 is-untouched is-pristine av-valid form-control</value>
+      <webElementGuid>8b2fbe42-f5fa-406a-9b36-ae54c43eb0c7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>2_InisiasiKontrak</name>
+   <tag></tag>
+   <elementGuidId>ac8ebbb2-97cd-46e4-9c8b-080ccd1929de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(5) > ul.submenu > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='mobile-menu']/ul/li[5]/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ab8aaa94-56a0-4de2-b5ac-09bb0bc4f525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/inisiasikontrak.html</value>
+      <webElementGuid>cf48430d-6ff4-4a3d-8993-a3dec77e2de2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Inisiasi Kontrak</value>
+      <webElementGuid>6dda572e-16b5-4ea9-b22c-0a1f69d5b462</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobile-menu&quot;)/ul[1]/li[5]/ul[@class=&quot;submenu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>bb7830ff-d56d-460d-8c8c-9c16d910c615</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mobile-menu']/ul/li[5]/ul/li/a</value>
+      <webElementGuid>2751535a-5d06-4ac6-bb3f-0c8dbb38fe36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Inisiasi Kontrak')]</value>
+      <webElementGuid>a9fece95-6811-40df-8e0e-8e9314568e77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal &amp; Contract'])[1]/following::a[1]</value>
+      <webElementGuid>dbd1d0ca-66f1-419c-907d-c641b80fda13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengadaan Lainnya'])[1]/following::a[2]</value>
+      <webElementGuid>0d5583c7-ba78-4664-8b18-d132287a283d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontrak &amp; Amandemen'])[1]/preceding::a[1]</value>
+      <webElementGuid>eee72e3d-b07a-445f-a045-098092a3e607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring Kontrak'])[1]/preceding::a[2]</value>
+      <webElementGuid>88cbaa8b-5856-4316-87b8-d0a17464d3a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Inisiasi Kontrak']/parent::*</value>
+      <webElementGuid>d080a2e9-4650-4360-b4f7-a1db13f8dd9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/inisiasikontrak.html')]</value>
+      <webElementGuid>0fca992c-6a0a-45b5-acda-0630778546ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/ul/li/a</value>
+      <webElementGuid>a5784c87-1f98-4223-92be-ec47c9ab29fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/inisiasikontrak.html' and (text() = 'Inisiasi Kontrak' or . = 'Inisiasi Kontrak')]</value>
+      <webElementGuid>65efebe8-3b06-46a0-9f6c-3f60c5d3b341</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03-000-BuatTopikkeInternal_Vendor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b312b29-1640-40ae-8f4d-7ba5f36d95eb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e19549c1-6365-4d13-9923-72ae45a65176</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e19549c1-6365-4d13-9923-72ae45a65176</id>
+      <masked>false</masked>
+      <name>topik</name>
+   </variable>
+</TestCaseEntity>

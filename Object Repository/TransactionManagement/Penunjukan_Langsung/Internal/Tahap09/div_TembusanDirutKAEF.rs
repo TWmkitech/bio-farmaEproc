@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_TembusanDirutKAEF</name>
+   <tag></tag>
+   <elementGuidId>cf27d9ac-422c-4fef-a91b-6c32c3dcd5f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[9]/div[2]/div[2]/div/div[2]/div/div[2]/form/div[3]/div/div[1]/div[2]/div/div/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'react-select-7-option-0' and (text() = 'Direktur Utama PT Kimia Farma Tbk' or . = 'Direktur Utama PT Kimia Farma Tbk')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e1658587-6780-4e1d-9bbe-58515149bf11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-7-option-0</value>
+      <webElementGuid>6d333b0e-3ace-4a3f-9b41-814750fd7060</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Direktur Utama PT Kimia Farma Tbk</value>
+      <webElementGuid>4e1a896a-2b7d-4764-908f-1d28f9d380da</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
