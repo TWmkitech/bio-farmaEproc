@@ -25,6 +25,8 @@ WebUI.click(findTestObject('Account Management/Global/Button_AccountManagement')
 
 WebUI.scrollToPosition(0, 50)
 
+WebUI.delay(5)
+
 WebUI.scrollToElement(findTestObject('Account Management/Global/Button_detail'), 0)
 
 WebUI.click(findTestObject('Account Management/Global/Button_detail'))
