@@ -79,14 +79,12 @@ WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/
 
 WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Anchor_Tambah'))
 
-//WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas1'), 0)
-//
-//WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas1'))
-//
-//WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas2'), 0)
-//
-//WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas2'))
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas1'), 0)
 
+WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas1'))
+
+//WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas2'), 0)
+//WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Entitas2'))
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Button_TambahManual'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Button_TambahManual'))
@@ -170,6 +168,18 @@ WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Rekenin
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Button_SimpanKomparasi'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Button_SimpanKomparasi'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Input_NPWP'), 0)
+
+WebUI.setText(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Input_NPWP'), '0123456789123456')
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Field_Provinsi'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Field_Provinsi'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Div_DataProvinsi'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Div_DataProvinsi'))
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Field_Kota'), 0)
 
