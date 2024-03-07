@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>PT SURYA TUBAL INDONESIA</description>
-   <name>TC006-000-SubmitDaftarbyPenyedia_Vendor1</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>96cb7fb1-799c-432a-baa3-74e0befff0fd</testCaseGuid>
-</TestCaseEntity>

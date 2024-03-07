@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SBox_JenisMonitoringKontrak</name>
+   <tag></tag>
+   <elementGuidId>bff285e3-764a-4ea3-b8f7-ad1513cbb103</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[2]/div[4]/div[4]/form/div/div[3]/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-6 > div.react-select.css-b62m3t-container > div.select__control.css-13cymwt-control > div.select__value-container.select__value-container--has-value.css-hlgwow</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d412c726-91d6-401a-b062-2020c5e191f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__value-container select__value-container--has-value css-hlgwow</value>
+      <webElementGuid>d3ce5b7a-acf8-4535-9ebf-85ff8156cba0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Milestone</value>
+      <webElementGuid>1ce8e090-f36f-44b2-9124-d601dd96ec92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mb-3 mt-3&quot;]/div[@class=&quot;mt-4 mb-4&quot;]/form[@class=&quot;needs-validation mb-4 mt-4 av-valid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;mt-2 row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control css-13cymwt-control&quot;]/div[@class=&quot;select__value-container select__value-container--has-value css-hlgwow&quot;]</value>
+      <webElementGuid>395a3a69-3c13-4258-ac14-44bfa3da589a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[2]/div[4]/div[4]/form/div/div[3]/div/div[2]/div/div/div</value>
+      <webElementGuid>e05f6791-2d80-4a34-991e-bcfcd5b97b23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Monitoring Kontrak'])[1]/following::div[4]</value>
+      <webElementGuid>fa97ef13-efb3-4af2-9705-441bf17fbcf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfigurasi'])[1]/following::div[6]</value>
+      <webElementGuid>3b90ac82-9700-4dca-aa14-a2cbe5dd217c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan Konfigurasi'])[1]/preceding::div[7]</value>
+      <webElementGuid>375343d8-3b0e-4ca6-98b5-9b0cba0cc875</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div</value>
+      <webElementGuid>21472fb4-c98b-43a8-b5a7-96b1d6e2a42f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Milestone' or . = 'Milestone')]</value>
+      <webElementGuid>cc9d81fa-ada5-4b3a-baa9-3de7619b97f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

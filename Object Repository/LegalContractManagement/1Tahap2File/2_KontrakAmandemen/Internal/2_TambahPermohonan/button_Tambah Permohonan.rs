@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Tambah Permohonan</name>
+   <tag></tag>
+   <elementGuidId>db547735-2471-450c-9b12-aeb475fd9ae4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'addParties' and (text() = 'Tambah Permohonan' or . = 'Tambah Permohonan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#addParties</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>06d740ef-c584-4cbd-b8cd-5e7c0e4dd056</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>addParties</value>
+      <webElementGuid>de938489-c56b-4418-8a55-29659acc6672</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>c342fef3-28aa-477e-8dd0-0bd02dbbd567</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah Permohonan</value>
+      <webElementGuid>8d04be2f-2dcb-4bec-bdaa-c1e3116598aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;addParties&quot;)</value>
+      <webElementGuid>349d6a86-6317-4514-97f1-b21b2de3eb9c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='addParties']</value>
+      <webElementGuid>e351e6c2-24bc-49a2-9259-d43668a037c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div/div[9]/div/div/a/button</value>
+      <webElementGuid>a9e50dbb-d85a-4e48-87d8-6c9f763b479b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tampilkan'])[1]/preceding::button[1]</value>
+      <webElementGuid>b08b6eaf-f395-4cbe-a6b7-01ab0b44416d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='data'])[1]/preceding::button[1]</value>
+      <webElementGuid>1e6efd0f-972d-4d29-bfc5-cf52aaf131e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tambah Permohonan']/parent::*</value>
+      <webElementGuid>68c087f3-1bbf-4193-b99f-24e54e21f752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/button</value>
+      <webElementGuid>5495a12d-f198-4bd8-8402-590f0f465252</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'addParties' and (text() = 'Tambah Permohonan' or . = 'Tambah Permohonan')]</value>
+      <webElementGuid>75e904bd-335b-4506-b4db-81d140e26654</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
