@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Custom_Button_Verifikasi_PemegangSaham</name>
+   <name>Button_KonfirmasiOK_PengurusPerusahaan</name>
    <tag></tag>
-   <elementGuidId>82bcc32d-d251-4f35-8986-1e9282032443</elementGuidId>
+   <elementGuidId>25e75f1e-f6ea-4188-a686-900695950d5f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[${indexpos}]/td[2]/div/span[2]/button</value>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[2]/div[2]/div[5]/div/div/div/div/div[2]/div/div/p/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih_VerifikasiOffline</name>
+   <tag></tag>
+   <elementGuidId>0c9ca369-f3d9-4f4b-a3e7-24ce96d1c190</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[11]/div/div/div/div/div/div/form/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.select__value-container.select__value-container--has-value.css-hlgwow</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>600b9716-8eb2-4ee1-ac84-bd2ea2a59763</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__value-container select__value-container--has-value css-hlgwow</value>
+      <webElementGuid>96068b4b-8a64-4278-945d-0990af8d9e73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ya</value>
+      <webElementGuid>e342c8cc-eddf-4451-9f89-d9410d33008d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;mt-2 row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation mt-4 mb-4 av-invalid&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control select__control--is-focused css-t3ipsp-control&quot;]/div[@class=&quot;select__value-container select__value-container--has-value css-hlgwow&quot;]</value>
+      <webElementGuid>86e5243c-9f96-49d4-9739-419dbada1ad6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[11]/div/div/div/div/div/div/form/div/div[2]/div/div/div</value>
+      <webElementGuid>97250d24-735c-46cc-936b-40d9efebf1f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perlu Verifikasi Offline?'])[1]/following::div[4]</value>
+      <webElementGuid>d40b6578-f2f2-4fa0-b98f-ef6dea69bdf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Surat_SMAP.docx'])[1]/following::div[6]</value>
+      <webElementGuid>158addba-5105-41a1-86a1-74f2c16e4c95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Verifikasi Offline?'])[1]/preceding::div[7]</value>
+      <webElementGuid>a32d5ef1-23d6-4fc9-a552-6a85834bec90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div/div/div</value>
+      <webElementGuid>a7a23bd5-ee5c-47df-80a1-e9901386ab90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Ya' or . = 'Ya')]</value>
+      <webElementGuid>2d180f9d-3504-48c0-9cad-8339f54f8456</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
