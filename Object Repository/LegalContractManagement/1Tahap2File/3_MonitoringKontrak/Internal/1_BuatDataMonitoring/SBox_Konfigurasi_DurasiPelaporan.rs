@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SBox_Konfigurasi_DurasiPelaporan</name>
+   <tag></tag>
+   <elementGuidId>435ddf76-a47c-4055-a0b0-1eac8ee7479c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[2]/div[4]/div[4]/form/div/div[3]/div[2]/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7b70d616-0c36-41c9-b788-17a638fd4489</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__value-container css-hlgwow</value>
+      <webElementGuid>68223184-fbfe-4125-8a59-bc2e65445599</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select...</value>
+      <webElementGuid>9a6e0dbc-9dcd-42b3-b09c-097d908e6992</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mb-3 mt-3&quot;]/div[@class=&quot;mt-4 mb-4&quot;]/form[@class=&quot;needs-validation mb-4 mt-4 av-submitted av-invalid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control css-13cymwt-control&quot;]/div[@class=&quot;select__value-container css-hlgwow&quot;]</value>
+      <webElementGuid>609251d2-8bac-4474-a06a-b6a788a9b310</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[2]/div[4]/div[4]/form/div/div[3]/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>85fd139d-5c02-4ecc-9c3d-e9582e8529f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Durasi Pelaporan'])[1]/following::div[4]</value>
+      <webElementGuid>37d25de0-9b32-4059-ae7f-b662e7d33d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aktifitas'])[1]/following::div[11]</value>
+      <webElementGuid>c8e4c323-6b04-4898-9377-dc3333a63e0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan Konfigurasi'])[1]/preceding::div[7]</value>
+      <webElementGuid>2c92100e-a681-4281-a8c6-56b61a7f42f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>623a8431-6ca6-49de-b786-fd79aea9342d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select...' or . = 'Select...')]</value>
+      <webElementGuid>6965cd7f-7658-4811-a35c-9235f7f34528</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

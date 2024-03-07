@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Upload_DraftAmandemen</name>
+   <tag></tag>
+   <elementGuidId>7e39688a-38d7-4b78-8f6b-a12ed33287ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div[1]/form/div[1]/div[15]/div[2]/div[2]/div/div[2]/div/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-4 > div.mb-0 > div.dropzone</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0d9c489b-6823-4100-901d-e91f8bd51ad3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>bc22ecc0-949b-4f66-85b3-8a42c99e38ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>24370f14-609c-48e7-adff-be0e04bfd64b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropzone</value>
+      <webElementGuid>ee569a48-4a06-4788-8c92-d204a2efae38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drop Files here or click to upload Choose File</value>
+      <webElementGuid>e9dace5c-46a0-430f-aa1f-318335108b0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-overlay-menu menu-hide&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;embed-responsive embed-responsive-16by9&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;mb-0&quot;]/div[@class=&quot;dropzone&quot;]</value>
+      <webElementGuid>02d4edd5-166b-4672-a001-7c110d2604af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/form/div/div[15]/div[2]/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>e8d586c3-1bf8-4004-b053-cebbbc5fd364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Draft Amendemen'])[1]/following::div[3]</value>
+      <webElementGuid>da6a581c-afae-465e-bf65-025bc1463ba5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview Draft Amendemen Kontrak'])[1]/following::div[10]</value>
+      <webElementGuid>6a48306d-5d45-48ed-b54d-a311f0b0b41e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[15]/div[2]/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>9638daea-f4a6-4867-a95b-1139331e2ecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drop Files here or click to upload Choose File' or . = 'Drop Files here or click to upload Choose File')]</value>
+      <webElementGuid>8b89a51a-b1eb-4d6d-955c-ac94a90836a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

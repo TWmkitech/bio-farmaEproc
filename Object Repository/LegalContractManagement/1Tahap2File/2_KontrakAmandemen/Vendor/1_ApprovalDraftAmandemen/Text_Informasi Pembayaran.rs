@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_Informasi Pembayaran</name>
+   <tag></tag>
+   <elementGuidId>be3bc10c-5d08-47a2-adfb-4892e3ec38ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div[4]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.align-items-start.row > div.card-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>efbefb8b-cc69-4fe6-a4f1-b838c0fb8a6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title</value>
+      <webElementGuid>8fed3423-3487-4e41-ae48-f06748f3df3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Informasi Pembayaran</value>
+      <webElementGuid>5c78fd00-1050-498f-89ac-a48e41af4bb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-4 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 p-0 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;align-items-start row&quot;]/div[@class=&quot;card-title&quot;]</value>
+      <webElementGuid>aa87de71-a1c2-4021-9529-35a0766d8559</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[4]/div/div</value>
+      <webElementGuid>69efce75-528b-436e-b5fa-b0f71e7d15cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Informasi Pembayaran']/parent::*</value>
+      <webElementGuid>54ee4f4d-10c9-4798-b2f2-73a73346bd3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[4]/div/div</value>
+      <webElementGuid>77ddc5bb-384a-44b7-8774-3900c465cdd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Informasi Pembayaran' or . = 'Informasi Pembayaran')]</value>
+      <webElementGuid>fb90eec0-74bf-469c-871c-d74fe5a0727f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
