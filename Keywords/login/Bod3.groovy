@@ -76,4 +76,4 @@ public class Bod3 {
 		WebDriver mydriver = DriverFactory.getWebDriver()
 	}
 }
->>>>>>> branch 'master' of https://github.com/TWmkitech/bio-farmaEproc.git
+ branch 'master' of https://github.com/TWmkitech/bio-farmaEproc.git
