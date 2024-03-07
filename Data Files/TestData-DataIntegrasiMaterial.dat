@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
@@ -16,22 +15,3 @@
    <sheetName>Material</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<DataFileEntity>
-   <description></description>
-   <name>TestData-DataIntegrasiMaterial</name>
-   <tag></tag>
-   <connectionProperties/>
-   <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
-   <dataFileGUID>c2a03ea2-aeab-4800-a1f8-4b17913d5872</dataFileGUID>
-   <dataSourceUrl>C:\Users\ASUS\Downloads\material_template.xlsx</dataSourceUrl>
-   <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
-   <query></query>
-   <secureUserAccount>false</secureUserAccount>
-   <sheetName>Material</sheetName>
-   <usingGlobalDBSetting>false</usingGlobalDBSetting>
-</DataFileEntity>
->>>>>>> branch 'master' of https://github.com/TWmkitech/bio-farmaEproc.git

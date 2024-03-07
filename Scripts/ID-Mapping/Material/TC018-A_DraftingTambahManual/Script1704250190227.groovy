@@ -89,58 +89,6 @@ WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Button_Simpan-Tamba
 WebUI.delay(10)
 
 //WebUI.scrollToElement(findTestObject('ID-Mapping/Material/tambahManual/Field_KategoriMaterial1'), 3)
-<<<<<<< HEAD
-
-WebUI.scrollToPosition(0, 400)
-
-WebUI.delay(10)
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Field_KategoriMaterial1'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Field_KategoriMaterial1'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Div_DataKategoriMaterial1'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Div_DataKategoriMaterial1'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Field_KategoriMaterial2'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Field_KategoriMaterial2'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Div_DataKategoriMaterial2'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Div_DataKategoriMaterial2'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Field_KategoriMaterial3'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Field_KategoriMaterial3'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Div_DataKategoriMaterial3'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Div_DataKategoriMaterial3'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Input_NamaMaterial'), 0)
-
-WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_NamaMaterial'), 'Material Drafting Automated Test')
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Input_UOM'), 0)
-
-WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_UOM'), 'UOM 123')
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Input_Spesifikasi'), 0)
-
-WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_Spesifikasi'), 'Spesifikasi Automatisasi')
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Drafting_TambahManual/Button_Simpan'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Material/Drafting_TambahManual/Button_Simpan'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Button_OK'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Button_OK'))
-
-WebUI.delay(20)
-=======
 WebUI.scrollToPosition(0, 400)
 
 WebUI.delay(10)
@@ -190,6 +138,5 @@ WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/But
 WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Button_OK'))
 
 WebUI.delay(10)
->>>>>>> branch 'master' of https://github.com/TWmkitech/bio-farmaEproc.git
 
 WebUI.closeBrowser()
