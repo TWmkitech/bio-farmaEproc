@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_NomorKontak</name>
+   <tag></tag>
+   <elementGuidId>e4ede434-1984-4d0f-958b-fe55754309a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[3]/form/div[10]/table/tbody/tr/td[5]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'pic_contact[0]']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>66b8b700-1cce-4a63-96fe-6fb634fdb46d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pic_contact[0]</value>
+      <webElementGuid>bc92ccdc-63c7-4dd1-8a4f-bffe77f0766a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

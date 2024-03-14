@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_LinkRapat</name>
+   <tag></tag>
+   <elementGuidId>72fd9b70-35f5-4370-9442-80cd3cadb76c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'eproc_evaluation_vendor_poc_url323']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/table/tbody/tr/td[6]/div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>a6025e59-990a-4d5a-b3f9-676dec2ae9c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>eproc_evaluation_vendor_poc_url323</value>
+      <webElementGuid>34fb04f0-ed6d-47ff-91de-416831011793</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

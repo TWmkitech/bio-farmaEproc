@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nego-KFTD</name>
+   <tag></tag>
+   <elementGuidId>cd5b2ffc-097e-4b66-a44a-ad1b50cf4d3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[2]/div[2]/div[2]/div/div/form/div[1]/table/tbody/tr[4]/td[5]/div/div/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'negotiation_price[0]' and @type = 'text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7ec94686-a588-4514-b700-55053541b3ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>negotiation_price[0]</value>
+      <webElementGuid>8d9403ce-b20f-40c5-a39f-9eb1a8c14982</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>f225fd00-4b37-494a-b2fe-01e56d82314b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

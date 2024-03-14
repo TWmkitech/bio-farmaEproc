@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3001-LihatPengumuman_Vendor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13952931-7ad9-450a-95d1-45b64121b536</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40594c82-99ab-4ba8-9c61-7eea8b061c43</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'PP/JPROC/2024/000075'</defaultValue>
+      <description></description>
+      <id>40594c82-99ab-4ba8-9c61-7eea8b061c43</id>
+      <masked>false</masked>
+      <name>NoPP</name>
+   </variable>
+</TestCaseEntity>

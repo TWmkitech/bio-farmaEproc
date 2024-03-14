@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UploadSurat</name>
+   <tag></tag>
+   <elementGuidId>184ded2c-e3f8-4496-8723-88b9e8ffc88e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[2]/div[22]/div[1]/div[2]/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input
+[@type = 'file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input
+</value>
+      <webElementGuid>fbae1533-b557-4134-bc0d-085e2b4e4d0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>890e84d8-1e9b-4411-b8ff-b93f582f8b0a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

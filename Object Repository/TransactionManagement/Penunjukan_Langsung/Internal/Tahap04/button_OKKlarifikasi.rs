@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_OKKlarifikasi</name>
+   <tag></tag>
+   <elementGuidId>9471caa7-7a04-4d04-a136-f05d9f4f29e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/div[2]/div/div/p/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6c492bdc-d31d-42a9-b6aa-960574f961f8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

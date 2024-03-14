@@ -6,12 +6,12 @@
    <elementGuidId>adcb9dbd-80e2-47cf-b6c0-cc8976177645</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[2]/div/div[4]/div[1]/div[1]/div/div[3]/div/div/textarea</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//textarea[@id = 'reply_text0']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[2]/div/div[4]/div[1]/div[${list}]/div/div[3]/div/div/textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>2480a143-46db-492b-a0a3-160de80414d5</webElementGuid>
+      <webElementGuid>53d9c2b3-4238-4c6d-a07a-9085ab130b26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,6 @@
       <name>id</name>
       <type>Main</type>
       <value>reply_text0</value>
-      <webElementGuid>80a0f1e1-dee8-4b2e-979f-814478f7051d</webElementGuid>
+      <webElementGuid>b3b7364a-a60f-419c-93f9-03a338645040</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
