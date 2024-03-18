@@ -21,79 +21,79 @@ WebUI.openBrowser(GlobalVariable.UrlVendor)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Button_HalamanDaftar'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Button_HalamanDaftar'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Button_HalamanDaftar'))
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Button_HalamanDaftar'))
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_AreaPenyedia'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_AreaPenyedia'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Field_AreaPenyedia'))
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Field_AreaPenyedia'))
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Div_AreaPenyedia'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Div_AreaPenyedia'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Div_AreaPenyedia'))
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Div_AreaPenyedia'))
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_JenisBarangJasa'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_JenisBarangJasa'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Field_JenisBarangJasa'))
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Field_JenisBarangJasa'))
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Div_JenisBarangJasa'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Div_JenisBarangJasa'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Div_JenisBarangJasa'))
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Div_JenisBarangJasa'))
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_Negara'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_Negara'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Field_Negara'))
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Field_Negara'))
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Div_Negara'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Div_Negara'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Div_Negara'))
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Div_Negara'))
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_NPWP'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_NPWP'), 0)
 
-WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_NPWP'), '12.312.124.1-252.1432')
+WebUI.setText(findTestObject('Third Party/Vendor/Luar Negeri/Field_NPWP'), '12.312.124.1-252.1432')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_NamaPerusahaan'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_NamaPerusahaan'), 0)
 
-WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_NamaPerusahaan'), 'Testtt1')
+WebUI.setText(findTestObject('Third Party/Vendor/Luar Negeri/Field_NamaPerusahaan'), 'Overseas Automated X')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_Email'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_Email'), 0)
 
-WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_Email'), 'testtt1@yopmail.com')
+WebUI.setText(findTestObject('Third Party/Vendor/Luar Negeri/Field_Email'), 'overseasauto@yopmail.com')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_Username'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_Username'), 0)
 
-WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_Username'), 'testtt1')
+WebUI.setText(findTestObject('Third Party/Vendor/Luar Negeri/Field_Username'), 'overseasauto')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_Password'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_Password'), 0)
 
-WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_Password'), 'testtt')
+WebUI.setText(findTestObject('Third Party/Vendor/Luar Negeri/Field_Password'), 'Bi0f@rma')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Field_KonfirmasiPassword'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Field_KonfirmasiPassword'), 0)
 
-WebUI.setText(findTestObject('Third Party/Luar Negeri/Field_KonfirmasiPassword'), 'testtt')
+WebUI.setText(findTestObject('Third Party/Vendor/Luar Negeri/Field_KonfirmasiPassword'), 'Bi0f@rma')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Button_Registrasi'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Button_Registrasi'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Button_Registrasi'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Button_Registrasi'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Luar Negeri/Button_OK'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Luar Negeri/Button_OK'), 0)
 
-WebUI.click(findTestObject('Third Party/Luar Negeri/Button_OK'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Luar Negeri/Button_OK'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://yopmail.com/en/')
 
-WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_EmailYopmail'), 'testtt1')
+WebUI.setText(findTestObject('Third Party/Vendor/Dalam Negeri/Field_EmailYopmail'), 'overseasauto')
 
-WebUI.click(findTestObject('Third Party/Dalam Negeri/Button_EnterEmail'))
+WebUI.click(findTestObject('Third Party/Vendor/Dalam Negeri/Button_EnterEmail'))
 
 WebUI.delay(100)
 
-WebUI.click(findTestObject('Third Party/Dalam Negeri/Button_Refresh'))
+WebUI.click(findTestObject('Third Party/Vendor/Dalam Negeri/Button_Refresh'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Third Party/Dalam Negeri/a_Aktivasi Akun'))
+WebUI.click(findTestObject('Third Party/Vendor/Dalam Negeri/a_Aktivasi Akun'))
 
 WebUI.delay(10)
 

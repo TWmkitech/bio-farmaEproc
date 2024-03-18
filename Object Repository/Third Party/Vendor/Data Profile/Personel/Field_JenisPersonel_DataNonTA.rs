@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_JenisPersonel_DataNonTA</name>
+   <tag></tag>
+   <elementGuidId>e11ea012-91ec-4c1b-9d10-323c3da530ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div/div[2]/div/div/div/div/div/form/div[1]/div/div[1]/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>2afe9ec7-ada6-4db4-ba3a-38f133e56d9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709264787677</value>
+      <webElementGuid>45e2a611-fa1d-4c6f-b2b4-7ece655fc70e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

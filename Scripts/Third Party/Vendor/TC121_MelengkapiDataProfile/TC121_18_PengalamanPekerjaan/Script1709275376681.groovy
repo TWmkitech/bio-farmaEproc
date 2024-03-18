@@ -20,85 +20,85 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Anchor_PengalamanPekerjaan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Anchor_PengalamanPekerjaan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Button_TambahData'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_NoKontrak'), '002/SPK-II/2024')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_NoKontrak'), '002/SPK-II/2024')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_NamaPekerjaan'), 'Pembuatan Automation Quality Assurance')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_NamaPekerjaan'), 'Pembuatan Automation Quality Assurance')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Bulan'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Tahun'), '2023')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Tahun'), '2023')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalKontrak_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Bulan'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Tahun'), '2023')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Tahun'), '2023')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAwal_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Bulan'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Tahun'), '2023')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Tahun'), '2023')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalPelaksanaanAkhir_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_Subkon'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_Subkon'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_Subkon_DataYa'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_Subkon_DataYa'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_PemberiPekerjaan'), 'PT Power Source Indonesia')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_PemberiPekerjaan'), 'PT Power Source Indonesia')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_PemilikPekerjaan'), 'Biofarma')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_PemilikPekerjaan'), 'Biofarma')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_LokasiPekerjaan'), 'Bandung')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_LokasiPekerjaan'), 'Bandung')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_MataUangKontrak'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_MataUangKontrak'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_MataUangKontrak_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_MataUangKontrak_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_NilaiPekerjaan'), '20000000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_NilaiPekerjaan'), '20000000')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_LingkupPekerjaan'), 'Membuat otomatisasi pengecekan kualitas aplikasi')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_LingkupPekerjaan'), 'Membuat otomatisasi pengecekan kualitas aplikasi')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_Bidang'), 'Bidang Automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_Bidang'), 'Bidang Automation')
 
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Upload_SPK')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Upload_SPK')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/PengalamanPekerjaan/spk.jpg'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_NoBAST'), '001/BAST-II/2024')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_NoBAST'), '001/BAST-II/2024')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalBAST'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalBAST'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Bulan'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Tahun'), '2023')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Tahun'), '2023')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_TanggalBAST_Data'))
 
-TestObject uploadFile2 = findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Upload_BAST')
+TestObject uploadFile2 = findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Upload_BAST')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath2 = projectDir + '/Document/ThirdParty/PengalamanPekerjaan/bast.png'
 
 WebUI.uploadFile(uploadFile2, filePath2)
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengalamanPekerjaan/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Button_KonfirmasiOK'))
 

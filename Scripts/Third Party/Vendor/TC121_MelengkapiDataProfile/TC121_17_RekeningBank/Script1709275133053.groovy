@@ -20,27 +20,27 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/RekeningBank/Anchor_RekeningBank'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Anchor_RekeningBank'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/RekeningBank/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Button_TambahData'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/RekeningBank/Field_NoRek'), '0090123456')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_NoRek'), '0090123456')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/RekeningBank/Field_NamaPemilik'), 'Charles')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_NamaPemilik'), 'Charles')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/RekeningBank/Field_PemegangRekening'), 'Charles')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_PemegangRekening'), 'Charles')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/RekeningBank/Field_Bank'), 'Bank Mandiri')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_Bank'), 'Bank Mandiri')
 
-WebUI.click(findTestObject('Third Party/Data Profile/RekeningBank/Field_MataUang'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_MataUang'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/RekeningBank/Field_MataUang_DataIDR'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_MataUang_DataIDR'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/RekeningBank/Field_Cabang'), 'KCP Kiaracondong')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_Cabang'), 'KCP Kiaracondong')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/RekeningBank/Field_Keterangan'), 'Dibuat menggunakan Automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_Keterangan'), 'Dibuat menggunakan Automation')
 
-WebUI.click(findTestObject('Third Party/Data Profile/RekeningBank/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/RekeningBank/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Button_KonfirmasiOK'))
 

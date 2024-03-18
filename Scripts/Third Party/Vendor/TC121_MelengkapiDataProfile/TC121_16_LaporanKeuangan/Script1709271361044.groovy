@@ -20,43 +20,43 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanKeuangan/Anchor_LaporanKeuangan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Anchor_LaporanKeuangan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanKeuangan/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_Audit'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_Audit'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_AuditYa'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_AuditYa'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_KAP'), 'KAP Automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_KAP'), 'KAP Automation')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_TahunLaporan'), '2023')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_TahunLaporan'), '2023')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_Kas'), '1000000000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_Kas'), '1000000000')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_Piutang'), '500000000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_Piutang'), '500000000')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_TotalAktiva'), '1500000000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_TotalAktiva'), '1500000000')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_Hutang'), '50000000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_Hutang'), '50000000')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_Modal'), '1000000000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_Modal'), '1000000000')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_Aset'), '500000000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_Aset'), '500000000')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanKeuangan/Field_Omset'), '1500000000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Field_Omset'), '1500000000')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/LaporanKeuangan/Upload_LaporanKeuangan')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Upload_LaporanKeuangan')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/LaporanKeuangan/laporankeuangan.jpeg'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanKeuangan/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanKeuangan/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanKeuangan/Button_KonfirmasiOK'))
 

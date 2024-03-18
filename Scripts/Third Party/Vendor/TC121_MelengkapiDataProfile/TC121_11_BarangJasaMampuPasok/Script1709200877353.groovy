@@ -20,25 +20,25 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Anchor_BarangJasaMampuPasok'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Anchor_BarangJasaMampuPasok'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Field_JenisBarangJasa'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Field_JenisBarangJasa'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Field_JenisBarangJasa_DataPengadaanBarang'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Field_JenisBarangJasa_DataPengadaanBarang'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Field_Kelompok'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Field_Kelompok'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Field_Kelompok_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Field_Kelompok_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Field_NamaProduct'), 'Produk Automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Field_NamaProduct'), 'Produk Automation')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Field_Manufacture'), 'Manufacture Automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Field_Manufacture'), 'Manufacture Automation')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Field_Spesifikasi'), 'Spesifikasi yang dibuat menggunakan automation test')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Field_Spesifikasi'), 'Spesifikasi yang dibuat menggunakan automation test')
 
-WebUI.click(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BarangJasaMampuPasok/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BarangJasaMampuPasok/Button_KonfirmasiOK'))
 

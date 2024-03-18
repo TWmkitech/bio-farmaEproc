@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Custom_Field_KritikSaran</name>
+   <tag></tag>
+   <elementGuidId>321c22c0-c08f-4823-8981-682a816218be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div/div/div/div/form/div[${indexdiv}]/div/div/div/table/tbody/tr[${indexpos}]/td/div/div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>fcccc079-a6b9-4b66-9b81-e5c9c3cf5043</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1710056095740</value>
+      <webElementGuid>64d5b5b2-0e29-41a6-9aea-8c19e88d849d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

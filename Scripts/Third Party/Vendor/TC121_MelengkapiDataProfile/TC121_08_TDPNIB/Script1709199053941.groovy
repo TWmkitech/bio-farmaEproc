@@ -20,35 +20,35 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Anchor_TDPNIB'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Anchor_TDPNIB'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Button_Tambah'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Button_Tambah'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_Jenis'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_Jenis'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_Jenis_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_Jenis_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/TDPNIB/Field_InstansiPenerbit'), 'Lembaga OSS')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_InstansiPenerbit'), 'Lembaga OSS')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/TDPNIB/Field_NomorIzin'), '0098509375')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_NomorIzin'), '0098509375')
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_TanggalTerbit_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_TanggalTerbit_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_TanggalTerbit_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_TanggalTerbit_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Checklist_BerlakuSelama'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Checklist_BerlakuSelama'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_SubBidangKlasifikasi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_SubBidangKlasifikasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_SubBidangKlasifikasi_Data1'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_SubBidangKlasifikasi_Data1'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_SubBidangKlasifikasi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_SubBidangKlasifikasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Field_SubBidangKlasifikasi_Data2'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_SubBidangKlasifikasi_Data2'))
 
-TestObject uploadTDPNIB = findTestObject('Third Party/Data Profile/TDPNIB/Upload_TDPNIB')
+TestObject uploadTDPNIB = findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Upload_TDPNIB')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
@@ -58,9 +58,9 @@ def filePath = projectDir + '/Document/ThirdParty/TDPNIB/nib.jpg'
 
 WebUI.uploadFile(uploadTDPNIB, filePath)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/TDPNIB/Field_Keterangan'), 'Dibuat menggunakan automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Field_Keterangan'), 'Dibuat menggunakan automation')
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/TDPNIB/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/TDPNIB/Button_KonfirmasiOK'))
 

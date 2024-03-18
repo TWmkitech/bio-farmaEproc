@@ -20,20 +20,20 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/PermintaanVerifikasi/Anchor_PermintaanVerifikasi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PermintaanVerifikasi/Anchor_PermintaanVerifikasi'))
 
-WebUI.scrollToElement(findTestObject('Third Party/Data Profile/PermintaanVerifikasi/Button_DownloadTemplate'), 0)
+WebUI.scrollToElement(findTestObject('Third Party/Vendor/Data Profile/PermintaanVerifikasi/Button_DownloadTemplate'), 0)
 
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/PermintaanVerifikasi/Upload_SuratPernyataanKomitmenSMAP')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/PermintaanVerifikasi/Upload_SuratPernyataanKomitmenSMAP')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/Surat_SMAP.docx'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/PermintaanVerifikasi/Button_KirimPermintaanVerifikasi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PermintaanVerifikasi/Button_KirimPermintaanVerifikasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PermintaanVerifikasi/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PermintaanVerifikasi/Button_KonfirmasiOK'))
 

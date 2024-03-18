@@ -20,44 +20,44 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Anchor_Sertifikat Teknis'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Anchor_Sertifikat Teknis'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_JenisSertifikasi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_JenisSertifikasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_JenisSertifikasi_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_JenisSertifikasi_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_InstansiPenerbit'), 'Lembaga OSS')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_InstansiPenerbit'), 'Lembaga OSS')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_NamaSertifikasi'), 'Dokumen Sertifikasi Automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_NamaSertifikasi'), 'Dokumen Sertifikasi Automation')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_NomorSertifikasi'), '0098509375')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_NomorSertifikasi'), '0098509375')
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalTerbit_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_TanggalTerbit_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalTerbit_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_TanggalTerbit_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_TanggalBerlaku_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Field_SubBidangSertifikasi'), 'Bidang Automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Field_SubBidangSertifikasi'), 'Bidang Automation')
 
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/SertifikasiTeknis/Upload_Sertifikat')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Upload_Sertifikat')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/SertifikasiTeknis/sertifikat.jpg'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/SertifikasiTeknis/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/SertifikasiTeknis/Button_KonfirmasiOK'))
 

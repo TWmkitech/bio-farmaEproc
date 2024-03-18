@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_ApprovalBatal</name>
+   <tag></tag>
+   <elementGuidId>758a45da-9b4d-4320-bd7d-0d6847de9d1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[4]/div/div/div[1]/div/div/div/div[2]/div/div/table/tbody/tr[1]/td[9]/span[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ed598346-1be2-45ee-94fd-9be081f831fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1710255718251</value>
+      <webElementGuid>dd4f1a5c-4bcd-4e4a-b5cf-6cf116f67c7f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

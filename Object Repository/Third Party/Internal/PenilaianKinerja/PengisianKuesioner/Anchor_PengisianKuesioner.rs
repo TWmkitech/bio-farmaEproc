@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Anchor_PengisianKuesioner</name>
+   <tag></tag>
+   <elementGuidId>ca059167-c2ec-4abc-83ad-e95544d3cbc6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[1]/div[3]/ul/li[3]/ul/div/li[4]/ul/div/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ae6a303f-9170-4c1b-971d-26543f4a7a1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709992759328</value>
+      <webElementGuid>fe7c94b1-3f15-4051-b982-9948e131dcad</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -20,46 +20,46 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Anchor_CabangBagianDivisi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Anchor_CabangBagianDivisi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Button_Tambah'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Button_Tambah'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_NamaKantor'), 'Automated Test Yogya')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_NamaKantor'), 'Automated Test Yogya')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_AlamatKantor'), 'Jl. Automated di Yogya no. 456')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_AlamatKantor'), 'Jl. Automated di Yogya no. 456')
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_Provinsi'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_Provinsi'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_Provinsi_Data'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_Provinsi_Data'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_Kota'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_Kota'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_Kota_Data'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_Kota_Data'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_Kodepos'), '12345')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_Kodepos'), '12345')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_Telepon'), '027470987564')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_Telepon'), '027470987564')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_Fax'), '027470987564')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_Fax'), '027470987564')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_Email'), 'autocabyogya@yopmail.com')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_Email'), 'autocabyogya@yopmail.com')
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_KuasaTTDYa'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_KuasaTTDYa'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_NamaPenandatangan'), 'Bpk Kawiyan')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_NamaPenandatangan'), 'Bpk Kawiyan')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Field_JabatanPenandatangan'), 'Kepala Cabang')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_JabatanPenandatangan'), 'Kepala Cabang')
 
 def projectDir = Config.getProjectDir()
 
-TestObject uploadSurat = findTestObject('Third Party/Data Profile/CabangBagianDivisi/Upload_SuratPenandatangan')
+TestObject uploadSurat = findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Upload_SuratPenandatangan')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/CabangBagianDivisi/surat.png'
 
 WebUI.uploadFile(uploadSurat, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/CabangBagianDivisi/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Button_KonfirmasiOK'))
 

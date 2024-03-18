@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_TanggalPerencanaan_Data</name>
+   <tag></tag>
+   <elementGuidId>a962b776-8297-451e-a561-5b2f6cf9fc59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div[2]/div/span[36]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>11694e5b-e98a-4cf9-b4fa-f0c13a574209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1710131497003</value>
+      <webElementGuid>a1e7e0ab-5db0-4f09-b262-cd9c9cf1555b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

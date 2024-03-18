@@ -20,35 +20,35 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Anchor_Izin Usaha'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Anchor_Izin Usaha'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_JenisUsaha'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_JenisUsaha'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_JenisUsaha_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_JenisUsaha_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/IzinUsaha/Field_InstansiPenerbit'), 'Lembaga OSS')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_InstansiPenerbit'), 'Lembaga OSS')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/IzinUsaha/Field_NoIzinUsaha'), '0098509375')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_NoIzinUsaha'), '0098509375')
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_TanggalTerbit_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_TanggalTerbit_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_TanggalTerbit_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_TanggalTerbit_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Checklist_Berlaku'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Checklist_Berlaku'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_Kualifikasi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_Kualifikasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_Kualifikasi_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_Kualifikasi_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_SubKualifikasi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_SubKualifikasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Field_SubKualifikasi_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_SubKualifikasi_Data'))
 
-TestObject uploadIzin = findTestObject('Third Party/Data Profile/IzinUsaha/Upload_Izin')
+TestObject uploadIzin = findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Upload_Izin')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
@@ -58,9 +58,9 @@ def filePath = projectDir + '/Document/ThirdParty/IzinUsaha/izin.jpg'
 
 WebUI.uploadFile(uploadIzin, filePath)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/IzinUsaha/Field_Keterangan'), 'Dibuat menggunakan automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Field_Keterangan'), 'Dibuat menggunakan automation')
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/IzinUsaha/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/IzinUsaha/Button_KonfirmasiOK'))
 

@@ -20,35 +20,35 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Anchor_KeteranganDomisili'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Anchor_KeteranganDomisili'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_Jenis'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_Jenis'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_Jenis_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_Jenis_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_InstansiPenerbit'), 'Lembaga OSS')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_InstansiPenerbit'), 'Lembaga OSS')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_NoSurat'), '0098509375')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_NoSurat'), '0098509375')
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_TanggalTerbit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalTerbit_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_TanggalTerbit_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalTerbit_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_TanggalTerbit_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalBerlaku'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_TanggalBerlaku'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalBerlaku_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_TanggalBerlaku_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_TanggalBerlaku_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_TanggalBerlaku_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_SubKlasifikasi'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_SubKlasifikasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_SubKlasifikasi_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_SubKlasifikasi_Data'))
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/KeteranganDomisili/Upload_ScanDomisili')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Upload_ScanDomisili')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
@@ -58,11 +58,11 @@ def filePath = projectDir + '/Document/ThirdParty/Domisili/domisili.png'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_Keterangan'), 'Dibuat menggunakan automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_Keterangan'), 'Dibuat menggunakan automation')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/KeteranganDomisili/Field_Domisili'), 'Jl. Alamat Test No. 123')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Field_Domisili'), 'Jl. Alamat Test No. 123')
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/KeteranganDomisili/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/KeteranganDomisili/Button_KonfirmasiOK'))
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_TanggalPengesahan_Data</name>
+   <tag></tag>
+   <elementGuidId>b2e807f9-1f7d-43d8-9200-c62ef4c4b45e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div[2]/div/div[2]/div/span[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>aca1e2c1-e22a-4654-b9ac-c9aaf02547b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709170896566</value>
+      <webElementGuid>a5fd2b01-e1ff-49c3-8dd4-6c2c98c16de2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

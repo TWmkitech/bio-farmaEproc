@@ -20,29 +20,29 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/Narahubung/Anchor_Narahubung'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Anchor_Narahubung'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Narahubung/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Narahubung/Field_JenisKontak'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_JenisKontak'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Narahubung/Field_JenisKontak_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_JenisKontak_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Narahubung/Field_Jabatan'), 'Marketing Manager')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_Jabatan'), 'Marketing Manager')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Narahubung/Field_Nama'), 'Bpk Hari')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_Nama'), 'Bpk Hari')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Narahubung/Field_Alamat'), 'Jl. Alamat Pengurus Perusahaan No. 150')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_Alamat'), 'Jl. Alamat Pengurus Perusahaan No. 150')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Narahubung/Field_Email1'), 'dummynarahubung@yopmail.com')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_Email1'), 'dummynarahubung@yopmail.com')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Narahubung/Field_Email2'), 'dummynarahubung2@yopmail.com')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_Email2'), 'dummynarahubung2@yopmail.com')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Narahubung/Field_NoHP1'), '08198765432')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_NoHP1'), '08198765432')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Narahubung/Field_NoHP2'), '08191234567')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Field_NoHP2'), '08191234567')
 
-WebUI.click(findTestObject('Third Party/Data Profile/Narahubung/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Narahubung/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Narahubung/Button_KonfirmasiOK'))
 

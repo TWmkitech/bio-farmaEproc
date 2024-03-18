@@ -20,36 +20,36 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Anchor_DokumenLainnya'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Anchor_DokumenLainnya'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Button_TambahData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Button_TambahData'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_Nama'), 'Dokumen Pengajuan')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_Nama'), 'Dokumen Pengajuan')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_Nomor'), '050/II/PO/12/2021')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_Nomor'), '050/II/PO/12/2021')
 
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/DokumenLainnya/Upload_Dokumen')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Upload_Dokumen')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/DokumenLainnya/DokumenDataTest.pdf'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalDitetapkan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_TanggalDitetapkan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalDitetapkan_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_TanggalDitetapkan_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalDitetapkan_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_TanggalDitetapkan_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalAkhir'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_TanggalAkhir'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalAkhir_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_TanggalAkhir_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Field_TanggalAkhir_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_TanggalAkhir_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DokumenLainnya/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Button_KonfirmasiOK'))
 
