@@ -33,22 +33,55 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tah
 WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_SedangBerlangsung'), 
     'SEDANG BERLANGSUNG')
 
+int nego1 = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/text_offer_KFTD')).replace(
+	'.', '').toInteger() * 0.98
+
+int nego2 = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/text_offer_KAEF')).replace(
+	'.', '').toInteger() * 0.98
+
+WebUI.delay(5)
+
 TestObject riwayat1 = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD')
 
 WebUI.sendKeys(riwayat1, Keys.chord(Keys.ARROW_RIGHT))
 
-// Tambah Verifikasi
+// Lihat Riwayat & Verifikasi Harga dan Pengirim
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'), 'Bespin Global Indonesia')
+
+String nego1a = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Harga')).replace('IDR ', '')
+
+int nego1b = nego1a.replace('.', '').toInteger()
+
+WebUI.delay(3)
+
+WebUI.verifyMatch(nego1b.toString(), nego1.toString(), false)
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_TutupRiwayat'))
+
+WebUI.delay(3)
+
+// Lihat Riwayat & Verifikasi Harga dan Pengirim
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKAEF'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'), 'Bespin Global Indonesia')
+
+String nego2a = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Harga')).replace('IDR ', '')
+
+int nego2b = nego2a.replace('.', '').toInteger()
+
+WebUI.delay(3)
+
+WebUI.verifyMatch(nego2b.toString(), nego2.toString(), false)
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_TutupRiwayat'))
 
 WebUI.delay(5)
 
-def nego = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'))
-
-String nego1 = nego.replace('IDR ', '')
-
-System.println(nego1)
-
-String nego2 = nego1.replace('.', '')
-
-System.println(nego2)
+WebUI.closeBrowser()
 

@@ -28,27 +28,36 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Men
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Proses'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Menu_5_Negosiasi'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap08/Menu_6_PengumumanPemenang'))
 
-WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_SedangBerlangsung'), 
-    'SEDANG BERLANGSUNG')
+def notstart = WebUI.verifyTextPresent('Tahapan Belum Dimulai', false, FailureHandling.OPTIONAL)
 
-TestObject riwayat1 = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD')
+if (notstart.equals(true)) {
+    WebUI.callTestCase(findTestCase('Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Paket02_UbahJadwal'), [('tahap') : 10], 
+        FailureHandling.STOP_ON_FAILURE)
+}
 
-WebUI.sendKeys(riwayat1, Keys.chord(Keys.ARROW_RIGHT))
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/Vendor_PT Bespin Global Indonesia'),
+	[:], FailureHandling.STOP_ON_FAILURE)
 
-// Tambah Verifikasi
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Modul_Transaction'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Submodul_PengadaanLainnya'))
 
-def nego = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Menu_PengadaanLainnyaYangDiikuti'))
 
-String nego1 = nego.replace('IDR ', '')
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Proses'))
 
-System.println(nego1)
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap08/Menu_6_PengumumanPemenang'))
 
-String nego2 = nego1.replace('.', '')
+WebUI.delay(8)
 
-System.println(nego2)
+WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap08/text_VerifyPemenang'), 3)
+
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap08/text_VerifyPemenang'), 
+    'Selamat anda terpilih menjadi pemenang')
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

@@ -33,22 +33,37 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tah
 WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_SedangBerlangsung'), 
     'SEDANG BERLANGSUNG')
 
-TestObject riwayat1 = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD')
+// Kirim topik negosiasi
+String topik = 'Harga Negosiasi kedua by Vendor sudah terkirim'
 
-WebUI.sendKeys(riwayat1, Keys.chord(Keys.ARROW_RIGHT))
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/text_KirimTopikNego'), topik)
 
-// Tambah Verifikasi
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_KirimTanggapan'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-def nego = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'))
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_ChatTopik2'), topik, 
+    FailureHandling.OPTIONAL)
 
-String nego1 = nego.replace('IDR ', '')
+WebUI.delay(3)
 
-System.println(nego1)
+// Balas topik negosiasi
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Sender1'), 'Unit Pengadaan')
 
-String nego2 = nego1.replace('.', '')
+String balas = 'Harga Negosiasi sudah ter-update'
 
-System.println(nego2)
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Balas'))
+
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/text_BalasTopikNego'), balas)
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_BalasTanggapan'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Balas01'), balas, 
+    FailureHandling.OPTIONAL)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

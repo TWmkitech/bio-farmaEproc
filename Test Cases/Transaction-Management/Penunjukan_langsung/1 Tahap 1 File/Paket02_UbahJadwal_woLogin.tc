@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Paket02_UbahJadwal_woLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31a76769-efa0-4a48-b4bb-8560c5b2d60d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8817140d-499d-4a02-a16b-2275f3b5e320</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>8817140d-499d-4a02-a16b-2275f3b5e320</id>
+      <masked>false</masked>
+      <name>tahap</name>
+   </variable>
+</TestCaseEntity>

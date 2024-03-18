@@ -28,27 +28,29 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Men
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Proses'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Menu_5_Negosiasi'))
+WebUI.verifyElementPresent(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Verify_Title'), 5)
 
-WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_SedangBerlangsung'), 
-    'SEDANG BERLANGSUNG')
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/Menu_2_Aanwijzing'))
 
-TestObject riwayat1 = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD')
+int topik = 3
 
-WebUI.sendKeys(riwayat1, Keys.chord(Keys.ARROW_RIGHT))
+String teks = 'Balasan Topik Aanwijzing ke-' + topik + ' dari Vendor'
 
-// Tambah Verifikasi
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD'))
+WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/Icon_Balas', [('list') : topik]), 
+    5)
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/Icon_Balas', [('list') : topik]))
+
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/text_BalasTopik', [('list') : topik]), 
+    teks)
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/button_BalasTanggapan', [('list') : topik]))
+
+WebUI.delay(8)
+
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/verify_TextBalasan', [('list') : topik]), teks)
 
 WebUI.delay(5)
 
-def nego = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'))
-
-String nego1 = nego.replace('IDR ', '')
-
-System.println(nego1)
-
-String nego2 = nego1.replace('.', '')
-
-System.println(nego2)
+WebUI.closeBrowser()
 

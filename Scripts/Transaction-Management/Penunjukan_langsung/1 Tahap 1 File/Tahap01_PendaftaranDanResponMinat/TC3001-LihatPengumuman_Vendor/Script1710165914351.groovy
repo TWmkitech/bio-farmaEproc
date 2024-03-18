@@ -24,31 +24,25 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Mod
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Submodul_PengadaanLainnya'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Menu_PengadaanLainnyaYangDiikuti'))
+def status = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/verify_StatusTable'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Proses'))
+System.println(status)
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Menu_5_Negosiasi'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Icon_Detail'))
 
-WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_SedangBerlangsung'), 
-    'SEDANG BERLANGSUNG')
+WebUI.verifyElementPresent(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Verify_Title'), 5)
 
-TestObject riwayat1 = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD')
-
-WebUI.sendKeys(riwayat1, Keys.chord(Keys.ARROW_RIGHT))
-
-// Tambah Verifikasi
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD'))
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Verify_NoPP'), NoPP)
 
 WebUI.delay(5)
 
-def nego = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'))
+// Tahapan Daftar ke hold --> Ubah jadwal
+if (!status.contains('Mendaftar')) {
+    WebUI.callTestCase(findTestCase('Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Paket02_UbahJadwal'), [('tahap') : 1], 
+        FailureHandling.STOP_ON_FAILURE)
 
-String nego1 = nego.replace('IDR ', '')
-
-System.println(nego1)
-
-String nego2 = nego1.replace('.', '')
-
-System.println(nego2)
+    WebUI.closeBrowser()
+} else {
+    WebUI.closeBrowser()
+}
 

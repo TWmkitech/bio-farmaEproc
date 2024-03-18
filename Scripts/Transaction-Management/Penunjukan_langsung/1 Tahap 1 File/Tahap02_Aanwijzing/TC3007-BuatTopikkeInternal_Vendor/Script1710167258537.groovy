@@ -28,27 +28,27 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Men
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Proses'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Menu_5_Negosiasi'))
+WebUI.verifyElementPresent(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Verify_Title'), 5)
 
-WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_SedangBerlangsung'), 
-    'SEDANG BERLANGSUNG')
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/Menu_2_Aanwijzing'))
 
-TestObject riwayat1 = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD')
+int topik = 4
 
-WebUI.sendKeys(riwayat1, Keys.chord(Keys.ARROW_RIGHT))
+String teks = 'Buat Topik Aanwijzing ke-' + topik + ' dari Vendor'
 
-// Tambah Verifikasi
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD'))
+WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/text_BuatTopik'), 5)
+
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/text_BuatTopik'), teks)
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/button_KirimTopik'))
+
+WebUI.delay(8)
+
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/verify_TeksTopik', [('list') : topik]), 
+    teks)
 
 WebUI.delay(5)
 
-def nego = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'))
+WebUI.closeBrowser()
 
-String nego1 = nego.replace('IDR ', '')
-
-System.println(nego1)
-
-String nego2 = nego1.replace('.', '')
-
-System.println(nego2)
 

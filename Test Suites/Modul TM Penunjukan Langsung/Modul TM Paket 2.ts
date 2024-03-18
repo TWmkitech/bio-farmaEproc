@@ -96,7 +96,7 @@
    <testCaseLink>
       <guid>9b078bed-6f90-45e9-99c5-88b5537f4492</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap02_Aanwijzing/TC3011-ApprovalHasilAanwijzing_PG-BOD-2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -143,43 +143,57 @@
    <testCaseLink>
       <guid>355802c3-56fd-47fc-b548-eb83f6d84c6b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap04_EvaluasiAdminTeknis/TC3016-PenjadwalanPOC_PG-BOD-4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ba535c99-cc88-4cee-8db9-fab97511bef9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap04_EvaluasiAdminTeknis/TC3017-EvaluasiAdmTeknis_PG-BOD-4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4e9e1840-f349-47d0-a853-8a0e6b31226c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap04_EvaluasiAdminTeknis/TC3018-KlarifikasiEvaluasi_PG-BOD-4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>09371c24-6b2b-4f87-b1be-12cc453d839f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap04_EvaluasiAdminTeknis/TC3019-KlarifikasiEvaluasi_Vendor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>35c0b15f-8333-40d8-b83f-5c1fa23e2182</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap04_EvaluasiAdminTeknis/TC3020-UnggahDokPendukung_PG-BOD-4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d711cb94-0559-4e26-bc13-aa8a560ddc94</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap05_EvaluasiHarga/TC3021-LihatEvaluasiHarga_PG-BOD-4</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49d50538-c3c7-4aca-9d29-98369b37f616</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap06_ApprovalEvalPenawaran/TC3022-AjukanPersetujuanEval_PG-BOD-4</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e276889-4372-4455-b042-c57ae00bc2d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap06_ApprovalEvalPenawaran/TC3023-ReviewEvaluasi_KAEF-BOD-3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -241,92 +255,190 @@
    <testCaseLink>
       <guid>0f76a3d3-c2d0-43a6-bdc7-86769a705ce6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3032-UndanganNegosiasiEntitas_PG-BOD-4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>089e07b2-932c-4fe9-9e7c-152875858e94</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3033-InputNegosiasibyKAEF_BOD3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f7be27e8-cb9c-4d20-83dd-bbf567eb3c4f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3034-InputNegosiasibyKFTD_BOD3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6cf2c133-04e2-4385-b427-adfc1c0a69ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3035-InputNegosiasibygPG_BOD4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dce59311-6d98-4ab3-907a-a05b989fe96d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3036-LihatRiwayatNegosiasi_PG</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>951f1d77-a199-4698-9bef-a261505d13ec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3037-ChatNegosiasi_PG-BOD-4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5773cb30-6b1a-4716-8743-0817ceb59c31</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3038-InputNegosiasiWinner_Vendor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>936e2ce4-c700-4f93-9898-6d0a56826246</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3039-LihatRiwayatNegosiasi_Vendor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c035713b-01d2-4287-8844-fba8b1dcd8e7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3040-ChatNegosiasi_Vendor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c0f48f75-601e-47ab-8033-8f93425165cb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3041-SelesaikanNegosiasi_PG-BOD4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3eb29541-64df-4462-b1df-16229dae1e55</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3042-AjukanPersetujuanNegosiasi_PG-BOD-4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>39c7429e-36eb-42c3-a036-d81a7b2cfdbf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3043-ReviewPersetujuanNegosiasi_PG-BOD-2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5cbcce05-b657-47b2-8782-261d82494c10</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap07_Negosiasi/TC3044-ApprovalPersetujuanNegosiasi_PG-BOD-1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>233e0630-2536-4569-8fab-20675abf5c12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap08_PenetapanPemenang/TC3045-AjukanPenetapanPemenang_PG-BOD-4</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c237ff66-9658-4000-9834-95a5c8fa09da</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap08_PenetapanPemenang/TC3046-ReviewPenetapanPemenang_PG-BOD-2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e62cb21-7054-4a5e-9a69-fdd837a39a70</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap08_PenetapanPemenang/TC3047-ApprovalPenetapanPemenang_PG-BOD-1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>165d7e4a-573b-4b4d-846d-84c45d846771</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap08_PenetapanPemenang/TC3048-LihatPengumumanPemenang_Vendor</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4e18b36-22d1-460a-86dc-5682e2f1e5d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3049-AjukanPersetujuanSPPBJ_PG-BOD-4</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>462cca28-8881-4243-aa5c-49739f73b766</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3050-PersetujuanSPJP_KAEF-BOD-3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>adb812a7-59b7-45cf-9d61-68a11db2ce9c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3051-PersetujuanSPJP_KAEF-BOD-2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9ba3525a-b0c6-41be-8450-89a096550b59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3052-PersetujuanSPJP_KAEF-BOD-1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd97211c-919f-4848-837a-5327af264103</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3053-PersetujuanSPJP_KFTD-BOD-3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3cce555a-6a79-4a7f-81bc-928c2bedd94b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3054-PersetujuanSPJP_KFTD-BOD-2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>800c1138-e622-4153-a97e-2a15c1ef716a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3055-PersetujuanSPJP_KFTD-BOD-1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d9801249-4553-4891-afc3-9939705c80c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3056-PersetujuanSPPBJ_PG-BOD-2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cc2442b-af20-478b-b96c-b4bd59f5011d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3057-PersetujuanSPPBJ_PG-BOD-1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6888c121-e45c-42b9-9288-f0db55467393</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap09_SPPBJ/TC3058-SelesaikanSPPBJ_PG-BOD-4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

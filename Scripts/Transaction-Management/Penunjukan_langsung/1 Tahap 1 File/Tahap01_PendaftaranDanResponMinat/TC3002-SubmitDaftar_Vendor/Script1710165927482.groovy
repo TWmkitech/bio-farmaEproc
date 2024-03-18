@@ -24,31 +24,34 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Mod
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Submodul_PengadaanLainnya'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Menu_PengadaanLainnyaYangDiikuti'))
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/verify_StatusTable'), 'Belum Mendaftar')
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Proses'))
-
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Menu_5_Negosiasi'))
-
-WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_SedangBerlangsung'), 
-    'SEDANG BERLANGSUNG')
-
-TestObject riwayat1 = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD')
-
-WebUI.sendKeys(riwayat1, Keys.chord(Keys.ARROW_RIGHT))
-
-// Tambah Verifikasi
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoKFTD'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Icon_Daftar'))
 
 WebUI.delay(5)
 
-def nego = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Button_Daftar'))
 
-String nego1 = nego.replace('IDR ', '')
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Button_Popup_OK'))
 
-System.println(nego1)
+WebUI.delay(5)
 
-String nego2 = nego1.replace('.', '')
+// Verifikasi dari sisi PG
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/PGHolding_KAEF_BOD-4'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
-System.println(nego2)
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Modul_TransactionManagement'))
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Submodul_PenunjukanLangsung'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
+
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap01/verify_StatusMinat'), 
+    'Daftar')
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

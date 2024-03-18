@@ -36,18 +36,24 @@ String cDay = new Date().format('d-M-yyyy')
 String cTime = new Date().format('hh:mm:a')
 
 int cDate = (cDay.split('-')[0]).toInteger() + 5
+
 String cMonth = cDay.split('-')[1]
+
 String cYear = cDay.split('-')[2]
 
 String cHour = cTime.split(':')[0]
+
 String cMinute = cTime.split(':')[1]
+
 String cPeriod = cTime.split(':')[2]
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/UbahJadwal/custom_FieldTglSelesai', 
         [('list') : tahap]))
 
 int trow = (2 * tahap) + 3
+
 String mPath1 = ((('div[' + trow) + ']/div[1]/div/div/select/option[') + cMonth) + ']'
+
 String dPath1 = ((('div[' + trow) + ']/div[2]/div/div[2]/div/span[') + cDate) + ']'
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/UbahJadwal/custom_Month', [('xpath') : mPath1]))
@@ -69,7 +75,9 @@ if (!(cAMPM.equals(cPeriod))) {
 
 // Tanggal Mulai
 int trow1 = (2 * tahap) + 4
+
 String mPath2 = ((('div[' + trow1) + ']/div[1]/div/div/select/option[') + cMonth) + ']'
+
 String dPath2 = ((('div[' + trow1) + ']/div[2]/div/div[2]/div/span[') + cDate) + ']'
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/UbahJadwal/custom_FieldTglMulai', 
@@ -95,4 +103,8 @@ if (!(cAMPM2.equals(cPeriod))) {
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/UbahJadwal/button_SimpanPerubahan'))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/UbahJadwal/button_OK'))
+
+WebUI.delay(20)
+
+WebUI.closeBrowser()
 
