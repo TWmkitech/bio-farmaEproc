@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>riwayat_harga1</name>
+   <tag></tag>
+   <elementGuidId>a2f338bb-587a-4e39-921e-ddae28658ba3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[14]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-md.btn-outline-danger.btn.btn-none</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>faf94960-e914-46c7-b4fd-ebbc72808cf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7a6918c9-47e2-4170-909f-c936ff444fcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-md btn-outline-danger btn btn-none</value>
+      <webElementGuid>50456e4e-a9b6-4d56-99a3-3ecfe01a0451</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vendorUuid_8ca8abb5-1eac-4ad4-8501-f8f68b41b5f6&quot;)/table[@class=&quot;mb-1 table-negosiasi border table&quot;]/tbody[1]/tr[2]/td[@class=&quot;text-center&quot;]/button[@class=&quot;btn-md btn-outline-danger btn btn-none&quot;]</value>
+      <webElementGuid>0c058e37-89a5-4d48-b608-c81398ec63b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[14]</value>
+      <webElementGuid>c8edf63e-5c98-4f75-9aa6-2ad99c27592f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vendorUuid_8ca8abb5-1eac-4ad4-8501-f8f68b41b5f6']/table/tbody/tr[2]/td[9]/button</value>
+      <webElementGuid>96e456e0-d65c-4598-96c9-2286fa0da25f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spesifikasi Item-1'])[1]/following::button[1]</value>
+      <webElementGuid>bd5c5fb9-5c28-4e27-934c-cc736c39806c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='J1338'])[1]/following::button[1]</value>
+      <webElementGuid>a93a01c3-ddbd-41a7-98d5-e7283d3e615d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Indofarma Tbk'])[1]/preceding::button[1]</value>
+      <webElementGuid>38bd627c-b2dd-42e0-9870-0f86cde9360c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Komponen Utama'])[2]/preceding::button[1]</value>
+      <webElementGuid>18e89eaa-d55a-42c5-b90b-ec8d32bf52e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/button</value>
+      <webElementGuid>4fee85e0-4a06-4116-853b-2e594d0910fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>83cb8122-8016-4b30-9e82-2331a17e7ded</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
