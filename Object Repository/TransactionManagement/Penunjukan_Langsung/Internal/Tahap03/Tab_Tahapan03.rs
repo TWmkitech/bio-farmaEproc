@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tab_Tahapan03</name>
+   <tag></tag>
+   <elementGuidId>276706b8-1a72-49d4-b8f5-248922b77876</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[3]/div/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>2a9deb5b-b1e9-434e-a8ae-b560aba15f3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709091508765</value>
+      <webElementGuid>47f74b50-5d22-4446-bb7c-63307b077e0d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

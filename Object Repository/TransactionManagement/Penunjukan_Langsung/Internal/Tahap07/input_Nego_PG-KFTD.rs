@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nego_PG-KFTD</name>
+   <tag></tag>
+   <elementGuidId>22a707b4-3f5d-4f8b-b913-5ca01d88f31e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[7]/div[4]/table/tbody[1]/tr[4]/td[5]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

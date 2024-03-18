@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_StatusHPS</name>
+   <tag></tag>
+   <elementGuidId>348ecf4a-fc10-480a-90a4-961fe443d3da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[5]/div[3]/div/div[2]/table/tbody/tr/td[4]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>36229a47-4181-41f4-ba73-ca6feb89ef65</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

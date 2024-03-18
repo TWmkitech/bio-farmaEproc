@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_IncotermCIF</name>
+   <tag></tag>
+   <elementGuidId>8eb8174f-c102-4ba0-a956-0512f0b9db3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[2]/div[12]/div/div[1]/div[2]/div/div/div[6]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'react-select-12-option-5']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>60afcedc-9cd1-4f91-9f10-867e01849ed3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-12-option-5</value>
+      <webElementGuid>aec403c9-f652-41e1-838e-9775e3dc48b2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

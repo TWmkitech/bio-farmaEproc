@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Anwijzing_Lapangan</name>
+   <tag></tag>
+   <elementGuidId>efdc2354-da92-4d5e-ac72-ff1ec9800358</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.d-block.w-100</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[3]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f2d44b6f-2f9d-44ac-9196-89a1a69948a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>b6316f3c-6768-42a3-89ee-73a010c6e9d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary d-block w-100</value>
+      <webElementGuid>300dc255-395b-4791-a96e-eafc10b2cdd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Login</value>
+      <webElementGuid>8b8309bc-33d6-43d9-a89c-d2dc36fa45df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;preloader&quot;)/div[@class=&quot;h-100 row&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;h-100 row&quot;]/div[@class=&quot;my-auto col&quot;]/div[@class=&quot;mx-auto&quot;]/div[2]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;mb-3&quot;]/button[@class=&quot;btn btn-primary d-block w-100&quot;]</value>
+      <webElementGuid>2c13a6ce-c419-4ade-b03a-df769c5bf360</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

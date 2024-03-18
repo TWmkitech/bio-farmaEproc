@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_CatatanPOC</name>
+   <tag></tag>
+   <elementGuidId>cd9157ce-5832-402d-9f2b-56d1b79226ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'eproc_evaluation_vendor_poc_result']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[1]/div/div[6]/div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>b3015c28-fc12-482c-8611-b20f620087da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>eproc_evaluation_vendor_poc_result</value>
+      <webElementGuid>2e72aff8-9324-4696-bcbd-4f83a685c4d5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

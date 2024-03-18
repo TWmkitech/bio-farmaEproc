@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_CatatanAdmin</name>
+   <tag></tag>
+   <elementGuidId>225bc9cb-55c2-4400-b176-5b76fff2dcaa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'eproc_evaluation_vendor_note_adm']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[4]/div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>f9d4c869-7069-4040-ab68-289cb30cb1f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>eproc_evaluation_vendor_note_adm</value>
+      <webElementGuid>db9e096a-bf76-4833-a235-e880bb9a2037</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_TotalPenawaran</name>
+   <tag></tag>
+   <elementGuidId>6322995d-88ef-4ad9-a215-151b9e67f1cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[2]/div[8]/div/div[2]/input[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d957a1de-08bc-4674-8af4-0d0069b411f7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

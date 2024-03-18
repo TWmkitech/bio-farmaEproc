@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_Klarifikasi</name>
+   <tag></tag>
+   <elementGuidId>c85412a6-d3be-4ffe-8705-9d5055b6c73a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'clarification_message']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[2]/div[2]/div[2]/div/div/div[3]/form/div[1]/div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>68b1b5dd-bf26-4d23-af6b-359d9086503d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>clarification_message</value>
+      <webElementGuid>1a7c0ee2-18cc-4f32-9d62-a84884f9365a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

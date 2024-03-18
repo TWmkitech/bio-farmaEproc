@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UnggahTeknis6</name>
+   <tag></tag>
+   <elementGuidId>ea40521a-0510-4f37-85d1-524c8df47e7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.d-block.w-100</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[1]/div[3]/table/tbody/tr[6]/td[4]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c66284d5-f0a8-4012-9903-db4f5ba4ab93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary d-block w-100</value>
+      <webElementGuid>3d600bd1-524d-4ed3-acfd-829a936a598d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Masuk</value>
+      <webElementGuid>6aae3426-8213-4b08-99fd-e4f83c25d83d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;misc-wrapper&quot;]/div[@class=&quot;auth-wrapper auth-basic px-2&quot;]/div[@class=&quot;auth-inner my-2&quot;]/div[@class=&quot;mb-0 card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[3]/button[@class=&quot;btn btn-primary d-block w-100&quot;]</value>
+      <webElementGuid>7ca6cb2d-1a6b-4466-997e-c7b3572722fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>a53d9e79-ae45-421a-a959-ea005a3449e6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

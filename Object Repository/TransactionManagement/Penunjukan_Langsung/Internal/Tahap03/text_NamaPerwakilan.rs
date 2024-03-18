@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_NamaPerwakilan</name>
+   <tag></tag>
+   <elementGuidId>8b739682-d199-4d49-a122-ab2273116035</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[3]/form/div[10]/table/tbody/tr/td[4]/div/input[5]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'pic_name[0]']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>14bcc933-c403-4012-b93f-870bb2b60ed7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pic_name[0]</value>
+      <webElementGuid>a45cdd83-d608-4c48-a381-d7f181cecdb2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
