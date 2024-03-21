@@ -30,7 +30,7 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/Tab_Tahapan02'))
 
-int topik = 4
+int topik = 2
 
 String teks = 'Balasan Topik Aanwijzing ke-' + topik + ' dari PG BOD-4'
 

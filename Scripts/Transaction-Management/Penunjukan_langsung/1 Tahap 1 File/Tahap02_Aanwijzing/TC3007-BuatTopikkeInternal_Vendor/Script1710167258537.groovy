@@ -32,7 +32,7 @@ WebUI.verifyElementPresent(findTestObject('TransactionManagement/Penunjukan_Lang
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/Menu_2_Aanwijzing'))
 
-int topik = 4
+int topik = 2
 
 String teks = 'Buat Topik Aanwijzing ke-' + topik + ' dari Vendor'
 

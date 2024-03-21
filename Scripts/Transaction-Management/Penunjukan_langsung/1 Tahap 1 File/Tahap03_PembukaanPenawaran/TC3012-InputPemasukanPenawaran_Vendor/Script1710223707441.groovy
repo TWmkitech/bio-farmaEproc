@@ -92,21 +92,21 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tah
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_DirekturUtama'))
 
-int offerKFTD = 22000000
+int offerKFTD = 32000000
 
-WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/input_Harga-KFTD'), offerKFTD.toString())
+int offerKAEF = 57000000
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_PilihOrigin_KFTD'))
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/input_HargaKAEF'), offerKAEF.toString())
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_Origin_KFTD-1'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_PilihOrigin_01'))
 
-int offerKAEF = 15000000
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_Origin_01-1'))
 
-WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/input_Harga-KAEF'), offerKAEF.toString())
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/input_HargaKFTD'), offerKFTD.toString())
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_PilihOrigin_KAEF'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_PilihOrigin_02'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_Origin_KAEF-1'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/div_Origin_02-1'))
 
 // Upload Rincian Penawaran
 TestObject uploadRincian = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap03/button_UploadRincian')
@@ -162,3 +162,4 @@ WebUI.verifyElementPresent(findTestObject('TransactionManagement/Penunjukan_Lang
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+

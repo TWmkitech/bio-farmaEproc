@@ -35,7 +35,7 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/button_UploadAdmTek'))
 
-WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/input_NamaDokPOC'), 'Dokumen POC')
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/input_NamaDokPOC'), 'Dokumen Pendukung')
 
 // Upload Dokumen Pendukung POC
 TestObject uploadFile = findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/upload_DokumenPOC')

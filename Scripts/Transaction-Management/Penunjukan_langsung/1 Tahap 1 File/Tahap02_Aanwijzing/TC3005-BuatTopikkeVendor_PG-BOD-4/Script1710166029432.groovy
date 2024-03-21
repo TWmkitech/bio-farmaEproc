@@ -33,7 +33,7 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 
 WebUI.verifyTextNotPresent('Proses Pengadaan Tahapan Aanwijzing akan dimulai pada:', false, FailureHandling.OPTIONAL)
 
-int topik = 3
+int topik = 1
 
 String teks = 'Buat Topik Aanwijzing ke-' + topik + ' dari PG BOD-4'
 

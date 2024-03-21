@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[7]</value>
+         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[${date}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b50ae2a4-cdce-40f8-a887-e1b5df4b760d</webElementGuid>
+      <webElementGuid>54d1bd83-7f38-4afd-96d1-cbcc9055a0cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>flatpickr-day today</value>
-      <webElementGuid>48f6885f-e255-4487-90ca-70483ff815ae</webElementGuid>
+      <webElementGuid>45215e14-ef68-4d78-b5fd-30aab8ecb69a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

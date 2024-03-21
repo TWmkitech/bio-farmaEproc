@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Choose File' or . = 'Choose File')]</value>
+         <value>//input[@type = 'file']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div[4]/div[2]/div/div[1]/div/button</value>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div[4]/div[2]/div/div[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,15 +21,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ae85edf2-364c-4402-8032-e4683eaa514d</webElementGuid>
+      <value>input</value>
+      <webElementGuid>8f499159-5817-416d-8aab-4381f5b976ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Choose File</value>
-      <webElementGuid>06aa456e-41fb-4b9a-8ca7-061ab479c80e</webElementGuid>
+      <value>file</value>
+      <webElementGuid>cc952535-2ae7-487d-87aa-d13d4b0615b9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

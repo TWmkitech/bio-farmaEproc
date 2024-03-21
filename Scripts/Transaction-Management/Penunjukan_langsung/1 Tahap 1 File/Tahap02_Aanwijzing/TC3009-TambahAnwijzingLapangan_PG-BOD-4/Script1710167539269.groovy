@@ -54,7 +54,7 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/field_PilihTanggal'))
 
-WebUI.doubleClick(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/div_Tanggal', [('date') : cDate]))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/div_Tanggal', [('date') : cDate]))
 
 WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/input_Hour'), cHour)
 
@@ -69,7 +69,7 @@ if (!(cAMPM.equals(cPeriod))) {
 WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/input_Lokasi'), 'MKI')
 
 WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/input_Catatan'), 'Catatan Aanwijzing Lapangan')
-/*
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/button_SimpanKirimAanLap'))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/btn_OKAanLap'))
@@ -81,4 +81,4 @@ WebUI.verifyTextPresent('Catatan Aanwijzing Lapangan', false)
 WebUI.delay(5)
 
 WebUI.closeBrowser()
-*/
+
