@@ -17,12 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/Vendor_PT Bespin Global Indonesia'), 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/Vendor'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Modul_Transaction'))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Submodul_PengadaanLainnya'))
+
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/input_Searching01'), GlobalVariable.NoPP)
+
+WebUI.delay(3)
 
 def status = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/verify_StatusTable'))
 
@@ -32,12 +36,12 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tah
 
 WebUI.verifyElementPresent(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Verify_Title'), 5)
 
-WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Verify_NoPP'), NoPP)
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Verify_NoPP'), GlobalVariable.NoPP)
 
 WebUI.delay(5)
 
 // Tahapan Daftar ke hold --> Ubah jadwal
-if (!status.contains('Mendaftar')) {
+if (!(status.contains('Mendaftar'))) {
     WebUI.callTestCase(findTestCase('Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Paket02_UbahJadwal'), [('tahap') : 1], 
         FailureHandling.STOP_ON_FAILURE)
 

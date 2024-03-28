@@ -27,6 +27,8 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap08/Tab_Tahapan08'))
@@ -81,6 +83,8 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap08/button_OK'))
 
 WebUI.delay(12)
+
+WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap08/button_LihatBA'), 8)
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap08/button_LihatBA'))
 

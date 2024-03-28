@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>dev</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://eproc-dev.digital-healthcare.id/'</initValue>
+      <name>UrlEproc</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://vendor-dev.digital-healthcare.id/'</initValue>
+      <name>UrlVendor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'password.1'</initValue>
+      <name>passInternal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'password.1'</initValue>
+      <name>passVendor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PP/JPROC/2024/000080'</initValue>
+      <name>NoPP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DRM-JP.24.000002'</initValue>
+      <name>userVendor</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/Vendor_PT Bespin Global Indonesia'), 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/Vendor'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Modul_Transaction'))
@@ -26,15 +26,19 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Sub
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Menu_PengadaanLainnyaYangDiikuti'))
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/input_Searching02'), GlobalVariable.NoPP)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Proses'))
 
 WebUI.verifyElementPresent(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap01/Verify_Title'), 5)
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/Menu_2_Aanwijzing'))
 
-int topik = 1
+int topik = GlobalVariable.topikInternal
 
-String teks = 'Balasan Topik Aanwijzing ke-' + topik + ' dari Vendor'
+String teks = ('Balasan Topik Aanwijzing ke-' + topik) + ' dari Vendor'
 
 WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/Icon_Balas', [('list') : topik]), 
     5)
@@ -48,7 +52,8 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tah
 
 WebUI.delay(8)
 
-WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/verify_TextBalasan', [('list') : topik]), teks)
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap02/verify_TextBalasan', [('list') : topik]), 
+    teks)
 
 WebUI.delay(5)
 

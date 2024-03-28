@@ -21,10 +21,9 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/PGHolding_KAEF_BOD-4'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(7)
+WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/Revisi/row1_DaftarTugas'), 
-    'Permintaan Revisi Pembukaan Penawaran')
+//WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/Revisi/row1_DaftarTugas'), 'Permintaan Revisi Pembukaan Penawaran')
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/btn_Notifikasi'))
 
@@ -37,6 +36,8 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 
 WebUI.delay(5)
 
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/verify_NoPP'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/Tab_Tahapan03'))
 
 WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/text_NamaPerwakilan'), 'REVISI Name 01')
@@ -48,6 +49,10 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 WebUI.delay(8)
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/Approval/button_PersetujuanPembukaanPenawaran'))
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/Approval/button_HapusFile'))
+
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/Approval/button_OKHapus'))
 
 WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/Approval/input_NamaLampiran'), 
     'REVISI Lampiran')

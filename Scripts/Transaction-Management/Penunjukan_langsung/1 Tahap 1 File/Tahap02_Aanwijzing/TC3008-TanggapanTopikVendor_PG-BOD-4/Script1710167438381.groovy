@@ -26,11 +26,15 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/Tab_Tahapan02'))
 
-int topik = 2
+int topik = GlobalVariable.topikVendor
 
 String teks = 'Balasan Topik Aanwijzing ke-' + topik + ' dari PG BOD-4'
 

@@ -63,18 +63,6 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 // Verifikasi persetujuan berhasil
 WebUI.delay(10)
 
-WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap06/button_LihatBA'), 10)
-
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap06/button_LihatBA'))
-
-WebUI.delay(5)
-
-WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap06/button_TutupBA'), 8)
-
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap06/button_TutupBA'))
-
-WebUI.delay(8)
-
 WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap06/tab_StatusPersetujuan'), 
     5)
 
@@ -87,6 +75,9 @@ WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap06/verify_StatusEntitasBOD1'), 
     'Pending', FailureHandling.OPTIONAL)
+
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap06/verify_StatApproval-PG-BOD4'), 
+    'Proses Pengajuan', FailureHandling.OPTIONAL)
 
 WebUI.delay(3)
 

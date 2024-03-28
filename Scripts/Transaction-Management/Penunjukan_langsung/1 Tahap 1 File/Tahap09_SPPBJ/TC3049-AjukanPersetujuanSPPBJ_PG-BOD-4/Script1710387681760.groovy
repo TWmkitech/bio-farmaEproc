@@ -26,6 +26,8 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Tab_Tahapan09'))
@@ -56,23 +58,23 @@ String cDay = new Date().format('d-M-yyyy')
 
 int cDate = (cDay.split('-')[0]).toInteger() + 5
 
-// Jaminan KFTD
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_TanggalSPJP_KFTD'))
+// Jaminan Entitas 1
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_TanggalSPJP_E1'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/date_StartSPJP_KFTD', [('date') : cDate]))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/date_StartSPJP_E1', [('date') : cDate]))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_BatasSPJP_KFTD'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_BatasSPJP_E1'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/date_EndSPJP_KFTD', [('date') : cDate]))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/date_EndSPJP_E1', [('date') : cDate]))
 
-// Jaminan KAEF
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_TanggalSPJP_KAEF'))
+// Jaminan Entitas 2
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_TanggalSPJP_E2'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/date_StartSPJP_KAEF', [('date') : cDate]))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/date_StartSPJP_E2', [('date') : cDate]))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_BatasSPJP_KAEF'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_BatasSPJP_E2'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/date_EndSPJP_KAEF', [('date') : cDate]))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/date_EndSPJP_E2', [('date') : cDate]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/button_SimpanJaminan'))
 
@@ -81,7 +83,6 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 WebUI.delay(10)
 
 // SPPBJ 
-
 TestObject targetElement = findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Field_TanggalSPPBJ')
 
 WebUI.click(targetElement)

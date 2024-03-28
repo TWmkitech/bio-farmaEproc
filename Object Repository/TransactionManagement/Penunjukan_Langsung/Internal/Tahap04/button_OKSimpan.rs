@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/div[2]/div/div/p/a[2]</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/div[3]/div/div/p/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>55c226eb-173e-4936-ba72-0531f4c873e6</webElementGuid>
+      <webElementGuid>0c7548cb-f1cc-4312-8ec5-363b8e7a1da9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

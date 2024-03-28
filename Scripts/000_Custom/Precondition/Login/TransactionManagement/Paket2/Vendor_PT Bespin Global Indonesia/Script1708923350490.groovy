@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.UrlVendorDev)
+WebUI.openBrowser(GlobalVariable.UrlVendor)
 
 WebUI.maximizeWindow()
 
@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Login/vendor/Button_Masuk'))
 
 WebUI.setText(findTestObject('Login/vendor/Field_Username'), 'DRM-JP.24.000002')
 
-WebUI.setText(findTestObject('Login/vendor/Field_Password'), 'password.1')
+WebUI.setText(findTestObject('Login/vendor/Field_Password'), GlobalVariable.passVendor)
 
 WebUI.click(findTestObject('Login/vendor/Button_Login'))
 

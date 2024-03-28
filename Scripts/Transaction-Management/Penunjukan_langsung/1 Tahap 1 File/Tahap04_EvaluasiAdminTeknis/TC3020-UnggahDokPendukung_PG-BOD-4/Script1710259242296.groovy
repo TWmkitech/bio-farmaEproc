@@ -27,6 +27,8 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/Tab_Tahapan04'))
@@ -52,11 +54,14 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/radio_LulusTeknis'))
+
 // Verifikasi muncul di tabel dokumennya
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/button_SimpanPerubahan'))
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/btn_SimpanKlarifikasi'))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/button_OKSimpan'))
 
 WebUI.delay(8)
 
 WebUI.closeBrowser()
+

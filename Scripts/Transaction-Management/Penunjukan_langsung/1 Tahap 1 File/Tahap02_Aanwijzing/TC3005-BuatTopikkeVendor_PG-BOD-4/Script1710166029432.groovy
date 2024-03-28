@@ -27,13 +27,15 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/Tab_Tahapan02'))
 
 WebUI.verifyTextNotPresent('Proses Pengadaan Tahapan Aanwijzing akan dimulai pada:', false, FailureHandling.OPTIONAL)
 
-int topik = 1
+int topik = GlobalVariable.topikInternal
 
 String teks = 'Buat Topik Aanwijzing ke-' + topik + ' dari PG BOD-4'
 

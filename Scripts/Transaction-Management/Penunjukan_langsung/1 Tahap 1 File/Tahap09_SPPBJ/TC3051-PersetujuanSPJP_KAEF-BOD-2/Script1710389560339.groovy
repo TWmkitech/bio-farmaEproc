@@ -26,6 +26,8 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/Tab_Tahapan09'))
@@ -50,22 +52,25 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/verify_Setuju_KAEF', [('row') : 3]), 
-    8, FailureHandling.OPTIONAL)
+// Verifikasi Status
+int row = 3
 
-String user = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/verify_h6_KAEF', 
-        [('row') : 3]))
+WebUI.scrollToElement(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/verify_Setuju_KAEF', [('row') : row]),
+	8, FailureHandling.OPTIONAL)
 
-String approv = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/verify_Setuju_KAEF', 
-        [('row') : 3]))
+String user = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/verify_h6_KAEF',
+		[('row') : row])).contains('Reviewer 2 (KAEF) | ').toString()
+
+String approv = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap09/verify_Setuju_KAEF',
+		[('row') : row]))
 
 System.println(user)
 
 System.println(approv)
 
-if (user.contains('  Reviewer 2 (KAEF) | ')) {
-    WebUI.verifyElementText(approv, 'Setuju')
-}
+WebUI.verifyMatch(user, 'true', false, FailureHandling.OPTIONAL)
+
+WebUI.verifyMatch(approv, 'Setuju', false, FailureHandling.OPTIONAL)
 
 WebUI.delay(5)
 

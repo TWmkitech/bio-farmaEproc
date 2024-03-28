@@ -31,17 +31,19 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap03/Tab_Tahapan03'))
 
 def closed = WebUI.verifyTextPresent('Proses pengadaan tahap Pembukaan Penawaran (Administrasi, Teknis & Harga) akan dimulai pada:', 
-    false)
+    false, FailureHandling.OPTIONAL)
 
 // Ubah Jadwal Aanwijzing
 if (closed.equals(true)) {
-    WebUI.callTestCase(findTestCase('Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Paket02_UbahJadwal_woLogin'), [('tahap') : 4], 
-        FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Paket02_UbahJadwal_woLogin'), 
+        [('tahap') : 4], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(10)
 }
@@ -98,3 +100,4 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 WebUI.delay(8)
 
 WebUI.closeBrowser()
+

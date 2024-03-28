@@ -14,7 +14,7 @@
          <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[3]/div/fieldset/div[1]/span[1]/div/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bf319c45-c6ae-469b-bbed-8b1663cf446b</webElementGuid>
+      <webElementGuid>0a7d5792-8650-440b-95dc-15a6474c0fc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,6 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>1092a983-6b57-466e-94d3-544f15063a13</webElementGuid>
+      <webElementGuid>3f03e66c-be39-4464-aefe-301e1906ca07</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -27,14 +27,16 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/Tab_Tahapan02'))
 
-def closed = WebUI.verifyTextPresent('Proses Pengadaan Tahapan Aanwijzing sudah habis!', false, FailureHandling.OPTIONAL)
+def closed = WebUI.verifyTextNotPresent('Proses Pengadaan Tahapan Aanwijzing sudah habis!', false, FailureHandling.OPTIONAL)
 
 // Ubah Jadwal Tutup Aanwijzing 
-if (closed.equals(false)) {
+if (closed.equals(true)) {
     WebUI.callTestCase(findTestCase('Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Paket02_UbahJadwal_woLogin'), 
         [('tahap') : 3], FailureHandling.STOP_ON_FAILURE)
 

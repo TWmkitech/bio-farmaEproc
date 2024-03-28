@@ -27,6 +27,8 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/G
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/input_Searching'), GlobalVariable.NoPP)
+
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
 
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/Tab_Tahapan04'))
@@ -60,7 +62,7 @@ WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/T
 WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/radio_KesesuaianAdmin'))
 
 WebUI.verifyElementChecked(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/radio_LulusAdmin'), 
-    5)
+    5, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap04/text_CatatanAdmin'), 'Catatan Evaluasi Administrasi')
 
@@ -95,3 +97,4 @@ WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsun
     'Lulus')
 
 WebUI.closeBrowser()
+

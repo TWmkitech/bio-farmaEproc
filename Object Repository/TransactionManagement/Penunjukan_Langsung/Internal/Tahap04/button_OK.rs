@@ -6,11 +6,15 @@
    <elementGuidId>ae1aa81f-2d56-4c18-a32b-bb3d1617a6ca</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'OK' or . = 'OK')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/div[2]/div/div/p/a[2]</value>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/div[3]/div/div/p/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>356a9932-9099-442d-9c13-38dfaeda4dce</webElementGuid>
+      <webElementGuid>b27206a2-16d9-495a-9a33-dbff9787e1fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +33,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>91932d9a-deed-4275-831f-609bbeb34088</webElementGuid>
+      <webElementGuid>5c2ceeab-8504-452c-8dcd-b4f0e40e230a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-lg btn-success  </value>
-      <webElementGuid>8e1dd118-d118-44c4-94b8-ce624742b322</webElementGuid>
+      <webElementGuid>12be4a12-c879-4b5a-a015-f9a485863ffd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>OK</value>
-      <webElementGuid>b02d2478-0b8a-469d-a050-4c23f88c16ae</webElementGuid>
+      <webElementGuid>f3782877-888a-4b72-9ad3-5557bc74532b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,86 +57,86 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[2]/div[1]/div[@class=&quot;sweet-alert&quot;]/p[1]/a[@class=&quot;btn btn-lg btn-success&quot;]</value>
-      <webElementGuid>25d08226-22bb-404e-abe3-8568847b26e3</webElementGuid>
+      <webElementGuid>9ee9a6a5-b0f9-497a-bafe-2c2c4bbf47c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/div[2]/div/div/p/a[2]</value>
-      <webElementGuid>66678302-152c-427b-bdbe-a87ed9d1024a</webElementGuid>
+      <value></value>
+      <webElementGuid>69bb55db-4b3b-4816-a98e-37e61f9499aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'OK')]</value>
-      <webElementGuid>672a1196-5c11-44b2-83e5-f6e312db8d5a</webElementGuid>
+      <value></value>
+      <webElementGuid>af8fdd4b-cb3c-4a0c-b908-c68322dcd7e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apakah anda yakin akan memperbaharui data ini?'])[1]/following::a[2]</value>
-      <webElementGuid>c3476b92-0fb6-4298-971e-0b770f0d8010</webElementGuid>
+      <value></value>
+      <webElementGuid>c1f3eb4d-91a9-4775-8abe-2f842324d501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi!'])[1]/following::a[2]</value>
-      <webElementGuid>0bd4a1be-c7c4-429b-9544-9b1952cd11e9</webElementGuid>
+      <value></value>
+      <webElementGuid>1450b64d-cefd-4303-b325-e10802592790</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluasi Harga'])[1]/preceding::a[1]</value>
-      <webElementGuid>4e68733a-f64c-40dc-b6f7-652a3c188b59</webElementGuid>
+      <value></value>
+      <webElementGuid>79d44d7b-362b-4785-bf83-a50410458de4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rangkuman Evaluasi Penawaran'])[1]/preceding::a[1]</value>
-      <webElementGuid>e0637ee7-4263-47e0-b2c1-551479847a77</webElementGuid>
+      <value></value>
+      <webElementGuid>c0717591-387b-4dd3-ace3-aa95a2ed77ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
-      <webElementGuid>81e213d0-2ef5-4037-a4dc-841f145462e5</webElementGuid>
+      <value></value>
+      <webElementGuid>f8083a57-bc70-4ecb-82fc-8137e541417a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[4]</value>
-      <webElementGuid>f92672fc-c850-4e4b-9b39-d78e5e4e69f0</webElementGuid>
+      <value></value>
+      <webElementGuid>e3cf0a98-ba17-4f39-a4f2-356045b36ab8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p/a[2]</value>
-      <webElementGuid>ea39846a-fcaf-4150-892a-184847201f6d</webElementGuid>
+      <value></value>
+      <webElementGuid>4d96c6a6-0d22-4ec9-9cc3-191a2a3cdd9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'OK' or . = 'OK')]</value>
-      <webElementGuid>99376b9d-7f1e-418d-998d-0103cc10d1e8</webElementGuid>
+      <value></value>
+      <webElementGuid>7eae9e38-d502-41e6-a48f-6f5adf27753c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[9]/button[2]</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[10]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c094be54-7b80-4e36-a837-639bc47d1407</webElementGuid>
+      <webElementGuid>d4cabace-1e9d-4343-bd21-aec93d9a09d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,6 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>75461e49-f06c-44ba-a98d-eb7895da378a</webElementGuid>
+      <webElementGuid>2c7f40aa-c125-41d3-813f-44f15c57278a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'radio']</value>
+         <value>//input[@type = 'radio' and @id = 'radio-eproc_evaluation_vendor_status_technical-1']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[6]/div/fieldset/div[1]/span[1]/div/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>cfa47c6b-bb3e-45d4-a6ed-cb4cb0a5d650</webElementGuid>
+      <webElementGuid>4c6d0a87-2a60-42a7-a744-e9a43db42986</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,14 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>be5746fc-9f4d-40f7-aa89-6f7c2bcf8c95</webElementGuid>
+      <webElementGuid>2e2962b1-4039-45f0-8a00-0668f80d4422</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radio-eproc_evaluation_vendor_status_technical-1</value>
+      <webElementGuid>c53c5524-d163-4081-8510-a4dff5ab3413</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
