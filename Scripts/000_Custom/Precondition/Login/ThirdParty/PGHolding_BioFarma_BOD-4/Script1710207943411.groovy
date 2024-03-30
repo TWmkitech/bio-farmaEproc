@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), '1
 
 WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'password.1')
 
-WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
+WebUI.enhancedClick(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 
 WebUI.verifyElementText(findTestObject('Login/internal/Verify_Username'), 'Garit De Nene Nada Bisturi')
 

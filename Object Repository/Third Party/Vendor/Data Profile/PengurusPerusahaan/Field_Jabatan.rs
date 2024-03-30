@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='vendor_manage_position']</value>
+         <value>/html/body/div/div[1]/div/div[2]/div/div/div/div/div/form/div[7]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e2556bba-9b84-416c-b503-214468fcf92e</webElementGuid>
+      <webElementGuid>8f0e2a37-00e9-49c0-b7c7-f787e21c905c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>vendor_manage_position</value>
-      <webElementGuid>d040c74a-dc0a-4957-a4eb-c41d9f44d6b9</webElementGuid>
+      <webElementGuid>b1d90fe7-1c8c-4140-81cf-0066570ddf1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>vendor_manage_position</value>
-      <webElementGuid>051209af-abec-40cb-aa7c-4a274ca703d8</webElementGuid>
+      <webElementGuid>5b1ee554-ce6f-4e4b-8bc3-d58a0fc04765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b6528442-d071-44b2-bc06-ecc1bc2328e1</webElementGuid>
+      <webElementGuid>a783a62a-7621-45e5-a1ee-e0de4c80c9db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control mb-3 is-untouched is-pristine av-invalid form-control</value>
-      <webElementGuid>4eb8c146-a0b3-4091-8c59-168304752dc3</webElementGuid>
+      <webElementGuid>9faebe21-47a1-4092-a825-8a7456305bdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,38 +62,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vendor_manage_position&quot;)</value>
-      <webElementGuid>bf135616-89ce-4c80-a449-e812a9a1c9aa</webElementGuid>
+      <webElementGuid>d4c1bee7-980c-4cf4-ad69-454ecc81a7d1</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='vendor_manage_position']</value>
-      <webElementGuid>f1c025d5-0c79-4b02-ac0d-84ec0af69457</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/form/div[7]/div/input</value>
-      <webElementGuid>0fa967b4-50b5-4f22-a96b-6af757a2420b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[7]/div/input</value>
-      <webElementGuid>604b88e7-45dc-4aa6-8580-3585168e81a0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@name = 'vendor_manage_position' and @id = 'vendor_manage_position' and @type = 'text']</value>
-      <webElementGuid>c9f665d5-1a54-4251-9dff-6fdcf3900a48</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

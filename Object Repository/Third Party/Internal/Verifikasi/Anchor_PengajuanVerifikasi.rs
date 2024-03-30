@@ -6,12 +6,12 @@
    <elementGuidId>5ebd3bb1-ebb9-4b6b-9635-f799d1217f12</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btn-verify-5d5a38be-3624-48b3-a939-14235e5dd15b</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[3]/div/div/div[1]/div/div[2]/div/div[2]/div/div/table/tbody/tr/td[9]/div/span[1]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='btn-verify-5d5a38be-3624-48b3-a939-14235e5dd15b']</value>
+         <key>CSS</key>
+         <value>#btn-verify-5d5a38be-3624-48b3-a939-14235e5dd15b</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>272f6fb1-0df5-4179-a78d-2ab1a273f72d</webElementGuid>
+      <webElementGuid>5508a1ec-4be5-455d-8c1b-6801e1dc3b21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-warning btn-sm</value>
-      <webElementGuid>a8227f45-1ed2-4ab8-ba7c-d1e70347f5b1</webElementGuid>
+      <webElementGuid>acd6f398-1053-4e7b-93da-c6b66fe93692</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btn-verify-5d5a38be-3624-48b3-a939-14235e5dd15b</value>
-      <webElementGuid>996c5760-ad5b-42e8-8961-dbd86b7f2294</webElementGuid>
+      <webElementGuid>9d3eaf9d-e5af-417b-8d6c-48aa1a78fab6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/tpm/candidate?verification&amp;uuid=5d5a38be-3624-48b3-a939-14235e5dd15b</value>
-      <webElementGuid>ec37a71d-60ed-4f90-9c99-d643ffdac98b</webElementGuid>
+      <webElementGuid>9d3c5114-0278-4529-b1bc-4ec89818e1dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,78 +54,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btn-verify-5d5a38be-3624-48b3-a939-14235e5dd15b&quot;)</value>
-      <webElementGuid>50430b99-14d5-44ee-8b58-43c4e5427627</webElementGuid>
+      <webElementGuid>ef14823e-e254-4ca5-bdfb-5a5337e429d5</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='btn-verify-5d5a38be-3624-48b3-a939-14235e5dd15b']</value>
-      <webElementGuid>c2ddeb1d-6d4d-4826-8dad-3b7fd1bf5b83</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//table[@id='as-react-datatable']/tbody/tr/td[9]/div/span/a</value>
-      <webElementGuid>8a83d8d5-b915-46bd-82d3-71116dc36dea</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan Verifikasi'])[1]/following::a[1]</value>
-      <webElementGuid>e530830a-2f64-4ba4-a076-d71fa161fbd0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='automatedtest2@yopmail.com'])[1]/following::a[1]</value>
-      <webElementGuid>22ef46b8-c0de-4137-bee5-2b7c705543a7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan'])[1]/preceding::a[2]</value>
-      <webElementGuid>10e9fe41-dcac-4b4c-ba8c-d6f601fc7935</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='sampai'])[1]/preceding::a[2]</value>
-      <webElementGuid>d77fc87d-723b-40d2-8512-3b8255aff2cb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/tpm/candidate?verification&amp;uuid=5d5a38be-3624-48b3-a939-14235e5dd15b')]</value>
-      <webElementGuid>e6fd45f3-6907-4bce-b9c8-6edd646b08a5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/a</value>
-      <webElementGuid>fd347043-c0ae-46bb-8f50-52665bd315f8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@id = 'btn-verify-5d5a38be-3624-48b3-a939-14235e5dd15b' and @href = '/tpm/candidate?verification&amp;uuid=5d5a38be-3624-48b3-a939-14235e5dd15b']</value>
-      <webElementGuid>2f8e5fc1-6c99-48f3-be13-ef74a11a56dd</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

@@ -15,21 +15,21 @@
       <guid>1fe67a45-1e8a-4325-90e7-4283ebcd6d75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Vendor/TC123_Relationship/TC123_01_Relationship</testCaseId>
+      <testCaseId>Test Cases/Third Party/Vendor/TC147_149_Relationship/TC147_01_Relationship</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>94a67b1a-0d9e-403a-bd96-8cbf7ca6fce0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Internal/TC125_01_SupplierRelationship</testCaseId>
+      <testCaseId>Test Cases/Third Party/Internal/TC145_SupplierRelationship</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3d7ccb42-3d45-4a33-ac16-3fcdd1a2d153</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Vendor/TC123_Relationship/TC123_02_TanggapanRelationship</testCaseId>
+      <testCaseId>Test Cases/Third Party/Vendor/TC147_149_Relationship/TC149_02_TanggapanRelationship</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

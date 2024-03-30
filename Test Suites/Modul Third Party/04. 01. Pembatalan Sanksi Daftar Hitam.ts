@@ -15,21 +15,21 @@
       <guid>eec2642d-fbbc-4877-a2b6-fd32140cd7ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Internal/TC124_PenilaianKinerja/TC124_04_PembatalanSanksiDaftarHitam/TC124_04_01_PengajuanBatal</testCaseId>
+      <testCaseId>Test Cases/Third Party/Internal/TC138_139_141_142_144_PenilaianKinerja/TC144_PembatalanSanksiDaftarHitam/TC144_PengajuanBatal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3bbbc1bc-3e92-46ee-8d21-cb39f0959e76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Internal/TC124_PenilaianKinerja/TC124_04_PembatalanSanksiDaftarHitam/TC124_04_02_Review</testCaseId>
+      <testCaseId>Test Cases/Third Party/Internal/TC138_139_141_142_144_PenilaianKinerja/TC144_PembatalanSanksiDaftarHitam/TC144.03.03_Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0940885a-9b63-4dbc-a32b-7cddce7e1a7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Internal/TC124_PenilaianKinerja/TC124_04_PembatalanSanksiDaftarHitam/TC124_04_03_Approval</testCaseId>
+      <testCaseId>Test Cases/Third Party/Internal/TC138_139_141_142_144_PenilaianKinerja/TC144_PembatalanSanksiDaftarHitam/TC144.03.04_Approval</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

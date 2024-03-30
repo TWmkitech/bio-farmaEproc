@@ -58,7 +58,7 @@ WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Web
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_EmailBackup'), 0)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_EmailBackup'), 'automatedtestbackup@yopmail.com')
+not_run: WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_EmailBackup'), 'automatedtestbackup@yopmail.com')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()

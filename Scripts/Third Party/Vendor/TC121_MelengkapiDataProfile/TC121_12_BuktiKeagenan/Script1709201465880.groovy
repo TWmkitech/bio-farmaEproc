@@ -22,6 +22,8 @@ not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDat
 
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Anchor_BuktiKeagenan'))
 
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
+
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Button_TambahData'))
 
 WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_NoDokumen'), '0098509375')

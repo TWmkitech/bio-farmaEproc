@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>61a8eb25-82e3-4f35-85f7-5833b09d1e5f</webElementGuid>
+      <webElementGuid>7d9d30ae-add5-496a-926d-e4e73bb7e521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-link-style</value>
-      <webElementGuid>94151ca4-4de1-4caf-82a2-980804c7ab30</webElementGuid>
+      <webElementGuid>b706b69f-2c7c-497b-8953-e983e2ef9b81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/tpm.html?narahubung</value>
-      <webElementGuid>1f65257d-107d-4e29-8de6-c31b82ae588e</webElementGuid>
+      <webElementGuid>7332e2cc-2284-43af-88a6-5fd113395d4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>   Narahubung</value>
-      <webElementGuid>2f1813b0-ee6c-4fb8-a703-b5af48f7b8c1</webElementGuid>
+      <webElementGuid>4343b99f-1ca3-4450-b29f-e7d2f7a66d4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3 col-md-3 col-lg-3 col-xl-3&quot;]/div[@class=&quot;p-2 mb-4 mt-4 scroll-container card&quot;]/div[1]/div[@class=&quot;class-sidebar-tpm scroll-content&quot;]/ul[@class=&quot;nav flex-column&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;custom-link-style&quot;]</value>
-      <webElementGuid>769c667f-b8c6-47fc-9392-d506d18a6c1e</webElementGuid>
+      <webElementGuid>a672e847-fae1-4418-9509-45dd03d57aae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/div/ul/li[6]/a</value>
-      <webElementGuid>0ee9f869-bb1a-4aa6-8ea4-3438b5244f3e</webElementGuid>
+      <webElementGuid>d6d5ba1e-946c-4116-8895-3716137d8949</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::a[1]</value>
-      <webElementGuid>230dfe89-d0d0-4737-a933-1e6c4b28d1ec</webElementGuid>
+      <webElementGuid>344a52f4-9e4c-4c23-8852-71537c504749</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengurus Perusahaan'])[1]/following::a[1]</value>
-      <webElementGuid>5b39aa64-8e6c-4a71-9737-d4c73fe9e268</webElementGuid>
+      <webElementGuid>439eb5d4-69b8-4721-8a7b-dc5a90c06885</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Struktur Organisasi'])[1]/preceding::a[1]</value>
-      <webElementGuid>5b17db98-490b-4acf-bb84-35c4c41e9631</webElementGuid>
+      <webElementGuid>960d64fa-4f88-4c3a-9355-8a0ddfb67881</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/tpm.html?narahubung')]</value>
-      <webElementGuid>3a05a654-e29e-418f-b702-fe12589e143e</webElementGuid>
+      <webElementGuid>c6a574f4-6439-44fa-9146-d8bc3f04b732</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a</value>
-      <webElementGuid>14a418e7-d92d-468f-a3e3-f843c24b9140</webElementGuid>
+      <webElementGuid>5bdf1022-3214-4276-8477-d308dd94397f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/tpm.html?narahubung' and (text() = '   Narahubung' or . = '   Narahubung')]</value>
-      <webElementGuid>a38ef84e-2806-4bd7-a8a1-fa351adcd468</webElementGuid>
+      <webElementGuid>99519553-e7e7-4417-9d6a-2bc52f739934</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

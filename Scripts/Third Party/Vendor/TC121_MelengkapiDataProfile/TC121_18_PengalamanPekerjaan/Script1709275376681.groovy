@@ -22,6 +22,8 @@ not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDat
 
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Anchor_PengalamanPekerjaan'))
 
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
+
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Button_TambahData'))
 
 WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengalamanPekerjaan/Field_NoKontrak'), '002/SPK-II/2024')

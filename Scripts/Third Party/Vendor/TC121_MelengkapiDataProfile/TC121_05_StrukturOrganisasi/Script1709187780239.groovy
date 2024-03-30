@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as Config
 
-not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Anchor_StrukturOrganisasi'))
 
 TestObject uploadStruktur = findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Upload_Struktur')

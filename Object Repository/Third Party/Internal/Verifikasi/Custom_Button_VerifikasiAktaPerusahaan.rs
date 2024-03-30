@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>1913acde-b6a4-41c2-9f54-f136f1c5b4a3</webElementGuid>
+      <webElementGuid>88735b8a-5222-4ec0-bb6b-5f5a8757df8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1709694391070</value>
-      <webElementGuid>90c8e2c5-43a1-4693-8663-61e09e9fcb53</webElementGuid>
+      <webElementGuid>0d46a747-3325-466c-825b-b16fc154617c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

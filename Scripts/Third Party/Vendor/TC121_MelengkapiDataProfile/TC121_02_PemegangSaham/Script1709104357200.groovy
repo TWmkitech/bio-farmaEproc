@@ -20,9 +20,12 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Anchor_PemegangSaham'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Anchor_PemegangSaham'), 
+    0)
 
-WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Anchor_PemegangSaham'))
+not_run: WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Anchor_PemegangSaham'))
+
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
 
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Button_TambahData'))
 
@@ -55,7 +58,8 @@ if (WebUI.verifyElementPresent(findTestObject('Third Party/Vendor/Data Profile/P
     WebUI.uploadFile(uploadNpwp, filePathNpwp)
 }
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_PersentaseKepemilikan'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_PersentaseKepemilikan'), 
+    0)
 
 WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_PersentaseKepemilikan'), '30')
 

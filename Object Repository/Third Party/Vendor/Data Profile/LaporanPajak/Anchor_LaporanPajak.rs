@@ -6,12 +6,12 @@
    <elementGuidId>7d66dacd-482e-49ac-b57a-38e416d791bd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.custom-link-style.active</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div/div/ul/li[21]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.custom-link-style.active</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f88b750e-01f5-4a7d-a3c0-f07ba6275fbf</webElementGuid>
+      <webElementGuid>aa23d876-11a0-412d-9e8c-b174f1408b7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-link-style active</value>
-      <webElementGuid>eee69851-a956-4311-aa10-394e7c4b4b2d</webElementGuid>
+      <webElementGuid>d9db10ca-e6fd-4cc8-812c-4b59ed3ac384</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/tpm.html?laporanpajak</value>
-      <webElementGuid>6455b9dd-d048-4860-b32c-be11cfb3928a</webElementGuid>
+      <webElementGuid>1ecb129d-e40d-4d71-b842-f434865976d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-current</name>
       <type>Main</type>
       <value>page</value>
-      <webElementGuid>c3f45ef3-a7cd-486b-a869-3f03c41480c1</webElementGuid>
+      <webElementGuid>5056cac3-eac2-460a-97d8-7837fc1d667d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>   Laporan Pajak *</value>
-      <webElementGuid>47418604-ab92-4883-8f87-4f0bce32441f</webElementGuid>
+      <webElementGuid>dc5eb5ad-98b3-45d3-a043-514d1725563a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3 col-md-3 col-lg-3 col-xl-3&quot;]/div[@class=&quot;p-2 mb-4 mt-4 scroll-container card&quot;]/div[1]/div[@class=&quot;class-sidebar-tpm scroll-content&quot;]/ul[@class=&quot;nav flex-column&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;custom-link-style active&quot;]</value>
-      <webElementGuid>acc7e830-e0cf-45e1-ac98-152a9f20ee37</webElementGuid>
+      <webElementGuid>e70ab56b-dc8e-45d6-b4ff-a8fb116b441f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/div/ul/li[21]/a</value>
-      <webElementGuid>d5d40ed3-717c-44e0-900b-29806fa243f7</webElementGuid>
+      <webElementGuid>eecaf8d4-f2a4-4abf-bc87-73402489a877</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/following::a[1]</value>
-      <webElementGuid>61c365ef-3c80-47dd-87d2-0300ed3e2f1b</webElementGuid>
+      <webElementGuid>5c1818ae-a87f-42e7-a622-87743a99fd97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pajak'])[1]/following::a[1]</value>
-      <webElementGuid>317e0245-36a8-41f6-9807-e1589f73aceb</webElementGuid>
+      <webElementGuid>a30b2583-fe08-41ce-8714-be3c4f823468</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/tpm.html?laporanpajak')]</value>
-      <webElementGuid>010589f2-d5d9-49b0-b6ad-125294f45969</webElementGuid>
+      <webElementGuid>9b14d76b-1aa1-4638-9499-81fd1068a89f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[21]/a</value>
-      <webElementGuid>bc40f6e6-af54-45af-aa39-d0b7bacc9bdc</webElementGuid>
+      <webElementGuid>c63c511b-f635-4405-aab4-52b061318294</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/tpm.html?laporanpajak' and (text() = '   Laporan Pajak *' or . = '   Laporan Pajak *')]</value>
-      <webElementGuid>28ff0b1b-7e00-40e7-a825-7382832567de</webElementGuid>
+      <webElementGuid>655b5109-bfed-4350-8e7b-a611d6b793b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

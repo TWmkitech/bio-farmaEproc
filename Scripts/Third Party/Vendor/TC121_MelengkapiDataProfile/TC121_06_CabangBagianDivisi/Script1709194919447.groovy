@@ -22,6 +22,8 @@ not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDat
 
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Anchor_CabangBagianDivisi'))
 
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
+
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Button_Tambah'))
 
 WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/CabangBagianDivisi/Field_NamaKantor'), 'Automated Test Yogya')

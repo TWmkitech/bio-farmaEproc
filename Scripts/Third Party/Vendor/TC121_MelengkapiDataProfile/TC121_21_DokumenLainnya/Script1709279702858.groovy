@@ -22,6 +22,8 @@ not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDat
 
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Anchor_DokumenLainnya'))
 
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
+
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Button_TambahData'))
 
 WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DokumenLainnya/Field_Nama'), 'Dokumen Pengajuan')

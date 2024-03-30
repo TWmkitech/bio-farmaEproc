@@ -22,6 +22,8 @@ not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDat
 
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/AktaPerusahaan/Anchor_AktaPerusahaan'))
 
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
+
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/AktaPerusahaan/Button_Tambah'))
 
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/AktaPerusahaan/Field_JenisAkta'))

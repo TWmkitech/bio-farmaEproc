@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='detail-5d5a38be-3624-48b3-a939-14235e5dd15b']</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/table/tbody/tr/td[8]/div/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7a720a6c-f3a9-40e6-9bfc-00300bc73faf</webElementGuid>
+      <webElementGuid>30a45877-bb5a-4c44-9825-3f624ee44c4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-transparent btn-sm</value>
-      <webElementGuid>5858b0c0-c194-4df5-8218-c1911c402fe2</webElementGuid>
+      <webElementGuid>649d86ff-5098-41ad-a4d5-b113001d1ffb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>detail-5d5a38be-3624-48b3-a939-14235e5dd15b</value>
-      <webElementGuid>b83f08c6-9da1-44da-a5b0-210b5fdde3c6</webElementGuid>
+      <webElementGuid>1db745d1-4621-4a01-95a5-b7603aff2f00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/tpm/relationship?detail&amp;uuid=5d5a38be-3624-48b3-a939-14235e5dd15b</value>
-      <webElementGuid>f6c1cca3-0679-46b1-ad3d-b00f85c58806</webElementGuid>
+      <webElementGuid>1ffbdeac-9387-4711-a163-0722579586d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,78 +54,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;detail-5d5a38be-3624-48b3-a939-14235e5dd15b&quot;)</value>
-      <webElementGuid>5a1aef62-52fc-4cad-9621-9962086e93c7</webElementGuid>
+      <webElementGuid>7e18ac10-0eed-406b-9f5d-8634d985a791</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='detail-5d5a38be-3624-48b3-a939-14235e5dd15b']</value>
-      <webElementGuid>d52aed91-1a1f-456a-8be1-72e6e54f1d31</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//table[@id='as-react-datatable']/tbody/tr/td[8]/div/span/a</value>
-      <webElementGuid>5a8c08fd-915f-4de8-a10b-06e26a1f2d43</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::a[1]</value>
-      <webElementGuid>f5c0821a-ad34-495f-8901-4663116f2e00</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jl. Test Alamat No. 123'])[1]/following::a[1]</value>
-      <webElementGuid>0d7ebd8e-0f30-48ea-8985-ce6c5602c4eb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan'])[1]/preceding::a[1]</value>
-      <webElementGuid>b8718297-9094-48a9-bf66-c32e3fbe95ac</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='sampai'])[1]/preceding::a[1]</value>
-      <webElementGuid>3b3b83e1-341e-4ccf-8bb3-b5daca9aad80</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/tpm/relationship?detail&amp;uuid=5d5a38be-3624-48b3-a939-14235e5dd15b')]</value>
-      <webElementGuid>48b09169-3391-4c98-8281-8c00c782378d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/a</value>
-      <webElementGuid>230022c7-e6e8-412f-99e9-c8e78302305d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@id = 'detail-5d5a38be-3624-48b3-a939-14235e5dd15b' and @href = '/tpm/relationship?detail&amp;uuid=5d5a38be-3624-48b3-a939-14235e5dd15b']</value>
-      <webElementGuid>9d23a221-d03a-4ebd-b898-9c0762fd1f34</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

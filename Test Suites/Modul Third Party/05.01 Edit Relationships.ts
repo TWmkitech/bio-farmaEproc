@@ -15,7 +15,7 @@
       <guid>770034bb-b8e5-4b3a-afe8-45d32bc6833e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Internal/TC125_02_EditSupplierRelationship</testCaseId>
+      <testCaseId>Test Cases/Third Party/Internal/TC146_EditSupplierRelationship</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

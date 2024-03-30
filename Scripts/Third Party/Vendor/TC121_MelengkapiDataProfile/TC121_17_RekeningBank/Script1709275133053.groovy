@@ -22,6 +22,8 @@ not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDat
 
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Anchor_RekeningBank'))
 
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
+
 WebUI.click(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Button_TambahData'))
 
 WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/RekeningBank/Field_NoRek'), '0090123456')

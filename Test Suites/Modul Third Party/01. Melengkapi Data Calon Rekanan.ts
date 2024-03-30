@@ -12,35 +12,35 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>5515641d-1d88-41e6-8964-b9e5763d6c48</testSuiteGuid>
    <testCaseLink>
-      <guid>c8f38052-45b4-4799-a6bb-4ba752472dc2</guid>
+      <guid>e714126c-d446-48e0-8d5d-7c4f1d05d89e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Third Party/Vendor/TC120_Login Pra-Registrasi Calon Vendor</testCaseId>
+      <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1ccb0b62-3f55-40ec-b6e4-952f7a288cf4</guid>
+      <guid>d9ca60c5-c4d8-4348-9042-d588e040a909</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_01_DataUmum</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e978d6c-a863-4b26-bd28-49b8ac4f9f10</guid>
+      <guid>ff9f549e-1598-4fe8-8207-daa2a2ec451a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_02_PemegangSaham</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f169596-ded3-43a2-a7f7-401715ebec81</guid>
+      <guid>cb68c20b-c863-4153-9626-ad75a98275de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_03_PengurusPerusahaan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>88979b2b-2459-478d-a98a-ad948bffc927</guid>
+      <guid>ed3dfbad-0537-4011-a336-aa8af8b76ced</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_04_Narahubung</testCaseId>

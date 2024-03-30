@@ -30,13 +30,13 @@ WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Login Pra Registr
 
 not_run: WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Username'), GlobalVariable.UserCalonRekanan)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Username'), 'DRM-JP.24.000003')
+WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Username'), 'autorevisi3')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Password'), 0)
 
-not_run: WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Password'), GlobalVariable.PassCalonRekanan)
+WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Password'), GlobalVariable.PassCalonRekanan)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Password'), 'password.1')
+not_run: WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Password'), 'Bi0f@rma')
 
 WebUI.click(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Button_Login'), FailureHandling.STOP_ON_FAILURE)
 
