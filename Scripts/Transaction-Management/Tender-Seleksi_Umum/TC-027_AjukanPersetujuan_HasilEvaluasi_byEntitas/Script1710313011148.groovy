@@ -24,7 +24,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://eproc-dev.digital-healthcare.id/')
 
-WebUI.setText(findTestObject('TransactionManagement/Seleksi-Umum/003-MonitoringDaftarMinat/input_Username_username'), '21000535')
+WebUI.setText(findTestObject('TransactionManagement/Seleksi-Umum/003-MonitoringDaftarMinat/input_Username_username'), '11000394')
 
 WebUI.setText(findTestObject('TransactionManagement/Seleksi-Umum/003-MonitoringDaftarMinat/input_Password_password'), 'password.1')
 
@@ -37,6 +37,11 @@ WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/027_Ajukan_Perset
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/027_Ajukan_Persetujuan_Hasil_Evaluasi_byEntitas/entitas_Seleksi_Umum'))
 
 WebUI.delay(5)
+
+WebUI.setText(findTestObject('TransactionManagement/NegativeTest_Tender_Seleksi_Umum/Revisi_HasilEvaluasi_AdmTeknis_byAgen/Search'), 
+    'PP/JPROC/2024/000083')
+
+WebUI.delay(7)
 
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/027_Ajukan_Persetujuan_Hasil_Evaluasi_byEntitas/proses_tender'))
 

@@ -32,11 +32,11 @@ WebUI.setText(findTestObject('TransactionManagement/Seleksi-Umum/003-MonitoringD
 
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/016_Input_Penawaran(Administrasi_Teknis)/button_Login'))
 
-WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/a_Transaction'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/a_Tender  Seleksi Umum'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/a_TenderSeleksi Umum Yang Diikuti'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/016_Input_Penawaran(Administrasi_Teknis)/proses'))
 

@@ -24,21 +24,21 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://vendor-dev.digital-healthcare.id/home.html')
 
-WebUI.click(findTestObject('Object Repository/TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Masuk'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/001-MelihatPengumuman_DaftarbyPenyedia/button_Masuk'))
 
 WebUI.setText(findTestObject('Object Repository/TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/input_Username_username'), 
-    'DRM-JP.24.000004')
+    'DRM-JP.24.000013')
 
 WebUI.setText(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/input_Password_password'), 
     'password.1')
 
-WebUI.click(findTestObject('Object Repository/TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Login'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/001-MelihatPengumuman_DaftarbyPenyedia/button_Login'))
 
-WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/a_Transaction'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/001-MelihatPengumuman_DaftarbyPenyedia/a_Transaction'))
 
-WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/a_Tender  Seleksi Umum'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/001-MelihatPengumuman_DaftarbyPenyedia/a_Tender_Seleksi_Umum'))
 
-WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/a_TenderSeleksi Umum Yang Diikuti'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/002-ResponMinat/a_Tender_SeleksiUmum_YangDiikuti'))
 
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/proses_Penawaran'))
 
@@ -61,130 +61,130 @@ WebUI.uploadFile(uploadField, filePath)
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah1'))
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldSIUP = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/2_upload_SIUP_SIUJK')
+TestObject uploadFieldSIUP = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/2_upload_SIUP_SIUJK')
 
-not_run: def filePathSIUP = projectDir + '/Document/DataTest.docx'
+def filePathSIUP = projectDir + '/Document/DataTest.docx'
 
-not_run: WebUI.uploadFile(uploadFieldSIUP, filePathSIUP)
+WebUI.uploadFile(uploadFieldSIUP, filePathSIUP)
 
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah2'))
-
-// Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldSPT = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/3_upload_SPTTahunan')
-
-not_run: def filePathSPT = projectDir + '/Document/DataTest.docx'
-
-not_run: WebUI.uploadFile(uploadFieldSPT, filePathSPT)
-
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah3'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah2'))
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldRefBank = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/4_RefBank_RekeningKoran')
+TestObject uploadFieldSPT = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/3_upload_SPTTahunan')
 
-not_run: def filePathRefBank = projectDir + '/Document/DataTest.docx'
+def filePathSPT = projectDir + '/Document/DataTest.docx'
 
-not_run: WebUI.uploadFile(uploadFieldRefBank, filePathRefBank)
+WebUI.uploadFile(uploadFieldSPT, filePathSPT)
 
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah4'))
-
-// Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldCV = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/5_upload_CV')
-
-not_run: def filePathCV = projectDir + '/Document/DataTest.docx'
-
-not_run: WebUI.uploadFile(uploadFieldCV, filePathCV)
-
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah5'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah3'))
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldPeralatan = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/6_upload_Peralatan')
+TestObject uploadFieldRefBank = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/4_RefBank_RekeningKoran')
 
-not_run: def filePathPeralatan = projectDir + '/Document/DataTest.docx'
+def filePathRefBank = projectDir + '/Document/DataTest.docx'
 
-not_run: WebUI.uploadFile(uploadFieldPeralatan, filePathPeralatan)
+WebUI.uploadFile(uploadFieldRefBank, filePathRefBank)
 
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah6'))
-
-// Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldPengalaman = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/7_upload_PengalamanPerusahaan')
-
-not_run: def filePathPengalaman = projectDir + '/Document/DataTest.docx'
-
-not_run: WebUI.uploadFile(uploadFieldPengalaman, filePathPengalaman)
-
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah7'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah4'))
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldAkta = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/8_upload_AktaPerusahaan')
+TestObject uploadFieldCV = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/5_upload_CV')
 
-not_run: def filePathAkta = projectDir + '/Document/DataTest.docx'
+def filePathCV = projectDir + '/Document/DataTest.docx'
 
-not_run: WebUI.uploadFile(uploadFieldAkta, filePathAkta)
+WebUI.uploadFile(uploadFieldCV, filePathCV)
 
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah8'))
-
-// Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldPemegangSaham = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/9_upload_PemegangSaham')
-
-not_run: def filePathPemegangSaham = projectDir + '/Document/DataTest.docx'
-
-not_run: WebUI.uploadFile(uploadFieldPemegangSaham, filePathPemegangSaham)
-
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah9'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah5'))
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldNPWP = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/10_upload_NPWP_PKP')
+TestObject uploadFieldPeralatan = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/6_upload_Peralatan')
 
-not_run: def filePathNPWP = projectDir + '/Document/DataTest.docx'
+def filePathPeralatan = projectDir + '/Document/DataTest.docx'
 
-not_run: WebUI.uploadFile(uploadFieldNPWP, filePathNPWP)
+WebUI.uploadFile(uploadFieldPeralatan, filePathPeralatan)
 
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah10'))
-
-// Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldNIB = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/11_upload_TDP_NIB')
-
-not_run: def filePathNIB = projectDir + '/Document/DataTest.docx'
-
-not_run: WebUI.uploadFile(uploadFieldNIB, filePathNIB)
-
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah11'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah6'))
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldIzinLokasi = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/12_upload_IzinLokasi')
+TestObject uploadFieldPengalaman = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/7_upload_PengalamanPerusahaan')
 
-not_run: def filePathIzinLokasi = projectDir + '/Document/DataTest.docx'
+def filePathPengalaman = projectDir + '/Document/DataTest.docx'
 
-not_run: WebUI.uploadFile(uploadFieldIzinLokasi, filePathIzinLokasi)
+WebUI.uploadFile(uploadFieldPengalaman, filePathPengalaman)
 
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah12'))
-
-// Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldPernyataan = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/13_upload_Surat_Pernyataan')
-
-not_run: def filePathPernyataan = projectDir + '/Document/DataTest.docx'
-
-not_run: WebUI.uploadFile(uploadFieldPernyataan, filePathPernyataan)
-
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah13'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah7'))
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldPaktaIntegritas = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/14_Pakta_Integritas')
+TestObject uploadFieldAkta = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/8_upload_AktaPerusahaan')
 
-not_run: def filePathPaktaIntegritas = projectDir + '/Document/DataTest.docx'
+def filePathAkta = projectDir + '/Document/DataTest.docx'
 
-not_run: WebUI.uploadFile(uploadFieldPaktaIntegritas, filePathPaktaIntegritas)
+WebUI.uploadFile(uploadFieldAkta, filePathAkta)
 
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah14'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah8'))
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadFieldCompanyProfile = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/15_Company_Profile')
+TestObject uploadFieldPemegangSaham = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/9_upload_PemegangSaham')
 
-not_run: def filePathCompanyProfile = projectDir + '/Document/DataTest.docx'
+def filePathPemegangSaham = projectDir + '/Document/DataTest.docx'
 
-not_run: WebUI.uploadFile(uploadFieldCompanyProfile, filePathCompanyProfile)
+WebUI.uploadFile(uploadFieldPemegangSaham, filePathPemegangSaham)
 
-not_run: WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah15'))
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah9'))
+
+// Ambil elemen field "Choose File"
+TestObject uploadFieldNPWP = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/10_upload_NPWP_PKP')
+
+def filePathNPWP = projectDir + '/Document/DataTest.docx'
+
+WebUI.uploadFile(uploadFieldNPWP, filePathNPWP)
+
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah10'))
+
+// Ambil elemen field "Choose File"
+TestObject uploadFieldNIB = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/11_upload_TDP_NIB')
+
+def filePathNIB = projectDir + '/Document/DataTest.docx'
+
+WebUI.uploadFile(uploadFieldNIB, filePathNIB)
+
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah11'))
+
+// Ambil elemen field "Choose File"
+TestObject uploadFieldIzinLokasi = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/12_upload_IzinLokasi')
+
+def filePathIzinLokasi = projectDir + '/Document/DataTest.docx'
+
+WebUI.uploadFile(uploadFieldIzinLokasi, filePathIzinLokasi)
+
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah12'))
+
+// Ambil elemen field "Choose File"
+TestObject uploadFieldPernyataan = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/13_upload_Surat_Pernyataan')
+
+def filePathPernyataan = projectDir + '/Document/DataTest.docx'
+
+WebUI.uploadFile(uploadFieldPernyataan, filePathPernyataan)
+
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah13'))
+
+// Ambil elemen field "Choose File"
+TestObject uploadFieldPaktaIntegritas = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/14_Pakta_Integritas')
+
+def filePathPaktaIntegritas = projectDir + '/Document/DataTest.docx'
+
+WebUI.uploadFile(uploadFieldPaktaIntegritas, filePathPaktaIntegritas)
+
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah14'))
+
+// Ambil elemen field "Choose File"
+TestObject uploadFieldCompanyProfile = findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/15_Company_Profile')
+
+def filePathCompanyProfile = projectDir + '/Document/DataTest.docx'
+
+WebUI.uploadFile(uploadFieldCompanyProfile, filePathCompanyProfile)
+
+WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_Unggah15'))
 
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/004-InputPenawaranKualifikasi/button_SimpanKirim'))
 

@@ -50,6 +50,11 @@ WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/029_Approval_Hasi
 
 WebUI.delay(5)
 
+WebUI.setText(findTestObject('TransactionManagement/NegativeTest_Tender_Seleksi_Umum/Revisi_HasilEvaluasi_AdmTeknis_byAgen/Search'), 
+    'PP/JPROC/2024/000083')
+
+WebUI.delay(7)
+
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/029_Approval_Hasil_Evaluasi_byEntitas/proses_tender'))
 
 WebUI.click(findTestObject('TransactionManagement/Seleksi-Umum/029_Approval_Hasil_Evaluasi_byEntitas/tab_Persetujuan_Evaluasi_AdmTeknis'))
