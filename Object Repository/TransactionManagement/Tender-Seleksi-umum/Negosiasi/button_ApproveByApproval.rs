@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[17]</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[9]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e7c0b4ac-1343-4a39-840d-84015134be77</webElementGuid>
+      <webElementGuid>e6bf73cc-1216-4082-8fc5-8a09fa59be94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1fa9aee3-fa78-40e1-aa52-328e59b397cc</webElementGuid>
+      <webElementGuid>353cb4b4-5c79-4ed1-ad07-74d95c4a9918</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-icon ms-1 mt-2 mb-2 btn btn-warning</value>
-      <webElementGuid>416f9721-6240-4e7a-a6f5-0e50c0764eff</webElementGuid>
+      <webElementGuid>c7cf5f07-6b5a-439f-a3f8-af1c488d10b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Review / Approval</value>
-      <webElementGuid>a9cee37b-ba57-4a37-a811-86967514e9c9</webElementGuid>
+      <webElementGuid>24e5733e-00a7-4014-9d45-280d1bd44fdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/button[@class=&quot;btn-icon ms-1 mt-2 mb-2 btn btn-warning&quot;]</value>
-      <webElementGuid>91d5fbb3-0e5b-4ba7-a98e-ecedd1978b5b</webElementGuid>
+      <webElementGuid>9a211ecc-f7dc-4aab-bb56-e9c3ce1aaf87</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>06715f4c-e062-4628-9701-6202b87f6fba</webElementGuid>
+      <webElementGuid>a46d9512-4e2e-429a-a2a4-80e9a24d6eeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[8]/button</value>
-      <webElementGuid>3474b7db-2e31-4ded-ae43-42d3e6621727</webElementGuid>
+      <webElementGuid>1d28bd3d-7bb1-4e80-985e-0f8b20b11dbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nurunnadiya'])[2]/following::button[1]</value>
-      <webElementGuid>032de9ca-3c2d-4092-9879-c63eaa126750</webElementGuid>
+      <webElementGuid>49be815b-ff4c-45f0-a272-08b813a5d84f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Penyedia Yang Akan Ditetapkan Menjadi Pemenang'])[1]/preceding::button[2]</value>
-      <webElementGuid>48c33ac2-f130-400e-a9cf-e59f8a18328f</webElementGuid>
+      <webElementGuid>ed97e1e5-ce2d-4dec-94c2-767088f92075</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Review / Approval']/parent::*</value>
-      <webElementGuid>4bd51190-caf2-41b6-8910-80788ee8c6ae</webElementGuid>
+      <webElementGuid>393efb85-0b15-47e6-ad57-600ca2058741</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/button</value>
-      <webElementGuid>d9301eda-351e-42c8-a464-60d6aaeab335</webElementGuid>
+      <webElementGuid>7703f978-0638-4190-a87a-99bd1fbd3818</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Review / Approval' or . = ' Review / Approval')]</value>
-      <webElementGuid>10b34522-ccd2-44b6-91f2-2c65ee81c932</webElementGuid>
+      <webElementGuid>1c208179-8307-4869-ac09-d58df4bc4598</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

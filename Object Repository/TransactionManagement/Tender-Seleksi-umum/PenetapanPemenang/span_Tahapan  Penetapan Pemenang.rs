@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[3]/div/ul/li[9]/a/span</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[3]/div/ul/li[10]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>db6ab359-f4ba-4361-8c33-57e493ddfea3</webElementGuid>
+      <webElementGuid>d9d343b7-6cc0-4abd-b9f9-062f0581ac3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-none d-sm-block py-2</value>
-      <webElementGuid>50358ca3-2d93-44b6-97fe-4423ef2f2ccf</webElementGuid>
+      <webElementGuid>068bf8e3-a370-41ae-b116-dde0e2dfd27b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tahapan  Penetapan Pemenang</value>
-      <webElementGuid>e5e2ec93-b8bc-4109-970a-d990a788cd59</webElementGuid>
+      <webElementGuid>569a8d23-7daf-48eb-b901-c1c54e8c6b7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/ul[@class=&quot;nav nav-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]/span[@class=&quot;d-none d-sm-block py-2&quot;]</value>
-      <webElementGuid>49b2496d-d3f0-4b39-ad7e-edddd013d67c</webElementGuid>
+      <webElementGuid>fef2dd0b-eb84-4636-811f-df678e1e7d30</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[3]/div/ul/li[9]/a/span</value>
-      <webElementGuid>30aa931a-5864-4378-a713-529975a34ba2</webElementGuid>
+      <webElementGuid>1fbbb407-8ca5-43ca-a429-ca0859cecfea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tahapan'])[9]/following::span[1]</value>
-      <webElementGuid>0b305af6-1825-4d37-ad7a-01d8a0c6d8d7</webElementGuid>
+      <webElementGuid>2ebd6935-b313-40af-8564-abf59f290890</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[9]/a/span</value>
-      <webElementGuid>1c8a25d8-c153-4a30-a7b8-eba34e953b08</webElementGuid>
+      <webElementGuid>f6b2b515-5dd4-4644-a646-e200c10cf56d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Tahapan  Penetapan Pemenang' or . = 'Tahapan  Penetapan Pemenang')]</value>
-      <webElementGuid>66f36233-6cc8-48c4-902e-230282c9503c</webElementGuid>
+      <webElementGuid>9130da70-d5bb-425b-ac5c-7027e67f614e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

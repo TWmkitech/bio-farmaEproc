@@ -30,7 +30,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi-umum/Vendor/Pil
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi-umum/Vendor/JenisPP'))
 
-WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi-umum/Vendor/No.PP'), 'PP/JPROC/2024/000076')
+WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi-umum/Vendor/No.PP'), 'PP/JPROC/2024/000080')
 
 WebUI.delay(5)
 

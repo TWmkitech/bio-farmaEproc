@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://eproc-dev.digital-healthcare.id/')
+WebUI.navigateToUrl('https://staging-eproc.digital-healthcare.id/')
 
 WebUI.setText(findTestObject('Login/internal/Field_Email'), 'bima.g')
 

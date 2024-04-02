@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://vendor-dev.digital-healthcare.id/home.html')
+WebUI.navigateToUrl('https://staging-vendor.digital-healthcare.id/')
 
 WebUI.click(findTestObject('Login/vendor/Button_Masuk'))
 

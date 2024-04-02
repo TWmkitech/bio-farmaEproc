@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://eproc-dev.digital-healthcare.id/')
 
-WebUI.setText(findTestObject('Login/internal/Field_Email'), 'bagas.s')
+WebUI.setText(findTestObject('Login/internal/Field_Email'), '11000420')
 
 WebUI.setEncryptedText(findTestObject('Login/internal/Field_Pass'), '8SQVv/p9jVSW5Y1g4TlYpw==')
 

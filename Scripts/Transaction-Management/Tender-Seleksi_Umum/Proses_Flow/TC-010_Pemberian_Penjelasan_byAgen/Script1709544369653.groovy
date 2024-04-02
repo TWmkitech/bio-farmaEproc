@@ -24,78 +24,78 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://eproc-dev.digital-healthcare.id/')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Username_username'), 'bima.g')
+WebUI.setText(findTestObject('null'), 'bima.g')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Password_password'), 'password.1')
+WebUI.setText(findTestObject('null'), 'password.1')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/button_Masuk'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/transaction_Management'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/tender_Seleksi_Umum'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/proses_tender'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pemberian_penjelasan'))
+WebUI.click(findTestObject('null'))
 
-not_run: WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/buat_Topik'), 'Topik yang dibahas terkait KAK dan CV')
+not_run: WebUI.setText(findTestObject('null'), 'Topik yang dibahas terkait KAK dan CV')
 
 not_run: def projectDir = Config.getProjectDir()
 
 // Ambil elemen field "Choose File"
-not_run: TestObject uploadField = findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/unggah_DokumenPendukung')
+not_run: TestObject uploadField = findTestObject('null')
 
 // Membentuk path lengkap file yang ingin diunggah
 not_run: def filePath = projectDir + '/Document/DataTest.docx'
 
 not_run: WebUI.uploadFile(uploadField, filePath)
 
-not_run: WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/button_KirimTopik'))
+not_run: WebUI.click(findTestObject('null'))
 
-not_run: WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/konfirmasi_OK'))
+not_run: WebUI.click(findTestObject('null'))
 
-WebUI.scrollToElement(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/button_Anwijzing_Lapangan'), 
+WebUI.scrollToElement(findTestObject('null'), 
     2)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/button_Anwijzing_Lapangan'))
+WebUI.click(findTestObject('null'))
 
 WebUI.scrollToPosition(0, 4)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/button_Tambah_Anwijzing_Lapangan'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_Peserta'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_Peserta_Vendor3'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/Tanggal_Waktu_Anwijzing'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_Tanggal'))
+WebUI.click(findTestObject('null'))
 
-WebUI.clearText(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_Jam'))
+WebUI.clearText(findTestObject('null'))
 
-WebUI.sendKeys(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_Jam'), '3')
+WebUI.sendKeys(findTestObject('null'), '3')
 
-WebUI.clearText(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_Menit'))
+WebUI.clearText(findTestObject('null'))
 
-WebUI.sendKeys(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_Menit'), '50')
+WebUI.sendKeys(findTestObject('null'), '50')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_AM_PM'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_AM_PM'))
+WebUI.click(findTestObject('null'))
 
-WebUI.sendKeys(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/pilih_AM_PM'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/input_Lokasi'), 'Jakarta')
+WebUI.setText(findTestObject('null'), 'Jakarta')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/input_Catatan'), 'Anwijzing dilakukan hybrid, peserta bisa online ataupun offline')
+WebUI.setText(findTestObject('null'), 'Anwijzing dilakukan hybrid, peserta bisa online ataupun offline')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/button_SimpanKirim'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/010_Pemberian_Penjelasan_byAgen/konfirmasi_OK'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 
