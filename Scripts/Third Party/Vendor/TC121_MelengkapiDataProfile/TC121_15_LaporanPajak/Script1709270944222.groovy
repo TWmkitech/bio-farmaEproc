@@ -20,35 +20,37 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Anchor_LaporanPajak'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Anchor_LaporanPajak'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Button_TambahData'))
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Field_Jenis'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Field_JenisDataPPh'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Field_Jenis'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanPajak/Field_Tahun'), '2023')
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Field_JenisDataPPh'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/LaporanPajak/Field_Bulan'), 'Desember')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Field_Tahun'), '2023')
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Field_TanggalLaporan'))
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Field_Bulan'), 'Desember')
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Field_TanggalLaporan_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Field_TanggalLaporan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Field_TanggalLaporan_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Field_TanggalLaporan_Bulan'))
+
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Field_TanggalLaporan_Data'))
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/LaporanPajak/Upload_BuktiSetor')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Upload_BuktiSetor')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/LaporanPajak/buktisetor.jpg'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/LaporanPajak/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/LaporanPajak/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/AktaPerusahaan/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/AktaPerusahaan/Button_KonfirmasiOK'))
 

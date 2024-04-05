@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Anchor_SupplierRelationship</name>
+   <tag></tag>
+   <elementGuidId>cd510d43-0dd3-47ba-b070-0fda1cec0b5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/ul/li[3]/ul/div/li[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c4b7d038-1873-4a4a-b64c-4df2ac7a258a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tpm/relationship</value>
+      <webElementGuid>2b626731-05dc-4d06-9cc1-4be0058bed83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Supplier Relationship</value>
+      <webElementGuid>77cd3a9a-d992-40ea-a220-bfd765f08279</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-dark&quot;]/div[@class=&quot;scrollbar-container main-menu-content ps ps--active-y&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub open sidebar-group-active&quot;]/ul[@class=&quot;menu-content&quot;]/div[@class=&quot;collapse show&quot;]/li[@class=&quot;nav-item&quot;]/a[1]</value>
+      <webElementGuid>984970eb-7a1d-4d28-8b5a-59a376cfe694</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/ul/li[3]/ul/div/li[5]/a</value>
+      <webElementGuid>06fd8a3f-59fb-4a9b-8b1c-25bd4725b7a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sanksi &amp; Daftar Hitam'])[1]/following::a[1]</value>
+      <webElementGuid>1cffde4f-67b4-4b8f-9f3b-3795ab86df29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengisian Kuesioner'])[1]/following::a[2]</value>
+      <webElementGuid>50c8c837-b128-42dc-b8e1-4693119c83ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Survei Kepuasan Penyedia'])[1]/preceding::a[1]</value>
+      <webElementGuid>87f47119-49af-4129-8038-680ea8e7e757</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/tpm/relationship')]</value>
+      <webElementGuid>1b1ce46d-3fb3-4729-ab5c-7a8788641edc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/ul/div/li[5]/a</value>
+      <webElementGuid>0579af43-30ca-4a6a-b576-c06b31733d78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tpm/relationship' and (text() = 'Supplier Relationship' or . = 'Supplier Relationship')]</value>
+      <webElementGuid>9771f447-97f3-4644-a9af-0761aa38e67a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

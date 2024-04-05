@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>konfirmasi_SimpanKirim</name>
+   <tag></tag>
+   <elementGuidId>492e40ba-967c-43d8-97e3-898618b3dce5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '#' and (text() = 'OK' or . = 'OK')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'OK' or . = 'OK')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-lg.btn-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6780eb22-e3af-4a53-a154-6fbebe5e12b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>c577be6d-245f-4c68-ab2c-aa4e48be6114</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-lg btn-success  </value>
+      <webElementGuid>d7010f7c-1728-4f13-b406-e0fed73e6efd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>b73dad9f-1bbe-4335-ba68-155fafd13a73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open sweetalert-overflow-hidden&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog p-2 modal-xl modal-dialog-centered modal-dialog-scrollable&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[1]/div[1]/div[@class=&quot;sweet-alert&quot;]/p[1]/a[@class=&quot;btn btn-lg btn-success&quot;]</value>
+      <webElementGuid>8e989fa2-47bd-4e95-8579-630b3eefee0f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

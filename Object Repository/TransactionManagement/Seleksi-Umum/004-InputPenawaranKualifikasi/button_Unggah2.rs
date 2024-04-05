@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Unggah2</name>
+   <tag></tag>
+   <elementGuidId>7f253cbd-236a-4513-b250-4146ad1e99a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.d-block.w-100</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[2]/div[2]/div[2]/div/div/form/div[2]/table/tbody/tr[2]/td[4]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5d55ff5f-a164-40f2-9c52-2325e41f035a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary d-block w-100</value>
+      <webElementGuid>4e00e353-0c7d-45bf-aae4-6a6df2533469</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Masuk</value>
+      <webElementGuid>16ea1f0e-ada8-4241-bc9a-da6a09ad883c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;misc-wrapper&quot;]/div[@class=&quot;auth-wrapper auth-basic px-2&quot;]/div[@class=&quot;auth-inner my-2&quot;]/div[@class=&quot;mb-0 card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[3]/button[@class=&quot;btn btn-primary d-block w-100&quot;]</value>
+      <webElementGuid>033032b7-656d-4309-9a1e-1c7f184dd004</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>239643b9-01cc-45f8-a8c4-46741cd88fef</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

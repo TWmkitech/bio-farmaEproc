@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_EditData</name>
+   <tag></tag>
+   <elementGuidId>641e0bd1-fea8-4bd6-b7fd-83c932873b26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div/div[2]/div/div/div/div/div/div[3]/div/div/div/div/div[2]/div/div/table/tbody/tr/td[8]/span[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tab_Lainnya</name>
+   <tag></tag>
+   <elementGuidId>e34c74a6-4aae-4f42-a5a6-6fce7cdc989c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[1]/div[2]/button[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>09de97fb-c7bc-44b0-9f6e-ed56dd320812</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709695975944</value>
+      <webElementGuid>d95865bb-e9ad-4b2c-a83b-8fec4d609c4c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

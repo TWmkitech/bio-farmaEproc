@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih_NamaPenyedia_Data</name>
+   <tag></tag>
+   <elementGuidId>6919ef8e-7b37-42cc-8e99-d1b02738bb16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/form/div[1]/div/div[1]/div[2]/div/div/div[39]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>2b976f47-7e9e-4f8c-8d59-146e3b43b5d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1710027582531</value>
+      <webElementGuid>4380a338-9f23-48eb-8499-20cbe848098a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

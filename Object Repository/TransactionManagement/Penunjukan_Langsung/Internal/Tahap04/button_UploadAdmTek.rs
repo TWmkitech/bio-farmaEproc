@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UploadAdmTek</name>
+   <tag></tag>
+   <elementGuidId>ee389dc2-3dd7-4ede-9bdf-f5bbdbe1ec8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[8]/div/div[1]/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button
+</value>
+      <webElementGuid>69752b09-2e3e-4406-8675-6d295ab1b041</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

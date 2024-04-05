@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Custom_Button_VerifikasiKeteranganDomisili</name>
+   <tag></tag>
+   <elementGuidId>ee2db06c-e795-40a4-9165-a785c4f2dd63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[3]/div[2]/div[3]/div/div/div/div/div[1]/div[2]/div/div[2]/div/div/table/tbody/tr[${indexpos}]/td[2]/div/span[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>3428cc6c-1d54-4996-a0d6-fa54ace57876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709694366670</value>
+      <webElementGuid>c2240fbc-0eec-4652-af5f-29d9f982bc92</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

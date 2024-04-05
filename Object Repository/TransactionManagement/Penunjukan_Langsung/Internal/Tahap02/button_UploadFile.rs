@@ -6,12 +6,12 @@
    <elementGuidId>d7f2427d-4550-4680-b741-78d38b1cd1b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[2]/div/div[4]/div[2]/form/div/div[2]/div[2]/div/div[1]/div/button</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'file']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@class = 'text-truncate btn btn-secondary' and (text() = 'Choose File' or . = 'Choose File')]</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[2]/div/div[4]/div[2]/form/div/div[2]/div[2]/div/div[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,23 +21,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>072e86f0-45d5-40d8-aa8e-5da075473828</webElementGuid>
+      <value>input</value>
+      <webElementGuid>6f38be45-84be-4da8-a874-5d6dfa8d963e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>text-truncate btn btn-secondary</value>
-      <webElementGuid>90dc156b-7f26-485f-b9a9-2b9bdcd434d7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Choose File</value>
-      <webElementGuid>5ba302f2-d33e-420b-9869-9b3caed83bc5</webElementGuid>
+      <value>file</value>
+      <webElementGuid>407232d7-bb15-4d7b-b52a-54fb1c1c35e3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

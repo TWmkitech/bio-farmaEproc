@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Anchor_PermintaanVerifikasi</name>
+   <tag></tag>
+   <elementGuidId>0b4a81e8-d78f-4dbe-be93-dc94c7231e00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/ul/li[33]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>955da1cd-0858-4085-9959-35758163a606</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-link-style</value>
+      <webElementGuid>e4e3f16c-514b-4b1c-8794-304117db0a19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tpm.html?permintaanverifikasi</value>
+      <webElementGuid>348e3347-afb7-4e2e-ab00-06e8f7e9dd58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Permintaan Verifikasi</value>
+      <webElementGuid>c9faf0fb-5710-4e13-a6d2-330e1c978739</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3 col-md-3 col-lg-3 col-xl-3&quot;]/div[@class=&quot;p-2 mb-4 mt-4 scroll-container card&quot;]/div[1]/div[@class=&quot;class-sidebar-tpm scroll-content&quot;]/ul[@class=&quot;nav flex-column&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;custom-link-style&quot;]</value>
+      <webElementGuid>49efd723-01f1-4c5e-b23d-a3d2cd309aa0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/ul/li[33]/a</value>
+      <webElementGuid>148bfdc5-2117-4fad-8af7-e8d77a14a120</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Penyedia'])[1]/following::a[1]</value>
+      <webElementGuid>06f07cb9-5c19-4bb8-9f74-b14463183dcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Lainnya'])[1]/following::a[2]</value>
+      <webElementGuid>79dae359-e6c0-46c6-b294-145ba0827b46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keterangan'])[1]/preceding::a[1]</value>
+      <webElementGuid>5fad0cc1-be1e-4243-84fa-1b2ade10ffc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/tpm.html?permintaanverifikasi')]</value>
+      <webElementGuid>047b058c-2f8b-4882-afd8-1f20addc9203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[33]/a</value>
+      <webElementGuid>f58dfb68-c2ea-4374-9ca0-931120d518fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tpm.html?permintaanverifikasi' and (text() = ' Permintaan Verifikasi' or . = ' Permintaan Verifikasi')]</value>
+      <webElementGuid>165fba52-dcd5-4978-b85f-7f1999110629</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

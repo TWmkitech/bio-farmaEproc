@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih_VerifikasiOffline_DataTidak</name>
+   <tag></tag>
+   <elementGuidId>3090ba56-f346-4e7c-a771-e9491fce5c15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[11]/div/div/div/div/div/div/form[1]/div[1]/div[2]/div[1]/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>349c921b-41cd-450e-af1c-34b69aa0d9df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709695805062</value>
+      <webElementGuid>be0166f8-f7fa-44d2-bd15-ee5cd8dbeca7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

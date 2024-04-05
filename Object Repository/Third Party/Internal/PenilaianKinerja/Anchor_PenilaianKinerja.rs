@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Anchor_PenilaianKinerja</name>
+   <tag></tag>
+   <elementGuidId>03aeef24-1034-4820-a078-5953c28899c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.collapse.show > li.nav-item.has-sub > a.d-flex.align-items-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/ul/li[3]/ul/div/li[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cddd1db8-23a4-421d-b8e2-65f7cc903e95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex align-items-center</value>
+      <webElementGuid>c9b18fa6-013b-4c94-9c4c-9d75f841a3a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>a1874440-2330-4db1-b665-fac9ca9af478</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Penilaian Kinerja</value>
+      <webElementGuid>cdc58b04-1b13-405f-b3eb-fbfb5b9b5c45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-dark&quot;]/div[@class=&quot;scrollbar-container main-menu-content ps&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub open sidebar-group-active&quot;]/ul[@class=&quot;menu-content&quot;]/div[@class=&quot;collapse show&quot;]/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>976eb26f-1bb4-40a8-b84d-41d6c4dba15e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/ul/li[3]/ul/div/li[4]/a</value>
+      <webElementGuid>be11bbaf-001c-4b8d-8055-da5c92ddb87e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kinerja Penyedia'])[1]/following::a[1]</value>
+      <webElementGuid>1a70fd0b-e165-44c8-bbce-f1fdc9975585</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Rekanan Mampu'])[1]/following::a[2]</value>
+      <webElementGuid>89d7250d-22b3-4552-8b1a-8008b22444a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfigurasi'])[1]/preceding::a[1]</value>
+      <webElementGuid>afcaeab8-e649-4340-a818-65539322c45c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/')])[27]</value>
+      <webElementGuid>fb0f5916-4e38-40a5-b8e0-b18daf9d5858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/ul/div/li[4]/a</value>
+      <webElementGuid>def4c116-b23c-476d-b715-8b726dc25654</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/' and (text() = 'Penilaian Kinerja' or . = 'Penilaian Kinerja')]</value>
+      <webElementGuid>ed09d3d8-76a7-4ca5-8d0e-556aafb241f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

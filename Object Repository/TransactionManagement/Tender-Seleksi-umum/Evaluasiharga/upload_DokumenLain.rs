@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upload_DokumenLain</name>
+   <tag></tag>
+   <elementGuidId>e79dbbc8-972d-43e4-aa3a-a45b1333920d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-flex.align-items-center.justify-content-between</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div/table/tbody/tr/td[3]/div/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>42c7fe79-b1a3-407d-9693-37b3de4e2189</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex align-items-center justify-content-between</value>
+      <webElementGuid>022c381d-5837-43c4-9627-d8446ef7c414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drop Files here or click to upload Choose File</value>
+      <webElementGuid>eea32795-923c-4004-82fb-8c0826e04e01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[@class=&quot;dokpendukung_list_0&quot;]/td[3]/div[@class=&quot;mt-3&quot;]/div[@class=&quot;mb-0&quot;]/div[@class=&quot;dropzone&quot;]/div[@class=&quot;d-flex align-items-center justify-content-between&quot;]</value>
+      <webElementGuid>a62f9527-9451-4b10-8728-0466fd9cba65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[5]/following::div[5]</value>
+      <webElementGuid>29130cdc-2911-418b-95df-eb2d353672cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Upload'])[1]/following::div[5]</value>
+      <webElementGuid>f8e3c413-b24d-4484-bd60-68980a0523f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/div/div/div</value>
+      <webElementGuid>920fa154-1208-4e23-8c04-8d75d254d53f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drop Files here or click to upload Choose File' or . = 'Drop Files here or click to upload Choose File')]</value>
+      <webElementGuid>967a3391-c780-4a72-8003-4b4f51599a27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

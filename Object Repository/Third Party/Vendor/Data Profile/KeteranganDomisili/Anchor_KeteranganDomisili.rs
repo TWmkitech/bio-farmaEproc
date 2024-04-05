@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Anchor_KeteranganDomisili</name>
+   <tag></tag>
+   <elementGuidId>3775ddcc-f34f-4d72-977d-c7749a0e4ce3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/ul/li[13]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>678d4402-f6f2-4cc0-88f2-9b64fcba09a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-link-style</value>
+      <webElementGuid>f192c527-7b9e-41ac-bdab-47725d564a24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tpm.html?domisili</value>
+      <webElementGuid>f385060b-f653-469d-83ba-361133268770</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>   Keterangan Domisili *</value>
+      <webElementGuid>e5512aba-408c-457e-8ff1-06ffd9f3de3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3 col-md-3 col-lg-3 col-xl-3&quot;]/div[@class=&quot;p-2 mb-4 mt-4 scroll-container card&quot;]/div[1]/div[@class=&quot;class-sidebar-tpm scroll-content&quot;]/ul[@class=&quot;nav flex-column&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;custom-link-style&quot;]</value>
+      <webElementGuid>9c8a3aac-b71c-47d5-ac03-09acbf358b92</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/ul/li[13]/a</value>
+      <webElementGuid>35563fe5-4b3a-4e04-b8f3-6b4d83ee05b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Izin Usaha'])[1]/following::a[1]</value>
+      <webElementGuid>8d84439a-b23f-40cb-9958-872804d5399e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::a[2]</value>
+      <webElementGuid>e0c3f904-235e-4875-a1df-67cd900ae8c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/tpm.html?domisili')]</value>
+      <webElementGuid>85c24322-5870-4c85-a850-721ae2477578</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[13]/a</value>
+      <webElementGuid>815561b0-22ce-4ba4-9b67-100b8dca9de5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tpm.html?domisili' and (text() = '   Keterangan Domisili *' or . = '   Keterangan Domisili *')]</value>
+      <webElementGuid>edcaefb8-ba8e-42ed-8f94-7b1520dbe337</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Custom_Button_TidakSetujuTDPNIB</name>
+   <tag></tag>
+   <elementGuidId>95ebc92c-3f51-43d2-9d84-120221c74042</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[3]/div[2]/div[1]/div/div/div/div/div[1]/div[2]/div/div[2]/div/div/table/tbody/tr[${indexpos}]/td[2]/div/span[1]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>a62d0406-9272-4d15-a6e0-e1f81b7d36c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709694317045</value>
+      <webElementGuid>c925da35-5210-4656-b8ea-32960b67f12b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

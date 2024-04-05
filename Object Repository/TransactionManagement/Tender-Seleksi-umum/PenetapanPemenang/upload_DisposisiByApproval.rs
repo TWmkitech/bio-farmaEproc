@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upload_DisposisiByApproval</name>
+   <tag></tag>
+   <elementGuidId>3125642e-0b9f-4490-86fa-79ab91ea4df9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div[4]/div[2]/div/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-truncate</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0b64eada-a24a-4d8f-a005-e8167c7a1490</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-truncate</value>
+      <webElementGuid>05dad608-8246-46d2-b8fd-4b49933c6bdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drop Files here or click to upload</value>
+      <webElementGuid>1fc587e8-73b7-4bb8-ba35-5b656a1f60c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;lampiran_list_disposisi0 row&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;mb-0&quot;]/div[@class=&quot;dropzone&quot;]/div[@class=&quot;d-flex align-items-center justify-content-between&quot;]/div[@class=&quot;text-truncate&quot;]</value>
+      <webElementGuid>1d8f5266-4f2d-4761-bd95-7c8267cb9936</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disposisi'])[1]/following::div[7]</value>
+      <webElementGuid>7fdf3d67-fd82-42e5-aa34-fc88ad1035d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DataTest.docx'])[1]/following::div[8]</value>
+      <webElementGuid>c10cbe5c-17ad-49b6-8612-e06a640db7b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose File'])[1]/preceding::div[1]</value>
+      <webElementGuid>d9f96fef-b826-497f-975e-68673acfd8c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Format file yang diizinkan .xlsx, .xls, .docx, .doc dan .pdf, dengan ukuran antara 0 s/d 10 Mb'])[1]/preceding::div[1]</value>
+      <webElementGuid>7182b5c0-04a3-4072-b1c2-11a8fc2ffdb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Drop Files here or click to upload']/parent::*</value>
+      <webElementGuid>750a3bb9-c8d2-4381-ad89-4b001e068928</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div/div</value>
+      <webElementGuid>ed5a2178-2ee2-4205-b205-93c5e292ba4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drop Files here or click to upload' or . = 'Drop Files here or click to upload')]</value>
+      <webElementGuid>fd77000c-eb80-4cea-85be-bd15e8fac7d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

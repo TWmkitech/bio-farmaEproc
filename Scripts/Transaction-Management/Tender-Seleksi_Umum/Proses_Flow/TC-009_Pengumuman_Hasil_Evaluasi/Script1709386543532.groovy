@@ -23,40 +23,40 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://vendor-dev.digital-healthcare.id/home.html')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/button_Masuk'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/input_Username_username'), 
+WebUI.setText(findTestObject('null'), 
     'DRM-JP.24.000013')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/input_Password_password'), 
+WebUI.setText(findTestObject('null'), 
     'password.1')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/button_Login'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/a_Transaction'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/a_Tender  Seleksi Umum'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/a_TenderSeleksi Umum Yang Diikuti'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/proses'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/melihat_Pengumuman'))
+WebUI.click(findTestObject('null'))
 
-WebUI.scrollToElement(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/hasil_Evaluasi'), 
+WebUI.scrollToElement(findTestObject('null'), 
     2)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/hasil_Evaluasi'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/unduh_BeritaAcara'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(13)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/009_Pengumuman_Hasil_Evaluasi/tutup'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 

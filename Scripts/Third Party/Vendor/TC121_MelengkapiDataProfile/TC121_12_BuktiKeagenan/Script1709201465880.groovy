@@ -20,13 +20,15 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Anchor_BuktiKeagenan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Anchor_BuktiKeagenan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Button_TambahData'))
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_NoDokumen'), '0098509375')
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Button_TambahData'))
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/BuktiKeagenan/Upload_File')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_NoDokumen'), '0098509375')
+
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Upload_File')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
@@ -36,23 +38,23 @@ def filePath = projectDir + '/Document/ThirdParty/BuktiKeagenan/dokumen.png'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_NamaPrincipal'), 'Mr. Arnold')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_NamaPrincipal'), 'Mr. Arnold')
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalTerbit'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_TanggalTerbit'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalTerbit_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_TanggalTerbit_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalTerbit_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_TanggalTerbit_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalBerlaku'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_TanggalBerlaku'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalBerlaku_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_TanggalBerlaku_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_TanggalBerlaku_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_TanggalBerlaku_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/BuktiKeagenan/Field_Keterangan'), 'Dibuat menggunakan automation')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Field_Keterangan'), 'Dibuat menggunakan automation')
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/BuktiKeagenan/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/BuktiKeagenan/Button_KonfirmasiOK'))
 

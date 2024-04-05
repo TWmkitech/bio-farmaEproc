@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_PersenJaminan_E2</name>
+   <tag></tag>
+   <elementGuidId>121de464-ddba-41a8-b215-7d48f6428d6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[9]/div[2]/div[2]/div/div[1]/div/div[2]/form/div[13]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>32d6d226-0657-441e-a3a1-8ab8725034ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>spjp_percentage[1]</value>
+      <webElementGuid>861b5d61-05fb-4c2d-9f22-c36d8e444d4c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

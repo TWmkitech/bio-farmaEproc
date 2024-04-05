@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>konfirmasi_OK</name>
+   <tag></tag>
+   <elementGuidId>9c55d657-7719-4b8e-97a2-f0322b868187</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '#' and (text() = 'OK' or . = 'OK')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'OK' or . = 'OK')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-lg.btn-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1c5706c7-cf4f-4605-8227-936e6fc273cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>b4a2400e-7063-4c99-a72c-3c879a826c74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-lg btn-success  </value>
+      <webElementGuid>aafc20e7-078e-4d18-af56-c21ab072b7aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>b56d564b-1407-4220-8890-4ebc24314ba7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open sweetalert-overflow-hidden&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog p-2 modal-xl modal-dialog-centered modal-dialog-scrollable&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[1]/div[1]/div[@class=&quot;sweet-alert&quot;]/p[1]/a[@class=&quot;btn btn-lg btn-success&quot;]</value>
+      <webElementGuid>4db6f4f3-ead7-4b2e-a042-59dc56835c6e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

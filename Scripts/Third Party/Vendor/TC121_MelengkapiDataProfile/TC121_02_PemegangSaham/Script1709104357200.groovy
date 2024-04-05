@@ -20,21 +20,24 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/PemegangSaham/Anchor_PemegangSaham'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Anchor_PemegangSaham'), 
+    0)
 
-WebUI.click(findTestObject('Third Party/Data Profile/PemegangSaham/Anchor_PemegangSaham'))
+not_run: WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Anchor_PemegangSaham'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PemegangSaham/Button_TambahData'))
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PemegangSaham/Field_NamaPemegangSaham'), 'Mr. Holder1')
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PemegangSaham/Field_JenisIdentitas'))
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_NamaPemegangSaham'), 'Mr. Holder1')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PemegangSaham/Field_JenisIdentitasData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_JenisIdentitas'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PemegangSaham/Field_NoIdentitas'), '3175070101909999')
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_JenisIdentitasData'))
 
-TestObject uploadIdentitas = findTestObject('Third Party/Data Profile/PemegangSaham/Upload_Identitas')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_NoIdentitas'), '3175070101909999')
+
+TestObject uploadIdentitas = findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Upload_Identitas')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
@@ -44,10 +47,10 @@ def filePath = projectDir + '/Document/ThirdParty/PemegangSaham/ktp.png'
 
 WebUI.uploadFile(uploadIdentitas, filePath)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PemegangSaham/Field_NPWP'), '092542943407000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_NPWP'), '092542943407000')
 
-if (WebUI.verifyElementPresent(findTestObject('Third Party/Data Profile/PemegangSaham/Upload_NPWP'), 5, FailureHandling.OPTIONAL)) {
-    TestObject uploadNpwp = findTestObject('Third Party/Data Profile/PemegangSaham/Upload_NPWP')
+if (WebUI.verifyElementPresent(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Upload_NPWP'), 5, FailureHandling.OPTIONAL)) {
+    TestObject uploadNpwp = findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Upload_NPWP')
 
     // Membentuk path lengkap file yang ingin diunggah
     def filePathNpwp = projectDir + '/Document/ThirdParty/PemegangSaham/npwp.jpg'
@@ -55,11 +58,12 @@ if (WebUI.verifyElementPresent(findTestObject('Third Party/Data Profile/Pemegang
     WebUI.uploadFile(uploadNpwp, filePathNpwp)
 }
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/PemegangSaham/Field_PersentaseKepemilikan'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_PersentaseKepemilikan'), 
+    0)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PemegangSaham/Field_PersentaseKepemilikan'), '30')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Field_PersentaseKepemilikan'), '30')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PemegangSaham/Button_SimpanHolder'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Button_SimpanHolder'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PemegangSaham/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PemegangSaham/Button_KonfirmasiOK'))
 

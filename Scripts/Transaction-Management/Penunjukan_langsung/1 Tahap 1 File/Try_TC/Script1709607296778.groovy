@@ -17,36 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*String now = new Date().format('d-M-yyyy')
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/Vendor_PT Bespin Global Indonesia'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
-int cDate = (now.split('-')[0]).toInteger() + 5
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Modul_Transaction'))
 
-String cMonth = now.split('-')[1]
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Submodul_PengadaanLainnya'))
 
-String cYear = now.split('-')[2]
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Menu_PengadaanLainnyaYangDiikuti'))
 
-//int tanggal = cDate.toInteger() + 5
-path = (('baris : ' + cDate) + ' .')
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Icon_Proses'))
 
-System.println(path)
-WebUI.callTestCase(findTestCase('Transaction-Management/Penunjukan_langsung/1 Tahap 1 File/Tahap02_Aanwijzing/TC03-000-BuatTopikkeInternal_Vendor'), 
-    [('topik') : 6], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/Menu_5_Negosiasi'))
 
-WebUI.closeBrowser()
-*/
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket2/PGHolding_KAEF_BOD-4'), [:], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_SedangBerlangsung'), 
+    'SEDANG BERLANGSUNG')
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Modul_TransactionManagement'))
+TestObject riwayat1 = findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoE1')
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Submodul_PenunjukanLangsung'))
+WebUI.sendKeys(riwayat1, Keys.chord(Keys.ARROW_RIGHT))
+
+// Tambah Verifikasi
+WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/button_RiwayatNegoE1'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/General/Icon_Proses', [('row') : 1]))
+def nego = WebUI.getText(findTestObject('TransactionManagement/Penunjukan_Langsung/Vendor/Tahap07/verify_Pengirim'))
 
-WebUI.click(findTestObject('TransactionManagement/Penunjukan_Langsung/Internal/Tahap02/Tab_Tahapan02'))
+String nego1 = nego.replace('IDR ', '')
 
-def closed = WebUI.verifyTextPresent('Proses Pengadaan Tahapan Aanwijzing sudah habis!', false)
+System.println(nego1)
 
-System.println(closed)
+String nego2 = nego1.replace('.', '')
+
+System.println(nego2)
+

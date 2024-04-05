@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>proses_Tender</name>
+   <tag></tag>
+   <elementGuidId>2fcdfd5c-68c8-4e3c-b53c-3c9f229f1d12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div/div/table/tbody/tr[1]/td[7]/div/span[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

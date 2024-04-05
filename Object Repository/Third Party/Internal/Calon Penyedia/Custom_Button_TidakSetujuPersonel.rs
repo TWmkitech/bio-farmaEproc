@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Custom_Button_TidakSetujuPersonel</name>
+   <tag></tag>
+   <elementGuidId>243c05f2-1319-4888-a175-9aa7ed8aead4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[8]/div/div/div/div/div/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[${indexpos}]/td[2]/div/span[1]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>f3fe73fa-d049-40d6-9855-a0695d063932</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709695587617</value>
+      <webElementGuid>667e1798-63fa-4fb4-b135-8fe0267ab37b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

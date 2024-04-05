@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_KriteriaNPWP</name>
+   <tag></tag>
+   <elementGuidId>be61a41b-1df6-4a50-ad45-f9b1d16df745</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[3]/div/div/div[1]/div/div[2]/div/div[1]/div[2]/div[1]/div/div/div[2]/div/div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ea19543b-82ad-43b1-a6bf-0603473bcaa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1710850116926</value>
+      <webElementGuid>f8440921-86bd-45e5-bdcc-3ca1c970daa6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

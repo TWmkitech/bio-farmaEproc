@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Upload_SuratSanggahVendor2</name>
+   <tag></tag>
+   <elementGuidId>ab1c9503-6424-464b-8adb-7ea5484e8b99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div/div/form/div[4]/div/div/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-truncate</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d05c6f3b-21b3-47e2-9c25-c15ff7735a07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-truncate</value>
+      <webElementGuid>ca053b5d-43fd-4d3b-be1c-c54cdc7151b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drop Files here or click to upload</value>
+      <webElementGuid>d5cc7de9-8224-4d9b-9963-1865b4eccf63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-3 p-0 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-md-8&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation p-2 av-invalid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;dropzone&quot;]/div[@class=&quot;d-flex align-items-center justify-content-between&quot;]/div[@class=&quot;text-truncate&quot;]</value>
+      <webElementGuid>5212cc3d-518e-4afa-a1cd-e69d4512355b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div/form/div[4]/div/div/div/div/div</value>
+      <webElementGuid>82a1283f-25d1-4764-9661-d1388f06b638</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::div[6]</value>
+      <webElementGuid>701ddf69-e074-4089-8873-363514888fa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Surat Sanggah'])[1]/following::div[6]</value>
+      <webElementGuid>964e781f-a5d1-40c6-ba8c-5976d5b4f01b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose File'])[1]/preceding::div[1]</value>
+      <webElementGuid>235374ec-244c-4b6c-8992-aa3d40405d3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Format file yang diizinkan .docx, .doc, .pdf, .jpeg, .jpg dan .png, dengan ukuran antara 0 s/d 5Mb'])[1]/preceding::div[1]</value>
+      <webElementGuid>0f67e52f-2a2c-4527-8ead-37d6ea62604a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Drop Files here or click to upload']/parent::*</value>
+      <webElementGuid>f05e59d3-9e4e-47a6-9b93-d633fed33fff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div</value>
+      <webElementGuid>09b6c433-9980-4fd0-9d3d-26052c6d5791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drop Files here or click to upload' or . = 'Drop Files here or click to upload')]</value>
+      <webElementGuid>28124a6d-8d9d-4d8b-9cf9-7b030bbde8d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

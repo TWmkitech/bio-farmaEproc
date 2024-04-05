@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Custom_Button_VerifikasiAktaPerusahaan</name>
+   <tag></tag>
+   <elementGuidId>5d0234d2-dc2c-4f68-a6d4-0b3e225f36ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[3]/div[2]/div[4]/div/div/div/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[${indexpos}]/td[2]/div/span[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>88735b8a-5222-4ec0-bb6b-5f5a8757df8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709694391070</value>
+      <webElementGuid>0d46a747-3325-466c-825b-b16fc154617c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

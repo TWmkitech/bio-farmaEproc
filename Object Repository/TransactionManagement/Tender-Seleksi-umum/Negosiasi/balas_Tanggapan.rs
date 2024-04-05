@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>balas_Tanggapan</name>
+   <tag></tag>
+   <elementGuidId>c24cd668-77e3-44eb-823c-7cf6fd7ff470</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[8]/div[14]/div/div/div/div/div/div/a/b</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a > b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>11f883ab-d1fa-4374-9108-a521573b374d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Balas</value>
+      <webElementGuid>e7058357-a4e3-49ba-8c83-e25cef326a6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6 col&quot;]/div[@class=&quot;mb-2 border card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;bg-light card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;float-end&quot;]/a[1]/b[1]</value>
+      <webElementGuid>78105549-96bb-4fc2-9798-889e708c997e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[8]/div[14]/div/div/div/div/div/div/a/b</value>
+      <webElementGuid>cc255434-f408-4685-b428-b2c1d311afeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bima Gusti Tresna'])[2]/following::b[1]</value>
+      <webElementGuid>eb1db53f-c071-4a1b-b389-7ceb1f3b3598</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='apakah sanggup dengan tender ini?'])[1]/preceding::b[1]</value>
+      <webElementGuid>6675512c-082c-49d8-9bab-22cbf16f3c36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Balas']/parent::*</value>
+      <webElementGuid>a540bb5e-3499-49d1-9f2e-83fdb50fb420</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/b</value>
+      <webElementGuid>6ec4fecb-fe1b-4160-94f9-72ccf7e40636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = ' Balas' or . = ' Balas')]</value>
+      <webElementGuid>5e8fd476-a151-43a0-bd03-8d2ca8fca498</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

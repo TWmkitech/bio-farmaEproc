@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Custom_Button_TidakSetujuSertifikat</name>
+   <tag></tag>
+   <elementGuidId>cf59c31a-52d3-40af-9be3-3552f095b38a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[5]/div/div/div/div/div/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[${indexpos}]/td[2]/div/span[1]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>22f591dc-45f0-49e2-9e1d-f8b29864ff4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709694481889</value>
+      <webElementGuid>b7787c67-3e32-402b-8242-d584f6c2e09f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

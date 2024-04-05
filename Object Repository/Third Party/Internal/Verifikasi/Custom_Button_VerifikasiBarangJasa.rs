@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Custom_Button_VerifikasiBarangJasa</name>
+   <tag></tag>
+   <elementGuidId>682bc2bd-e916-4c09-ade8-14cee40b0957</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[4]/div[2]/div[1]/div/div/div/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[${indexpos}]/td[2]/div/span[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>4a0b03e4-8ecb-4f10-aad7-d5bb13a1ae54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709694416677</value>
+      <webElementGuid>a6f24072-3bda-4888-a8f6-5971ae9bb33e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

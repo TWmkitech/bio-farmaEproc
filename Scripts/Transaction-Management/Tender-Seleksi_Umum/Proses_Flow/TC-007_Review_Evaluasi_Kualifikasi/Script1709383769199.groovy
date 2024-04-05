@@ -23,35 +23,35 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://eproc-dev.digital-healthcare.id/')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Username_username'), 'nurunnadiya')
+WebUI.setText(findTestObject('null'), 'nurunnadiya')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Password_password'), 'password.1')
+WebUI.setText(findTestObject('null'), 'password.1')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/button_Masuk'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/007_Review_Evaluasi_Kualifikasi/transaction_Management'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/007_Review_Evaluasi_Kualifikasi/tender_Seleksi_Umum'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/007_Review_Evaluasi_Kualifikasi/proses_tender'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/007_Review_Evaluasi_Kualifikasi/evaluasi_kualifikasi'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/007_Review_Evaluasi_Kualifikasi/button_Review'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/007_Review_Evaluasi_Kualifikasi/informasi_Ditampilkan'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/007_Review_Evaluasi_Kualifikasi/klik_Setuju'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/007_Review_Evaluasi_Kualifikasi/isi_Catatan'), 'Proses review selesai, tidak ada catatan. Semua lengkap, lanjutkan')
+WebUI.setText(findTestObject('null'), 'Proses review selesai, tidak ada catatan. Semua lengkap, lanjutkan')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/006_Pengajuan_Persetujuan_Evaluasi/button_Submit'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/006_Pengajuan_Persetujuan_Evaluasi/konfirmasi_OK'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 

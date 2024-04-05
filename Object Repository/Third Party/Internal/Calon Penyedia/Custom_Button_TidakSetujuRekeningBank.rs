@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Custom_Button_TidakSetujuRekeningBank</name>
+   <tag></tag>
+   <elementGuidId>c472bc61-4600-4228-9207-f285b569227d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div[2]/div[6]/div[2]/div[3]/div/div/div/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[${indexpos}]/td[2]/div/span[1]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>75d3c6ba-9822-4d13-9e22-aa312a8797e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709695414564</value>
+      <webElementGuid>6f7e9c9e-abad-4b58-bfe8-1c1020bfdde6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Tender  Seleksi Umum</name>
+   <tag></tag>
+   <elementGuidId>98b616c8-e02f-47d6-8548-5982a11c46b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(4) > ul.submenu > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='mobile-menu']/ul/li[4]/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c03e5785-f8d8-4183-b40e-0839907c957a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tm.html</value>
+      <webElementGuid>53e3da7f-dcd9-4f95-97aa-d3ddd29df19c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tender / Seleksi Umum</value>
+      <webElementGuid>f697e4a1-345b-4069-bc50-e9772693a148</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobile-menu&quot;)/ul[1]/li[4]/ul[@class=&quot;submenu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>75b65314-bef7-4386-b9eb-c467afbff714</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mobile-menu']/ul/li[4]/ul/li/a</value>
+      <webElementGuid>ba28f27a-2cf3-4451-9420-c511baa0a384</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Tender / Seleksi Umum')]</value>
+      <webElementGuid>9430d023-411f-4d03-9bf0-72b0c3716466</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/following::a[1]</value>
+      <webElementGuid>eb074b57-f1a4-4673-a86e-c467f1fb4647</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RFI'])[1]/following::a[2]</value>
+      <webElementGuid>ef48f007-c160-471d-96d7-fa76bc16dd29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tender / Seleksi Terbatas'])[1]/preceding::a[1]</value>
+      <webElementGuid>eaf4c94d-8ebd-40bd-bfc4-4f67e8ae96b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penunjukan Langsung'])[1]/preceding::a[2]</value>
+      <webElementGuid>9be28317-3d18-4be3-99e0-49b394c00236</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tender / Seleksi Umum']/parent::*</value>
+      <webElementGuid>c8f66e58-39e0-4e3f-8cf7-4d060e431202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/tm.html')]</value>
+      <webElementGuid>c18adbb9-d14f-4188-bc25-6bd540c7d156</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/ul/li/a</value>
+      <webElementGuid>6d784a75-d510-4307-9e79-849f802ed164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tm.html' and (text() = 'Tender / Seleksi Umum' or . = 'Tender / Seleksi Umum')]</value>
+      <webElementGuid>8d0f8e70-41a2-490d-b586-08e97cf2f5b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

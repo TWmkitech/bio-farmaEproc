@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_Revisi_PG</name>
+   <tag></tag>
+   <elementGuidId>d235baae-e3e8-4e60-a687-ba35f1263221</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[9]/div[2]/div[2]/div/div[2]/div/div[2]/form[2]/div[1]/label/fieldset/div[1]/span[2]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'status' and @type = 'radio' and @id = 'radio-status-1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>04208d44-da1b-45ee-a598-8897f2adc36b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>status</value>
+      <webElementGuid>e883ac0a-5cc3-4260-81c9-8b0d7abb5fd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>affcba87-0258-41b9-b52c-1173d5c23a2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radio-status-1</value>
+      <webElementGuid>22e6dbfd-3963-4066-acef-200afea0e6ea</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

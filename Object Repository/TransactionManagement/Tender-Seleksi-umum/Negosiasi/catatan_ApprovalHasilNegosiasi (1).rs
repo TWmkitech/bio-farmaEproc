@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>catatan_ApprovalHasilNegosiasi (1)</name>
+   <tag></tag>
+   <elementGuidId>d1ce1e3e-a1ff-4b15-960f-6e4765ccf7d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.form-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>8abbd73d-909b-435d-9759-a3a61f14ff53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>3b702542-97fa-433e-9587-899a9e1b2a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>8824ca26-9492-4ecd-b5f3-62c087f4b8fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl&quot;]/div[@class=&quot;modal-content&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;mt-3&quot;]/div[@class=&quot;p-0&quot;]/textarea[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>e4353af8-5003-4bd9-98a6-fd2e0917424c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>b54bc3d2-914c-4457-93dc-beb3b31cdae9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

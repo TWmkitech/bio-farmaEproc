@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>618fec80-43cc-4d31-903b-2b01697b9820</webElementGuid>
+      <webElementGuid>fce01ecc-e1c3-46f7-a82f-df300aa1ef09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>negotiation_chat_message</value>
-      <webElementGuid>2c0de549-c346-4dc1-805f-1bca95601701</webElementGuid>
+      <webElementGuid>269d3bde-4fcf-4460-9241-2071920813fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control mt-1 is-untouched is-pristine av-valid form-control</value>
-      <webElementGuid>8b2fbe42-f5fa-406a-9b36-ae54c43eb0c7</webElementGuid>
+      <webElementGuid>fd043a0d-3350-4e04-a934-20083f5a8893</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
