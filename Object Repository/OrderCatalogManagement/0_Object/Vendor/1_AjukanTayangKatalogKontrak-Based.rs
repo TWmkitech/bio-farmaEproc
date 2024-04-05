@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1_AjukanTayangKatalogKontrak-Based</name>
+   <tag></tag>
+   <elementGuidId>f856c7e0-c583-4e16-b3d0-35abf16b7d49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(6) > ul.submenu > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='mobile-menu']/ul/li[6]/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bfb56373-0baa-43d8-8d14-ad089a23ef90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/pengajuan-katalog-kontrak.html</value>
+      <webElementGuid>a4c33364-f588-4bbd-82ae-c7b6066866eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ajukan Tayang Katalog Kontrak-Based</value>
+      <webElementGuid>003388c8-9f82-4a29-98de-4a9065758654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobile-menu&quot;)/ul[1]/li[6]/ul[@class=&quot;submenu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>37682e1c-8d40-4841-aa85-b4969739674b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mobile-menu']/ul/li[6]/ul/li/a</value>
+      <webElementGuid>3d57e77f-0b51-47e9-90d3-6020b8588d33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Ajukan Tayang Katalog Kontrak-Based')]</value>
+      <webElementGuid>04488c2b-e608-4a25-af4b-c9ea2508e287</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catalog &amp; Order'])[1]/following::a[1]</value>
+      <webElementGuid>3ef470f8-a87a-4d45-8c56-95aa4cc38a65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jaminan'])[1]/following::a[2]</value>
+      <webElementGuid>b49ab25e-c4e5-47ce-8d20-2b2d94924cc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ajukan Tayang Katalog Non Kontrak-Based'])[1]/preceding::a[1]</value>
+      <webElementGuid>cbb8d8d8-b3ac-4c4b-8267-78939ff54070</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Katalog'])[1]/preceding::a[2]</value>
+      <webElementGuid>3ec69df5-6058-4306-ab4e-9bd48f19ba67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ajukan Tayang Katalog Kontrak-Based']/parent::*</value>
+      <webElementGuid>229a6fa3-9cf6-4e6f-b5da-1ce75db6f1d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/pengajuan-katalog-kontrak.html')]</value>
+      <webElementGuid>a4285126-8ad3-4ac2-9bd7-773ffb5f6e66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li/a</value>
+      <webElementGuid>8c206686-0caa-454b-8b2c-53df82592958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/pengajuan-katalog-kontrak.html' and (text() = 'Ajukan Tayang Katalog Kontrak-Based' or . = 'Ajukan Tayang Katalog Kontrak-Based')]</value>
+      <webElementGuid>58899029-133a-4337-8eaf-f8c7ae6ae068</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -61,5 +61,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Button_Popup_OK'))
 
+WebUI.delay(20)
+
 WebUI.closeBrowser()
 

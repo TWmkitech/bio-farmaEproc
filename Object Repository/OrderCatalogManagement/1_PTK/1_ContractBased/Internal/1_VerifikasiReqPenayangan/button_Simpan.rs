@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Simpan</name>
+   <tag></tag>
+   <elementGuidId>512a95bf-4089-4988-8492-a3de62b43135</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-warning</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1e403a7e-1ef2-48ad-bcc1-801342692d3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>3d2249bf-f35c-4db7-86e5-b35cc7f646f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-warning</value>
+      <webElementGuid>f8b8832c-dfb4-4d4e-82a5-03a02156b849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Simpan</value>
+      <webElementGuid>63011740-bb7e-4a82-b083-eb4d03377662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;px-5 card-body&quot;]/div[@class=&quot;d-flex justify-content-start my-2 mt-2&quot;]/button[@class=&quot;btn btn-warning&quot;]</value>
+      <webElementGuid>d7abef09-01ec-4a1f-9cbf-107a5697e897</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>7c49cc2b-cf69-46b6-87ff-eeaa45d37e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div/form/div/div/div[7]/button</value>
+      <webElementGuid>eab50d43-cfea-46a7-9572-f658a2504863</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revisi'])[1]/following::button[2]</value>
+      <webElementGuid>9c5264b5-b704-4a48-a243-bb7a5961a3dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='©2024 - Biofarma Group, Hak Cipta dilindungi undang-undang'])[1]/preceding::button[1]</value>
+      <webElementGuid>063eb001-e985-4deb-8e3a-6cb0beef5c71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/button</value>
+      <webElementGuid>94a39433-6983-49f8-801d-de371197d334</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = ' Simpan' or . = ' Simpan')]</value>
+      <webElementGuid>06d9d8bb-3840-4839-9e9b-4e08454534d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

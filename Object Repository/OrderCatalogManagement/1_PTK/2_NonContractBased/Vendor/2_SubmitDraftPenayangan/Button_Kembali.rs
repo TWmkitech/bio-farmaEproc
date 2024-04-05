@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Kembali</name>
+   <tag></tag>
+   <elementGuidId>7daba5e5-1da0-40db-b599-391b01fd6484</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-secondary.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/form/div[4]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>44b04248-76f0-4e19-b044-8d3ad4bb7521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-secondary btn-sm</value>
+      <webElementGuid>47fa297c-b726-490a-a44a-65bade19e3ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/pengajuan-katalog-nonkontrak.html</value>
+      <webElementGuid>ea39081e-240a-442d-b5f5-249428d831b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kembali</value>
+      <webElementGuid>3bae33d7-f204-467f-a336-5939c36833de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-4 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;px-5 card-body&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;d-flex justify-content-start my-2 mt-5&quot;]/span[1]/a[@class=&quot;btn btn-secondary btn-sm&quot;]</value>
+      <webElementGuid>579e36b7-52df-4cd7-bdc1-281500f295ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/form/div[4]/span/a</value>
+      <webElementGuid>74862a3f-a366-47e7-989f-0b47b12524a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[2]/following::a[1]</value>
+      <webElementGuid>3526d729-63a7-4acd-9309-20bc70a5f1b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT SURYA TUBAL INDONESIA'])[2]/following::a[1]</value>
+      <webElementGuid>e2e7837f-eeec-4f7d-8b77-a864e7ce223f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::a[1]</value>
+      <webElementGuid>10400783-c828-420f-af7c-260f01734785</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/pengajuan-katalog-nonkontrak.html')])[2]</value>
+      <webElementGuid>0c1f68d1-771b-4a49-bf24-184aa9230568</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span/a</value>
+      <webElementGuid>dd36704f-0717-4960-a94d-360b7d5af59d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/pengajuan-katalog-nonkontrak.html' and (text() = 'Kembali' or . = 'Kembali')]</value>
+      <webElementGuid>3a8d2ebb-6b96-41d5-be3c-6f1aa0c67906</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

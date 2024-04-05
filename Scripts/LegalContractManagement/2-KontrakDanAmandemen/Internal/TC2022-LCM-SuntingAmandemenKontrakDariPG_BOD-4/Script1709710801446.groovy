@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmand
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/4_SuntingAmandemen/Date_TanggalSurat'))
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/2_KontrakAmandemen/4_SuntingAmandemen/Select_Date_TanggalSurat'), 
-    [('index') : 10], FailureHandling.STOP_ON_FAILURE)
+    [('index') : 16], FailureHandling.STOP_ON_FAILURE)
 
 // Ambil elemen field "Choose File"
 TestObject uploadField1 = findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/4_SuntingAmandemen/Upload_BerkasSurat')

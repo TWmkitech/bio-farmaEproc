@@ -31,8 +31,8 @@ TestObject targetElement = findTestObject('Object Repository/LegalContractManage
 
 WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/Custom_Icon_UbahDraftKontrak'), 
-    [('index') : 1], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/1_InisiasiKontrak/Custom_Icon_UbahDraftKontrak'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Date_TanggalKontrak'))
 
@@ -85,7 +85,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontra
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 // Ambil elemen field "Choose File"
 TestObject uploadField1 = findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Upload_Draft')
@@ -98,7 +98,8 @@ def filePath1 = projectDir1 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField1, filePath1)
 
-WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Tbox_Lampiran'), 'Lampiran 1')
+WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Tbox_Lampiran'), 
+    'Lampiran 1')
 
 // Ambil elemen field "Choose File"
 TestObject uploadField2 = findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Upload_Lampiran')
@@ -115,7 +116,11 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontra
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(15)
+WebUI.delay(20)
+/*
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
 
 TestObject targetElement1 = findTestObject('Object Repository/LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Icon_Rincian')
 
@@ -135,7 +140,8 @@ def filePath3 = projectDir3 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField3, filePath3)
 
-WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Tbox_Lampiran'), 'Lampiran 2')
+WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Tbox_Lampiran'), 
+    'Lampiran 2')
 
 // Ambil elemen field "Choose File"
 TestObject uploadField4 = findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Upload_Lampiran')
@@ -153,6 +159,6 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontra
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Button_PopupKonfirmasi_OK'))
 
 WebUI.delay(10)
-
+*/
 WebUI.closeBrowser()
 

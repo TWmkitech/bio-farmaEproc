@@ -24,7 +24,7 @@ WebUI.click(findTestObject('TransactionManagement/Global-TestObject/0_Anchor_Tra
 
 WebUI.click(findTestObject('TransactionManagement/Global-TestObject/2_Anchor_Tender-Seleksi_Terbatas'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 TestObject targetElement = findTestObject('Object Repository/TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses')
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap05_PersetujuanHasilEvalAdminTek/Internal/3_PersetHasilEvalAdmTekEntitas/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

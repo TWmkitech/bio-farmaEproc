@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Buat Topik</name>
+   <tag></tag>
+   <elementGuidId>4f51628d-56bd-42d6-8f8e-799a4458894c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.float-end.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>483bf767-8374-4317-a719-822c619b8e61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>08712e37-acb9-4edc-8f5c-8bd904fb624b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn float-end btn btn-primary</value>
+      <webElementGuid>4bc6e4ff-e58e-416c-b0d0-e6fd31642b44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buat Topik</value>
+      <webElementGuid>0d55bab7-3e1b-42d5-9651-abcb91261272</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-lg modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-4 modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;align-items-start row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;d-flex align-items-start row&quot;]/div[@class=&quot;col-md-3&quot;]/button[@class=&quot;btn float-end btn btn-primary&quot;]</value>
+      <webElementGuid>e27077e6-23ec-42e6-a3d6-e52a99911ac0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[3]</value>
+      <webElementGuid>e3059469-77f8-41f2-927b-c0a7be3b5088</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Format file yang diizinkan .xlsx, .xls, .docx, .doc dan .pdf, dengan ukuran antara 0 s/d 10 Mb'])[1]/following::button[1]</value>
+      <webElementGuid>5562bad1-0662-419f-aebb-1a912a613b21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose File'])[1]/following::button[1]</value>
+      <webElementGuid>d41252d8-4404-4a90-9ba8-559e51cc06d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>2833cc49-f162-4328-bbba-4e4e1a423bc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Buat Topik' or . = 'Buat Topik')]</value>
+      <webElementGuid>a68bfaca-1deb-4ddf-89b9-62eece5c4237</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

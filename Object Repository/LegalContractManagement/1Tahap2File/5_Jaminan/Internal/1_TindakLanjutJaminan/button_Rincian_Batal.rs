@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Rincian_Batal</name>
+   <tag></tag>
+   <elementGuidId>941f4655-c974-4a31-a9fc-6955ed4fb96d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-footer > button.btn.btn-secondary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b6533a53-77bf-4a14-96d6-894cf9e3c579</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fa203016-8a51-459e-8a17-084e40a1e8b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-secondary</value>
+      <webElementGuid>e206ea53-ca2e-4c58-8af3-7f783151f383</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Batal</value>
+      <webElementGuid>851f6dbc-29c0-405a-9759-80044168100c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-lg modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-secondary&quot;]</value>
+      <webElementGuid>dc7edb49-4b1c-4c95-8893-d018396048af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>342998c1-d502-4688-8c56-53ca428ebc96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disampaikan'])[1]/following::button[1]</value>
+      <webElementGuid>18f248b5-8e26-4bb8-9f2b-2a9c503c1743</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT SURYA TUBAL INDONESIA'])[3]/following::button[1]</value>
+      <webElementGuid>a51779ca-c505-4cac-967e-c9c55cf07d48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Batal']/parent::*</value>
+      <webElementGuid>01adb3fa-d192-4043-8208-72049811d6ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>7bd99ba9-98ba-40e8-9385-ea2880cad9bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Batal' or . = 'Batal')]</value>
+      <webElementGuid>c3595ccc-a732-49d5-920f-a8420d7bb5e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

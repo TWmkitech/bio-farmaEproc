@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1_PengajuanTayangKatalog</name>
+   <tag></tag>
+   <elementGuidId>e676b022-221f-4fad-bb8d-8f26421f1bfc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.collapse.show > li.nav-item.has-sub > a.d-flex.align-items-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/ul/li[7]/ul/div/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d9a43f8a-3ab6-417b-9f81-b1af37e8fdc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex align-items-center</value>
+      <webElementGuid>b302bd35-5f46-4148-9123-ddd2cdf86040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>06ebee3f-77e0-4a96-a7de-321d8447557a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pengajuan Tayang Katalog</value>
+      <webElementGuid>66e99eb9-a3c2-4414-bb5c-b52fa52ec51c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-dark&quot;]/div[@class=&quot;scrollbar-container main-menu-content ps&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub open sidebar-group-active&quot;]/ul[@class=&quot;menu-content&quot;]/div[@class=&quot;collapse show&quot;]/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>1afcaad3-8c55-41b6-a4b3-58c590238943</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/ul/li[7]/ul/div/li/a</value>
+      <webElementGuid>157b9229-9571-4bd1-bfd0-5b6ba9497bf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order &amp; Catalog Management'])[1]/following::a[1]</value>
+      <webElementGuid>d82f35fd-292a-45cc-a428-63fe5d1929ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jaminan'])[1]/following::a[2]</value>
+      <webElementGuid>322a5587-1d08-4d76-b31e-585164f00f75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contract Based'])[1]/preceding::a[1]</value>
+      <webElementGuid>332562fd-d09a-4fd5-a85c-a4fb08c825fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/')])[60]</value>
+      <webElementGuid>9e839216-b80c-4393-92d7-3630268bacf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/ul/div/li/a</value>
+      <webElementGuid>3663952c-ae67-460e-b311-39383b08c0c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/' and (text() = 'Pengajuan Tayang Katalog' or . = 'Pengajuan Tayang Katalog')]</value>
+      <webElementGuid>58abf8f4-cc58-4535-af5c-18e4f85d2223</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

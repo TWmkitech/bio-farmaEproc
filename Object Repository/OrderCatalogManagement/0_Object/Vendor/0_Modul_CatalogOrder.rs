@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>0_Modul_CatalogOrder</name>
+   <tag></tag>
+   <elementGuidId>86cccc11-a930-4800-8c48-f6e2dd4f4191</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(6) > span > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='mobile-menu']/ul/li[6]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0eb9cce8-2602-4633-98b0-bb0f0d102258</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+      <webElementGuid>b1d85fa9-a970-4e6f-8f23-8b36b0386710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Catalog &amp; Order</value>
+      <webElementGuid>37c399cc-97d9-437f-8854-988210819fbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobile-menu&quot;)/ul[1]/li[6]/span[1]/a[1]</value>
+      <webElementGuid>aa26c857-0e2b-418e-90e9-a68e94394e73</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mobile-menu']/ul/li[6]/span/a</value>
+      <webElementGuid>787e9674-317b-4f34-80ac-32d1b6bbb23d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Catalog &amp; Order')]</value>
+      <webElementGuid>79c53124-e97c-4a0a-8de2-f2f47a62a7ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jaminan'])[1]/following::a[1]</value>
+      <webElementGuid>314da948-ce4c-4992-b18e-3c71cf760879</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring Kontrak'])[1]/following::a[2]</value>
+      <webElementGuid>ee97aef6-2457-4cdc-96dd-76bf46bae209</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ajukan Tayang Katalog Kontrak-Based'])[1]/preceding::a[1]</value>
+      <webElementGuid>f6d5a52d-f11c-4162-beb2-f91bcc6686de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ajukan Tayang Katalog Non Kontrak-Based'])[1]/preceding::a[2]</value>
+      <webElementGuid>d6630259-d895-484a-81e5-7471c5af8021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Catalog &amp; Order']/parent::*</value>
+      <webElementGuid>164b5b90-ceb7-45ff-9c0b-e9c9a2fa6ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:void(0);')])[4]</value>
+      <webElementGuid>9b494685-d864-479e-a466-cd828d598de1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/span/a</value>
+      <webElementGuid>365052eb-2be8-4a54-a0aa-e6a2287011cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:void(0);' and (text() = 'Catalog &amp; Order' or . = 'Catalog &amp; Order')]</value>
+      <webElementGuid>8d3a021f-4322-405d-a63b-a02a163ded7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Lihat Detail_R1</name>
+   <tag></tag>
+   <elementGuidId>95975d7f-c2de-4968-8f93-a9eba947423d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/form/div/div/div[2]/div[6]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.text-center.py-2.mt-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bb98f9f5-7185-44f2-8896-f4b5b9c734ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center py-2 mt-2</value>
+      <webElementGuid>bc5d0ec2-64ad-434b-ab05-a31186302abd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/daftar-pesanan.html?detail&amp;uuid=97a35d6e-9fd4-4f22-902c-674a22ee48cb</value>
+      <webElementGuid>36353759-c98e-4806-9341-36aa1f585f8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lihat Detail</value>
+      <webElementGuid>faae2148-54bd-4f10-97c3-b51b119d3065</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;my-4 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;p-5 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-2 mt-2 col-md-12&quot;]/div[@class=&quot;invoice-list-dataTable react-dataTable&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;d-flex justify-content-center row&quot;]/a[@class=&quot;text-center py-2 mt-2&quot;]</value>
+      <webElementGuid>4bc8f563-4bdc-44df-bcdd-6c6b7dadf195</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/form/div/div/div[2]/div[6]/div/a</value>
+      <webElementGuid>33b513a8-863b-4a9a-9e79-ef42c61a8fac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[4]/following::a[1]</value>
+      <webElementGuid>de9700d5-f760-4c49-a39d-fa99e308da55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::a[1]</value>
+      <webElementGuid>d4f09d88-8c14-4835-81b0-e8868f006e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CO/JPROC/2024/000015'])[1]/preceding::a[1]</value>
+      <webElementGuid>7a7cf36f-85f6-491d-bd0b-fdf5c7e6b534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/daftar-pesanan.html?detail&amp;uuid=97a35d6e-9fd4-4f22-902c-674a22ee48cb')]</value>
+      <webElementGuid>615171bb-489f-4bb7-90ef-6ba24c66d4b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/a</value>
+      <webElementGuid>3c25fa30-0c49-422c-9083-fc62e0e64634</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/daftar-pesanan.html?detail&amp;uuid=97a35d6e-9fd4-4f22-902c-674a22ee48cb' and (text() = 'Lihat Detail' or . = 'Lihat Detail')]</value>
+      <webElementGuid>783dea8d-a8fe-4f01-b001-f1525451d8ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

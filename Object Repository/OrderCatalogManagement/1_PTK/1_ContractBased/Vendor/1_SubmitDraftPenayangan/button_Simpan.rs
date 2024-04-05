@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Simpan</name>
+   <tag></tag>
+   <elementGuidId>ae662b59-fb55-47d4-82f6-f0b6da1f6abe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Simpan' or . = 'Simpan')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div/div/div/form/div[5]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.m-4.needs-validation.av-invalid > div.d-flex.justify-content-start.my-2.mt-5 > button.btn.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f83a6c5c-d851-4ccf-8178-335763b95c85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>3641d20b-dcca-42a9-92d8-1a72b26e99d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn btn-primary</value>
+      <webElementGuid>374a9d78-c7cf-468d-9b3f-b282927a2ccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simpan</value>
+      <webElementGuid>3105bc40-7d96-49ec-8453-50b3da4a1528</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-2 modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/form[@class=&quot;m-4 needs-validation av-invalid&quot;]/div[@class=&quot;d-flex justify-content-start my-2 mt-5&quot;]/button[@class=&quot;btn btn btn-primary&quot;]</value>
+      <webElementGuid>140aac3a-fd68-48dd-a6a1-1441a3248610</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[3]</value>
+      <webElementGuid>14f5e19a-789f-4420-b32e-f06b87468aa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[2]/following::button[1]</value>
+      <webElementGuid>08a3137d-a46e-44db-a667-3d85ff924011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button</value>
+      <webElementGuid>08139823-e68d-4335-ba2a-d17e31fe008f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Simpan' or . = 'Simpan')]</value>
+      <webElementGuid>9b9f8ba7-3105-4728-afc7-985e71aea1cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

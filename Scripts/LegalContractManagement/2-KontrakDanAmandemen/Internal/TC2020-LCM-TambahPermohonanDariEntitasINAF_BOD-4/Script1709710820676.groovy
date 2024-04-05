@@ -38,7 +38,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandem
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/3_TambahAmandemen/Date_Amandemen'))
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/2_KontrakAmandemen/3_TambahAmandemen/Select_Date_Amandemen'), 
-    [('index') : 10], FailureHandling.STOP_ON_FAILURE)
+    [('index') : 16], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/3_TambahAmandemen/Sbox_PasalKontrak'))
 

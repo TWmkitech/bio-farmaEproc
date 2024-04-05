@@ -39,5 +39,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/Button_Tutup'), 
     5)
 
+WebUI.delay(20)
+
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

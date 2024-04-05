@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Hubungi Penjual_2</name>
+   <tag></tag>
+   <elementGuidId>b0a51a94-f2e8-4c06-8397-7785cd285902</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div/div[4]/div[2]/div/div[2]/div/div[2]/div[7]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a98d760c-daea-4260-8445-ceaa66e01a39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center</value>
+      <webElementGuid>0241d584-ba54-4d25-91c7-e762f76b0db8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hubungi Penjual0</value>
+      <webElementGuid>babf9df5-a1d9-4711-b173-4a75acff7b85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mt-1 row&quot;]/div[@class=&quot;col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9&quot;]/div[@class=&quot;mt-1 row&quot;]/div[@class=&quot;col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4&quot;]/div[@class=&quot;shadow card&quot;]/div[@class=&quot;shadow card-body&quot;]/div[@class=&quot;text-center py-1&quot;]/div[@class=&quot;mt-1 row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;text-center&quot;]</value>
+      <webElementGuid>6bdb6b01-d287-4eb3-b985-369ff1cb4045</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div/div[4]/div[2]/div/div[2]/div/div[2]/div[7]/div/div/div</value>
+      <webElementGuid>7c89a445-216f-4e97-b1bd-c839064eed3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[6]/following::div[9]</value>
+      <webElementGuid>64403816-1f5c-4c94-8bf7-3f4d1d765953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandingkan'])[2]/preceding::div[5]</value>
+      <webElementGuid>3401ccff-fc99-4482-9970-c9e3827abca4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[7]/div/div/div</value>
+      <webElementGuid>dfe75cde-cc97-41a9-a89b-4f56ad87d0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Hubungi Penjual0' or . = 'Hubungi Penjual0')]</value>
+      <webElementGuid>b7fbfe68-2307-4b21-b7b9-bc83b3cc7f5d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

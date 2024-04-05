@@ -37,12 +37,14 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Icon_Balas'))
 
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/textarea__IsiBalasan'), 
-    'Automation Tanggapan Balasan Topik Penyedia_Vendor1')
+    'Balas Tanggapan Penyedia Vendor 1')
 
 WebUI.uploadFile(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Upload_FileLampiranBalasan_Vendor1'), 
     'C:\\Users\\ASUS\\git\\bio-farmaEproc\\Document\\DataTest.docx')
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/button_Kirim Balasan'))
+
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

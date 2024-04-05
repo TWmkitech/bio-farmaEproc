@@ -24,15 +24,16 @@ WebUI.click(findTestObject('TransactionManagement/Global-TestObject/0_Anchor_Tra
 
 WebUI.click(findTestObject('TransactionManagement/Global-TestObject/2_Anchor_Tender-Seleksi_Terbatas'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 TestObject targetElement = findTestObject('Object Repository/TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses')
 
 WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/Custom_Icon_Proses'), 
-    [('index') : 3], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses'))
 
+//WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/CustomIconProses'), 
+//    [('index') : 3], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Menu_TahapanNegosiasi'))
 
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Textbox_T1R1_HargaSatuan'))
@@ -67,7 +68,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Menu_TahapanNegosiasi'), 
     5)
@@ -106,7 +107,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

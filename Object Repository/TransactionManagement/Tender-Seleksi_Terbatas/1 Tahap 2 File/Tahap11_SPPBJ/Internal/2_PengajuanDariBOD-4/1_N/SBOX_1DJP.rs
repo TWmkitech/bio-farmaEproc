@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SBOX_1DJP</name>
+   <tag></tag>
+   <elementGuidId>3b3e9e56-35c8-4677-b100-bcf41f1da838</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.select__indicator.select__dropdown-indicator.css-15lsz6c-indicatorContainer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[11]/div[2]/div[2]/div/div/div/div[2]/form/div/div/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2afea28c-0dbf-45cd-9223-f8d34de4cb51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__indicator select__dropdown-indicator css-15lsz6c-indicatorContainer</value>
+      <webElementGuid>f7c20882-0084-49b8-b453-313bc5d4bf98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ebd5d2ab-d607-413b-869e-e325b77916d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;mb-1 border  card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;mb-1 border card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;mb-2 row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control select__control--is-focused css-t3ipsp-control&quot;]/div[@class=&quot;select__indicators css-1wy0on6&quot;]/div[@class=&quot;select__indicator select__dropdown-indicator css-15lsz6c-indicatorContainer&quot;]</value>
+      <webElementGuid>4cef5cdb-5179-4ab9-9eec-ae320b30a7c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[11]/div[2]/div[2]/div/div/div/div[2]/form/div/div/div/div/div[2]/div</value>
+      <webElementGuid>8726c432-51d3-4e9d-a0cf-6f5c4db2b2e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TIDAK'])[1]/following::div[3]</value>
+      <webElementGuid>a8051196-f6b7-4728-b58b-46c63313c92f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diperlukan Jaminan Pelaksanaan ?'])[1]/following::div[8]</value>
+      <webElementGuid>0f4f3dc8-f891-4e40-81a4-4556a512b1f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entitas'])[1]/preceding::div[3]</value>
+      <webElementGuid>18ac8271-fefe-4c43-b51c-5d45798eba6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/div[2]/div</value>
+      <webElementGuid>1b56ae6a-fd44-49b0-a6e6-b67388c29dff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -39,12 +39,12 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/3_MonitoringKont
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/3_MonitoringKontrak/Internal/1_BuatDataMonitoring/Date_PeriodePO_TglMulai'))
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/3_MonitoringKontrak/1_BuatDataMonitoring/Select_Date_PeriodePO_Mulai'), 
-    [('index') : 10], FailureHandling.STOP_ON_FAILURE)
+    [('index') : 16], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/3_MonitoringKontrak/Internal/1_BuatDataMonitoring/Date_PeriodePO_TglSelesai'))
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/3_MonitoringKontrak/1_BuatDataMonitoring/Select_Date_PeriodePO_Selesai'), 
-    [('index') : 28], FailureHandling.STOP_ON_FAILURE)
+    [('index') : 34], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/3_MonitoringKontrak/Internal/1_BuatDataMonitoring/SBox_JenisMonitoringKontrak'))
 

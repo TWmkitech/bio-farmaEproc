@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Star_3</name>
+   <tag></tag>
+   <elementGuidId>3099e75b-402f-4237-b396-6b4bddc244c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div/div[1]/div/div/div[2]/form/div/div[1]/div/span/span[3]/span[1]/svg/path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>7f67569b-2890-4a77-969c-c5938641565d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1710083173817</value>
+      <webElementGuid>aa68a878-4c43-49e2-9339-fa8f57cd54db</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

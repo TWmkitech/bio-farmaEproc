@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Perubahan Data Katalog</name>
+   <tag></tag>
+   <elementGuidId>13eba169-ef0a-46c8-9afe-4f9859c7f591</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-warning.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>86715c1a-326c-416a-b7f6-75391f960650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-warning btn-sm</value>
+      <webElementGuid>b8917cfe-4b36-40c9-b4fe-7f582d9f0b9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/pengajuan-katalog-kontrak.html?update-catalog</value>
+      <webElementGuid>5cbe7e7f-8bf6-4a10-a5a4-797c87c837dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Perubahan Data Katalog</value>
+      <webElementGuid>35b44f3c-ce9f-4765-b165-92722cc3dd8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-4 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;ps-3 pe-3 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;d-flex justify-content-between&quot;]/span[1]/a[@class=&quot;btn btn-warning btn-sm&quot;]</value>
+      <webElementGuid>7cc4c33d-7c83-422d-91ce-e1ca250a5145</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/span/a</value>
+      <webElementGuid>d158b9d0-ef81-4c20-bbc5-a96fcb8448dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Pengajuan Tayang Katalog Contract-Based'])[1]/following::a[1]</value>
+      <webElementGuid>201023f9-49e7-43ab-bba1-77feed23b1ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::a[1]</value>
+      <webElementGuid>f28d105f-97ad-4071-ae26-01958e911829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tampilkan'])[1]/preceding::a[1]</value>
+      <webElementGuid>5fa66569-e342-4584-a38f-40525118c1c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='data'])[1]/preceding::a[1]</value>
+      <webElementGuid>dab5686c-eb7a-470a-ab4a-cac26e2b2821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/pengajuan-katalog-kontrak.html?update-catalog')]</value>
+      <webElementGuid>a2824b18-6abb-4409-92f5-37c806b27f35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/a</value>
+      <webElementGuid>719e8392-5ea9-4d62-9ee0-4597b301fcd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/pengajuan-katalog-kontrak.html?update-catalog' and (text() = 'Perubahan Data Katalog' or . = 'Perubahan Data Katalog')]</value>
+      <webElementGuid>3c6dc159-eac9-4e82-a45c-643b90413287</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

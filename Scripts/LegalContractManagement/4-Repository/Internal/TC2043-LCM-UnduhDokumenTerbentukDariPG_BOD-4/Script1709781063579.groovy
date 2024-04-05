@@ -17,3 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-4'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_LegalContractManagement'))
+
+WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_Repository'))
+
+WebUI.delay(5)
+
+TestObject targetElement = findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Icon_Detail')
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Icon_Detail'))
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Icon_Unduh'))
+
+WebUI.delay(20)
+
+WebUI.closeBrowser()
+

@@ -25,7 +25,11 @@ WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), '1
 
 WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'bi0farma')
 
+WebUI.delay(15)
+
 WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
+
+WebUI.delay(20)
 
 WebUI.verifyElementText(findTestObject('Login/internal/Verify_Username'), 'Agus Hermawan')
 

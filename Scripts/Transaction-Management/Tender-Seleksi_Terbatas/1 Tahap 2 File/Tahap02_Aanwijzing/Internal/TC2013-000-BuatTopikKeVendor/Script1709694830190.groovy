@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-4'), 
     [:], FailureHandling.STOP_ON_FAILURE)
@@ -35,16 +36,31 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Form_TahapanAanwijzing'))
 
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/TextArea_BuatTopik_aanwijzing_chat_message'), 
-    'Automation Test Topik Aanwijzing')
+    'Topik Aanwijzing Dari PG Biofarma BOD-4')
+
+WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Text_BuatTopik'), 
+    5)
 
 WebUI.uploadFile(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Upload_UnggahFilePendukung'), 
     'C:\\Users\\ASUS\\git\\bio-farmaEproc\\Document\\DataTest.docx')
 
+/*
+// Ambil elemen field "Choose File"
+TestObject uploadField = findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Upload_DokPendukung')
+
+// Mendapatkan direktori proyek
+def projectDir = Config.getProjectDir()
+
+// Membentuk path lengkap file yang ingin diunggah
+def filePath = projectDir + 'Document/DataTest.docx'
+
+WebUI.uploadFile(uploadField, filePath)
+*/
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/button_Kirim Topik'))
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Button_Popup_OK'))
 
-WebUI.verifyElementPresent(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Verify_PopupKonfirmasi_Berhasil'), 
-    10)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
+

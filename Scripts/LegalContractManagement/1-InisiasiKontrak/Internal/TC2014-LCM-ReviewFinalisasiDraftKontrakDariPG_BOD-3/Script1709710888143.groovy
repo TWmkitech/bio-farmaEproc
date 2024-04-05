@@ -30,7 +30,7 @@ TestObject targetElement = findTestObject('Object Repository/LegalContractManage
 
 WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
-WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/6_FinalisasiDraftKontrak/Icon_UbahDraftKontrak'))
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/6_FinalisasiDraftKontrak/Icon_Persetujuan'))
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/5_PersetujuanDraftDariPG/Rbutton_Setuju'))
 
@@ -38,7 +38,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontra
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/1_DraftingKontrak/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(15)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

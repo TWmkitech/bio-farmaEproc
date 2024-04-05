@@ -34,12 +34,19 @@ WebUI.verifyElementPresent(findTestObject('TransactionManagement/Tender-Seleksi_
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Menu_TahapanAanwijzing'))
 
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/TextArea_Tanggapan_aanwijzing_message'), 
-    'Buat Topik Ke Internal Dari Penyedia_Vendor2')
+    'Topik Aanwijzing ke Internal Dari Penyedia Vendor 2')
 
-WebUI.uploadFile(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Upload_FileTopik_Vendor2'), 
+WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/button_KirimTanggapan_Topik'), 
+    5)
+
+//WebUI.uploadFile(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Upload_FileTopik_Vendor2'), 
+//    'C:\\Users\\ASUS\\git\\bio-farmaEproc\\Document\\DataTest.docx')
+WebUI.uploadFile(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/Upload_LampiranBalasan_Vendor2'), 
     'C:\\Users\\ASUS\\git\\bio-farmaEproc\\Document\\DataTest.docx')
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/button_KirimTanggapan_Topik'))
+
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

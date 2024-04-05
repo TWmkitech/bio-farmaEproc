@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_LinkProdukSimpan</name>
+   <tag></tag>
+   <elementGuidId>bed798de-ae18-4093-b9a6-719c08ff80dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-12.p-3.col > form.av-valid > div.d-flex.justify-content-start.my-2.mt-5 > button.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c74503b4-97a8-4d04-80a9-0c94d4f821c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>9ebcc1cc-bbc8-45d6-803f-1ecb8d71c83b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>d83fa15f-f36a-462f-a442-0ce5da279717</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Simpan</value>
+      <webElementGuid>47cb9625-454b-4961-ba3f-703e2a30b1fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[4]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-2 modal-body&quot;]/div[@class=&quot;p-3 row&quot;]/div[@class=&quot;col-12 p-3 col&quot;]/form[@class=&quot;av-valid&quot;]/div[@class=&quot;d-flex justify-content-start my-2 mt-5&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>3a59ca35-c0b9-4485-9aeb-9a5e9a49c33a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[4]</value>
+      <webElementGuid>c8503501-df59-4166-9313-789ecdd2cedb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[3]/following::button[1]</value>
+      <webElementGuid>5e2890b2-e082-489e-9fc2-e74af8fc0a44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='data'])[4]/following::button[2]</value>
+      <webElementGuid>9e45e74e-7d7a-4f64-ae47-4dd7cf9ecb0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>9de47a7a-acc5-4d53-a24e-69752e884f5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = ' Simpan' or . = ' Simpan')]</value>
+      <webElementGuid>408e69a9-0cb3-4c99-a095-febc194eaacb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

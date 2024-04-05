@@ -6,12 +6,16 @@
    <elementGuidId>8b4cc090-48b5-4c97-9637-3e818c2a3fad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='eproc_evaluation_vendor_poc_url308']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#eproc_evaluation_vendor_poc_url308</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='eproc_evaluation_vendor_poc_url324']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'eproc_evaluation_vendor_poc_url308' and @id = 'eproc_evaluation_vendor_poc_url308']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>bc3f54f3-d3df-4718-bf1d-676deaae0146</webElementGuid>
+      <webElementGuid>675d1971-751a-48c7-9970-780dff34dbf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>name</name>
       <type>Main</type>
       <value>eproc_evaluation_vendor_poc_url308</value>
-      <webElementGuid>886fee61-4d4a-4873-8c83-e7b233fd54cc</webElementGuid>
+      <webElementGuid>4188b1b3-7bd2-4580-8382-be8efc296fef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>eproc_evaluation_vendor_poc_url308</value>
-      <webElementGuid>0178ebec-413a-4108-9fab-1cb0855a6de3</webElementGuid>
+      <webElementGuid>80b6d162-92a1-4afd-a929-eee780a02bd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control is-touched is-pristine av-valid form-control</value>
-      <webElementGuid>9d412cfa-e515-45ff-8b8a-f28c622929f6</webElementGuid>
+      <webElementGuid>b436073f-3b5b-44c6-90b1-db6404c37060</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;eproc_evaluation_vendor_poc_url308&quot;)</value>
-      <webElementGuid>070a682c-ea2e-4e13-b5d0-1cbce9442a5e</webElementGuid>
+      <webElementGuid>edefcfb6-da42-4e6b-aea0-678fc0fc221b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='eproc_evaluation_vendor_poc_url308']</value>
-      <webElementGuid>049e5d67-8075-48e6-9f00-1082f0bbefa3</webElementGuid>
+      <webElementGuid>15063037-4641-474a-b13c-be3a715a6c49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>1dfeff8f-bf87-4338-a5e5-7e13abb43dbb</webElementGuid>
+      <webElementGuid>2871d084-7a20-487c-a163-24771a3e1c51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@name = 'eproc_evaluation_vendor_poc_url308' and @id = 'eproc_evaluation_vendor_poc_url308']</value>
-      <webElementGuid>7e5b7c6c-cccf-487d-93a6-f36d6ccd6aef</webElementGuid>
+      <webElementGuid>404d17b0-a121-4f94-a851-1ef117add56e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

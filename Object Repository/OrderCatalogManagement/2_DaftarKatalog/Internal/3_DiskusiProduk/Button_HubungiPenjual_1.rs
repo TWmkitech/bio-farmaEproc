@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_HubungiPenjual_1</name>
+   <tag></tag>
+   <elementGuidId>645773d1-4278-459d-b60a-eea6c176a5f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col > div.text-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div/div[2]/div[9]/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b943574b-79b0-44ef-bcd2-9c4e2b3eb4fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center</value>
+      <webElementGuid>06e373de-038f-4a10-a5f1-4cdadaca3253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hubungi Penjual0</value>
+      <webElementGuid>1b518de0-fa90-42f3-a4c7-075170eb840d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mt-1 row&quot;]/div[@class=&quot;col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9&quot;]/div[@class=&quot;mt-1 row&quot;]/div[@class=&quot;col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4&quot;]/div[@class=&quot;shadow card&quot;]/div[@class=&quot;shadow card-body&quot;]/div[@class=&quot;text-center py-1&quot;]/div[@class=&quot;mt-1 row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;text-center&quot;]</value>
+      <webElementGuid>1dc85cef-ba24-4b32-a5c6-cc5f0cd1aeae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div/div[2]/div[9]/div[2]/div/div</value>
+      <webElementGuid>cc6694ab-69f0-40bb-8757-567648af96b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandingkan'])[1]/preceding::div[5]</value>
+      <webElementGuid>115ca484-24a9-4abc-8260-f836823e7ea7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div[2]/div/div</value>
+      <webElementGuid>73120c49-e3b5-4a1d-af57-3593bb4a6552</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Hubungi Penjual0' or . = 'Hubungi Penjual0')]</value>
+      <webElementGuid>f0281f80-4316-4a49-ae75-03564b17fa84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

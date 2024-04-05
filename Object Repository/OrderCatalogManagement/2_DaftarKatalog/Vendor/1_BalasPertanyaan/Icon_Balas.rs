@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon_Balas</name>
+   <tag></tag>
+   <elementGuidId>9c787174-b31d-43f0-b8cc-ab51d9cb7f45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chat']/div/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a > div.position-absolute</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5500c528-e080-4816-b288-c3f7a47a445d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>position-absolute</value>
+      <webElementGuid>d8e9326b-0f90-4a51-acc7-44caf7850f2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Balas</value>
+      <webElementGuid>8ccd27d6-16b7-4626-8d79-8ff960464124</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-lg modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-4 modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;align-items-start mb-2 mt-2 row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;w-100 py-2 px-3 my-2 border border-1 rounded&quot;]/div[@id=&quot;chat&quot;]/div[@class=&quot;d-flex justify-content-between align-items-center&quot;]/a[1]/div[@class=&quot;position-absolute&quot;]</value>
+      <webElementGuid>4e8fe57e-4015-421f-8014-fe86f14536d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chat']/div/a/div</value>
+      <webElementGuid>deb8f2b9-095c-4407-b6b6-9bd952485c90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topik Diskusi Dari PG BOD-4'])[1]/following::div[1]</value>
+      <webElementGuid>70c9c029-2b11-43f8-ae1b-946f23503841</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minggu, 10 Maret 2024 pukul 13.18'])[1]/following::div[4]</value>
+      <webElementGuid>6132f3fd-0f95-409e-92ce-8b67c95c44c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesan Diskusi Dari PG BOD-4'])[1]/preceding::div[1]</value>
+      <webElementGuid>1afad241-24e2-4da8-b23f-04065029f482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div</value>
+      <webElementGuid>ce2c3961-0f59-4df1-8f9d-b9726b3ca21e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Balas' or . = ' Balas')]</value>
+      <webElementGuid>0b8ca2c8-d8f4-4ab5-a4d7-99da215406bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

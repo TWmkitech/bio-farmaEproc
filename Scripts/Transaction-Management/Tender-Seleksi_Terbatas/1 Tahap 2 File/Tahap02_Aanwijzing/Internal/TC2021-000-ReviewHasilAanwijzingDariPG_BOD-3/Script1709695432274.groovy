@@ -36,5 +36,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Internal/1_PengajuanPersetujuanHasilAanwijzing/button_Draft Konsep Berita Acara'))
 
+WebUI.delay(10)
+
 WebUI.closeBrowser()
 

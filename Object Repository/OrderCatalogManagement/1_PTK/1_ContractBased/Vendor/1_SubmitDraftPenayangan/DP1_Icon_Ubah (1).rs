@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DP1_Icon_Ubah (1)</name>
+   <tag></tag>
+   <elementGuidId>221d9006-e5d2-4e8d-b1f4-d23e052c1c41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-update-379</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn-update-379']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f9e2f78b-b403-43b6-b890-9f722c554eb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-undefined btn-sm</value>
+      <webElementGuid>7d28a27c-9eb7-47af-8975-ccb6948d2116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn-update-379</value>
+      <webElementGuid>713d6fd5-80d6-4f04-9e11-4b89be96ed3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn-update-379&quot;)</value>
+      <webElementGuid>ecfbc007-bea1-49ac-9c4d-06e1c0e1cd7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn-update-379']</value>
+      <webElementGuid>f1702aa9-a8de-4d53-bb5d-6816cf5b89e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='as-react-datatable']/tbody/tr[2]/td[7]/div/span[2]/button</value>
+      <webElementGuid>66479eb3-2317-4c23-a096-78537911de06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[2]/following::button[2]</value>
+      <webElementGuid>c7face97-1843-428c-b83c-fa3929c5ded4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penayangan Data Catalog'])[2]/following::button[2]</value>
+      <webElementGuid>3d864ce8-ed1e-4105-8b6b-8c621c52f8d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan'])[1]/preceding::button[1]</value>
+      <webElementGuid>89807024-222d-4bbe-96f3-d04550149d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sampai'])[1]/preceding::button[1]</value>
+      <webElementGuid>73393d8e-6cad-47fe-8af9-7f937b028167</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/div/span[2]/button</value>
+      <webElementGuid>3a1011a0-d6f4-4f32-a937-eaacbb4cd84f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btn-update-379']</value>
+      <webElementGuid>3e7996ce-39fc-4ce0-bb80-2fd5efa16805</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

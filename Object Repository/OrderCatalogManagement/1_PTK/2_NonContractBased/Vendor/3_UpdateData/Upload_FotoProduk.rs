@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Upload_FotoProduk</name>
+   <tag></tag>
+   <elementGuidId>f9a8e64a-f9de-43eb-b4ea-fa0c5892ad5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-5 > div.mb-3 > div.dropzone</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div/div/div/form/div[2]/div/div[18]/div/div[3]/div/div[1]/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3498d563-253a-4d20-be71-d0c0815d1ddf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>02354375-d184-40e3-a403-de410613baec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>5ac4d9d1-8395-4009-93c8-65ea660f1c19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropzone</value>
+      <webElementGuid>586ec5cc-1568-468b-98d4-d67d6886b509</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drop Files here or click to upload Choose File</value>
+      <webElementGuid>274cbaa5-30b9-438b-99c7-9979eb0ebf8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-5 modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/form[@class=&quot;m-4 needs-validation av-invalid&quot;]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;my-1 col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;dropzone&quot;]</value>
+      <webElementGuid>5e9f695f-8e23-435b-aa3c-719b48a63a95</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Produk'])[1]/following::div[8]</value>
+      <webElementGuid>6893e160-a31f-4596-97d9-9bf088c11672</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layanan Purna Jual'])[1]/following::div[11]</value>
+      <webElementGuid>c8c598c6-df51-483d-b73c-9b6aed6f8dff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]/div/div[3]/div/div/div/div</value>
+      <webElementGuid>caf3deb7-629f-4ea7-8cd4-7fff0a58dbfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drop Files here or click to upload Choose File' or . = 'Drop Files here or click to upload Choose File')]</value>
+      <webElementGuid>ca5263e5-6a0d-49c9-9cc9-01d20b4ebd96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

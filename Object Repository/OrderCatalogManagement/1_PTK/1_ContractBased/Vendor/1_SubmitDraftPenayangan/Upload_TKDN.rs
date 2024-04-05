@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Upload_TKDN</name>
+   <tag></tag>
+   <elementGuidId>b19e3ea3-ba20-46ef-bb88-13bd10408278</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div/div/div/form/div[2]/div/div[8]/div/div[1]/div/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-6 > div.mb-3 > div.dropzone</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5ece7d2e-3ac0-4d77-a82f-d51b60421bbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>35580fa3-f096-47c7-b32f-23487f43dfdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e8ce4062-373a-4e88-8415-b559276c6df3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropzone</value>
+      <webElementGuid>fbb7a2a1-0199-4028-8f81-27dc5c2b7278</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drop Files here or click to upload Choose File</value>
+      <webElementGuid>e7dfac95-6069-4d8e-a1dc-db4550c5aa36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-2 modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/form[@class=&quot;m-4 needs-validation av-invalid&quot;]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;my-1 col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;dropzone&quot;]</value>
+      <webElementGuid>f6eb1056-be49-4849-ae59-d44bdffac085</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TKDN File'])[1]/following::div[3]</value>
+      <webElementGuid>8f15971c-a371-4484-90a3-08d2ec480c37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nilai TKDN(%)'])[1]/following::div[6]</value>
+      <webElementGuid>e7ede54b-9e6f-4880-ac19-16969975d1d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/div</value>
+      <webElementGuid>263bf61d-471f-450d-a06d-f86e0a369001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drop Files here or click to upload Choose File' or . = 'Drop Files here or click to upload Choose File')]</value>
+      <webElementGuid>5c145d83-c3f5-447f-8dbb-d1d79f84b7ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0001-OCM-TambahDataPenayanganBaruKatalogDariPenyedia_Vendor1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3eb5d41e-2276-4660-b7d2-a6c33b61e4e8</testCaseGuid>
+</TestCaseEntity>

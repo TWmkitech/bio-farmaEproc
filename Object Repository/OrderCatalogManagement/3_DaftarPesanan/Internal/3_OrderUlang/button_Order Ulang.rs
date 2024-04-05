@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Order Ulang</name>
+   <tag></tag>
+   <elementGuidId>e5b20ca8-602c-4ae3-b566-c6f67da89a55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.w-100.dropdown-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>308e49a7-d7a5-4535-8cf2-a3f2aa7d2182</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>709ac902-0a7a-4d66-9f10-6c2a463d4630</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>38b4b400-b7af-4e9c-8fb2-70285262b60c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>bef932f2-f885-4e9a-8f0b-41dcf3f89441</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100 dropdown-item</value>
+      <webElementGuid>ccb446c4-0171-4822-ad29-22ea6d425f42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order Ulang</value>
+      <webElementGuid>f6f2003c-8d68-4fab-8f83-0754b62f8e41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;p-2 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;dropdown show&quot;]/div[@class=&quot;dropdown-menu show&quot;]/button[@class=&quot;w-100 dropdown-item&quot;]</value>
+      <webElementGuid>41b8058f-90c7-42ac-9436-d11072a705eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>51a6fa1a-f3e6-41c0-a496-03b0ae3f842d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div/div[2]/div[2]/div[3]/div[2]/div/div[2]/div/div/button</value>
+      <webElementGuid>a3572ce4-82c6-488c-af8f-26bd417b33ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/following::button[1]</value>
+      <webElementGuid>a32a44cd-bc86-4f41-85dc-7ff612a8c382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tube Aciclovir 5% krim 5gr HET Ed-11'])[1]/following::button[2]</value>
+      <webElementGuid>51065975-c550-425e-bf8f-758dc2e347d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berikan Ulasan'])[1]/preceding::button[1]</value>
+      <webElementGuid>010bd840-98dc-4efb-874b-adc3180090ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IDR 3.510'])[1]/preceding::button[2]</value>
+      <webElementGuid>68110239-b2d2-47ff-a90e-2170c9552c74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Order Ulang']/parent::*</value>
+      <webElementGuid>2bb406e9-cb5d-4b69-9519-bec078058be5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button</value>
+      <webElementGuid>df1a6453-aefe-42c2-99a8-5442e5199411</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Order Ulang' or . = 'Order Ulang')]</value>
+      <webElementGuid>83aa03d5-0fb0-4ee1-9d69-488b6ab2cd87</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

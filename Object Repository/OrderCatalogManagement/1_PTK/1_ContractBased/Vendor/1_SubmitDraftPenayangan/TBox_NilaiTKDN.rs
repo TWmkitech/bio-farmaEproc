@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBox_NilaiTKDN</name>
+   <tag></tag>
+   <elementGuidId>60d276fb-bdbb-42e2-a983-0902f1e5d596</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'product_tkdn' and @id = 'tkdn' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div/div[1]/div/div/div/div/div/form/div[2]/div/div[8]/div/div[1]/div/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-9 > #tkdn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7a0c05c7-7e93-42d0-9708-c06650e7d252</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>product_tkdn</value>
+      <webElementGuid>ffc53b36-aff9-43fa-b557-5987cdc3bbcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tkdn</value>
+      <webElementGuid>3c8905c4-65f4-4f57-99af-3a8b93203a55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>65ee8542-a6db-4e20-bfd6-97bb3fa0c081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>is-untouched is-pristine av-valid form-control</value>
+      <webElementGuid>b604edc0-fded-40d7-9155-bcb30474e28c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-2 modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/form[@class=&quot;m-4 needs-validation av-invalid&quot;]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;my-1 col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/input[@id=&quot;tkdn&quot;]</value>
+      <webElementGuid>3234abc3-b1c0-449c-a6f3-4a62f6826786</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='tkdn']</value>
+      <webElementGuid>8cbdb169-0289-405e-a05b-a5680ab12c2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/input</value>
+      <webElementGuid>f8a5e6f7-af6e-4c6b-9541-86156c3f37f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'product_tkdn' and @id = 'tkdn' and @type = 'text']</value>
+      <webElementGuid>b017e2a7-eb2c-4071-8deb-1568e0886f8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

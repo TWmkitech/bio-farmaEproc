@@ -22,15 +22,15 @@ WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManage
 
 WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_LegalContractManagement'))
 
-WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_InisiasiKontrak'))
+WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_Repository'))
 
 WebUI.delay(5)
 
-TestObject targetElement = findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/1/Icon_Detail')
+TestObject targetElement = findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Icon_Detail')
 
-WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/1/Icon_Detail'))
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Icon_Detail'))
 
-WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/1/Button_Unduh File Kontrak'))
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Button_Unduh File Kontrak'))
 
 WebUI.delay(20)
 

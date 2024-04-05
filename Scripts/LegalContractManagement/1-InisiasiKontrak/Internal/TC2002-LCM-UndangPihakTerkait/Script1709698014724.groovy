@@ -32,19 +32,19 @@ WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
 //WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/Custom_Icon_Detail'), 
 //    [('index') : 2], FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/2_TambahReviewer/Icon_Detail_'))
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/2_TambahReviewer/Icon_Detail_2'))
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/2_TambahReviewer/button_TambahReviewerKontrak'))
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/2_TambahReviewer/Sbox_NPK'))
 
-WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/2_TambahReviewer/Sbox_NPK_1'))
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/2_TambahReviewer/Sbox_NPK_2'))
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/2_TambahReviewer/button_Simpan'))
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/2_TambahReviewer/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(0)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

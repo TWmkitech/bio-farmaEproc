@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Unduh File Kontrak</name>
+   <tag></tag>
+   <elementGuidId>587e3fc5-d2e4-45d6-903c-932a2325151f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[2]/div/div/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3ed20287-e339-4f9a-b3d3-f90684ba8776</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-primary</value>
+      <webElementGuid>56ddf473-736f-4091-bbe4-a73cbb6f7bc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Unduh File Kontrak</value>
+      <webElementGuid>93946f01-344b-406a-9573-8e2cc3bb10aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-items-start row&quot;]/div[@class=&quot;d-flex justify-content-between&quot;]/a[1]/div[@class=&quot;text-primary&quot;]</value>
+      <webElementGuid>0c76f21b-3b2c-46f9-b30c-bff006169e43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[2]/div/div/a/div</value>
+      <webElementGuid>aa006745-0329-4419-9233-c3dff94d2eaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Data Kontrak'])[1]/following::div[1]</value>
+      <webElementGuid>e3b25f0c-6c55-4fed-82a5-9dfd845bfcc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rincian Repository Kontrak'])[1]/following::div[5]</value>
+      <webElementGuid>dec910cc-8f3e-4086-9b61-f853374a3d6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Kontrak'])[1]/preceding::div[1]</value>
+      <webElementGuid>39cc474b-c2ea-4f03-bc47-d2ab41dbea5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Unduh File Kontrak']/parent::*</value>
+      <webElementGuid>5c52ca14-e6c7-40be-8911-f6d8465903eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/div</value>
+      <webElementGuid>ae01899e-4171-4c9d-b4bf-02eb63de1694</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Unduh File Kontrak' or . = ' Unduh File Kontrak')]</value>
+      <webElementGuid>0381c7f0-2e8d-4103-842c-8a42fa03c06f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

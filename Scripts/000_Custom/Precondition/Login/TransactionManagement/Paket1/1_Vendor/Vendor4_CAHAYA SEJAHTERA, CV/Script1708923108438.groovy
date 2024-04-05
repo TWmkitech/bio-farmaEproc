@@ -27,5 +27,7 @@ WebUI.setText(findTestObject('Login/vendor/Field_Username'), 'DRM-JP.24.000011')
 
 WebUI.setText(findTestObject('Login/vendor/Field_Password'), 'password.1')
 
+WebUI.delay(20)
+
 WebUI.click(findTestObject('Login/vendor/Button_Login'))
 

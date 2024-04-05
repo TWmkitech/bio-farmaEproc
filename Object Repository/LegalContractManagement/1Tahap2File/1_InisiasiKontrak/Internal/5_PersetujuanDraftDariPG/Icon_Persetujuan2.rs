@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='approval-a625821d-d456-4285-a9b9-c11576a3a0db-v0']</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/table/tbody/tr[2]/td[9]/span[1]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>501b45ce-ff36-42fd-8a2d-1ca0d9cb367b</webElementGuid>
+      <webElementGuid>44b08a1a-a35b-4dd5-8bbd-56a0f55ed0f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn- border-0 btn-sm</value>
-      <webElementGuid>84fd3703-a5b0-49c7-b67a-72e1950977bf</webElementGuid>
+      <webElementGuid>8cf06f63-0af2-49b9-829b-b3a7df6c58c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>approval-a625821d-d456-4285-a9b9-c11576a3a0db-v0</value>
-      <webElementGuid>01e131ef-fbec-4151-a322-a7d35ecf049e</webElementGuid>
+      <webElementGuid>9873236e-337c-4cd8-9c0b-ef02b48f56bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/lcm/initiation?approval&amp;uuid=a625821d-d456-4285-a9b9-c11576a3a0db&amp;version=0</value>
-      <webElementGuid>222b7e74-571e-48d7-b575-a176a66db268</webElementGuid>
+      <webElementGuid>64f73264-1826-4543-97ad-fecb6095c6d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;approval-a625821d-d456-4285-a9b9-c11576a3a0db-v0&quot;)</value>
-      <webElementGuid>aa8e463f-9d58-4cf0-8799-25daec41656c</webElementGuid>
+      <webElementGuid>5b35fbec-e84a-4217-a341-e5ce57c1c7bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='approval-a625821d-d456-4285-a9b9-c11576a3a0db-v0']</value>
-      <webElementGuid>e6e6d365-1541-45e9-b46d-0ccc0b5e6471</webElementGuid>
+      <webElementGuid>2c35f76c-cfb7-4f23-9565-c379f0efab1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='as-react-datatable']/tbody/tr[2]/td[9]/span/a</value>
-      <webElementGuid>9e75f67c-966a-43ba-b5f6-e23a06fc6fb4</webElementGuid>
+      <webElementGuid>29967855-5b79-4ab1-955e-826bb55783f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Permintaan Review BOD-3'])[2]/following::a[1]</value>
-      <webElementGuid>1a213923-8196-4bf9-9382-2aa6d56af355</webElementGuid>
+      <webElementGuid>5054d8fa-db25-400c-ac61-59462c3b543e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PP/JPROC/2024/000071'])[1]/preceding::a[2]</value>
-      <webElementGuid>ace9a02e-a481-4545-8782-a94f652dd483</webElementGuid>
+      <webElementGuid>1d754a4a-3e06-451e-a9da-9a0993bc4b91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Paket Pengadan Pelatihan JPROC - DRP 1'])[1]/preceding::a[2]</value>
-      <webElementGuid>eceabcc8-4626-4b7a-be08-c0f72fe2ce5a</webElementGuid>
+      <webElementGuid>8062b3b0-4b04-4f3b-8490-e8ccad5e0030</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/lcm/initiation?approval&amp;uuid=a625821d-d456-4285-a9b9-c11576a3a0db&amp;version=0')]</value>
-      <webElementGuid>78d8a1a7-c50d-44a2-98a7-41f503652859</webElementGuid>
+      <webElementGuid>ba4bf6fd-201a-4771-87cb-e02935852a27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[9]/span/a</value>
-      <webElementGuid>94ea0e6a-8037-4b2f-a18d-460ff12e8980</webElementGuid>
+      <webElementGuid>dc91d77b-79f1-4650-bada-615cf4819f0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'approval-a625821d-d456-4285-a9b9-c11576a3a0db-v0' and @href = '/lcm/initiation?approval&amp;uuid=a625821d-d456-4285-a9b9-c11576a3a0db&amp;version=0']</value>
-      <webElementGuid>9f3643f7-03c6-4701-9a83-fc5c3e2a92cf</webElementGuid>
+      <webElementGuid>9910eb4b-8a8f-47fc-99e1-42a0951da0c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

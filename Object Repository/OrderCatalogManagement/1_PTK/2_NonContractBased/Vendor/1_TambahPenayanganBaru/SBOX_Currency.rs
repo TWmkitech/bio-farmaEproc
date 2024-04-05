@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SBOX_Currency</name>
+   <tag></tag>
+   <elementGuidId>2c6c791f-79c6-4adb-8903-8f3984671a93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>482b54df-f240-4e5a-9df6-f48c9d3eea96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__value-container css-hlgwow</value>
+      <webElementGuid>ea0a6058-2318-4bca-b0d5-5c7c369f5b09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select...</value>
+      <webElementGuid>9f1708f6-695f-4642-8f58-af90123e6a8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-5 modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/form[@class=&quot;m-4 needs-validation av-invalid&quot;]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;my-1 col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control css-13cymwt-control&quot;]/div[@class=&quot;select__value-container css-hlgwow&quot;]</value>
+      <webElementGuid>60000718-1270-4377-b986-d2ec25714cc9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::div[4]</value>
+      <webElementGuid>7c2c8362-b8e8-4563-8a6d-f3cb0ba52a55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/div/div</value>
+      <webElementGuid>332ce95a-e56e-4fd1-bb06-b2b2cb78a0d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select...' or . = 'Select...')]</value>
+      <webElementGuid>03bc7d5f-a48c-4f56-9a2e-0e08657b45b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

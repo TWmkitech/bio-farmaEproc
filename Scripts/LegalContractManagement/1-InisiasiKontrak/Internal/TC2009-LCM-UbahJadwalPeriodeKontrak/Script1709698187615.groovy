@@ -42,7 +42,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontra
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Internal/4_JadwalPeriodeKontrak/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Upload_LampiranBalasan_Vendor2</name>
+   <tag></tag>
+   <elementGuidId>b7c8ff83-88db-4898-b752-ac657f4c0bfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[2]/div[2]/div[2]/div/div/div[4]/form/div[2]/div[1]/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

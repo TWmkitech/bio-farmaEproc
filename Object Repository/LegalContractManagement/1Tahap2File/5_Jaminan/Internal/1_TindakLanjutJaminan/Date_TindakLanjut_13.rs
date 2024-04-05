@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Date_TindakLanjut_13</name>
+   <tag></tag>
+   <elementGuidId>64e5d489-88d0-4772-bb15-2a41a4b0cfe8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[3]/following::span[16]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flatpickr-calendar.animate.arrowTop.arrowLeft.open > div.flatpickr-innerContainer > div.flatpickr-rContainer > div.flatpickr-days > div.dayContainer > span.flatpickr-day.today</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fe50ae20-6a7b-4922-bc35-2748f0369da9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flatpickr-day today</value>
+      <webElementGuid>374422bd-ddea-4ff1-8771-6a59381b3e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>March 8, 2024</value>
+      <webElementGuid>0355d92e-ac87-46e7-8f1b-8fb3b6e3c776</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-current</name>
+      <type>Main</type>
+      <value>date</value>
+      <webElementGuid>59a8295a-69bd-48cc-ae97-88475b7711b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>5edac8ea-47e2-43e4-90ee-eeafe2e5b71f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>8</value>
+      <webElementGuid>5a522741-b929-4fcc-9d08-1635e894cc35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[@class=&quot;flatpickr-calendar animate arrowTop arrowLeft open&quot;]/div[@class=&quot;flatpickr-innerContainer&quot;]/div[@class=&quot;flatpickr-rContainer&quot;]/div[@class=&quot;flatpickr-days&quot;]/div[@class=&quot;dayContainer&quot;]/span[@class=&quot;flatpickr-day today&quot;]</value>
+      <webElementGuid>eaf87849-c6de-4d8e-84bd-efa625891416</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[3]/following::span[13]</value>
+      <webElementGuid>7c5eb3fa-c5d0-4252-a48f-4d1a586f1e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[3]/following::span[14]</value>
+      <webElementGuid>69643e03-94e8-4b71-95f6-b7bd4804e33f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/div/div[2]/div/span[13]</value>
+      <webElementGuid>db74c025-eb94-46eb-ac67-8e81e975b37f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '8' or . = '8')]</value>
+      <webElementGuid>95c0e233-a278-495b-bb75-f011f7454840</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

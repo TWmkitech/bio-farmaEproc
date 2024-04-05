@@ -6,12 +6,12 @@
    <elementGuidId>aa45478e-db3c-4a50-8e26-0cb4daceaa48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.float-end.btn.btn-primary.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[1]/div[2]/table/tbody/tr[1]/td[4]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cc908b05-c2c2-42d8-8a01-2e7fec9bba8c</webElementGuid>
+      <webElementGuid>15d20db7-c31b-45e7-8be1-20bdf13f3219</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6fe81492-b8cf-4121-a243-0d942d9126dd</webElementGuid>
+      <webElementGuid>9b16591b-b0a0-4fbe-9ffd-f6fc05a34f28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>float-end btn btn-primary btn-sm</value>
-      <webElementGuid>0c3eb77c-8624-458e-b7ca-34507367a71b</webElementGuid>
+      <webElementGuid>5bca126a-89ec-485f-8372-20b846c8ebff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Unggah</value>
-      <webElementGuid>ee041917-9ac9-4866-8a6d-a5cfd39a127b</webElementGuid>
+      <webElementGuid>772328da-46a0-45cf-89f6-fcd31033492b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tableAdminUpload&quot;)/tbody[1]/tr[1]/td[4]/button[@class=&quot;float-end btn btn-primary btn-sm&quot;]</value>
-      <webElementGuid>d6d35ae6-641c-4123-90d6-4c0096bb18ce</webElementGuid>
+      <webElementGuid>6e5d1794-7616-4ce5-9d57-6ab49908e8ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>a5d54f06-e3e9-4d52-8fed-49c20c7d1938</webElementGuid>
+      <webElementGuid>7d5f0f11-ce1b-465a-a221-d2b01560f2cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tableAdminUpload']/tbody/tr/td[4]/button</value>
-      <webElementGuid>60ab25cd-8e42-416e-bb05-273e2d8c566d</webElementGuid>
+      <webElementGuid>dff706c9-4f74-41fe-8d8b-1cd89395fd39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Format file yang diizinkan .xlsx, .xls, .docx, .doc, .pdf, dengan ukuran antara 0 s/d 100 Mb'])[1]/following::button[1]</value>
-      <webElementGuid>ba3de8e7-4935-427e-818c-4b98b4666e99</webElementGuid>
+      <webElementGuid>b85487dc-738a-4e9f-a5a6-291b89ec224f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::button[1]</value>
-      <webElementGuid>3a0ac463-fe93-4b8f-85fc-96b45c01ea0b</webElementGuid>
+      <webElementGuid>f6910f83-89d3-457c-ae08-45af5a98fe85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Surat Pernyataan Kesanggupan'])[1]/preceding::button[1]</value>
-      <webElementGuid>d864b6f7-acd1-4dc5-ad87-7a51ed58418e</webElementGuid>
+      <webElementGuid>156935e2-2833-467f-b418-e3145972b0f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/preceding::button[1]</value>
-      <webElementGuid>b9ebaa2f-40d1-48c9-a01a-379ec49a5bb0</webElementGuid>
+      <webElementGuid>40c76ef9-18c1-4056-9d9f-309a24770276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/button</value>
-      <webElementGuid>05135572-d287-4d01-b35b-f249b1befdfc</webElementGuid>
+      <webElementGuid>0e3f6fea-dbc9-4de3-8861-2c43874d7820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Unggah' or . = 'Unggah')]</value>
-      <webElementGuid>0dc291c0-04f6-4e2e-bc9b-7b6bd19538d2</webElementGuid>
+      <webElementGuid>6aa4ba31-efd2-4e8b-a4ff-1f73c9d31d91</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

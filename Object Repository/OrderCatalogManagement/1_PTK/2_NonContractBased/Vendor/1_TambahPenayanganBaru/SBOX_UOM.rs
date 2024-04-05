@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SBOX_UOM</name>
+   <tag></tag>
+   <elementGuidId>7e6ecd2c-d352-4863-88f3-b353737569e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>94a67133-6e59-4301-b405-c51808d172e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select__value-container css-hlgwow</value>
+      <webElementGuid>5e7393af-3dbe-4b90-bcef-e74f234a0443</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select...</value>
+      <webElementGuid>1ac79962-8e4b-44e3-8e2e-2abdfce1c0b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;p-5 modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/form[@class=&quot;m-4 needs-validation av-invalid&quot;]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;my-1 col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;react-select css-b62m3t-container&quot;]/div[@class=&quot;select__control css-13cymwt-control&quot;]/div[@class=&quot;select__value-container css-hlgwow&quot;]</value>
+      <webElementGuid>11cf388f-22cd-454a-a978-0eb25eb7ddc8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::div[4]</value>
+      <webElementGuid>74094115-2fd6-43f2-a730-d72cdd271793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/div/div</value>
+      <webElementGuid>c5feb652-2ac8-4e3f-87a0-0fbdf2e4de98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select...' or . = 'Select...')]</value>
+      <webElementGuid>b9791d5e-bef3-419d-a036-6d6c0c122bb5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
