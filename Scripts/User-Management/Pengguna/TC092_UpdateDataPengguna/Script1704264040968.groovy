@@ -49,26 +49,6 @@ WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/UpdatePengg
 
 WebUI.click(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_BOD1'))
 
-WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_BOD3'), 0)
-
-WebUI.click(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_BOD3'))
-
-WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_default'), 0)
-
-WebUI.click(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_default'))
-
-WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_Entitas1'), 0)
-
-WebUI.click(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_Entitas1'))
-
-WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_Entitas2'), 0)
-
-WebUI.click(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_Entitas2'))
-
-WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_IT'), 0)
-
-WebUI.click(findTestObject('User-Management/Pengguna/UpdatePengguna/Checkbox_IT'))
-
 WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/UpdatePengguna/Button_SimpanData'), 0)
 
 WebUI.click(findTestObject('User-Management/Pengguna/UpdatePengguna/Button_SimpanData'))

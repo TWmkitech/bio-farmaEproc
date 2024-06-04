@@ -27,8 +27,6 @@ WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_UserManagem
 
 WebUI.scrollToElement(findTestObject('User-Management/Global-TestObject/Anchor_AksesRole'), 0)
 
-WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/Anchor_AksesRole'), 0)
-
 WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_AksesRole'))
 
 WebUI.delay(10)

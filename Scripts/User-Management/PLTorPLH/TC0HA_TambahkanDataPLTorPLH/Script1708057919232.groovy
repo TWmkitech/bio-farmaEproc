@@ -39,7 +39,7 @@ WebUI.click(findTestObject('User-Management/PLTorPLH/TambahkanDataPLTorPLH/Selec
 
 WebUI.click(findTestObject('User-Management/PLTorPLH/TambahkanDataPLTorPLH/Selectbox_TanggalSK_21'))
 
-WebUI.uploadFile(findTestObject('User-Management/PLTorPLH/TambahkanDataPLTorPLH/Upload_UnggahSurat'), 'C:\\Users\\ASUS\\git\\bio-farmaEproc\\Document\\DataTest.docx')
+WebUI.uploadFile(findTestObject('User-Management/PLTorPLH/TambahkanDataPLTorPLH/Upload_UnggahSurat'), 'D:\\Automation Biofarma\\Biofarma new\\Document\\DataTest.docx')
 
 WebUI.click(findTestObject('User-Management/PLTorPLH/TambahkanDataPLTorPLH/Selectbox_PeriodeMulai'))
 

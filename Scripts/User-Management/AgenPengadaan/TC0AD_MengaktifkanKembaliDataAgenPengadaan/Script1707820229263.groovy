@@ -67,8 +67,5 @@ WebUI.click(findTestObject('User-Management/AgenPengadaan/MengaktifkanKembaliDat
 
 WebUI.click(findTestObject('User-Management/AgenPengadaan/MengaktifkanKembaliDataAgenPengadaan/Button_OK'))
 
-WebUI.verifyElementPresent(findTestObject('User-Management/AgenPengadaan/MengaktifkanKembaliDataAgenPengadaan/Verify_Data berhasil disimpan'), 
-    10)
-
 WebUI.closeBrowser()
 

@@ -127,7 +127,7 @@ WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_UOM'), 'UOM
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/tambahManual/Input_Spesifikasi'), 0)
 
-WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_Spesifikasi'), 'Spesifikasi Automatisai')
+WebUI.setText(findTestObject('ID-Mapping/Material/tambahManual/Input_Spesifikasi'), 'Spesifikasi Automatisasi')
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Drafting_TambahManual/Button_Simpan'), 0)
 
@@ -140,3 +140,4 @@ WebUI.click(findTestObject('ID-Mapping/Material/tambahManual/Button_OK'))
 WebUI.delay(10)
 
 WebUI.closeBrowser()
+

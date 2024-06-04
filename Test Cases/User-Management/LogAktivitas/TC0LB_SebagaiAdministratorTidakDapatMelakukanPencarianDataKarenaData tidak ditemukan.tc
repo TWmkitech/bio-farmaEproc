@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC0LB_SebagaiAdministratorTidakDapatMelakukanPencarianDataKarenaData tidak ditemukan</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>305db292-0d4c-4a6a-a60d-bba0e19f7261</testCaseGuid>
-</TestCaseEntity>

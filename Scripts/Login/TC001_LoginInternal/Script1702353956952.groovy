@@ -27,10 +27,9 @@ WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), Gl
 
 WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), GlobalVariable.Pass)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/internal/Button_Masuk'), 0)
-
 WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 
 WebUI.delay(10)
 
 WebUI.closeBrowser()
+

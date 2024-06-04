@@ -35,11 +35,12 @@ WebUI.delay(5)
 
 /*WebUI.scrollToElement(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/button_NonaktifkanData'), 
     0) */
-
 WebUI.scrollToPosition(200, 200)
 
-WebUI.waitForElementPresent(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/button_NonaktifkanData'), 
+WebUI.scrollToElement(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/button_NonaktifkanData'), 
     0)
+
+WebUI.scrollToPosition(200, 0)
 
 WebUI.click(findTestObject('User-Management/AgenPengadaan/NonaktifkanDataAgenPengadaan/button_NonaktifkanData'))
 

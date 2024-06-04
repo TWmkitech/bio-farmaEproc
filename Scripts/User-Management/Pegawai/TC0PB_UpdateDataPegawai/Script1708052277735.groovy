@@ -31,10 +31,6 @@ WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/An
 
 WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_Pegawai'))
 
-TestObject targetElement = findTestObject('Object Repository/User-Management/Pegawai/UpdateDataPegawai/Icon_UpdateData')
-
-WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
-
 WebUI.delay(5)
 
 WebUI.click(findTestObject('User-Management/Pegawai/UpdateDataPegawai/Icon_UpdateData'))

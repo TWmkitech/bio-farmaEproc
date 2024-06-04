@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='delete-104']</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[5]/div/div/div[1]/div/div/div/div[2]/div/div/table/tbody/tr[1]/td[8]/span[3]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-danger btn-sm' and @id = 'delete-104']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#delete-104</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>01fbb07d-5e63-4ca8-8fbd-f79824ec28de</webElementGuid>
+      <webElementGuid>41c7ba34-a9e9-4c61-a661-1da354ebe06a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-danger btn-sm</value>
-      <webElementGuid>c09d1d34-7655-48f8-b0bc-91765367ba6d</webElementGuid>
+      <webElementGuid>cd14b35c-ac15-427c-b561-776d6d1e095f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>delete-104</value>
-      <webElementGuid>6f1c7eef-c113-4e7b-b9ce-a25f54b38a0b</webElementGuid>
+      <webElementGuid>705a39f9-f2ef-4682-b6df-7c74351eb3cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;delete-104&quot;)</value>
-      <webElementGuid>106cdeed-6549-46fd-a86b-7e68d00ea15f</webElementGuid>
+      <webElementGuid>21f7dad8-e99d-40a6-8681-88b8c68496fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='delete-104']</value>
-      <webElementGuid>69d0cc7e-0d60-40a2-829c-d129e229a421</webElementGuid>
+      <webElementGuid>230c9d69-f9b8-44ee-8454-0d153999a804</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='as-react-datatable']/tbody/tr/td[8]/span[3]/button</value>
-      <webElementGuid>421e2391-e552-425c-a22d-b617d4528bf5</webElementGuid>
+      <webElementGuid>eede30ca-58bd-42c1-a745-8fc6ad12fe32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test NamaAgen'])[1]/following::button[1]</value>
-      <webElementGuid>8a26c6e2-ac4c-48e8-960e-cd6216314c32</webElementGuid>
+      <webElementGuid>885f5d8a-56a5-4b8f-a22c-07a458d63038</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::button[1]</value>
-      <webElementGuid>fe7bfb0e-b15d-458d-ab93-a3a48f370000</webElementGuid>
+      <webElementGuid>acc14c81-4800-4ed9-9315-1a8c39169c03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test NamaAgen'])[2]/preceding::button[1]</value>
-      <webElementGuid>7cd3e893-ba3b-494c-9295-368a8f368729</webElementGuid>
+      <webElementGuid>1c32f3c8-3ad6-46c4-a9d6-aff50ad6b646</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test NamaAgen'])[3]/preceding::button[2]</value>
-      <webElementGuid>a511f885-0a6a-4971-8167-0b779bca249d</webElementGuid>
+      <webElementGuid>ab8971eb-56ef-44d4-90d3-50b020251ab6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[3]/button</value>
-      <webElementGuid>36a96b6a-b8d7-4eb9-9936-128768de1aef</webElementGuid>
+      <webElementGuid>b2c075c4-2e6d-46ef-892d-55ac04841913</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'delete-104']</value>
-      <webElementGuid>dd9001f0-afaf-4c57-bcd0-6d9e53e56cbc</webElementGuid>
+      <webElementGuid>840cb429-b4e1-476b-b498-4ce36fefb41e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

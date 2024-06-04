@@ -31,7 +31,7 @@ WebUI.click(findTestObject('ID-Mapping/Global_TestObject/Anchor_Penyedia'))
 
 WebUI.delay(10)
 
-TestObject targetElement = findTestObject('Object Repository/ID-Mapping/Penyedia/Detail_Penyedia/Button_Detail')
+TestObject targetElement = findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_Update')
 
 WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
@@ -133,13 +133,25 @@ WebUI.clearText(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Input_NPWP')
 
 WebUI.setText(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Input_NPWP'), '1609384712473910')
 
+WebUI.click(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_Provinsi'))
+
+WebUI.click(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Div_Provinsi'))
+
+WebUI.click(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_Kota'))
+
+WebUI.click(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Div_Kota'))
+
+WebUI.setText(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Div_Alamat'), 'Automated Test')
+
+WebUI.setText(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Div_Email2'), 'automatedtest@yopmail.com')
+
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_SimpanDraft'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_SimpanDraft'))
 
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_OK'), 0)
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_Kirim'), 0)
 
-WebUI.click(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_OK'))
+WebUI.click(findTestObject('ID-Mapping/Penyedia/Update_Penyedia/Button_Kirim'))
 
 WebUI.delay(10)
 

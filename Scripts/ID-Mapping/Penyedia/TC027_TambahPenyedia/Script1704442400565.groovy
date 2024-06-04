@@ -153,18 +153,6 @@ WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/
 
 WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_KategoriPenyedia'))
 
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Pengurus'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Pengurus'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Kontak'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_Kontak'))
-
-WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_RekeningBank'), 0)
-
-WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Checkbox_RekeningBank'))
-
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Button_SimpanKomparasi'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Penyedia/Tambah_Penyedia/Button_SimpanKomparasi'))

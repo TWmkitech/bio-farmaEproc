@@ -31,15 +31,9 @@ WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/An
 
 WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_Entitas'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
-TestObject targetElement = findTestObject('Object Repository/User-Management/Entitas/DetailEntitas/Button_Detail')
-
-WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
-
-WebUI.waitForElementPresent(findTestObject('User-Management/Entitas/DetailEntitas/Button_Detail'), 0)
-
-WebUI.click(findTestObject('User-Management/Entitas/DetailEntitas/Button_Detail'))
+WebUI.click(findTestObject('User-Management/Entitas/Detail'))
 
 WebUI.delay(10)
 

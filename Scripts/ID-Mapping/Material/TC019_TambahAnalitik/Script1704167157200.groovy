@@ -54,6 +54,8 @@ for (int i = 0; i < 2; i++) {
         )
 }
 
+WebUI.setText(findTestObject('ID-Mapping/Material/Tambah_Analitik/Input_Tahun'), '2023')
+
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Span_DataTanggalMulai'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Span_DataTanggalMulai'))
@@ -108,6 +110,8 @@ WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Proses'))
 
 WebUI.delay(10)
 
+WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Frekuensi'))
+
 WebUI.scrollToPosition(0, 700)
 
 WebUI.delay(10)
@@ -125,15 +129,10 @@ WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Tambah'))
 WebUI.delay(10)
 
 //WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_CheckBox'), 0)
-
 //WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_CheckBox'))
-
 //WebUI.delay(10)
-
 //WebUI.scrollToPosition(0, 2000)
-
 //WebUI.delay(10)
-
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Manual'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Manual'))
@@ -153,6 +152,37 @@ WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Field_KodeMateri
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Div_DataKodeMaterial'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Div_DataKodeMaterial'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_SimpanManual'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_SimpanManual'))
+
+WebUI.delay(3)
+
+//WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_CheckBox'), 0)
+//WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_CheckBox'))
+//WebUI.delay(10)
+//WebUI.scrollToPosition(0, 2000)
+//WebUI.delay(10)
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Manual'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Manual'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Field_EntitasManual'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Field_EntitasManual'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Div_DataManualEntitas2'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Div_DataManualEntitas2'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Field_KodeMaterial'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Field_KodeMaterial'))
+
+WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Div_DataKodeMaterial2'), 0)
+
+WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Div_DataKodeMaterial2'))
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_SimpanManual'), 0)
 
@@ -213,6 +243,8 @@ WebUI.setText(findTestObject('ID-Mapping/Material/Tambah_Analitik/Input_Spesifik
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Kirim'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_Kirim'))
+
+WebUI.click(findTestObject('ID-Mapping/Material/Tambah_Analitik/Button_OK'))
 
 WebUI.delay(10)
 
