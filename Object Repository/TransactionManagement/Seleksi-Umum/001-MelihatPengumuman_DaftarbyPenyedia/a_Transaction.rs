@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Transaction</name>
+   <tag></tag>
+   <elementGuidId>fb2ebe09-d92c-431e-9e53-e32514483788</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(4) > span > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/header/div[2]/div/div/div/div[1]/div/nav/ul/li[4]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3e231c5a-9a33-4e4c-ad5a-c6232544c8ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+      <webElementGuid>97b1ccd4-d7d9-4e28-bb1f-89a72ee3634f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaction </value>
+      <webElementGuid>b7e24754-ddea-4c28-9a6a-0151b5d6a582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobile-menu&quot;)/ul[1]/li[4]/span[1]/a[1]</value>
+      <webElementGuid>adec0b00-b39c-43dc-a722-c3a67b4482df</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

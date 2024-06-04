@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_AlasanTolak</name>
+   <tag></tag>
+   <elementGuidId>4421d63b-d849-4591-be6b-cbc47cdfad34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/div[11]/div/div/textarea</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@name = 'alasan_penolakan']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>7baeb653-b347-45c3-b483-ba4151e8a1bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>alasan_penolakan</value>
+      <webElementGuid>afb4462e-4516-48f6-b886-ef4c75d8c853</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

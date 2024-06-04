@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Tambah ke keranjang_1</name>
+   <tag></tag>
+   <elementGuidId>b1694b45-aed9-469a-990a-7065f08988c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div/div[2]/div[9]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-center.mt-1 > button.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ca725c81-d737-4125-8601-5ff2c9b2cc94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f45cdf5d-8e0d-4c3d-a287-52392cf5f83a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>bd08e82b-c8db-4092-ba62-46a37aab9018</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Tambah ke keranjang</value>
+      <webElementGuid>d4dca96f-8fcc-462c-b686-3344d96f618c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mt-1 row&quot;]/div[@class=&quot;col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9&quot;]/div[@class=&quot;mt-1 row&quot;]/div[@class=&quot;col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4&quot;]/div[@class=&quot;shadow card&quot;]/div[@class=&quot;shadow card-body&quot;]/div[@class=&quot;text-center py-1&quot;]/div[@class=&quot;text-center mt-1&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>fc47e8d8-6be7-47d8-b3c2-08dab66025fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>edf77dd3-0407-4c0e-9910-7a7754e3c8e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div/div[2]/div[9]/div/button</value>
+      <webElementGuid>3f85416c-c24d-4882-b3f2-518789717528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::button[1]</value>
+      <webElementGuid>613807f5-6cba-4d68-a828-b50d6fb2fbb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Penjual'])[1]/preceding::button[1]</value>
+      <webElementGuid>ddb2b8a9-e8c6-4bae-b1a0-8af740de76c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bandingkan'])[1]/preceding::button[1]</value>
+      <webElementGuid>7698145e-7a6c-440a-9c3e-f8b7c0fc4a71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tambah ke keranjang']/parent::*</value>
+      <webElementGuid>7d2bb077-10c2-4a2f-bae9-546b87848238</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/button</value>
+      <webElementGuid>9c4af9cf-3f3a-4c36-bd9e-61b781a36791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Tambah ke keranjang' or . = ' Tambah ke keranjang')]</value>
+      <webElementGuid>d936c491-b3d3-4d70-bb98-055a39364f40</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

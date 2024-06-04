@@ -20,21 +20,23 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Anchor_PengurusPerusahaan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Anchor_PengurusPerusahaan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Button_TambahData'))
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_KelompokJabatan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_KelompokJabatanData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_KelompokJabatan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_JenisIdentitas'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_KelompokJabatanData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_JenisIdentitasData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_JenisIdentitas'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_NoIdentitas'), '3175070101909999')
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_JenisIdentitasData'))
 
-TestObject uploadIdentitas = findTestObject('Third Party/Data Profile/PengurusPerusahaan/Upload_Identitas')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_NoIdentitas'), '3175070101909999')
+
+TestObject uploadIdentitas = findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Upload_Identitas')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
@@ -44,10 +46,10 @@ def filePath = projectDir + '/Document/ThirdParty/PengurusPerusahaan/ktp.png'
 
 WebUI.uploadFile(uploadIdentitas, filePath)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_NPWP'), '092542943407000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_NPWP'), '092542943407000')
 
-if (WebUI.verifyElementPresent(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Upload_Npwp'), 5, FailureHandling.OPTIONAL)) {
-    TestObject uploadNpwp = findTestObject('Third Party/Data Profile/PengurusPerusahaan/Upload_Npwp')
+if (WebUI.verifyElementPresent(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Upload_Npwp'), 5, FailureHandling.OPTIONAL)) {
+    TestObject uploadNpwp = findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Upload_Npwp')
 
     // Membentuk path lengkap file yang ingin diunggah
     def filePathNpwp = projectDir + '/Document/ThirdParty/PengurusPerusahaan/npwp.jpg'
@@ -55,21 +57,21 @@ if (WebUI.verifyElementPresent(findTestObject('Third Party/Data Profile/Pengurus
     WebUI.uploadFile(uploadNpwp, filePathNpwp)
 }
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_Jabatan'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_Jabatan'), 0)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_Jabatan'), 'Direktur Utama')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_Jabatan'), 'Direktur Utama')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_NamaPengurus'), 'Mr. Direktur Utama')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_NamaPengurus'), 'Mr. Direktur Utama')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_AlamatPengurus'), 'Jl. Alamat Pengurus Perusahaan No. 150')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_AlamatPengurus'), 'Jl. Alamat Pengurus Perusahaan No. 150')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_Email'), 'dirut.test@yopmail.com')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_Email'), 'dirut.test@yopmail.com')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_NoTelpPengurus'), '08191234567')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_NoTelpPengurus'), '08191234567')
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Field_PenandaTangan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Field_PenandaTangan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/PengurusPerusahaan/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/PengurusPerusahaan/Button_KonfirmasiOK'))
 

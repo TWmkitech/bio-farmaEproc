@@ -20,73 +20,73 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Anchor_DataUmum'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Anchor_DataUmum'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Pilih_Prefix'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Pilih_Prefix'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Pilih_PrefixData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Pilih_PrefixData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Pilih_Sufix'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Pilih_Sufix'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Pilih_SufixData'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Pilih_SufixData'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_Kodepos'), '12345')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Kodepos'), '12345')
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_Alamat'), 'Jl. Test Alamat No. 123')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Alamat'), 'Jl. Test Alamat No. 123')
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Button_GPS'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Button_GPS'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/DataUmum/Field_TitikGPS'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_TitikGPS'), 0)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_TitikGPS'), '-6.1644676554880995, 106.82024002075197')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_TitikGPS'), '-6.1644676554880995, 106.82024002075197')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/DataUmum/Button_GPSSimpan'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Button_GPSSimpan'), 0)
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Button_GPSSimpan'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Button_GPSSimpan'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/DataUmum/Field_Telepon'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Telepon'), 0)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_Telepon'), '022-75690876')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Telepon'), '022-75690876')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/DataUmum/Field_Fax'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Fax'), 0)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_Fax'), '-')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Fax'), '-')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/DataUmum/Field_Website'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Website'), 0)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_Website'), 'www.google.com')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_Website'), 'www.google.com')
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Data Profile/DataUmum/Field_EmailBackup'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_EmailBackup'), 0)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_EmailBackup'), 'automatedtestbackup@yopmail.com')
+not_run: WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_EmailBackup'), 'automatedtestbackup@yopmail.com')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
 
-TestObject uploadField = findTestObject('Third Party/Data Profile/DataUmum/Upload_Logo')
+TestObject uploadField = findTestObject('Third Party/Vendor/Data Profile/DataUmum/Upload_Logo')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/DataUmum/logo.png'
 
 WebUI.uploadFile(uploadField, filePath)
 
-TestObject uploadProfil = findTestObject('Third Party/Data Profile/DataUmum/Upload_Profil')
+TestObject uploadProfil = findTestObject('Third Party/Vendor/Data Profile/DataUmum/Upload_Profil')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePathProfil = projectDir + '/Document/ThirdParty/DataUmum/profil.pdf'
 
 WebUI.uploadFile(uploadProfil, filePathProfil)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/DataUmum/Field_DokLainnya'), 'Dokumen Tambahan')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Field_DokLainnya'), 'Dokumen Tambahan')
 
-TestObject uploadDok = findTestObject('Third Party/Data Profile/DataUmum/Upload_DokLain')
+TestObject uploadDok = findTestObject('Third Party/Vendor/Data Profile/DataUmum/Upload_DokLain')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePathDokLain = projectDir + '/Document/ThirdParty/DataUmum/doklainnya.pdf'
 
 WebUI.uploadFile(uploadDok, filePathDokLain)
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/DataUmum/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/DataUmum/Button_KonfirmasiOK'))
 

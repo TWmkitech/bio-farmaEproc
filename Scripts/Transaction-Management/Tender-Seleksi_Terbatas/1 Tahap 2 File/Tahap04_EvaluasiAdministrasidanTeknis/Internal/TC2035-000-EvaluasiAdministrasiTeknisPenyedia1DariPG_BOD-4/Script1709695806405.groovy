@@ -31,10 +31,11 @@ TestObject targetElement = findTestObject('Object Repository/TransactionManageme
 
 WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
-//WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses'))
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/Custom_Icon_Proses'), 
-    [('index') : 2], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses'))
 
+//WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses'))
+//WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/CustomIconProses'), 
+//   [('index') : 2], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/Menu_TahapanEvaluasiAdminTeknis'))
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/Icon_PenilaianEvaluasi_Vendor1'))
@@ -63,28 +64,24 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DPOC_Button_PopupKonfirmasi_OK'))
 
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DA_Textbox_Nilai_SPKD'))
-
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DA_Textbox_Nilai_SPKD'), 
     '100')
 
 WebUI.delay(5)
 
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DA_Textbox_Nilai_SPK'))
-
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DA_Textbox_Nilai_SPK'), 
     '100')
 
 WebUI.delay(5)
 
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DA_Textbox_Nilai_SKJD'))
-
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DA_Textbox_Nilai_SKJD'), 
     '100')
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DA_Rbutton_HasilEvaluasiAdministrasi_Lulus'))
 
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DT_Textbox_Nilai_PT'))
-
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DT_Textbox_Nilai_PT'), 
     '100')
 
@@ -113,9 +110,13 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/DPEAT_Button_PopupKonfirmasi_OK'))
 
+WebUI.delay(20)
+
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/button_Simpan Perubahan'))
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap04_EvaluasiAdministrasiTeknis/Internal/3_EvaluasiAdminTeknisDariPG/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

@@ -24,75 +24,75 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://eproc-dev.digital-healthcare.id/')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Username_username'), 'bima.g')
+WebUI.setText(findTestObject('null'), 'bima.g')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Password_password'), 'password.1')
+WebUI.setText(findTestObject('null'), 'password.1')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/button_Masuk'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/transaction_Management'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/tender_Seleksi_Umum'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/proses_tender'))
+WebUI.click(findTestObject('null'))
 
 not_run: WebUI.callTestCase(findTestCase('Transaction-Management/Tender-Seleksi_Umum/Precondition/Custom_Icon_Penilaian'), 
     [('index') : 2], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/evaluasi_kualifikasi'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/icon_Penilaian_Vendor3'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/1_SBU_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/2_SIUP_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/3_SPTTahunan_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/4_RefBank_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/5_CV_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/6_Peralatan_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/7_Pengalaman_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/8_Akta_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/9_PemegangSaham_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/10_NPWP_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/11_NIB_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/12_IzinLokasi_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/13_Pernyataan_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/14_PaktaIntegritas_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/15_CompanyProfile_Ya'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/dokumen_pendukung'), 
+WebUI.setText(findTestObject('null'), 
     'File Dokumen Pendukung')
 
 def projectDir = Config.getProjectDir()
 
 // Ambil elemen field "Choose File"
-TestObject uploadField = findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/upload_DokumenPendukung')
+TestObject uploadField = findTestObject('null')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField, filePath)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/button_SimpanKirim'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/konfirmasi_SimpanKirim'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(8)
 

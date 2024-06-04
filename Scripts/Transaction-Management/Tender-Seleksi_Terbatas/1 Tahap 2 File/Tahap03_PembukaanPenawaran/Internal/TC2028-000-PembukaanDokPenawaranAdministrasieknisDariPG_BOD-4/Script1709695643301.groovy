@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-4'), 
     [:], FailureHandling.STOP_ON_FAILURE)
@@ -34,9 +35,16 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/Menu_TahapanPembukaanPenawaran'))
 
-WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/Button_PembukaanDokomenPenawaran'))
+//WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/Button_PembukaanDokomenPenawaran'))
 
-WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/Button_PopupPembukaanPenawaran_Ya'))
+//WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/Button_PopupPembukaanPenawaran_Ya'))
+
+WebUI.delay(10)
+
+WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/2_PembukaanDokPenawaran/Text_DokumenPenawaranHardcopy'), 
+    5)
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/2_PembukaanDokPenawaran/Radiobutton_Hadir1'))
 
@@ -117,6 +125,8 @@ WebUI.waitForElementClickable(findTestObject('TransactionManagement/Tender-Selek
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/2_PembukaanDokPenawaran/button_Simpan'))
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Internal/2_PembukaanDokPenawaran/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

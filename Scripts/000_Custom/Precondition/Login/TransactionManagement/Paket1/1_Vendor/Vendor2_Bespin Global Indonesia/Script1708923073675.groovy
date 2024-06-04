@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.UrlVendor)
-//WebUI.openBrowser('https://vendor-dev.digital-healthcare.id/')
 
+//WebUI.openBrowser('https://vendor-dev.digital-healthcare.id/')
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Login/vendor/Button_Masuk'))
@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Login/vendor/Field_Username'), 'DRM-JP.24.000002')
 
 WebUI.setText(findTestObject('Login/vendor/Field_Password'), 'password.1')
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('Login/vendor/Button_Login'))
 

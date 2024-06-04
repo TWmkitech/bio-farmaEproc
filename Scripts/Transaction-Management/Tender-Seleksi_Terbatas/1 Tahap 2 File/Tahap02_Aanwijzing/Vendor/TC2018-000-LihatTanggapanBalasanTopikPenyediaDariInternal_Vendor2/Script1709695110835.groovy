@@ -36,5 +36,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Text_PesertaHadirPada'), 
     5)
 
+WebUI.delay(10)
+
 WebUI.closeBrowser()
 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Simpan</name>
+   <tag></tag>
+   <elementGuidId>32ef863b-7059-4486-beca-4c8b275e70b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.d-block.w-100</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/form/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4c9a1e37-273d-4133-a01d-2d397aad174e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>759d14da-7377-44fe-9bab-e224d934f991</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary d-block w-100</value>
+      <webElementGuid>5f3bbca5-4302-4067-81ad-95def1872242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Login</value>
+      <webElementGuid>7bab1417-fd4f-4d13-a496-3a584d9821da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;preloader&quot;)/div[@class=&quot;h-100 row&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;h-100 row&quot;]/div[@class=&quot;my-auto col&quot;]/div[@class=&quot;mx-auto&quot;]/div[2]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;mb-3&quot;]/button[@class=&quot;btn btn-primary d-block w-100&quot;]</value>
+      <webElementGuid>ee8c6087-6ab0-4935-8941-2dd73dd1be87</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

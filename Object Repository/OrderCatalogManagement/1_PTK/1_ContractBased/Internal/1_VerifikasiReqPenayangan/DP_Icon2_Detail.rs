@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DP_Icon2_Detail</name>
+   <tag></tag>
+   <elementGuidId>7be3039f-6c0c-48ae-a591-e3cb08fe81d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td:nth-of-type(7) > div.d-flex.justify-content-center > span:nth-of-type(2) > #btn-detail-5e381b85-d1fc-499d-9823-1131d50832f3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='as-react-datatable']/tbody/tr[2]/td[7]/div/span[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5523b823-e1aa-42e2-bd0b-b470b24a37f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-undefined btn-sm</value>
+      <webElementGuid>73993856-3cd7-4774-a046-2614cfdfdf70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn-detail-5e381b85-d1fc-499d-9823-1131d50832f3</value>
+      <webElementGuid>5e4c2abe-8740-48bb-bd21-fab26c5a7752</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/ocm/requestcontract?detail-item&amp;uuid=5e381b85-d1fc-499d-9823-1131d50832f3&amp;product_uuid=b262c0fc-ce6b-4947-aba8-9db86b16c759&amp;product_version=1</value>
+      <webElementGuid>e444e897-5836-4a21-a4ee-f2e0b1940acb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;as-react-datatable&quot;)/tbody[1]/tr[2]/td[7]/div[@class=&quot;d-flex justify-content-center&quot;]/span[2]/a[@id=&quot;btn-detail-5e381b85-d1fc-499d-9823-1131d50832f3&quot;]</value>
+      <webElementGuid>0a7732ae-8cb5-4bfd-849a-9b29f1ebc56d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='btn-detail-5e381b85-d1fc-499d-9823-1131d50832f3'])[2]</value>
+      <webElementGuid>f5902185-e2ec-4872-bf43-769e1305f120</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='as-react-datatable']/tbody/tr[2]/td[7]/div/span[2]/a</value>
+      <webElementGuid>8d1ac01a-0946-4be9-b531-e756caa5924c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Belum Diverifikasi'])[2]/following::a[2]</value>
+      <webElementGuid>c1bbd4f6-9673-476d-b390-8583006cd225</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penayangan Data Catalog'])[2]/following::a[2]</value>
+      <webElementGuid>a6eb412a-5510-4485-becf-bc7cf6bbea9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan'])[1]/preceding::a[1]</value>
+      <webElementGuid>78bc896a-4a6a-4591-8d9e-2ae3e98507f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sampai'])[1]/preceding::a[1]</value>
+      <webElementGuid>6075a832-cfe2-4a06-8dc5-a23b7b0cc5d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/ocm/requestcontract?detail-item&amp;uuid=5e381b85-d1fc-499d-9823-1131d50832f3&amp;product_uuid=b262c0fc-ce6b-4947-aba8-9db86b16c759&amp;product_version=1')]</value>
+      <webElementGuid>864b9752-0bec-4834-87a7-f0a1dea47807</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/div/span[2]/a</value>
+      <webElementGuid>ded15055-6605-4b99-aac7-d49140374815</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'btn-detail-5e381b85-d1fc-499d-9823-1131d50832f3' and @href = '/ocm/requestcontract?detail-item&amp;uuid=5e381b85-d1fc-499d-9823-1131d50832f3&amp;product_uuid=b262c0fc-ce6b-4947-aba8-9db86b16c759&amp;product_version=1']</value>
+      <webElementGuid>df46eb6d-c282-4978-b036-73e1a244f831</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

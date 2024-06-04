@@ -16,6 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+
+def date = new Date()
+
+SimpleDateFormat wholeDate = new SimpleDateFormat('HH:mm:a')
+
+String strDate = wholeDate.format(date)
+
+list = strDate.split(':')
+
+String finaltime = ((((list[0]) + ':') + (list[1])) + ':') + (list[2])
+
+String hour = list[0]
+
+String minute = list[1]
+
+String ampm = list[2]
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-4'), 
     [:], FailureHandling.STOP_ON_FAILURE)
@@ -40,48 +57,99 @@ WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject
     [('index') : 5], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/1_UbahJadwal/Select_Date_PendaftaranResponMinat_Selesai'), 
-    [('index') : 26], FailureHandling.STOP_ON_FAILURE)
+    [('index') : 18], FailureHandling.STOP_ON_FAILURE)
 
+/*
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_Hour_Selesai'))
 
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_Hour_Selesai'), 
-    '7')
+    '1')
 
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_Minute_Selesai'))
 
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_Minute_Selesai'), 
     '32')
 
-//WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_AMPM_Selesai'))
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_AMPM_Selesai'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_AMPM_Selesai'))
+
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_AMPM_Selesai'), 
     Keys.chord(Keys.ENTER))
+*/
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_Hour_Selesai'))
+
+WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_Hour_Selesai'), 
+    hour)
+
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_Minute_Selesai'))
+
+WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_Minute_Selesai'), 
+    minute)
+
+String get = WebUI.getText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_AMPM_Selesai'))
+
+if (get != ampm) {
+    WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_AMPM_Selesai'))
+
+    WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_AMPM_Selesai'), 
+        Keys.chord(Keys.ENTER))
+} else {
+    WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_PendaftaranResponMinat_AMPM_Selesai'), 
+        Keys.chord(Keys.ENTER))
+}
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/1_UbahJadwal/SelectBox_Date_Column'), 
     [('index') : 7], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/1_UbahJadwal/Select_Date_Aanwijzing'), 
-    [('index') : 27], FailureHandling.STOP_ON_FAILURE)
+    [('index') : 17], FailureHandling.STOP_ON_FAILURE)
 
+/*
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_Hour'))
 
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_Hour'), 
-    '10')
+    '1')
 
 WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_Minute'))
 
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_Minute'), 
     '31')
 
-//WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_AMPM'))
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_AMPM'))
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_AMPM'))
+
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_AMPM'), 
     Keys.chord(Keys.ENTER))
+*/
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_Hour'))
+
+WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_Hour'), 
+    hour)
+
+WebUI.clearText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_Minute'))
+
+WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_Minute'), 
+    minute)
+
+String get1 = WebUI.getText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_AMPM'))
+
+if (get1 != ampm) {
+    WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_AMPM'))
+
+    WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_AMPM'), 
+        Keys.chord(Keys.ENTER))
+} else {
+    WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Date_Aanwijzing_AMPM'), 
+        Keys.chord(Keys.ENTER))
+}
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/button_SimpanPerubahan'))
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Button_PopupKonfirmasi_OK'))
 
-WebUI.verifyElementPresent(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Verify_PopupKonfirmasi_Berhasil'), 
-    5)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

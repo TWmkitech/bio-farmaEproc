@@ -23,31 +23,31 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://eproc-dev.digital-healthcare.id/')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Username_username'), 'bima.g')
+WebUI.setText(findTestObject('null'), 'bima.g')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Password_password'), 'password.1')
+WebUI.setText(findTestObject('null'), 'password.1')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/button_Masuk'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/transaction_Management'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/tender_Seleksi_Umum'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/proses_tender'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/005_PenilaianEvaluasiKualifikasi/evaluasi_kualifikasi'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/006_Pengajuan_Persetujuan_Evaluasi/button_Ajukan_Persetujuan'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/006_Pengajuan_Persetujuan_Evaluasi/isi_Catatan'), 'Semua vendor melampirkan kualifikasi dengan lengkap')
+WebUI.setText(findTestObject('null'), 'Semua vendor melampirkan kualifikasi dengan lengkap')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/006_Pengajuan_Persetujuan_Evaluasi/button_Submit'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/006_Pengajuan_Persetujuan_Evaluasi/konfirmasi_OK'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 

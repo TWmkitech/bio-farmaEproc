@@ -21,17 +21,22 @@ WebUI.openBrowser(GlobalVariable.UrlVendor)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Button_HalamanLogin'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Button_HalamanLogin'), 
+    0)
 
-WebUI.click(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Button_HalamanLogin'))
+WebUI.click(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Button_HalamanLogin'))
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Username'), 0)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Username'), 0)
 
-WebUI.setText(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Username'), GlobalVariable.UserCalonRekanan)
+not_run: WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Username'), GlobalVariable.UserCalonRekanan)
 
-WebUI.waitForElementPresent(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Password'), 0)
+WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Username'), 'autorevisi3')
 
-WebUI.setText(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Field_Password'), GlobalVariable.PassCalonRekanan)
+WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Password'), 0)
 
-WebUI.click(findTestObject('Third Party/Login Pra Registrasi Calon Vendor/Button_Login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Password'), GlobalVariable.PassCalonRekanan)
+
+not_run: WebUI.setText(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Field_Password'), 'Bi0f@rma')
+
+WebUI.click(findTestObject('Third Party/Vendor/Login Pra Registrasi Calon Vendor/Button_Login'), FailureHandling.STOP_ON_FAILURE)
 

@@ -27,11 +27,13 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Menu_Tender  Seleksi Terbatas Yang Diikuti'))
 
+WebUI.delay(10)
+
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Icon_ProsesTender'))
+
 //WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Icon_ProsesTender'))
-
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Vendor/Custom_Icon_ProsesTender'), 
-    [('index') : 3], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Vendor/Custom_Icon_ProsesTender'), 
+//    [('index') : 3], FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementPresent(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Vendor/Vendor/Verify_InformasiUmumPengadaan'), 
     5)
 
@@ -58,7 +60,7 @@ WebUI.uploadFile(uploadField, filePath)
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Vendor/1_BalasTopik/button_Kirim Tanggapan'))
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

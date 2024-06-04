@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon_DetailUpdateData1</name>
+   <tag></tag>
+   <elementGuidId>7cb83783-98e7-45d3-ba5d-f9a1067d38b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.class-link-white.ms-2.d-flex.align-items-center.justify-content-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>806c8aff-bd7f-4f8b-ba3d-f4b50ffafd37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>class-link-white ms-2 d-flex align-items-center justify-content-center</value>
+      <webElementGuid>a0d0ded4-49db-46b4-83a4-52fb5a71b6a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DetailUpdate Data</value>
+      <webElementGuid>b7650eb4-f62c-4027-810d-6f211035bede</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-4 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;ps-3 pe-3 card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;mb-2 row&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;position-relative&quot;]/div[@class=&quot;position-absolute top-0 end-0&quot;]/div[@class=&quot;class-link-white ms-2 d-flex align-items-center justify-content-center&quot;]</value>
+      <webElementGuid>77cb2926-b20a-43a8-8037-c40d2f71aedc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>e7a2e1b0-2ab1-43c5-a62f-1138c44b2bb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Pembeli'])[1]/following::div[3]</value>
+      <webElementGuid>e03cd7a9-db2d-4ccb-abb2-2ff89f9dbf45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>1542c451-9917-4e26-9f1d-a72917a1f2eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DetailUpdate Data' or . = 'DetailUpdate Data')]</value>
+      <webElementGuid>8ce42bf8-8696-474f-9a78-502b5eb3bd7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PerpanjangJadwal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16db20a4-dae1-4125-a174-f06189d50114</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0485ed65-f3bc-4838-a525-226615d13d75</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>0485ed65-f3bc-4838-a525-226615d13d75</id>
+      <masked>false</masked>
+      <name>tahap</name>
+   </variable>
+</TestCaseEntity>

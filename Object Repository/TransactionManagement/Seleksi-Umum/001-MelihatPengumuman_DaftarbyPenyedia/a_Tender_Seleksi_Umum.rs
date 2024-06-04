@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Tender_Seleksi_Umum</name>
+   <tag></tag>
+   <elementGuidId>c805c733-0d51-4315-ad12-92ad9a08fe0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(4) > ul.submenu > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/header/div[2]/div/div/div/div[1]/div/nav/ul/li[4]/ul/li[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>38dc2b73-5568-46e9-8bee-c3fef828e75d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tm.html</value>
+      <webElementGuid>b83fc2ec-b10e-4194-8854-52c1db6eb437</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tender / Seleksi Umum</value>
+      <webElementGuid>3f98dd65-57db-4022-b2d9-1669d71440f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobile-menu&quot;)/ul[1]/li[4]/ul[@class=&quot;submenu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>49816279-20b7-48b9-97a9-b9b21a6f014d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

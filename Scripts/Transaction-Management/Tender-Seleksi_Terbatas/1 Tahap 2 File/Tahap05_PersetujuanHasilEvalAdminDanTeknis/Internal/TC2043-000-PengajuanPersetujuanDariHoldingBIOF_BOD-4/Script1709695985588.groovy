@@ -30,9 +30,10 @@ TestObject targetElement = findTestObject('Object Repository/TransactionManageme
 
 WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/Custom_Icon_Proses'), 
-    [('index') : 2], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses'))
 
+//WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/CustomIconProses'), 
+//   [('index') : 2], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap05_PersetujuanHasilEvalAdminTek/Internal/2_PersetHasilEvalAdmTek/Menu_TahapanPersetHasilEvalAdmTek'))
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap05_PersetujuanHasilEvalAdminTek/Internal/2_PersetHasilEvalAdmTek/Submenu_Status Persetujuan'))
@@ -42,6 +43,8 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap05_PersetujuanHasilEvalAdminTek/Internal/2_PersetHasilEvalAdmTek/button_Popup_AjukanPersetujuan'))
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap05_PersetujuanHasilEvalAdminTek/Internal/2_PersetHasilEvalAdmTek/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

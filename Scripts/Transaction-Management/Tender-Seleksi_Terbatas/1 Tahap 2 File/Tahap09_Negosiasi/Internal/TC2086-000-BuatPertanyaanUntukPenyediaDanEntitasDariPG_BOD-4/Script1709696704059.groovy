@@ -25,15 +25,16 @@ WebUI.click(findTestObject('TransactionManagement/Global-TestObject/0_Anchor_Tra
 
 WebUI.click(findTestObject('TransactionManagement/Global-TestObject/2_Anchor_Tender-Seleksi_Terbatas'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 TestObject targetElement = findTestObject('Object Repository/TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses')
 
 WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/Custom_Icon_Proses'), 
-    [('index') : 3], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Internal/Icon_Proses'))
 
+//WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Internal/CustomIconProses'), 
+//    [('index') : 3], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Menu_TahapanNegosiasi'))
 
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Textbox_Pertanya_DariPenyedia'), 
@@ -53,6 +54,9 @@ WebUI.uploadFile(uploadField, filePath)
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Text_BuatPertanyaan1'), 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementClickable(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariPenyediaSimpandanKirim'), 
+    20)
+
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariPenyediaSimpandanKirim'), 
     Keys.chord(Keys.ARROW_DOWN))
 
@@ -60,10 +64,13 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 WebUI.waitForElementVisible(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariEntitasSimpandanKirim'), 
     10)
+
+WebUI.waitForElementClickable(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariEntitasSimpandanKirim'), 
+    20)
 
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariEntitasSimpandanKirim'), 
     Keys.chord(Keys.ARROW_DOWN))
@@ -82,6 +89,9 @@ def filePath1 = projectDir1 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField1, filePath1)
 
+WebUI.waitForElementClickable(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariEntitasSimpandanKirim'), 
+    20)
+
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariEntitasSimpandanKirim'), 
     Keys.chord(Keys.ARROW_DOWN))
 
@@ -89,7 +99,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 WebUI.scrollToElement(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Menu_TahapanNegosiasi'), 
     5)
@@ -113,6 +123,9 @@ WebUI.uploadFile(uploadField2, filePath2)
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Text_BuatPertanyaan1'), 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementClickable(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariPenyediaSimpandanKirim'), 
+    20)
+
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariPenyediaSimpandanKirim'), 
     Keys.chord(Keys.ARROW_DOWN))
 
@@ -120,7 +133,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 WebUI.waitForElementVisible(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariEntitasSimpandanKirim'), 
     10)
@@ -142,6 +155,9 @@ def filePath3 = projectDir3 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField3, filePath3)
 
+WebUI.waitForElementClickable(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariEntitasSimpandanKirim'), 
+    20)
+
 WebUI.sendKeys(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/button_Pertanya_DariEntitasSimpandanKirim'), 
     Keys.chord(Keys.ARROW_DOWN))
 
@@ -149,7 +165,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap09_Negosiasi/Internal/2_NegosiasiDariPG/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

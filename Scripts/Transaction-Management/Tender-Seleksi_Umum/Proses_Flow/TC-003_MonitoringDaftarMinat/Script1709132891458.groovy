@@ -23,24 +23,24 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://eproc-dev.digital-healthcare.id/')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Username_username'), 'bima.g')
+WebUI.setText(findTestObject('null'), 'bima.g')
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/input_Password_password'), 'password.1')
+WebUI.setText(findTestObject('null'), 'password.1')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/button_Masuk'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/transaction_Management'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/tender_Seleksi_Umum'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/monitoring_Minat'))
+WebUI.click(findTestObject('null'))
 
-WebUI.scrollToElement(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/tahapan_ResponMinat'), 
+WebUI.scrollToElement(findTestObject('null'), 
     8)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/003-MonitoringDaftarMinat/tahapan_ResponMinat'))
+WebUI.click(findTestObject('null'))
 

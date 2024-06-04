@@ -11,33 +11,8 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'd-none d-sm-block p-2' and (text() = 'Status Persetujuan' or . = 'Status Persetujuan')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>span</value>
-      <webElementGuid>c9cf7ad4-c96e-4c69-8830-d5812250aa91</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>d-none d-sm-block p-2</value>
-      <webElementGuid>34d3cd4a-ca5e-45e9-b622-60ab69fb6cd0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Status Persetujuan</value>
-      <webElementGuid>2b1e7b44-da87-446e-8e48-75e29586e5b1</webElementGuid>
-   </webElementProperties>
 </WebElementEntity>

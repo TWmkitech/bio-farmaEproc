@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CustomRadio_JawabanRealisasi</name>
+   <tag></tag>
+   <elementGuidId>6292243a-7e47-49a2-877c-ae51df7aede8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div/div/div/div/form/div[${indexdiv}]/div/div/div/table/tbody/tr[${indexpos}]/td[4]/div/fieldset/div[1]/div[4]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>a675ce25-73ac-4ed9-8000-e83f91afd6c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1710043533148</value>
+      <webElementGuid>3dc159b9-17eb-4912-b8f7-077b866da0d4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

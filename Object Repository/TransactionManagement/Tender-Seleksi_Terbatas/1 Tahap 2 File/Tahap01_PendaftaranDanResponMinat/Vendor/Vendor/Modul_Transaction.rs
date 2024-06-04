@@ -6,15 +6,19 @@
    <elementGuidId>6bc1bc03-2b97-4771-82b7-3426b58e290b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/header/div[2]/div/div/div/div[1]/div/nav/ul/li[4]/span/a</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>li:nth-of-type(4) > span > a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//nav[@id='mobile-menu']/ul/li[4]/span/a</value>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0);' and (text() = 'Transaction ' or . = 'Transaction ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a8b376bd-2d11-4461-b76a-77bf4d799662</webElementGuid>
+      <webElementGuid>18f6058e-ba85-4b11-8193-c8b968db54df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0);</value>
-      <webElementGuid>e58a8405-ea36-4171-b64d-3eb47f7bff20</webElementGuid>
+      <webElementGuid>64a6d838-cf91-4e88-82d4-0a52e8498117</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transaction </value>
-      <webElementGuid>a20ec126-6f46-4921-a854-059bcc0abe7f</webElementGuid>
+      <webElementGuid>21e703f5-e666-4d46-9715-c76cf282efe2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mobile-menu&quot;)/ul[1]/li[4]/span[1]/a[1]</value>
-      <webElementGuid>048ee7a6-7c72-47ec-9d58-f550de09236a</webElementGuid>
+      <webElementGuid>0153e7ff-78e8-4083-8b34-4f59cc790ba7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='mobile-menu']/ul/li[4]/span/a</value>
-      <webElementGuid>2188ffd0-653c-4eba-a63c-7263a4abd52a</webElementGuid>
+      <webElementGuid>5fd76762-fc39-43eb-9890-113df2f49ef3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Transaction')]</value>
-      <webElementGuid>6582969b-b92f-49ef-978e-a234a9019265</webElementGuid>
+      <webElementGuid>3bec2aed-39df-40e3-8d8b-70caf6230d7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RFI'])[1]/following::a[1]</value>
-      <webElementGuid>b4cece69-a532-4ce4-8dfb-b174349dac04</webElementGuid>
+      <webElementGuid>b0fcd79a-fd78-4ded-b544-0c6788489709</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Relationship'])[1]/following::a[2]</value>
-      <webElementGuid>494277f8-4f38-495c-92fb-c753cff4e2fd</webElementGuid>
+      <webElementGuid>f03c1444-6663-4b6a-856e-169d46722361</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tender / Seleksi Umum'])[1]/preceding::a[1]</value>
-      <webElementGuid>95f2ce6e-ae1a-4573-b407-4cc64d88b1e3</webElementGuid>
+      <webElementGuid>85671227-5482-463a-a85a-ea3334fc950b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tender / Seleksi Terbatas'])[1]/preceding::a[2]</value>
-      <webElementGuid>72ac7a1c-c47d-4938-84b5-46d639b6f3e8</webElementGuid>
+      <webElementGuid>84cab19c-605f-40b9-bb2d-f90ea4c1298d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Transaction']/parent::*</value>
-      <webElementGuid>4c3f6393-2221-4a80-9b18-9eb9187c883a</webElementGuid>
+      <webElementGuid>a304d9fc-f64a-4b20-984e-f9cf7a70e221</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0);')])[2]</value>
-      <webElementGuid>0e690a0d-fc52-4b72-baf3-8aabccc4c53f</webElementGuid>
+      <webElementGuid>1d636062-6832-47d8-a0ed-08b5d907659e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/span/a</value>
-      <webElementGuid>e3451b9c-0b38-454e-b54c-0d6b9fe2e6c1</webElementGuid>
+      <webElementGuid>1be948a6-2109-4c61-ad82-b1128e1a6b55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void(0);' and (text() = 'Transaction ' or . = 'Transaction ')]</value>
-      <webElementGuid>9d38f067-84dd-45ef-ad58-73bcb2109a1f</webElementGuid>
+      <webElementGuid>5a0441bd-05dd-4231-94c6-d09a1660e958</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

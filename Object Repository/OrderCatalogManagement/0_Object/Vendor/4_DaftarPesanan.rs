@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>4_DaftarPesanan</name>
+   <tag></tag>
+   <elementGuidId>9c7cc422-98cb-4e85-947a-f8dab7db28fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(6) > ul.submenu > li:nth-of-type(4) > a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/daftar-pesanan.html' and (text() = 'Daftar Pesanan' or . = 'Daftar Pesanan')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/header/div[2]/div/div/div/div[1]/div/nav/ul/li[6]/ul/li[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1dd6d075-c7dd-41ff-801a-e02e38c28ec3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/daftar-pesanan.html</value>
+      <webElementGuid>972bfacb-2565-464d-9b45-eca7afca72bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar Pesanan</value>
+      <webElementGuid>de65b0ee-1845-4ba6-b83e-2f755b26dee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobile-menu&quot;)/ul[1]/li[6]/ul[@class=&quot;submenu&quot;]/li[4]/a[1]</value>
+      <webElementGuid>bde0950a-e96d-47a7-84d0-ff5ba3ca74a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mobile-menu']/ul/li[6]/ul/li[4]/a</value>
+      <webElementGuid>0323e456-8cae-43be-94b4-32fe3b38a5dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Daftar Pesanan')]</value>
+      <webElementGuid>c4f395e0-757c-4e2b-8f80-5b5c7d190ee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Katalog'])[1]/following::a[1]</value>
+      <webElementGuid>dbc958b5-46b6-446a-ac9c-089d8a65d43d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ajukan Tayang Katalog Non Kontrak-Based'])[1]/following::a[2]</value>
+      <webElementGuid>d162b78b-53f5-4327-a9c2-3cc46df17bac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/preceding::a[1]</value>
+      <webElementGuid>97397c69-8551-43f8-9586-af92bb050232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT SURYA TUBAL INDONESIA'])[2]/preceding::a[1]</value>
+      <webElementGuid>d88aa46e-6480-41f5-9921-fe74ca53ba83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daftar Pesanan']/parent::*</value>
+      <webElementGuid>b9b6cd31-b0d7-4298-afcb-a0c9843cde2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/daftar-pesanan.html')]</value>
+      <webElementGuid>4ec6f453-be1e-4add-8945-9bc917860c92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li[4]/a</value>
+      <webElementGuid>68ead5fc-36bd-4ce2-b03e-b4f233dd3746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/daftar-pesanan.html' and (text() = 'Daftar Pesanan' or . = 'Daftar Pesanan')]</value>
+      <webElementGuid>30055523-c2c5-4d60-a2e3-a2833bc61ac4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

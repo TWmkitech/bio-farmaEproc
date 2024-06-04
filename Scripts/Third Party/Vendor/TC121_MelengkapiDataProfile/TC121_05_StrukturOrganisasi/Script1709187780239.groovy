@@ -18,11 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as Config
 
-not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Anchor_StrukturOrganisasi'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Anchor_StrukturOrganisasi'))
-
-TestObject uploadStruktur = findTestObject('Third Party/Data Profile/StrukturOrganisasi/Upload_Struktur')
+TestObject uploadStruktur = findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Upload_Struktur')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
@@ -32,13 +30,13 @@ def filePath = projectDir + '/Document/ThirdParty/StrukturOrganisasi/struktur.pn
 
 WebUI.uploadFile(uploadStruktur, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Field_TanggalTerbit'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Field_TanggalTerbit'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Field_TanggalTerbit_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Field_TanggalTerbit_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Field_TanggalTerbit_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Field_TanggalTerbit_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/StrukturOrganisasi/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/StrukturOrganisasi/Button_KonfirmasiOK'))
 

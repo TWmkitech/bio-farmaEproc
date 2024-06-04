@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UnduhTemplateSurat</name>
+   <tag></tag>
+   <elementGuidId>4ca52a78-c072-431c-9e49-93cc96527bf1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[2]/div[22]/div[1]/div[1]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'template-surat-penawaran']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>612ba30a-b94b-4166-a769-7e05be0eaa04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>template-surat-penawaran</value>
+      <webElementGuid>14bfaa95-4c35-4586-b889-5b8e5431c05a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

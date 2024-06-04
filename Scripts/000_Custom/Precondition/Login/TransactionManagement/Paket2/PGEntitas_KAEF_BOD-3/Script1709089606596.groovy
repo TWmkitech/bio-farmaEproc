@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.UrlEprocDev)
+WebUI.openBrowser(GlobalVariable.UrlEproc)
 
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), '12000128')
 
-WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'ul4ul4ul1ul1')
+WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), GlobalVariable.passInternal)
 
 WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 

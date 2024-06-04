@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Origin_01-1</name>
+   <tag></tag>
+   <elementGuidId>a9e8668b-96ad-4b05-a7ac-bd3a41c45ce9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div
+[@id = 'react-select-10-option-1']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div[2]/div[2]/div/div[3]/form/div/div/div/div[2]/div[7]/table/tbody/tr[4]/td[5]/div[1]/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div
+</value>
+      <webElementGuid>5e262ed2-4691-4760-83c5-81c0424bc614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-10-option-1</value>
+      <webElementGuid>55d649cc-d6e4-4d87-8020-c09ef627d952</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

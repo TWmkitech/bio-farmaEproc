@@ -20,64 +20,66 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Anchor_Personel'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Anchor_Personel'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Button_TambahData'))
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_JenisPersonel'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Button_TambahData'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_JenisPersonel_DataTA'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_JenisPersonel'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_Kewarganegaraan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_JenisPersonel_DataTA'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_Kewarganegaraan_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_Kewarganegaraan'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Personel/Field_NoKTP'), '3175070101909999')
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_Kewarganegaraan_Data'))
+
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_NoKTP'), '3175070101909999')
 
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/Personel/Upload_KTP')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/Personel/Upload_KTP')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/Personel/ktp.png'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Personel/Field_NPWP'), '092542943407000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_NPWP'), '092542943407000')
 
-TestObject uploadFile2 = findTestObject('Third Party/Data Profile/Personel/Upload_NPWP')
+TestObject uploadFile2 = findTestObject('Third Party/Vendor/Data Profile/Personel/Upload_NPWP')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath2 = projectDir + '/Document/ThirdParty/Personel/npwp.jpg'
 
 WebUI.uploadFile(uploadFile2, filePath2)
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Personel/Field_Nama'), 'Nadia')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_Nama'), 'Nadia')
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_JenisKelamin'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_JenisKelamin'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_JenisKelamin_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_JenisKelamin_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_TanggalLahir'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_TanggalLahir'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_TanggalLahir_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_TanggalLahir_Bulan'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/Personel/Field_TanggalLahir_Tahun'), '1988')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_TanggalLahir_Tahun'), '1988')
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_TanggalLahir_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_TanggalLahir_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_PendidikanTerakhir'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_PendidikanTerakhir'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Field_PendidikanTerakhir_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Field_PendidikanTerakhir_Data'))
 
-TestObject uploadFile3 = findTestObject('Third Party/Data Profile/Personel/Upload_CV')
+TestObject uploadFile3 = findTestObject('Third Party/Vendor/Data Profile/Personel/Upload_CV')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath3 = projectDir + '/Document/ThirdParty/Personel/cv.png'
 
 WebUI.uploadFile(uploadFile3, filePath3)
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/Personel/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/Personel/Button_KonfirmasiOK'))
 

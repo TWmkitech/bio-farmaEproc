@@ -6,8 +6,12 @@
    <elementGuidId>06c37dd5-1366-4ad5-bb61-237632acaa1b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = ' Pratinjau' or . = ' Pratinjau')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[16]</value>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[11]/div[2]/div[2]/div/div[1]/div/div[2]/form/div[10]/div/button</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>af9b2e6c-863f-4d5f-adfc-1aa586436bf9</webElementGuid>
+      <webElementGuid>46170a3d-f0eb-4c9b-91f9-d1bf9adf120a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>53a8b402-abf7-4e00-99a9-2c6385c52ad0</webElementGuid>
+      <webElementGuid>91de467a-9198-44f4-960a-0f0f24976fb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-warning</value>
-      <webElementGuid>5fa10137-ef60-485b-9874-d2c73595826f</webElementGuid>
+      <webElementGuid>5279aacc-c810-41ee-8ac2-5fd03a830a0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Pratinjau</value>
-      <webElementGuid>fdfc5f87-5a39-4107-9c98-15d5c014b4eb</webElementGuid>
+      <webElementGuid>f531e8a5-4410-40c8-962b-24a571c3db28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;mb-1 border  card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;mb-1 border card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;mb-1 row&quot;]/div[@class=&quot;col&quot;]/button[@class=&quot;btn btn-warning&quot;]</value>
-      <webElementGuid>dcaaa52e-5b12-48e1-8269-9adb47a3557c</webElementGuid>
+      <webElementGuid>8a5b3a06-32b1-4fc7-9691-19607c90f269</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[16]</value>
-      <webElementGuid>b7f8587f-2ebf-4d4a-988e-be675f5edc96</webElementGuid>
+      <webElementGuid>dfd5af55-824e-4307-b2d4-76446e5f9572</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[11]/div[2]/div[2]/div/div/div/div[2]/form/div[10]/div/button</value>
-      <webElementGuid>9aff9b61-57d9-4d22-94e8-6eaebed49250</webElementGuid>
+      <webElementGuid>59acc821-eae1-46a3-a6f7-c181cc2805ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pratinjau SPJP'])[1]/following::button[1]</value>
-      <webElementGuid>0a4b84e6-70cd-407a-807f-1d892d58f60c</webElementGuid>
+      <webElementGuid>fd84bac9-caef-4cf5-9406-d5c18180ab23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh'])[1]/preceding::button[1]</value>
-      <webElementGuid>f1e43799-4221-4caa-a8f4-f99e35c6050a</webElementGuid>
+      <webElementGuid>fd674993-28aa-4468-a6e7-425f5b9cf67c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pratinjau']/parent::*</value>
-      <webElementGuid>700b611b-4664-4e56-b4ea-a80c2a6dac29</webElementGuid>
+      <webElementGuid>b4f1152b-938c-4434-bf73-1ac9542e9fb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/button</value>
-      <webElementGuid>432deddf-ef97-45be-8136-bda741a243ac</webElementGuid>
+      <webElementGuid>fa9e742e-e4a7-4cd8-ac61-efa3ceabc197</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Pratinjau' or . = ' Pratinjau')]</value>
-      <webElementGuid>749b93c3-7b22-4a0b-9da0-d906c587235e</webElementGuid>
+      <webElementGuid>2564bea4-78fe-408e-868a-565af0702cf2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/table/tbody/tr[1]/td[9]/span[1]/button</value>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/table/tbody/tr[2]/td[9]/span[1]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4540fffc-7189-4aff-b245-74a885838323</webElementGuid>
+      <webElementGuid>faaabeb0-e9a8-4670-ae39-2e3330c617c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn- border-0 btn-sm</value>
-      <webElementGuid>fec16ef1-6132-432d-acf1-349da0812c9a</webElementGuid>
+      <webElementGuid>cc9c22d8-481f-47cd-b560-9468564c8506</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>edit-schedule-36352519-b4a5-48ad-af1d-62ce265177de-v0</value>
-      <webElementGuid>7428fd67-3549-4753-8145-bcd42befebcb</webElementGuid>
+      <webElementGuid>4954dc2e-d7ab-4ae3-9d2b-1651945c8086</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;edit-schedule-36352519-b4a5-48ad-af1d-62ce265177de-v0&quot;)</value>
-      <webElementGuid>38fca7cb-6022-42d8-a18c-6640efa86abd</webElementGuid>
+      <webElementGuid>e8fcc0b2-f7c6-41e3-bf06-79bda65819dc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='edit-schedule-36352519-b4a5-48ad-af1d-62ce265177de-v0']</value>
-      <webElementGuid>b68ba3dd-a26b-4e05-896e-3a576c788e5b</webElementGuid>
+      <webElementGuid>6bd47e43-8782-4c7f-ab91-ec3320fb0726</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='as-react-datatable']/tbody/tr/td[9]/span/button</value>
-      <webElementGuid>beea84f5-27a0-4cf5-84a3-a4070dee62f9</webElementGuid>
+      <webElementGuid>2ff5f9aa-6657-45e6-82fc-23e5e44d35e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Permintaan Review BOD-3'])[1]/following::button[3]</value>
-      <webElementGuid>59054a87-573d-4c13-aec7-e87229ba7e17</webElementGuid>
+      <webElementGuid>af86edc5-3434-4b43-b1d7-57f0ab5ba02d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PP/JPROC/2024/000068'])[2]/preceding::button[1]</value>
-      <webElementGuid>2cfe9350-6a56-48e8-a7e7-f7f00873ec62</webElementGuid>
+      <webElementGuid>58c677d9-8a03-4439-af07-9ed83902446e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SPPBJ/JPROC/2024/000048'])[1]/preceding::button[1]</value>
-      <webElementGuid>c77b3e55-2852-4540-945c-2273052f5c15</webElementGuid>
+      <webElementGuid>c54c7249-4cf5-4461-a6c1-0506a5e0f4ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button</value>
-      <webElementGuid>e4c31357-441c-4998-b057-dd6f07de2206</webElementGuid>
+      <webElementGuid>ef229397-f9a5-4887-8278-a3dbf84d3ae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'edit-schedule-36352519-b4a5-48ad-af1d-62ce265177de-v0']</value>
-      <webElementGuid>31f198d3-ceb7-4486-a963-7ce787802768</webElementGuid>
+      <webElementGuid>b5e20e99-06fe-4570-b50d-c26fdf20a726</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

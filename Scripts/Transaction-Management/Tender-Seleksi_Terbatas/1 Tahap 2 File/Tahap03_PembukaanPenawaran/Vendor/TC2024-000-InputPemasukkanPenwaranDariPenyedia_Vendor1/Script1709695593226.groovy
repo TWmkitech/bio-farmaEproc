@@ -27,6 +27,8 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Menu_Tender  Seleksi Terbatas Yang Diikuti'))
 
+WebUI.delay(20)
+
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap02_Aanwijzing/Vendor/Icon_ProsesTender'))
 
 WebUI.verifyElementPresent(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap01_PendaftaranDanResponMinat/Vendor/Vendor/Verify_InformasiUmumPengadaan'), 
@@ -47,7 +49,11 @@ def filePath1 = projectDir1 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField1, filePath1)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/button_Unggah_SuratPernyataanKebenaranData'))
+
+WebUI.delay(10)
 
 // Ambil elemen field "Choose File"
 TestObject uploadField2 = findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Upload_SuratPernyataanKesanggupan')
@@ -60,7 +66,11 @@ def filePath2 = projectDir2 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField2, filePath2)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/button_Unggah_SuratPernyataanKesanggupan'))
+
+WebUI.delay(10)
 
 // Ambil elemen field "Choose File"
 TestObject uploadField3 = findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Upload_SuratKeteranganJalurDistribusi')
@@ -73,7 +83,11 @@ def filePath3 = projectDir3 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField3, filePath3)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/button_Unggah_SuratKeteranganJalurDistribusi'))
+
+WebUI.delay(10)
 
 // Ambil elemen field "Choose File"
 TestObject uploadField4 = findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Upload_ProposalTeknis')
@@ -86,7 +100,11 @@ def filePath4 = projectDir4 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField4, filePath4)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/button_Unggah_ProposalTeknis'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/button_Berikutnya'))
 
@@ -106,10 +124,14 @@ def filePath5 = projectDir5 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField5, filePath5)
 
+WebUI.delay(5)
+
 WebUI.waitForElementClickable(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/button_Unggah_SuratPenawaranHarga'), 
     5)
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/button_Unggah_SuratPenawaranHarga'))
+
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/TextBox_NomorSuratPenawaran'), 
     '123TestNoSurat')
@@ -117,7 +139,7 @@ WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Ta
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Selectbox_Date_TanggalPenawaran'))
 
 WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/TransactionManagement/Vendor/Tahap03/Select_Date_TanggalPenawaran'), 
-    [('index') : 31], FailureHandling.STOP_ON_FAILURE)
+    [('index') : 18], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Selectbox_PilihMataUang'))
 
@@ -125,7 +147,7 @@ WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Taha
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Textbox_MasaBerlakuPenawaran(HariKalender)'), 
-    '5')
+    '30')
 
 WebUI.setText(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Textbox_JangkaWaktuPelaksanaan(Bulan)'), 
     '2')
@@ -191,6 +213,8 @@ def filePath6 = projectDir6 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField6, filePath6)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Selectbox_TermofPayment'), 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -215,11 +239,15 @@ def projectDir7 = Config.getProjectDir()
 // Membentuk path lengkap file yang ingin diunggah
 def filePath7 = projectDir7 + '/Document/DataTest.docx'
 
+WebUI.delay(5)
+
 WebUI.uploadFile(uploadField7, filePath7)
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/button_Simpan  Kirim'))
 
 WebUI.click(findTestObject('TransactionManagement/Tender-Seleksi_Terbatas/1 Tahap 2 File/Tahap03_PembukaanPenawaran/Vendor/1_InputPemasukanPenawaran/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

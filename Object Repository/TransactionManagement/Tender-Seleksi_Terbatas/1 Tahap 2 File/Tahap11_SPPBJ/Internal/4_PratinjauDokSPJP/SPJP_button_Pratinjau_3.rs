@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[22]</value>
+         <value>/html/body/div[1]/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[11]/div[3]/div[2]/div/div[1]/div/div[2]/form/div[20]/div/button</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>86fc5899-4409-4d78-ba72-71d1d4dc2677</webElementGuid>
+      <webElementGuid>0a5dad55-9d75-4521-a10d-0ac1a886956d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b88b28ea-9324-4f17-8ebc-880199a75dce</webElementGuid>
+      <webElementGuid>e1f13f5e-36d7-4f0c-9a9e-812c5e841726</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-warning</value>
-      <webElementGuid>bd05fb6d-139d-406e-b36b-46877fb3ef09</webElementGuid>
+      <webElementGuid>7cf6dfe1-fe01-4b41-a20b-6273c48800e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Pratinjau</value>
-      <webElementGuid>ee5b8928-6aa0-4242-affb-41fb150c6639</webElementGuid>
+      <webElementGuid>dd8a8e5b-e007-42b5-9bbe-2bf3b6cc1ac1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;mb-1 border  card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;mb-1 border card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;mb-1 row&quot;]/div[@class=&quot;col&quot;]/button[@class=&quot;btn btn-warning&quot;]</value>
-      <webElementGuid>e87063eb-4e01-4168-868e-bbf32666efe9</webElementGuid>
+      <webElementGuid>f863c936-12aa-494a-a3b9-50a61cfc6c12</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[22]</value>
-      <webElementGuid>415f6080-867e-40dd-997a-cf42b7df8d14</webElementGuid>
+      <webElementGuid>14bebcc9-3fac-475f-8ae8-b3c0117581b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[11]/div[3]/div[2]/div/div/div/div[2]/form/div[10]/div/button</value>
-      <webElementGuid>60ba831e-c871-4e47-991b-0dd38837830e</webElementGuid>
+      <webElementGuid>f4189826-e30c-4e17-914e-fab93304464f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pratinjau SPJP'])[3]/following::button[1]</value>
-      <webElementGuid>6f46a5ef-5214-4b74-9530-ef298f4958ff</webElementGuid>
+      <webElementGuid>410a9dd8-e21e-4175-8e52-01adc49d0b36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh'])[4]/preceding::button[1]</value>
-      <webElementGuid>80e65393-77ad-4b9e-ac26-407d150c7657</webElementGuid>
+      <webElementGuid>48025cbb-6ff7-42eb-a266-de3e25e97ee9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div/div/div[2]/form/div[10]/div/button</value>
-      <webElementGuid>9acee796-8a06-4b87-9d1d-5ae5439a41b9</webElementGuid>
+      <webElementGuid>14016520-69b0-4dac-98ad-6496ceb83e90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Pratinjau' or . = ' Pratinjau')]</value>
-      <webElementGuid>28ff2373-a7d6-4c68-9b83-31c83dcd60fb</webElementGuid>
+      <webElementGuid>a76bb59b-0b1a-454b-9ae0-f10028ec9ce4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

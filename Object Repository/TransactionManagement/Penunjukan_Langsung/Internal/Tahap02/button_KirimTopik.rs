@@ -6,12 +6,12 @@
    <elementGuidId>9ac8ea6d-e422-4d78-b6c2-be94abecda26</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[2]/div/div[4]/div[2]/form/div/div[2]/div[3]/button</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'submit' and (text() = 'Kirim Topik' or . = 'Kirim Topik')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[2]/div/div[4]/div[2]/form/div/div[2]/div[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>72827e78-7827-439c-b5d9-e73c956c4cd7</webElementGuid>
+      <webElementGuid>dd14757f-654e-4b06-8e96-1ac7a89b0f10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>51e3f68b-55d1-4ae3-bbdc-aa4be74091a0</webElementGuid>
+      <webElementGuid>baafd7e7-e828-4afb-bd18-1ec820ebf05b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Kirim Topik</value>
-      <webElementGuid>3c68fc81-e29b-4025-91ef-d929dbb3b4f9</webElementGuid>
+      <webElementGuid>bf4a0605-9edd-44bb-b233-b0fbc885d72f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -20,59 +20,59 @@ import com.kms.katalon.core.configuration.RunConfiguration as Config
 
 not_run: WebUI.callTestCase(findTestCase('Third Party/Vendor/TC121_MelengkapiDataProfile/TC121_00'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Anchor_InformasiPajak'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Anchor_InformasiPajak'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/InformasiPajak/Field_NPWP'), '092542943407000')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_NPWP'), '092542943407000')
 
 // Mendapatkan direktori proyek
 def projectDir = Config.getProjectDir()
 
-TestObject uploadFile = findTestObject('Third Party/Data Profile/InformasiPajak/Upload_NPWP')
+TestObject uploadFile = findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Upload_NPWP')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath = projectDir + '/Document/ThirdParty/InformasiPajak/npwp.jpg'
 
 WebUI.uploadFile(uploadFile, filePath)
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalNPWP'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalNPWP'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalNPWP_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalNPWP_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalNPWP_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalNPWP_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Radio_PKPYa'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Radio_PKPYa'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/InformasiPajak/Field_NoPKP'), '9876554123')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_NoPKP'), '9876554123')
 
-TestObject uploadFile2 = findTestObject('Third Party/Data Profile/InformasiPajak/Upload_PKP')
+TestObject uploadFile2 = findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Upload_PKP')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath2 = projectDir + '/Document/ThirdParty/InformasiPajak/pkp.jpg'
 
 WebUI.uploadFile(uploadFile2, filePath2)
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalPKP'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalPKP'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalPKP_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalPKP_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalPKP_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalPKP_Data'))
 
-WebUI.setText(findTestObject('Third Party/Data Profile/InformasiPajak/Field_NoSKT'), '002/II/2024')
+WebUI.setText(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_NoSKT'), '002/II/2024')
 
-TestObject uploadFile3 = findTestObject('Third Party/Data Profile/InformasiPajak/Upload_SKT')
+TestObject uploadFile3 = findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Upload_SKT')
 
 // Membentuk path lengkap file yang ingin diunggah
 def filePath3 = projectDir + '/Document/ThirdParty/InformasiPajak/skt.png'
 
 WebUI.uploadFile(uploadFile3, filePath3)
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalSKT'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalSKT'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalSKT_Bulan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalSKT_Bulan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Field_TanggalSKT_Data'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Field_TanggalSKT_Data'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Button_Simpan'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Button_Simpan'))
 
-WebUI.click(findTestObject('Third Party/Data Profile/InformasiPajak/Button_KonfirmasiOK'))
+WebUI.click(findTestObject('Third Party/Vendor/Data Profile/InformasiPajak/Button_KonfirmasiOK'))
 

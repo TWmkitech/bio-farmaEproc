@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[1]/div/div/form/div[1]/div/div/div[2]/div[1]/div/div[2]/div/div[1]/div/button</value>
+         <value>/html/body/div[2]/div/div[1]/div/div/form/div[1]/div/div/div[2]/div[1]/div/div[2]/div/div[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>002ad87d-dbfe-4c60-a5ad-ac66464823a3</webElementGuid>
+      <webElementGuid>9080b74d-6749-454f-9f0f-316bfd0df0af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,6 +29,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Choose File</value>
-      <webElementGuid>7285bc23-6ba3-469f-b00b-5d9d4784a286</webElementGuid>
+      <webElementGuid>4668eb0e-ce90-4de5-93b4-ddb1b5971093</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

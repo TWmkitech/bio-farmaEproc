@@ -16,4 +16,43 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as Config
+
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-4'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_LegalContractManagement'))
+
+WebUI.click(findTestObject('LegalContractManagement/0_Global-TestObject/Anchor_Repository'))
+
+WebUI.delay(5)
+
+TestObject targetElement = findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Icon_Detail')
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Icon_Detail'))
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/button_Tambah Dokumen'))
+
+WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Tbox_JenisDokumen'), 'Test Jenis Dok Repository')
+
+WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Tbox_NamaDokumen'), 'Test Nama Dok')
+
+// Ambil elemen field "Choose File"
+TestObject uploadField = findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Upload_DokumenTerbentuk')
+
+// Mendapatkan direktori proyek
+def projectDir = Config.getProjectDir()
+
+// Membentuk path lengkap file yang ingin diunggah
+def filePath = projectDir + '/Document/DataTest.docx'
+
+WebUI.uploadFile(uploadField, filePath)
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/button_Simpan'))
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(20)
+
+WebUI.closeBrowser()
 

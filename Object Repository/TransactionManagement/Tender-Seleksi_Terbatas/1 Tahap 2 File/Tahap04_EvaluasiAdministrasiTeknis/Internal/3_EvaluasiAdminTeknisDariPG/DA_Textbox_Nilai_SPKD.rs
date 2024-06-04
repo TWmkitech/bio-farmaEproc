@@ -6,16 +6,16 @@
    <elementGuidId>cb08c3dd-21a0-4bb0-a81a-4e929bca91eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='1']</value>
+         <key>CSS</key>
+         <value>td:nth-of-type(4) > input.form-control.text-center</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'number']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>td:nth-of-type(4) > input.form-control.text-center</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[2]/div/table/tbody/tr[1]/td[4]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>664ac9b6-d58f-4ba7-8387-8ac6c8b705d8</webElementGuid>
+      <webElementGuid>ee00c676-3345-4203-886b-ba089360a25a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>ffd3c7ef-ba0b-495b-8d2f-1540910c4703</webElementGuid>
+      <webElementGuid>b9971efe-a27f-4fe4-87e6-ca31c6fa96b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>min</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>9a6ef194-995a-40e7-9ffd-c96f39133eb9</webElementGuid>
+      <webElementGuid>9578eb3b-3492-4952-94d1-99809fda00ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>max</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>4e76558c-b8c1-44c8-b83d-4e634a1734f3</webElementGuid>
+      <webElementGuid>3095bd0a-9674-4897-9d79-95e918f35b42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control text-center</value>
-      <webElementGuid>4d81fe74-5ca0-46b4-b96b-80855c163c17</webElementGuid>
+      <webElementGuid>8e485f18-3fdd-401b-987f-d0a8124a7368</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>fdf45248-dcb0-41fa-83f6-7a7c94384b5c</webElementGuid>
+      <webElementGuid>5b3be852-373d-4188-9bf0-cae7d284b0be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/div[@class=&quot;app-content content overflow-hidden&quot;]/div[3]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/form[@class=&quot;needs-validation av-invalid&quot;]/div[@class=&quot;border&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-striped table-hover table&quot;]/tbody[1]/tr[1]/td[4]/input[@class=&quot;form-control text-center&quot;]</value>
-      <webElementGuid>124b3204-e2bd-4f83-8960-f604471e0afe</webElementGuid>
+      <webElementGuid>15b98c0f-e513-4e8c-b9f5-ad295a7c5370</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='1']</value>
-      <webElementGuid>836a0fc9-811a-4b36-972b-5e0404c5b7a5</webElementGuid>
+      <webElementGuid>64794621-1ec9-4bc5-bb6e-3d0e3cfada74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[3]/div[3]/div/div/div[4]/div/div/div/div[4]/form/div[2]/div/table/tbody/tr/td[4]/input</value>
-      <webElementGuid>e9e4b531-dd03-490f-8fd2-11eb19a4b7e7</webElementGuid>
+      <webElementGuid>c398f682-e4eb-41e7-8be7-2d2c8b2e83d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/input</value>
-      <webElementGuid>0f922f53-5bea-4ea1-9bfd-8af4be2bcef7</webElementGuid>
+      <webElementGuid>e6b98d64-b07e-4e3d-bc2c-865f4458f84c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number']</value>
-      <webElementGuid>f22316d5-c788-4324-8f98-7776dba25f2b</webElementGuid>
+      <webElementGuid>3aac4ad0-e8c6-4feb-a42e-1fc0cefd9da6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://vendor-dev.digital-healthcare.id/home.html')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/001-DaftarbyPenyedia/button_Masuk'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Transaction-Management/Seleksi-Umum/001-DaftarbyPenyedia/input_Username_username'), 'DRM-JP.24.000013')
+WebUI.setText(findTestObject('null'), 'DRM-JP.24.000013')
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/001-DaftarbyPenyedia/button_Login'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/001-DaftarbyPenyedia/a_Transaction'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/001-DaftarbyPenyedia/a_Tender  Seleksi Umum'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/001-DaftarbyPenyedia/daftar'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/001-DaftarbyPenyedia/button_Daftar'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Transaction-Management/Seleksi-Umum/001-DaftarbyPenyedia/konfirmasi_Kirim'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(13)
 
