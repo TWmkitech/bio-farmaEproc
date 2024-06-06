@@ -52,7 +52,8 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/3_MonitoringKont
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/3_MonitoringKontrak/Vendor/1_Tambah RencanaMilestone/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(15)
+WebUI.verifyElementPresent(findTestObject('LegalContractManagement/1Tahap2File/3_MonitoringKontrak/Vendor/Verify_Popup_Berhasil'), 
+    30)
 
 WebUI.closeBrowser()
 

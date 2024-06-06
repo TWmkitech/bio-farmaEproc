@@ -46,10 +46,10 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Intern
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Internal/1_TindakLanjutJaminan/Date_TindakLanjut_13'))
 
-WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Internal/1_TindakLanjutJaminan/TBox_INAF_Nama'), 
+WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Internal/1_TindakLanjutJaminan/TBox_Entitas_Nama'), 
     'Test Nama Entitas')
 
-WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Internal/1_TindakLanjutJaminan/TBox_INAF_Contact'), 
+WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Internal/1_TindakLanjutJaminan/TBox_Entitas_Contact'), 
     '08787878877')
 
 WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Internal/1_TindakLanjutJaminan/TBOX_Vendor1_Nama'), 
@@ -62,5 +62,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Intern
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(15)
+WebUI.delay(20, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

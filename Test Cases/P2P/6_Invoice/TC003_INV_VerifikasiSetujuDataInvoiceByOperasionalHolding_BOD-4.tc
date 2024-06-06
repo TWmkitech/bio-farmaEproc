@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_INV_VerifikasiSetujuDataInvoiceByOperasionalHolding_BOD-4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db1f64a7-307a-4528-a1f0-19211da03f0d</testCaseGuid>
+</TestCaseEntity>

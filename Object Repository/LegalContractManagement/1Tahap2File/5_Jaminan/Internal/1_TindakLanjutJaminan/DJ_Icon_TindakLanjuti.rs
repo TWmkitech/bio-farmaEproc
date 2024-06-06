@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4c19e358-ab81-4d55-90a1-5f3130457389</webElementGuid>
+      <webElementGuid>8ef729a7-5e40-431e-9d1a-30526556374b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-warning btn-sm</value>
-      <webElementGuid>1164221b-0a25-4af0-834d-a363d36b104e</webElementGuid>
+      <webElementGuid>4c40956f-029a-4da2-9015-996fdd0c69be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>update-a1ee1d8d-1069-4e2f-afe7-8366014b8371</value>
-      <webElementGuid>2b848e0c-2eed-46be-91fe-fd4d9d96fca5</webElementGuid>
+      <webElementGuid>19f9d937-8cc4-4127-8f65-4fb1db271ce0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;update-a1ee1d8d-1069-4e2f-afe7-8366014b8371&quot;)</value>
-      <webElementGuid>a6e799f8-e9e8-406e-8ca2-96ca8bf1f4cb</webElementGuid>
+      <webElementGuid>65f0675c-2272-4532-9e01-b3a2b431493a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='update-a1ee1d8d-1069-4e2f-afe7-8366014b8371']</value>
-      <webElementGuid>12bd4906-79ed-46c1-9ace-6e57684eabd2</webElementGuid>
+      <webElementGuid>accc4a43-2ed0-4ee5-ae59-bfc048244a8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='as-react-datatable']/tbody/tr/td[13]/span/button</value>
-      <webElementGuid>335222b1-7265-415d-aa60-0ebfe9c3d197</webElementGuid>
+      <webElementGuid>ba77db27-0ce5-48cb-affd-cd7079c95423</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::button[1]</value>
-      <webElementGuid>df2303f7-cc91-4905-ae0d-93064fd62586</webElementGuid>
+      <webElementGuid>e529c439-a3f4-4544-bf69-5eddfbe8c76a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diterima'])[1]/following::button[1]</value>
-      <webElementGuid>2f8e12de-bab8-4563-b114-f3778b27cd3c</webElementGuid>
+      <webElementGuid>7119aef9-f616-4059-881e-2f3c38977f67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan'])[1]/preceding::button[3]</value>
-      <webElementGuid>c95c81b8-5733-45a0-a6cb-663ec0f210c6</webElementGuid>
+      <webElementGuid>cfb262b9-0f78-4868-99ce-ec21bc417ac2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sampai'])[1]/preceding::button[3]</value>
-      <webElementGuid>950d11ef-1439-4b57-8afb-2574ddf41cdb</webElementGuid>
+      <webElementGuid>cddf6554-e9e1-4f20-86fe-f400abcce656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button</value>
-      <webElementGuid>484a3e89-8e50-42bf-9a89-25da39a33768</webElementGuid>
+      <webElementGuid>fe32b38d-bbc4-42de-adfc-911325f3d62d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'update-a1ee1d8d-1069-4e2f-afe7-8366014b8371']</value>
-      <webElementGuid>c6e6430f-a78d-43ea-8feb-70aa3a24ea00</webElementGuid>
+      <webElementGuid>2bc28177-92d0-4d45-a9b2-f31be70ca8c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

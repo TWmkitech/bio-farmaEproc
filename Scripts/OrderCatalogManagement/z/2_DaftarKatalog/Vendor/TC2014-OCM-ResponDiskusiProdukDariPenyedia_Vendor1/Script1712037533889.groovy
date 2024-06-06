@@ -18,14 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as Config
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/1_Vendor/Vendor1_PT SURYA TUBAL INDONESIA'), 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/1_Vendor/TECHOLUTION DIGITAL INDONESIA, PT'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Vendor/0_Modul_CatalogOrder'))
 
 WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Internal/2_DaftarKatalog'))
 
-WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Vendor/2_UpdateData/TBox_Search'), 'SPJ/JPROC/2024/100030')
+WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Vendor/2_UpdateData/TBox_Search'), 'SPJ/JPROC/2024/100033')
 
 WebUI.delay(10)
 

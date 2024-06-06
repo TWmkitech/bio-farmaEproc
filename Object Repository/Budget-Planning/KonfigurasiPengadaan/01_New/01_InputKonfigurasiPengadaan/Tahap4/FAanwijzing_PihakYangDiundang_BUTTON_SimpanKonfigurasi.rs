@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FAanwijzing_PihakYangDiundang_BUTTON_SimpanKonfigurasi</name>
+   <tag></tag>
+   <elementGuidId>b3a55a0b-7aa7-4d9f-9919-b9e25847a3de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[35]/div/div[1]/div/div/div[2]/form/div[7]/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

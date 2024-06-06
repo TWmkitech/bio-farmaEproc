@@ -11,4 +11,11 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>81384a85-0c99-4c33-8d10-0cb8816dfa87</testSuiteGuid>
+   <testCaseLink>
+      <guid>ac74f155-a391-4013-a5f9-528fe82fc3f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LegalContractManagement/1-InisiasiKontrak/Vendor/TC2008-LCM-DiskusiPembahasanKontrakDariPenyedia_Vendor1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -30,10 +30,10 @@ WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vend
 WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/button_Tambah'))
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_KodeProdukPenyedia'), 
-    '333')
+    '3333')
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_NamaProdukPenyedia'), 
-    'Test Nama Produk Penyedia Non Contract Based')
+    'Test Nama Produk Penyedia Non Contract Based5')
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_Spesifikasi'), 
     'Test Spesifikasi')

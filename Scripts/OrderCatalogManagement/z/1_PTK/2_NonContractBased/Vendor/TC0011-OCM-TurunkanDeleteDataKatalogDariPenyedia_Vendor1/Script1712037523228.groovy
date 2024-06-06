@@ -17,3 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/1_Vendor/TECHOLUTION DIGITAL INDONESIA, PT'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Vendor/0_Modul_CatalogOrder'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Internal/2_DaftarKatalog'))
+
+WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Vendor/2_UpdateData/TBox_Search'), 'UpdateTestNamaProdukPenyedia5')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Vendor/2_UpdateData/Icon_DetailUpdateData1'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/5_DeleteData/Icon_DetailDeleteData'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/Button_PopupKonfirmasi_OK'))
+
+WebUI.delay(20)
+
+WebUI.closeBrowser()
+
