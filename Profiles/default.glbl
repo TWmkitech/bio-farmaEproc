@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'bi0farma'</initValue>
+      <initValue>'password.1'</initValue>
       <name>Pass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

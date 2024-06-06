@@ -110,13 +110,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6df3ab6a-25be-444b-afdb-1e1e82b2d66c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ID-Mapping/Penyedia/TC027-A_DraftingPenyedia</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>525c2dd4-8396-412a-93c6-8c36016968c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

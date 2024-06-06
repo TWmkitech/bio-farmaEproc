@@ -35,7 +35,7 @@ WebUI.click(findTestObject('User-Management/Pegawai/TambahPegawai/Button_TambahP
 
 WebUI.setText(findTestObject('User-Management/Pegawai/TambahPegawai/Try/Textbox_NamaPegawai'), 'Test Nama')
 
-WebUI.setText(findTestObject('User-Management/Pegawai/TambahPegawai/Textbox_NpkPegawai'), '54321')
+WebUI.setText(findTestObject('User-Management/Pegawai/TambahPegawai/Textbox_NpkPegawai'), '543210')
 
 WebUI.setText(findTestObject('User-Management/Pegawai/TambahPegawai/Try/Textbox_EmailPegawai'), 'testemail@mail.com')
 

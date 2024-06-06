@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Account Management/Purchase Order/Button_DownloadTem
 
 WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Account Management/Purchase Order/Button_ChooseFile'), 0)
+WebUI.click(findTestObject('Account Management/Purchase Order/Button_Proses'))
 
 // Ambil elemen field "Choose File"
 TestObject uploadField = findTestObject('Account Management/Purchase Order/Button_ChooseFile')
@@ -51,7 +51,7 @@ TestObject uploadField = findTestObject('Account Management/Purchase Order/Butto
 def projectDir = Config.getProjectDir()
 
 // Membentuk path lengkap file yang ingin diunggah
-def filePath = projectDir + '/Document/purchaseOrder_DataIntegrasi.xlsx'
+def filePath = projectDir + '/Document/purchaseOrder_template.xlsx'
 
 WebUI.uploadFile(uploadField, filePath)
 

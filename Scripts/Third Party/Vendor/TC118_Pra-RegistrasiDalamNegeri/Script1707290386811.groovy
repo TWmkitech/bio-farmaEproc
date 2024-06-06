@@ -67,27 +67,27 @@ WebUI.click(findTestObject('Third Party/Vendor/Dalam Negeri/Div_Data_Kota_Kabupa
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Dalam Negeri/Field_NPWP'), 0)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Dalam Negeri/Field_NPWP'), '12.312.124.1-252.1555')
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_NPWP'), '12.312.124.1-252.14885')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Dalam Negeri/Field_NamaPerusahaan'), 0)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Dalam Negeri/Field_NamaPerusahaan'), GlobalVariable.NamaCalonRekanan)
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_NamaPerusahaan'), 'Automated Test 12')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Dalam Negeri/Field_Email'), 0)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Dalam Negeri/Field_Email'), GlobalVariable.UserCalonRekanan + '@yopmail.com')
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_Email'), 'testautomated12@yopmail.com')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Dalam Negeri/Field_Username'), 0)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Dalam Negeri/Field_Username'), GlobalVariable.UserCalonRekanan)
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_Username'), 'Automatedtest12')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Dalam Negeri/Field_Password'), 0)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Dalam Negeri/Field_Password'), GlobalVariable.PassCalonRekanan)
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_Password'), 'Password.1')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Dalam Negeri/Field_KonfirmasiPassword'), 0)
 
-WebUI.setText(findTestObject('Third Party/Vendor/Dalam Negeri/Field_KonfirmasiPassword'), GlobalVariable.PassCalonRekanan)
+WebUI.setText(findTestObject('Third Party/Dalam Negeri/Field_KonfirmasiPassword'), 'Password.1')
 
 WebUI.waitForElementPresent(findTestObject('Third Party/Vendor/Dalam Negeri/Button_Daftar'), 0)
 

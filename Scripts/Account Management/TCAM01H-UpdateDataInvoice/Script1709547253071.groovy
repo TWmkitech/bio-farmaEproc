@@ -49,7 +49,7 @@ TestObject uploadField = findTestObject('Account Management/Purchase Order/Butto
 def projectDir = Config.getProjectDir()
 
 // Membentuk path lengkap file yang ingin diunggah
-def filePath = projectDir + '/Document/invoice_DataIntegrasi.xlsx'
+def filePath = projectDir + '/Document/invoice_template.xlsx'
 
 WebUI.uploadFile(uploadField, filePath)
 

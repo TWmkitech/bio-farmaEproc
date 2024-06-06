@@ -47,5 +47,9 @@ WebUI.click(findTestObject('ID-Mapping/Material/Pencarian_KodeMaterial/Div_DataM
 
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Material/Pencarian_KodeMaterial/Input_Search'), 0)
 
-WebUI.setText(findTestObject('ID-Mapping/Material/Pencarian_KodeMaterial/Input_Search'), '')
+WebUI.setText(findTestObject('ID-Mapping/Material/Pencarian_KodeMaterial/Input_Search'), 'automated')
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

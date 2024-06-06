@@ -31,10 +31,6 @@ WebUI.click(findTestObject('ID-Mapping/Global_TestObject/Anchor_Penyedia'))
 
 WebUI.delay(10)
 
-TestObject targetElement = findTestObject('Object Repository/ID-Mapping/Penyedia/Detail_Penyedia/Button_Detail')
-
-WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
-
 WebUI.waitForElementPresent(findTestObject('ID-Mapping/Penyedia/Detail_Penyedia/Button_Detail'), 0)
 
 WebUI.click(findTestObject('ID-Mapping/Penyedia/Detail_Penyedia/Button_Detail'))

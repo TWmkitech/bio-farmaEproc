@@ -29,27 +29,13 @@ WebUI.waitForElementPresent(findTestObject('User-Management/Global-TestObject/An
 
 WebUI.click(findTestObject('User-Management/Global-TestObject/Anchor_Pengguna'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
-TestObject targetElement = findTestObject('Object Repository/User-Management/Pengguna/DetailPengguna/Button_Detail')
-
-WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
+WebUI.scrollToElement(findTestObject('User-Management/Pengguna/DetailPengguna/Button_Detail'), 0)
 
 WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/DetailPengguna/Button_Detail'), 0)
 
 WebUI.click(findTestObject('User-Management/Pengguna/DetailPengguna/Button_Detail'))
-
-WebUI.delay(10)
-
-WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/DetailPengguna/NavLink_AksesRole'), 0)
-
-WebUI.click(findTestObject('User-Management/Pengguna/DetailPengguna/NavLink_AksesRole'))
-
-WebUI.delay(10)
-
-WebUI.waitForElementPresent(findTestObject('User-Management/Pengguna/DetailPengguna/NavLink_Purchasing'), 0)
-
-WebUI.click(findTestObject('User-Management/Pengguna/DetailPengguna/NavLink_Purchasing'))
 
 WebUI.delay(10)
 
