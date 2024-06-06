@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='as-react-datatable']/tbody/tr/td[9]/span/a</value>
+         <value>//table[@id='as-react-datatable']/tbody/tr[2]/td[9]/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e62d341d-787d-4101-a8b6-401378c4c560</webElementGuid>
+      <webElementGuid>f904b604-91d8-41c2-8352-54a2689d20f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-transparent btn-sm</value>
-      <webElementGuid>19656166-a8ee-4fc2-9255-55560cf34f35</webElementGuid>
+      <webElementGuid>187ff12d-c67a-4b36-a6aa-4829fc93e2bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>detail-36352519-b4a5-48ad-af1d-62ce265177de-v0</value>
-      <webElementGuid>170bfbce-9dae-4a25-8f39-0b4a682a7885</webElementGuid>
+      <webElementGuid>2ddfc2e4-3263-409a-9e49-2f4600b45b67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/inisiasikontrak.html?detail&amp;uuid=36352519-b4a5-48ad-af1d-62ce265177de&amp;version=0</value>
-      <webElementGuid>38bf4124-437c-4315-837e-3328d58eee14</webElementGuid>
+      <webElementGuid>f09bda0c-5edd-4afb-98a4-ff380e44a355</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;detail-36352519-b4a5-48ad-af1d-62ce265177de-v0&quot;)</value>
-      <webElementGuid>91bfd5a7-3a19-4f87-be2d-59add89afc35</webElementGuid>
+      <webElementGuid>1ae16ac7-f5af-4f1a-8abe-5746f7a0ec09</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='detail-36352519-b4a5-48ad-af1d-62ce265177de-v0']</value>
-      <webElementGuid>02c50777-1721-423b-8eae-1cb00245fed0</webElementGuid>
+      <webElementGuid>5a80e8a5-d1e4-4ee8-adcf-bb39c7426401</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='as-react-datatable']/tbody/tr/td[9]/span/a</value>
-      <webElementGuid>f0a031e5-b0d0-4723-a579-b7cb4c92bba9</webElementGuid>
+      <webElementGuid>b6dd413c-b158-490a-8670-2c38136fbfe1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Penyusunan Kontrak oleh Holding'])[1]/following::a[1]</value>
-      <webElementGuid>445ef052-12fa-4a2d-848e-87a22dba0f36</webElementGuid>
+      <webElementGuid>804e9462-0e79-4cdb-969d-b720379cce68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menampilkan'])[1]/preceding::a[1]</value>
-      <webElementGuid>e6fb0622-11ea-4aef-b0bc-fb6126da90b1</webElementGuid>
+      <webElementGuid>c45ae864-71a6-46e4-ba39-0b35f54d8f9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sampai'])[1]/preceding::a[1]</value>
-      <webElementGuid>77945a2a-859d-49e8-940c-4b5c62533da4</webElementGuid>
+      <webElementGuid>3b524053-b603-4a21-a847-645d3bc41968</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/inisiasikontrak.html?detail&amp;uuid=36352519-b4a5-48ad-af1d-62ce265177de&amp;version=0')]</value>
-      <webElementGuid>54f01428-ee79-485e-b57a-6e15672245eb</webElementGuid>
+      <webElementGuid>2964a4d3-9674-49e3-ba21-dae303743fe7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[9]/span/a</value>
-      <webElementGuid>8491ff52-4296-4dbb-82c3-bb32bf9ac839</webElementGuid>
+      <webElementGuid>21674fe9-9401-4690-8bd1-33e4e9a9730b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'detail-36352519-b4a5-48ad-af1d-62ce265177de-v0' and @href = '/inisiasikontrak.html?detail&amp;uuid=36352519-b4a5-48ad-af1d-62ce265177de&amp;version=0']</value>
-      <webElementGuid>9492f225-d9bd-43b0-ad16-b6e642b6b637</webElementGuid>
+      <webElementGuid>2bb311ce-03a1-432f-a4fe-d051ea1c560a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

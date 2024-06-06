@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FPembukaan_PihakYangDiundang_RBUTTON_Eksternal</name>
+   <tag></tag>
+   <elementGuidId>96578241-59ff-4958-aad8-97248c8aa2a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[35]/div/div[1]/div/div/div[2]/form/div[6]/table/tbody/tr/td[2]/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

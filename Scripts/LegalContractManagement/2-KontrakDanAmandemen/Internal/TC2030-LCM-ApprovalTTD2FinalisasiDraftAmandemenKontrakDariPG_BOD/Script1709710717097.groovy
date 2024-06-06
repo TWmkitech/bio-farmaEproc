@@ -29,9 +29,11 @@ TestObject targetElement = findTestObject('LegalContractManagement/1Tahap2File/2
 
 WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
 
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/1_UploadDokumenFinal/Icon_Rincian'))
+
 //WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/Custom_Icon_Detail'),
 //    [('index') : 2], FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/5_PersetujuanDraftAmandemen/Icon_Persetujuan'))
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/5_PersetujuanDraftAmandemen/Icon_Persetujuan_N'))
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/5_PersetujuanDraftAmandemen/Rbutton_Setuju'))
 
@@ -39,7 +41,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandem
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Internal/5_PersetujuanDraftAmandemen/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(15)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

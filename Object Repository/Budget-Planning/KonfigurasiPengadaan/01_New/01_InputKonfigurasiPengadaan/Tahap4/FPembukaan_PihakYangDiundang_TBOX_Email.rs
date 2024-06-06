@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FPembukaan_PihakYangDiundang_TBOX_Email</name>
+   <tag></tag>
+   <elementGuidId>f9c0bcce-752f-43e7-92ba-e3e19c0a7efc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[35]/div/div[1]/div/div/div[2]/form/div[6]/table/tbody/tr/td[4]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

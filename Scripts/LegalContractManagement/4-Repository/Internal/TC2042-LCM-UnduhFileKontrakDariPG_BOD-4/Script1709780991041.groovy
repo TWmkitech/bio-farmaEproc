@@ -32,7 +32,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Int
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Button_Unduh File Kontrak'))
 
-WebUI.delay(20)
+WebUI.delay(15)
 
 WebUI.closeBrowser()
 

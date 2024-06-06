@@ -6,12 +6,12 @@
    <elementGuidId>033c648e-01ba-4b50-8622-000ad0e4edbe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[16]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.flatpickr-day.today</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[23]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>41306b70-e06d-4c37-be15-2baf9839ed48</webElementGuid>
+      <webElementGuid>352ab2e4-b260-4885-9a34-b3e80725628a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flatpickr-day today</value>
-      <webElementGuid>ea5a48ca-c3a1-4176-9e46-99b6f2a0cd93</webElementGuid>
+      <webElementGuid>3d84082e-670f-49fa-a840-df3428cb52c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>March 7, 2024</value>
-      <webElementGuid>695c018f-947b-47e0-94d2-fc46dbc5ae57</webElementGuid>
+      <webElementGuid>c5efdb4e-b6f5-43b1-b5e3-230ae317cba5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-current</name>
       <type>Main</type>
       <value>date</value>
-      <webElementGuid>14acc3d3-7aa2-434e-89d5-8a562bec5ee3</webElementGuid>
+      <webElementGuid>a6770757-8de5-42c2-bbbc-fd57a75d42a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>33c70feb-810a-4776-8d63-a4d017d84b83</webElementGuid>
+      <webElementGuid>da9e560f-fc80-4dc3-bff6-0e3cdf992c2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>29396053-d860-4ff4-9bc3-91a6abd30312</webElementGuid>
+      <webElementGuid>29a68d66-26c0-489f-9b8f-bf9c599ea446</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;vh-100 bg&quot;]/div[@class=&quot;flatpickr-calendar animate arrowBottom arrowLeft open&quot;]/div[@class=&quot;flatpickr-innerContainer&quot;]/div[@class=&quot;flatpickr-rContainer&quot;]/div[@class=&quot;flatpickr-days&quot;]/div[@class=&quot;dayContainer&quot;]/span[@class=&quot;flatpickr-day today&quot;]</value>
-      <webElementGuid>68c05f4c-e69c-43c5-833b-119a8819b4d9</webElementGuid>
+      <webElementGuid>791d6621-9e6f-4b72-b229-36ae4d61be77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[12]</value>
-      <webElementGuid>39b45e55-69cb-4c59-809b-a4570c942c47</webElementGuid>
+      <webElementGuid>e3036d5e-1e38-4b8f-a22c-015626e4fea1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[13]</value>
-      <webElementGuid>2480bfdd-00a4-40c7-b09f-8014585c926c</webElementGuid>
+      <webElementGuid>0ceaff47-adda-4937-b73f-b341386801d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[2]/preceding::span[35]</value>
-      <webElementGuid>be2b8291-e108-4e79-abd0-6c791912c20a</webElementGuid>
+      <webElementGuid>df3896e9-79e8-48b8-9f03-36b53194ef68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[2]/preceding::span[36]</value>
-      <webElementGuid>c322a4e2-bdf0-427a-8848-b803e1546064</webElementGuid>
+      <webElementGuid>4f2487b8-7c86-4acc-ab3b-42ced2c50dae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='7']/parent::*</value>
-      <webElementGuid>e4673f4f-007e-459f-a928-0fad4ba96966</webElementGuid>
+      <webElementGuid>a0a6a26c-a70f-481a-81ed-4d59045b9312</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[12]</value>
-      <webElementGuid>abf8bf6b-f87e-439e-824c-98fd4226726b</webElementGuid>
+      <webElementGuid>74bd5119-913b-4f1d-8305-2cc2047a8840</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '7' or . = '7')]</value>
-      <webElementGuid>c633b9ce-f82a-4291-8ed2-b5e46365b309</webElementGuid>
+      <webElementGuid>b54e1afc-6894-4846-925f-e10ac3acf7fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

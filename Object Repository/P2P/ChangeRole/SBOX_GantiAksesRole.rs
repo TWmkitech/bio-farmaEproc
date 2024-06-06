@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SBOX_GantiAksesRole</name>
+   <tag></tag>
+   <elementGuidId>fdcbf375-011d-4219-85df-93fa1a65e916</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.select2-selection__value-container.select2-selection__value-container--has-value.css-hlgwow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[1]/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>699f0631-9e6f-49af-bcf0-2536503e374e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-selection__value-container select2-selection__value-container--has-value css-hlgwow</value>
+      <webElementGuid>a68dd98b-2f76-41e1-8f13-a5e07e84be1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HOLDING [BOD-4]</value>
+      <webElementGuid>86ea679c-4a5b-4799-9c51-e5ffcdbc512a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;semi-dark-layout modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;css-b62m3t-container&quot;]/div[@class=&quot;select2-selection__control css-13cymwt-control&quot;]/div[@class=&quot;select2-selection__value-container select2-selection__value-container--has-value css-hlgwow&quot;]</value>
+      <webElementGuid>834262ce-f87d-4bd3-a2be-f382f84130fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ganti Akes Role'])[1]/following::div[4]</value>
+      <webElementGuid>4d74380b-8085-4893-8f7e-96750c668d3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[11]</value>
+      <webElementGuid>de2cbdaf-b981-4fc9-97ab-9f2e20aac412</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/preceding::div[5]</value>
+      <webElementGuid>10fc863c-fbb8-450f-a33f-5d2529bd8635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>c522ec5a-ce50-4773-b5a1-e98b1a1382f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'HOLDING [BOD-4]' or . = 'HOLDING [BOD-4]')]</value>
+      <webElementGuid>2b781128-6c31-4443-a4b3-faf7b6d30630</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

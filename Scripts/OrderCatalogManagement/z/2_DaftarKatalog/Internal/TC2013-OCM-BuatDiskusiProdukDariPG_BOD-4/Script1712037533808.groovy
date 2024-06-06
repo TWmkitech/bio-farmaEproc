@@ -27,7 +27,7 @@ WebUI.click(findTestObject('OrderCatalogManagement/2_DaftarKatalog/Internal/1_Li
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('OrderCatalogManagement/2_DaftarKatalog/Internal/1_LihatDetail/TBOX_Search'), 'SPJ/JPROC/2024/100030')
+WebUI.setText(findTestObject('OrderCatalogManagement/2_DaftarKatalog/Internal/1_LihatDetail/TBOX_Search'), 'SPJ/JPROC/2024/100033')
 
 WebUI.delay(10)
 

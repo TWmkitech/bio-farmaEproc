@@ -11,4 +11,11 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>62d4f0c2-497a-406b-aa5e-0d5cac9ea5af</testSuiteGuid>
+   <testCaseLink>
+      <guid>b0869902-ab81-447c-822c-39c308baebb5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrderCatalogManagement/z/1_PTK/2_NonContractBased/Internal/TC0009-OCM-ReviewPerubahanDataKatalogDariPG_BOD-3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

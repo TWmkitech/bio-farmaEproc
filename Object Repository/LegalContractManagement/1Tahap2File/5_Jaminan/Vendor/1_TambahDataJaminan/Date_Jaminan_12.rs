@@ -6,12 +6,12 @@
    <elementGuidId>e30e215b-39ec-4833-b518-854643331400</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[16]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.flatpickr-day.today</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[24]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>289494fb-60c1-48a7-bdac-38e37056b484</webElementGuid>
+      <webElementGuid>7db592cd-a4bb-4590-8a0c-511cd25bf1ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flatpickr-day today</value>
-      <webElementGuid>1b629d46-daf5-41c2-ae0e-1b5a342b184b</webElementGuid>
+      <webElementGuid>8fafe26a-7685-44b4-9522-959332cf3dc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>March 7, 2024</value>
-      <webElementGuid>09abc342-1776-4886-aa2f-e2b36e77844b</webElementGuid>
+      <webElementGuid>313dca81-4d18-4979-a6a3-f4d6d0bbc8f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-current</name>
       <type>Main</type>
       <value>date</value>
-      <webElementGuid>8abcdabc-eb08-47d9-bf0a-5ff1722f4090</webElementGuid>
+      <webElementGuid>bc1013ed-51a9-4da2-911c-856a3c0bf119</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>4d4b7464-9e4f-4ffc-8494-084ce68c3d04</webElementGuid>
+      <webElementGuid>648b5c30-732a-4823-b49b-402009e981c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>d8d302ed-d23a-496d-82f5-b5789ad36d71</webElementGuid>
+      <webElementGuid>249adb35-3c8c-4e8a-b7ea-3379d9c5cf27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;vh-100 bg modal-open&quot;]/div[@class=&quot;flatpickr-calendar animate arrowBottom arrowLeft open&quot;]/div[@class=&quot;flatpickr-innerContainer&quot;]/div[@class=&quot;flatpickr-rContainer&quot;]/div[@class=&quot;flatpickr-days&quot;]/div[@class=&quot;dayContainer&quot;]/span[@class=&quot;flatpickr-day today&quot;]</value>
-      <webElementGuid>90ec481e-4105-4bb2-8b7d-149db81a204d</webElementGuid>
+      <webElementGuid>333726d7-e949-4864-8ca5-649b23482602</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[12]</value>
-      <webElementGuid>370c2e6c-b213-4be8-9ee4-2b5ee2fd64dc</webElementGuid>
+      <webElementGuid>f69f2e81-1bc3-477b-9260-ba99fd7aa17e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[13]</value>
-      <webElementGuid>aed3562a-191a-406c-8edf-2297d8b3aba9</webElementGuid>
+      <webElementGuid>c367d0b5-4905-4034-9ea5-8c1f881b12b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[2]/preceding::span[35]</value>
-      <webElementGuid>cf0214ba-4650-4de3-9d7e-55043b7471b7</webElementGuid>
+      <webElementGuid>17aeea13-7fc1-47b1-9be5-df1dd34e03e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[2]/preceding::span[36]</value>
-      <webElementGuid>92c64457-17a4-4318-9e11-0f170a7981de</webElementGuid>
+      <webElementGuid>a79ccb82-9a67-4563-a9ff-340a50a79a22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='7']/parent::*</value>
-      <webElementGuid>3f427fd5-7fca-4e05-9f61-ab3bbdb987a4</webElementGuid>
+      <webElementGuid>6a609770-0d18-4577-af6b-986f24df494f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[12]</value>
-      <webElementGuid>f092677a-b859-436a-ad91-709b2ed8d3cd</webElementGuid>
+      <webElementGuid>a03e4f11-a267-4ec1-af83-5c8e4f2015d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '7' or . = '7')]</value>
-      <webElementGuid>afc98bf2-3e9d-45f9-892b-fa26d2dfd062</webElementGuid>
+      <webElementGuid>7fd76e39-3036-4ea1-be3e-16dde68a8970</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,11 +21,15 @@ WebUI.openBrowser(GlobalVariable.UrlStaging)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/internal/Field_Email'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Login/internal/Field_Email'), 30)
 
-WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), GlobalVariable.BOD_4)
+WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Email'), '11001882')
 
+<<<<<<< HEAD
+WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), 'password.1')
+=======
 WebUI.setText(findTestObject('Object Repository/Login/internal/Field_Pass'), GlobalVariable.Pass)
+>>>>>>> a071233c8267a941d9d85767cef62ae60f14a49d
 
 WebUI.click(findTestObject('Object Repository/Login/internal/Button_Masuk'))
 

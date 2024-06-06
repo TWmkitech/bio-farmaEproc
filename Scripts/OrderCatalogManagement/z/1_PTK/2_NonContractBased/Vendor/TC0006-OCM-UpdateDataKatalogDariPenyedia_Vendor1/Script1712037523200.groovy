@@ -25,7 +25,7 @@ WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Vendor/0_Modul_Catal
 
 WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Internal/2_DaftarKatalog'))
 
-WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Vendor/2_UpdateData/TBox_Search'), 'Test Nama Produk Penyedia Non Contract Based')
+WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Vendor/2_UpdateData/TBox_Search'), 'Test Nama Produk Penyedia Non Contract Based5')
 
 WebUI.delay(10)
 
@@ -36,17 +36,17 @@ WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Vendor/
 WebUI.clearText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_KodeProdukPenyedia'))
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_KodeProdukPenyedia'), 
-    '444')
+    '99999')
 
 WebUI.clearText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_NamaProdukPenyedia'))
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_NamaProdukPenyedia'), 
-    'Test Nama Produk Penyedia')
+    'UpdateTestNamaProdukPenyedia5')
 
 WebUI.clearText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_Spesifikasi'))
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_Spesifikasi'), 
-    'Update Test Spesifikasi')
+    'UpdateTestSpesifikasi5')
 
 WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/Date_MasaBerlaku'))
 
@@ -55,17 +55,17 @@ WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vend
 WebUI.clearText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_Merek'))
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_Merek'), 
-    'Update Test Merek')
+    'UpdateTestMerek5')
 
 WebUI.clearText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_NamaPemilikMerek'))
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_NamaPemilikMerek'), 
-    'Update Test Nama Pemilik Merek')
+    'UpdateTestNamaPemilikMerek5')
 
 WebUI.clearText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_Pabrikan'))
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_Pabrikan'), 
-    'Update Test Pabrikan')
+    'UpdateTestPabrikan5')
 
 WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/SBOX_AsalNegaraPabrikan'))
 
@@ -103,7 +103,6 @@ WebUI.clearText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_NilaiTKDN'), 
     '8')
 
-/*
 // Ambil elemen field "Choose File"
 TestObject uploadField = findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/Upload_TKDNFile')
 
@@ -111,16 +110,15 @@ TestObject uploadField = findTestObject('OrderCatalogManagement/1_PTK/2_NonContr
 def projectDir = Config.getProjectDir()
 
 // Membentuk path lengkap file yang ingin diunggah
-def filePath = projectDir + '/Document/DokumenDataTest.pdf'
+def filePath = projectDir + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField, filePath)
-*/
+
 WebUI.clearText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_LayananPurnaJual'))
 
 WebUI.setText(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/TBOX_LayananPurnaJual'), 
-    'Update Test NonContract Based Layanan Purna Jual')
+    'UpdateTestNonContractBasedLayananPurnaJual')
 
-/*
 // Ambil elemen field "Choose File"
 TestObject uploadField1 = findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/Upload_FotoProduk')
 
@@ -128,7 +126,7 @@ TestObject uploadField1 = findTestObject('OrderCatalogManagement/1_PTK/2_NonCont
 def projectDir1 = Config.getProjectDir()
 
 // Membentuk path lengkap file yang ingin diunggah
-def filePath1 = projectDir1 + '/Photo/PNGPhoto.png'
+def filePath1 = projectDir1 + '/Photo/JPEGPhoto.jpg'
 
 WebUI.uploadFile(uploadField1, filePath1)
 
@@ -139,10 +137,10 @@ TestObject uploadField2 = findTestObject('OrderCatalogManagement/1_PTK/2_NonCont
 def projectDir2 = Config.getProjectDir()
 
 // Membentuk path lengkap file yang ingin diunggah
-def filePath2 = projectDir2 + '/Document/DokumenDataTest.pdf'
+def filePath2 = projectDir2 + '/Document/DataTest.docx'
 
 WebUI.uploadFile(uploadField2, filePath2)
-*/
+
 WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/3_UpdateData/Button_Simpan'))
 
 WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Vendor/1_TambahPenayanganBaru/Button_PopupKonfirmasi_OK'))

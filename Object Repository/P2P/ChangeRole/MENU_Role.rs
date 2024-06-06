@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MENU_Role</name>
+   <tag></tag>
+   <elementGuidId>266e7e9d-fcd1-446c-9da6-69626370083a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/div/ul/li[3]/a/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>99e658e5-8762-4f76-be70-dce3d0e51ddc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>user-status fw-bold text-end</value>
+      <webElementGuid>613629ef-af09-4158-b484-87a42430a5a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> HOLDING [BOD-4]</value>
+      <webElementGuid>a97c4bcc-1205-4402-8802-a3d7b2ab7dd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper vertical-layout navbar-floating footer-static vertical-menu-modern menu-expanded&quot;]/nav[@class=&quot;header-navbar navbar align-items-center floating-nav navbar-shadow navbar navbar-expand-lg navbar-light&quot;]/div[@class=&quot;navbar-container d-flex content&quot;]/ul[@class=&quot;nav navbar-nav align-items-center ms-auto&quot;]/li[@class=&quot;dropdown-user nav-item dropdown&quot;]/a[@class=&quot;nav-link dropdown-user-link&quot;]/div[@class=&quot;user-nav d-sm-flex d-none&quot;]/span[@class=&quot;user-status fw-bold text-end&quot;]</value>
+      <webElementGuid>28016b1a-293b-4682-af94-536fc5fa2f27</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/div/ul/li[3]/a/div/span[2]</value>
+      <webElementGuid>a66df47b-fbc9-4345-ac04-6664b49e05e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Garit De Nene Nada Bisturi'])[1]/following::span[1]</value>
+      <webElementGuid>651fedf7-6f42-4ed2-87c0-542c0aed3c02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear All'])[1]/following::span[2]</value>
+      <webElementGuid>280af20d-511f-4209-9139-a7b5492735c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Officer I'])[1]/preceding::span[1]</value>
+      <webElementGuid>de4a5ba3-043f-4b29-a4e5-e1048aa3094a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layanan Pengadaan Bersama'])[1]/preceding::span[2]</value>
+      <webElementGuid>e2cef6e8-f383-459a-8403-7c638e0d3ccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='HOLDING']/parent::*</value>
+      <webElementGuid>6e3aa3fb-b5e8-4439-a990-9825cabe6b1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]</value>
+      <webElementGuid>416d9b1b-0a5e-4e84-8bba-d7c8fc232cf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' HOLDING [BOD-4]' or . = ' HOLDING [BOD-4]')]</value>
+      <webElementGuid>093ff961-bc34-4d9b-9f26-f17b48c9b85b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

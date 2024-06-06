@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_INV_PerbaruiDanKirimPengajuanInvoiceByPenyedia_Vendor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2c8f12e-b429-4a95-9bf6-bab19bd9c501</testCaseGuid>
+</TestCaseEntity>

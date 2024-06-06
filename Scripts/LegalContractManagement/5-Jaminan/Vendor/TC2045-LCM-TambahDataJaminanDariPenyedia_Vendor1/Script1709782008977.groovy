@@ -66,7 +66,7 @@ WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Vend
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Vendor/1_TambahDataJaminan/Sbox_NoPO'))
 
-WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Vendor/1_TambahDataJaminan/Sbox_NoPO_POJPROC000030'))
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Vendor/1_TambahDataJaminan/Sbox_NoPO_Row1'))
 
 WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Vendor/1_TambahDataJaminan/Tbox_Catatan'), 'Test Catatan PO 1')
 
@@ -74,7 +74,8 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Vendor
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Vendor/1_TambahDataJaminan/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(15)
+WebUI.verifyElementPresent(findTestObject('LegalContractManagement/1Tahap2File/5_Jaminan/Vendor/Verify_Popup_Berhasil'), 
+    30)
 
 WebUI.closeBrowser()
 

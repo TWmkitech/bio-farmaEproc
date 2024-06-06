@@ -32,7 +32,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Int
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/4_Repository/Internal/Icon_Unduh'))
 
-WebUI.delay(20)
+WebUI.delay(15)
 
 WebUI.closeBrowser()
 

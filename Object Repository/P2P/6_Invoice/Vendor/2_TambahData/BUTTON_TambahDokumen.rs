@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BUTTON_TambahDokumen</name>
+   <tag></tag>
+   <elementGuidId>242fea47-7a76-4cf2-9ed1-d97c8955e28c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Tambah Dokumen' or . = 'Tambah Dokumen')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mt-1.mb-3.mb-lg-0.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c343f195-15aa-4c81-9752-e0ba211c7f56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>adb294dc-ce4b-40f8-be64-e1edd66a429f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-1 mb-3 mb-lg-0 btn btn-primary</value>
+      <webElementGuid>30efa414-4fa6-45f7-bd78-6d2f013877fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah Dokumen</value>
+      <webElementGuid>14bea679-357f-4c9e-b771-2b0b17180434</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mb-4 mt-4 container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;p-4 card-body&quot;]/form[@class=&quot;needs-validation av-valid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4&quot;]/button[@class=&quot;mt-1 mb-3 mb-lg-0 btn btn-primary&quot;]</value>
+      <webElementGuid>259e0438-0cc6-4c9c-a719-a25fc5fcee3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>e9faf352-c903-4c32-8d3f-fd2eaf13e88c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/form/div[11]/div[2]/button</value>
+      <webElementGuid>f12ad828-1650-42bb-8093-eff0f31a1ae9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lampiran Invoice 1'])[1]/following::button[1]</value>
+      <webElementGuid>f5397694-fdef-421e-a804-0cb74199768c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='option Lampiran Invoice 1, selected.'])[1]/following::button[1]</value>
+      <webElementGuid>4335f422-57c7-421f-a96c-aab114dfc1f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[3]/preceding::button[1]</value>
+      <webElementGuid>c0b79020-a276-42b2-9ea3-7dbbaf2302a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Dokumen'])[2]/preceding::button[1]</value>
+      <webElementGuid>19e3d844-68f1-4b6c-8484-16cc5f12c7c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tambah Dokumen']/parent::*</value>
+      <webElementGuid>5fd17455-9f6a-49c4-8123-6c1d523f8ff9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>b52a3b11-8fd2-4ce0-86e1-f784f22295ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Tambah Dokumen' or . = 'Tambah Dokumen')]</value>
+      <webElementGuid>4b6a1d97-fd9e-4972-92ed-4f4b847b6074</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

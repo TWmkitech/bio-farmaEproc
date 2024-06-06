@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_PopupKonfirmasi_Berhasil</name>
+   <tag></tag>
+   <elementGuidId>eec7bc6d-42fc-4f73-ba2c-9c995a2d40e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[(text() = 'Berhasil!' or . = 'Berhasil!')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>f802aaa6-e95d-48ca-a385-1c7588b3b2cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Berhasil!</value>
+      <webElementGuid>79809dd5-e158-45fd-98c7-d8dfee321ce3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[1]/div[1]/div[@class=&quot;sweet-alert&quot;]/h2[1]</value>
+      <webElementGuid>d3273969-5726-4536-bc5b-1f69ffee23ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Berhasil!' or . = 'Berhasil!')]</value>
+      <webElementGuid>955999d5-d29b-412f-a35d-0be5151e1093</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,3 +17,58 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/PGHolding_BioFarma_BOD-4'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Internal/0_OrderCatalogManagement'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Internal/1_PengajuanTayangKatalog'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/0_Object/Internal/1_2_NonContractBased'))
+
+WebUI.delay(5)
+
+TestObject targetElement = findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Internal/2_VerifikasiPerubahanData/DP_Icon_Detail')
+
+WebUI.sendKeys(targetElement, Keys.chord(Keys.ARROW_RIGHT))
+
+//WebUI.callTestCase(findTestCase('000_Custom/Precondition/ParameterizedTestObject/LegalKontrakManajemen/Custom_Icon_Detail'),
+//    [('index') : 2], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Internal/2_VerifikasiPerubahanData/Icon_Approve'))
+
+TestObject targetElement1 = findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Internal/2_VerifikasiPerubahanData/DP_Icon_Approve')
+
+WebUI.sendKeys(targetElement1, Keys.chord(Keys.ARROW_RIGHT))
+
+WebUI.waitForElementClickable(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Internal/2_VerifikasiPerubahanData/DP_Icon_Approve'), 
+    10)
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Internal/2_VerifikasiPerubahanData/DP_Icon_Approve'))
+
+WebUI.delay(15)
+
+WebUI.scrollToElement(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Internal/1_VerifikasiReqPenayangan/Text_Informasi Material Entitas'), 
+    5)
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Internal/1_VerifikasiReqPenayangan/Rbutton_Setuju'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Internal/1_VerifikasiReqPenayangan/button_Simpan'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Internal/1_VerifikasiReqPenayangan/Button_PopupKonfirmasi_OK'))
+
+WebUI.waitForElementPresent(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Internal/Verify_PopupKonfirmasi_Berhasil'), 
+    30)
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Internal/2_VerifikasiPerubahanData/RButton_Persetujuan_Setuju'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Internal/1_VerifikasiReqPenayangan/1/button_Kirim'))
+
+WebUI.click(findTestObject('OrderCatalogManagement/1_PTK/1_ContractBased/Internal/1_VerifikasiReqPenayangan/Button_PopupKonfirmasi_OK'))
+
+WebUI.waitForElementPresent(findTestObject('OrderCatalogManagement/1_PTK/2_NonContractBased/Internal/Verify_PopupKonfirmasi_Berhasil'), 
+    30)
+
+WebUI.closeBrowser()
+

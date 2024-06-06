@@ -17,12 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/1_Vendor/Vendor1_PT SURYA TUBAL INDONESIA'), 
+WebUI.callTestCase(findTestCase('000_Custom/Precondition/Login/TransactionManagement/Paket1/1_Vendor/Vendor2_Bespin Global Indonesia'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Vendor/1_Modul/1_Modul_LegalKontrak'))
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/1_InisiasiKontrak/Vendor/1_Modul/3_KontrakAmandemen'))
+
+WebUI.callTestCase(findTestCase('LegalContractManagement/2-KontrakDanAmandemen/Vendor/SearchNamaKontrak'), [:], FailureHandling.STOP_ON_FAILURE)
 
 TestObject targetElement = findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/Icon_Rincian')
 
@@ -33,16 +35,39 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandem
 WebUI.delay(10)
 
 WebUI.scrollToElement(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/Text_Informasi Pembayaran'), 
-    0)
+    5)
 
 WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/Text_Amendemen Kontrak'), 
-    0)
+    5)
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/Icon_Approval'))
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.waitForElementPresent(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/SBOX_NomorRekening'), 
+    20)
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/SBOX_NomorRekening'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/SBOX_NomorRekening_R1'))
+
+WebUI.waitForElementPresent(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/TBOX_NoAmandemenPenyedia'), 
+    20)
+
+WebUI.clearText(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/TBOX_NoAmandemenPenyedia'))
+
+WebUI.setText(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/TBOX_NoAmandemenPenyedia'), 
+    'NAP/2024/04/16/001')
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/SBOX_NamaPenandatangan'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/SBOX_NamaPenandatangan_R1'))
 
 WebUI.scrollToElement(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/Text_RiwayatPersetujuanKontrakAmendemen'), 
     5)
@@ -53,7 +78,7 @@ WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandem
 
 WebUI.click(findTestObject('LegalContractManagement/1Tahap2File/2_KontrakAmandemen/Vendor/1_ApprovalDraftAmandemen/Button_PopupKonfirmasi_OK'))
 
-WebUI.delay(15)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 
